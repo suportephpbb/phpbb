@@ -220,7 +220,7 @@ $lang = array_merge($lang, array(
 
 	'ACTION'				=> 'Ação', 
 	'ACTIONS'				=> 'Ações', 
-	'ACTIVATE'				=> 'Ativo', 
+	'ACTIVATE'				=> 'Ativar', 
 	'ADD'					=> 'Adicionar', 
 	'ADMIN'					=> 'Administração', 
 	'ADMIN_INDEX'			=> 'Índice de administração', 
