@@ -1,7 +1,7 @@
 
 Olá {TO_USERNAME},
 
-Segue, um email enviado para você através da página de contacto da administração em "{SITENAME}".
+Segue, um email enviado para você através da página de contato da administração em "{SITENAME}".
 
 <!-- IF S_IS_REGISTERED -->
 A mensagem foi enviada a partir de uma conta no site.

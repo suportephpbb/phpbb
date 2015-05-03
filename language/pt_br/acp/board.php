@@ -368,15 +368,15 @@ $lang = array_merge($lang, array(
 
 // Contact Settings 
 $lang = array_merge($lang, array( 
-	'ACP_CONTACT_SETTINGS_EXPLAIN'	=> 'Aqui pode ativar e desativar a página de contacto e adicionar o texto que será exibido.',
+	'ACP_CONTACT_SETTINGS_EXPLAIN'	=> 'Aqui pode ativar e desativar a página de contato e adicionar o texto que será exibido.',
 
-	'CONTACT_US_ENABLE'						=> 'Ativar página de contacto',
+	'CONTACT_US_ENABLE'						=> 'Ativar página de contato',
 	'CONTACT_US_ENABLE_EXPLAIN'				=> 'Esta página permite aos usuários enviar emails para os administradores do fórum',
 
-	'CONTACT_US_INFO'						=> 'Informação para contacto',
-	'CONTACT_US_INFO_EXPLAIN'				=> 'A mensagem é mostrada na página de contacto',
-	'CONTACT_US_INFO_PREVIEW'				=> 'Previsão da Página de Informações de contacto',
-	'CONTACT_US_INFO_UPDATED'				=> 'A página das informações de contacto foi atualizada.',
+	'CONTACT_US_INFO'						=> 'Informação para contato',
+	'CONTACT_US_INFO_EXPLAIN'				=> 'A mensagem é mostrada na página de contato',
+	'CONTACT_US_INFO_PREVIEW'				=> 'Previsão da Página de Informações de contato',
+	'CONTACT_US_INFO_UPDATED'				=> 'A página das informações de contato foi atualizada.',
 ));
 
 // Load Settings
@@ -557,7 +557,7 @@ $lang = array_merge($lang, array(
 	'CONTACT_EMAIL'					=> 'Endereço de e-mail para contato',
 	'CONTACT_EMAIL_EXPLAIN'			=> 'Este endereço será usado sempre que um ponto de contato específico for necessário, ex. spam, erro de envio, e etc. Este será sempre utilizado como o endereço de envio e resposta nos e-mails.',
 	'CONTACT_EMAIL_NAME'					=> 'Nome de Contato',
-	'CONTACT_EMAIL_NAME_EXPLAIN'			=> 'Este é o nome do contato que os destinatários dos mails vão ver. Se não quer ter um nome de contacto, deixe este campo em branco.',
+	'CONTACT_EMAIL_NAME_EXPLAIN'			=> 'Este é o nome do contato que os destinatários dos mails vão ver. Se não quer ter um nome de contato, deixe este campo em branco.',
 	'EMAIL_FUNCTION_NAME'			=> 'Nome da função de e-mail', 
 	'EMAIL_FUNCTION_NAME_EXPLAIN'	=> 'Função de e-mail usada para enviar e-mails através do PHP.', 
 	'EMAIL_PACKAGE_SIZE'			=> 'Tamanho do pacote de e-mail', 
