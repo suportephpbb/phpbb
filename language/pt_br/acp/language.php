@@ -67,7 +67,7 @@ $lang = array_merge($lang, array(
 	'LANG_ISO_CODE'						=> 'Código ISO', 
 	'LANG_LOCAL_NAME'					=> 'Nome local', 
 
-	'MISSING_LANGUAGE_FILE'		=> 'Arquivo de linguagem ausente: <strong style="color:red">%s</strong>', 
+	'MISSING_LANG_FILES'		=> 'Arquivos de linguagem ausentes', 
 	'MISSING_LANG_VARIABLES'	=> 'Variáveis de linguagem ausentes', 
 
 	'NO_FILE_SELECTED'				=> 'Você não especificou o arquivo de linguagem.', 

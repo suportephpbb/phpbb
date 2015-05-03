@@ -228,6 +228,7 @@ $lang = array_merge($lang, array(
 
 	'ACC_ACTIVATION'			=> 'Ativação de registro', 
 	'ACC_ACTIVATION_EXPLAIN'	=> 'Determina se o usuário terá acesso imediato ao fórum ou se deverá realizar uma confirmação para tal. Você também pode desativar novos registros completamente.', 
+	'ACC_ACTIVATION_WARNING'		=> 'Por favor, note que o método de ativação selecionado requer e-mails para ser ativado, caso contrário os registros serão desativados. Nós recomendamos selecionar um outro método de ativação ou reativar e-mails.', 
 	'NEW_MEMBER_POST_LIMIT'			    => 'Limite de mensagem para novos membros',
 	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	    => 'Novos usuários estarão inseridos na lista do grupo <em>Usuários recentemente registrados</em> até que alcancem o número de posts determinado. Você pode usar este grupo para privá-los do uso de MPs ou da revisão de suas mensagens. <strong>Um valor igual a 0 desativa esta ferramenta.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'		    => 'Definir grupo de usuários recentemente registrados como padrão',
@@ -537,8 +538,8 @@ $lang = array_merge($lang, array(
 	'PASS_TYPE_SYMBOL'				=> 'Deve conter símbolos',
 	'REF_HOST'						=> 'Apenas validar servidor',
 	'REF_PATH'						=> 'Também validar pasta',
-	'REFERER_VALID'					=> 'Validar referenciador',
-	'REFERER_VALID_EXPLAIN'			=> 'Se ativado, o referenciador de requisição de POST será checada junto à configuração da pasta do servidor/script. Isto pode ocasionar erros em fóruns que utilizem diversos domínios e/ou logins externos.',
+	'REFERRER_VALID'				=> 'Validar referenciador',
+	'REFERRER_VALID_EXPLAIN'		=> 'Se ativado, o referenciador de requisição de POST será checada junto à configuração da pasta do servidor/script. Isto pode ocasionar erros em fóruns que utilizem diversos domínios e/ou logins externos.',
 	'TPL_ALLOW_PHP'					=> 'Permitir php nas templates', 
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Se esta opção for ativada, comandos <code>PHP</code> e <code>INCLUDEPHP</code> serão reconhecidos e inseridos nas templates.',
 )); 

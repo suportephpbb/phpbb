@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 
 	'PURGED_CACHE'					=> 'O Cache foi limpo.',
 
-
+	'REQUIRES_STYLE'				=> 'Este estilo requer o estilo "%s" para ser instalado.',
 
 	'STYLE_ACTIVATE'				=> 'Ativar',
 	'STYLE_ACTIVE'					=> 'Ativo',
@@ -80,6 +80,7 @@ $lang = array_merge($lang, array(
 	'STYLE_INSTALLED_RETURN_INSTALLED_STYLES'	=> 'Voltar à lista estilos instalados',
 	'STYLE_INSTALLED_RETURN_UNINSTALLED_STYLES'	=> 'Instalar mais estilos',
 	'STYLE_NAME'					=> 'Nome do Estilo',
+	'STYLE_NAME_RESERVED'			=> 'O estilo "%s" não pôde ser instalado porque o nome é reservado.',
 	'STYLE_NOT_INSTALLED'			=> 'O estilo "%s" não foi instalado.',
 	'STYLE_PATH'					=> 'Localização:',
 	'STYLE_UNINSTALL'				=> 'Desinstalar',
