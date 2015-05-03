@@ -1,0 +1,19 @@
+Subject: Bem-vindo ao fórum "{SITENAME}"
+
+{WELCOME_MSG}
+
+Por favor, salve este e-mail para consultas posteriores. As informações de seu registro são as seguintes:
+
+----------------------------
+Usuário: {USERNAME}
+
+Endereço: {U_BOARD}
+----------------------------
+
+O seu registro encontra-se atualmente inativo. O administrador do fórum pede que ele seja ativado para que você possa utilizá-lo. Você não poderá utilizar o seu registro enquanto não ativá-lo. Você ainda receberá mais informações a respeito de sua conta em breve.
+
+A sua senha foi codificada de forma segura em nosso banco de dados e não podemos restaurá-la. Contudo, caso se esqueça da mesma, você poderá resetá-la usando o endereço de e-mail associado ao seu registro.
+
+Obrigado por registrar-se!
+
+{EMAIL_SIG}
