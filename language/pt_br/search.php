@@ -77,6 +77,7 @@ $lang = array_merge($lang, array(
 	'NO_RECENT_SEARCHES'	=> 'Nenhuma pesquisa tem sido realizada recentemente.',
 	'NO_SEARCH'				=> 'Você não pode utilizar o sistema de pesquisas do fórum.', 
 	'NO_SEARCH_RESULTS'		=> 'Nenhuma mensagem foi encontrada utilizando estes critérios', 
+	'NO_SEARCH_LOAD'		=> 'Desculpe, você não pode usar o sistema de pesquisa neste momento. O servidor está sobrecarregado. Por favor, tente novamente mais tarde.',
 	'NO_SEARCH_TIME'		=> array(
 		1	=> 'Neste momento não é possível usar a pesquisa. Por favor, tente novamente daqui a %d segundo.',
 		2	=> 'Neste momento não é possível usar a pesquisa. Por favor, tente novamente daqui a %d segundos.',

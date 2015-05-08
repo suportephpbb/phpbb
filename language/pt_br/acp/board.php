@@ -228,6 +228,7 @@ $lang = array_merge($lang, array(
 
 	'ACC_ACTIVATION'			=> 'Ativação de registro', 
 	'ACC_ACTIVATION_EXPLAIN'	=> 'Determina se o usuário terá acesso imediato ao fórum ou se deverá realizar uma confirmação para tal. Você também pode desativar novos registros completamente.', 
+	'ACC_ACTIVATION_WARNING'		=> 'Por favor, note que o método de ativação selecionado requer e-mails para ser ativado, caso contrário os registros serão desativados. Nós recomendamos selecionar um outro método de ativação ou reativar e-mails.', 
 	'NEW_MEMBER_POST_LIMIT'			    => 'Limite de mensagem para novos membros',
 	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	    => 'Novos usuários estarão inseridos na lista do grupo <em>Usuários recentemente registrados</em> até que alcancem o número de posts determinado. Você pode usar este grupo para privá-los do uso de MPs ou da revisão de suas mensagens. <strong>Um valor igual a 0 desativa esta ferramenta.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'		    => 'Definir grupo de usuários recentemente registrados como padrão',
@@ -367,15 +368,15 @@ $lang = array_merge($lang, array(
 
 // Contact Settings 
 $lang = array_merge($lang, array( 
-	'ACP_CONTACT_SETTINGS_EXPLAIN'	=> 'Aqui pode ativar e desativar a página de contacto e adicionar o texto que será exibido.',
+	'ACP_CONTACT_SETTINGS_EXPLAIN'	=> 'Aqui pode ativar e desativar a página de contato e adicionar o texto que será exibido.',
 
-	'CONTACT_US_ENABLE'						=> 'Ativar página de contacto',
+	'CONTACT_US_ENABLE'						=> 'Ativar página de contato',
 	'CONTACT_US_ENABLE_EXPLAIN'				=> 'Esta página permite aos usuários enviar emails para os administradores do fórum',
 
-	'CONTACT_US_INFO'						=> 'Informação para contacto',
-	'CONTACT_US_INFO_EXPLAIN'				=> 'A mensagem é mostrada na página de contacto',
-	'CONTACT_US_INFO_PREVIEW'				=> 'Previsão da Página de Informações de contacto',
-	'CONTACT_US_INFO_UPDATED'				=> 'A página das informações de contacto foi atualizada.',
+	'CONTACT_US_INFO'						=> 'Informação para contato',
+	'CONTACT_US_INFO_EXPLAIN'				=> 'A mensagem é mostrada na página de contato',
+	'CONTACT_US_INFO_PREVIEW'				=> 'Previsão da Página de Informações de contato',
+	'CONTACT_US_INFO_UPDATED'				=> 'A página das informações de contato foi atualizada.',
 ));
 
 // Load Settings
@@ -537,8 +538,8 @@ $lang = array_merge($lang, array(
 	'PASS_TYPE_SYMBOL'				=> 'Deve conter símbolos',
 	'REF_HOST'						=> 'Apenas validar servidor',
 	'REF_PATH'						=> 'Também validar pasta',
-	'REFERER_VALID'					=> 'Validar referenciador',
-	'REFERER_VALID_EXPLAIN'			=> 'Se ativado, o referenciador de requisição de POST será checada junto à configuração da pasta do servidor/script. Isto pode ocasionar erros em fóruns que utilizem diversos domínios e/ou logins externos.',
+	'REFERRER_VALID'				=> 'Validar referenciador',
+	'REFERRER_VALID_EXPLAIN'		=> 'Se ativado, o referenciador de requisição de POST será checada junto à configuração da pasta do servidor/script. Isto pode ocasionar erros em fóruns que utilizem diversos domínios e/ou logins externos.',
 	'TPL_ALLOW_PHP'					=> 'Permitir php nas templates', 
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Se esta opção for ativada, comandos <code>PHP</code> e <code>INCLUDEPHP</code> serão reconhecidos e inseridos nas templates.',
 )); 
@@ -556,7 +557,7 @@ $lang = array_merge($lang, array(
 	'CONTACT_EMAIL'					=> 'Endereço de e-mail para contato',
 	'CONTACT_EMAIL_EXPLAIN'			=> 'Este endereço será usado sempre que um ponto de contato específico for necessário, ex. spam, erro de envio, e etc. Este será sempre utilizado como o endereço de envio e resposta nos e-mails.',
 	'CONTACT_EMAIL_NAME'					=> 'Nome de Contato',
-	'CONTACT_EMAIL_NAME_EXPLAIN'			=> 'Este é o nome do contato que os destinatários dos mails vão ver. Se não quer ter um nome de contacto, deixe este campo em branco.',
+	'CONTACT_EMAIL_NAME_EXPLAIN'			=> 'Este é o nome do contato que os destinatários dos mails vão ver. Se não quer ter um nome de contato, deixe este campo em branco.',
 	'EMAIL_FUNCTION_NAME'			=> 'Nome da função de e-mail', 
 	'EMAIL_FUNCTION_NAME_EXPLAIN'	=> 'Função de e-mail usada para enviar e-mails através do PHP.', 
 	'EMAIL_PACKAGE_SIZE'			=> 'Tamanho do pacote de e-mail', 

@@ -220,7 +220,7 @@ $lang = array_merge($lang, array(
 
 	'ACTION'				=> 'Ação', 
 	'ACTIONS'				=> 'Ações', 
-	'ACTIVATE'				=> 'Ativo', 
+	'ACTIVATE'				=> 'Ativar', 
 	'ADD'					=> 'Adicionar', 
 	'ADMIN'					=> 'Administração', 
 	'ADMIN_INDEX'			=> 'Índice de administração', 
@@ -564,6 +564,7 @@ $lang = array_merge($lang, array(
 	'LOG_LOCK_POST'				=> '<strong>Mensagem trancada</strong><br />» %s',
 	'LOG_MERGE'					=> '<strong>Mensagens fundidas</strong> no tópico<br />» %s',
 	'LOG_MOVE'					=> '<strong>Tópico movido</strong><br />» de %1$s para %2$s', 
+	'LOG_MOVED_TOPIC'			=> '<strong>Tópico movido</strong><br />» %s',
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>Denúncia de MP trancada</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>Denúncia de MP deletada</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Mensagem aprovada</strong><br />» %s',

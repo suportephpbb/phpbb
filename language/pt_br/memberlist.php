@@ -111,8 +111,8 @@ $lang = array_merge($lang, array(
 
 	'MORE_THAN'				=> 'Maior que',
 
-	'NO_CONTACT_FORM'			=> 'O formulário de contacto do administrador foi desativado.',
-	'NO_CONTACT_PAGE'			=> 'A página de contacto do administrador foi desativada.',
+	'NO_CONTACT_FORM'			=> 'O formulário de contato do administrador foi desativado.',
+	'NO_CONTACT_PAGE'			=> 'A página de contato do administrador foi desativada.',
 	'NO_EMAIL'				=> 'Você não está autorizado a enviar e-mails para este usuário.',
 	'NO_VIEW_USERS'			=> 'Você não está autorizado a ver a lista de membros ou perfis.',
 
