@@ -1,8 +1,0 @@
-Subject: Denúncia excluída - "{PM_SUBJECT}"
-
-Olá {USERNAME},
-
-Você recebeu esta notificação porque a sua denúncia feita acerca da mensagem particular "{PM_SUBJECT}" em "{SITENAME}" foi excluída por um moderador ou administrador do fórum.
-
-
-{EMAIL_SIG}
