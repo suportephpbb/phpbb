@@ -14,7 +14,7 @@ A sua senha foi codificada de forma segura em nosso banco de dados e não podemo
 Por favor, visite o seguinte endereço para reativar o seu registro:
 
 {U_ACTIVATE}
-Guarde este email.
+Guarde este e-mail.
 
 {USERNAME}, obrigado pelo seu registo em "{SITENAME}".
 Participe ativamente. A sua colaboração é fundamental para todos nós.
