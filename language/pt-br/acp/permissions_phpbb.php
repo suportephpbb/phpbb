@@ -150,9 +150,9 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACL_M_EDIT'		=> 'Pode editar mensagens',
 	'ACL_M_DELETE'		=> 'Pode apagar mensagens permanentemente',
-	'ACL_M_SOFTDELETE'	=> 'Pode excluír mensagens<br /><em>Moderadores com permissões para aprovar mensagens, podes restaurar mensagens excluídas.</em>',
+	'ACL_M_SOFTDELETE'	=> 'Pode excluir mensagens<br /><em>Moderadores com permissões para aprovar mensagens, podes restaurar mensagens excluídas.</em>',
 	'ACL_M_APPROVE'		=> 'Pode aprovar e restaurar mensagens',
-	'ACL_M_REPORT'		=> 'Pode fechar e axcluir denúncias',
+	'ACL_M_REPORT'		=> 'Pode fechar e excluir denúncias',
 	'ACL_M_CHGPOSTER'	=> 'Pode alterar o autor das mensagens',
 
 	'ACL_M_MOVE'	=> 'Pode mover tópicos',
