@@ -53,7 +53,7 @@ $help = array(
    ), 
    array( 
       0 => 'Porque é que não consigo entrar no fórum?', 
-      1 => 'Existem diversas possibilidades para tal acontecer. Primeiro, certifique-se de que seu nome de usuário e senha estão corretos. Se estiverem, contate o administrador do painel para ter a certeza de que você não foi banido. É possível também que tenha ocorrido um erro de configuração, o qual precise ser corrigido.' 
+      1 => 'Existem diversas possibilidades para tal acontecer. Primeiro, certifique-se de que seu nome de usuário e senha estão corretos. Se estiverem, contate o administrador do painel para ter certeza de que você não foi banido. É possível também que tenha ocorrido um erro de configuração, o qual precise ser corrigido.' 
    ), 
    array( 
       0 => 'Registrei-me anteriormente mas não consigo mais entrar?!', 

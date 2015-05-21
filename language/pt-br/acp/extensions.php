@@ -88,10 +88,10 @@ $lang = array_merge($lang, array(
 			<li>Apague os arquivos da extensão do sistema de arquivos</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'		=> 'Tem a certeza que deseja excluir os dados associados à “%s”?<br /><br />Se continuar removerá todos os dados e configurações. Esta ação é irreversível!',
-	'EXTENSION_DISABLE_CONFIRM'			=> 'Tem a certeza que deseja desativar a extensão “%s”?',
-	'EXTENSION_ENABLE_CONFIRM'			=> 'Tem a certeza que deseja ativar a extensão “%s”?',
-	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Tem a certeza que deseja forçar o uso de versões instáveis?',
+	'EXTENSION_DELETE_DATA_CONFIRM'		=> 'Tem certeza que deseja excluir os dados associados à “%s”?<br /><br />Se continuar removerá todos os dados e configurações. Esta ação é irreversível!',
+	'EXTENSION_DISABLE_CONFIRM'			=> 'Tem certeza que deseja desativar a extensão “%s”?',
+	'EXTENSION_ENABLE_CONFIRM'			=> 'Tem certeza que deseja ativar a extensão “%s”?',
+	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Tem certeza que deseja forçar o uso de versões instáveis?',
 
 	'RETURN_TO_EXTENSION_LIST'	=> 'Voltar à lista de extensões',
 
