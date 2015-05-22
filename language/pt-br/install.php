@@ -198,7 +198,7 @@ $lang = array_merge($lang, array(
 		<h2>Converter algum painel existente ao phpBB3</h2>
 		<p>O Conversor Framework Unificado do phpBB suporta a conversão do phpBB 2.0.x e outros sistemas de fóruns diversos ao phpBB3. Se você possui algum painel existente que deseje converter, por favor, <a href="%2$s">prossiga diretamente ao conversor</a>.</p>
 		<h2>Divirta-se com o seu phpBB3!</h2>
-		<p>Clicando no botão abaixo acederá ao formulário de apresentação dos dados estatísticos do phpBB no seu Painel de Administração (ACP). Gostaríamos que nos ajudasse enviando essa informação. Depois, deve examinar as opções disponíveis. Lembre-se que existe ajuda online disponível: <a href="https://www.phpbb.com/support/documentation/3.0/">Documentação</a>, <a href="%3$s">Leia-me</a>, <a href="https://www.phpbb.com/community/viewforum.php?f=46">Fórum de Suporte em língua inglesa</a> e o Suporte phpBB Brasil.</p><p><strong>Não se esqueça de apagar, renomear ou mover a diretoria de instalação! Enquanto esta diretoria existir, só terá acesso ao Painel de Administração (ACP).</strong>',
+		<p>Clicando no botão abaixo acederá ao formulário de apresentação dos dados estatísticos do phpBB no seu Painel de Administração (ACP). Gostaríamos que nos ajudasse enviando essa informação. Depois, deve examinar as opções disponíveis. Lembre-se que existe ajuda online disponível: <a href="https://www.phpbb.com/support/documentation/3.0/">Documentação</a>, <a href="%3$s">Leia-me</a>, <a href="https://www.phpbb.com/community/viewforum.php?f=46">Fórum de Suporte em língua inglesa</a> e o Suporte phpBB Brasil.</p><p><strong>Não se esqueça de excluir, renomear ou mover o diretório de instalação! Enquanto este diretório existir, só terá acesso ao Painel de Administração (ACP).</strong>',
 	'INSTALL_INTRO'				=> 'Bem-vindo à Instalação',
 	
 	'INSTALL_INTRO_BODY'		=> 'Aqui você poderá instalar o phpBB em seu servidor.</p><p>Para prosseguir, você irá precisar das configurações de seu banco de dados. Se você não souber de suas configurações, por favor, contate o seu servidor e pergunte a respeito. Não será possível prosseguir sem as devidas informações. Você precisará de:</p>
@@ -431,14 +431,14 @@ $lang = array_merge($lang, array(
 
     'EDIT_USERNAME'	=> 'Editar nome de usuário',
 	'ERROR'		    => 'Erro',
-	'EVERYTHING_UP_TO_DATE'				=> 'Está concluída a atualização para a última versão do phpBB. Agora deve <a href="%1$s">Ligar-se no seu Fórum</a> e verificar se está tudo bem. Não se esqueça de apagar ou renomear a diretoria de instalação! Por favor envie-nos informações sobre as configurações do seu servidor e Fórum a partir do módulo <a href="%2$s">Enviar estatísticas</a> do ACP.',
+	'EVERYTHING_UP_TO_DATE'				=> 'Está concluída a atualização para a última versão do phpBB. Agora deve <a href="%1$s">Ligar-se no seu Fórum</a> e verificar se está tudo bem. Não se esqueça de excluir ou renomear o diretório de instalação! Por favor envie-nos informações sobre as configurações do seu servidor e Fórum a partir do módulo <a href="%2$s">Enviar estatísticas</a> do ACP.',
 
 	'FILE_ALREADY_UP_TO_DATE'		=> 'O arquivo já foi atualizado.',
 	'FILE_DIFF_NOT_ALLOWED'			=> 'O arquivo não se encontra disponível para ser diferido.',
 	'FILE_USED'						=> 'Informação utilizada de',			// Single file
 	'FILES_CONFLICT'				=> 'Arquivos em conflito',
 	'FILES_CONFLICT_EXPLAIN'		=> 'Os arquivos seguintes são alterados e não representam os seus respectivos arquivos originais da versão anterior. O phpBB determinou que estes arquivos criassem conflitos se eles tentarem ser fundidos. Por favor, investigue os conflitos e tente resolvê-los manualmente ou continue a atualização selecionando o método desejado. Se você resolver os conflitos manualmente, verifique os arquivos novamente depois de modificados. Você pode também selecionar entre o método desejado para todos os arquivos. O primeiro irá resultar em um arquivo onde as linhas em conflito de seu arquivo anterior serão perdidas, e o outro irá resultar na perda das modificações do novo arquivo criado.',
-	'FILES_DELETED'						=> 'arquivos apagados',
+	'FILES_DELETED'						=> 'arquivos excluídos',
 	'FILES_DELETED_EXPLAIN'				=> 'Os seguintes arquivos não existem na nova versão. Esses arquivos devem ser excluídos de sua instalação.',
 	'FILES_MODIFIED'				=> 'Arquivos modificados',
 	'FILES_MODIFIED_EXPLAIN'		=> 'Os arquivos seguintes são alterados e não representam os seus respectivos arquivos originais da versão anterior. O arquivo atualizado será fundido entre suas modificações e o seu novo arquivo.',
@@ -524,7 +524,7 @@ $lang = array_merge($lang, array(
 	'STAGE_UPDATE_FILES'		=> 'Atualizar arquivos',
 	'STAGE_VERSION_CHECK'		=> 'Verificar versão',
 	'STATUS_CONFLICT'			=> 'Arquivo modificado produzindo conflitos',
-	'STATUS_DELETED'			=> 'arquivo apagado',
+	'STATUS_DELETED'			=> 'arquivo excluído',
 	'STATUS_MODIFIED'			=> 'Arquivo modificado',
 	'STATUS_NEW'				=> 'Novo arquivo',
 	'STATUS_NEW_CONFLICT'		=> 'Novo arquivo em conflito',

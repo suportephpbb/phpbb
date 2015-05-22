@@ -127,7 +127,7 @@ $lang = array_merge($lang, array(
 	'ACL_F_ANNOUNCE'	=> 'Pode criar anúncios',
 	'ACL_F_REPLY'		=> 'Pode responder nos Tópicos',
 	'ACL_F_EDIT'		=> 'Pode editar as suas mensagens',
-	'ACL_F_DELETE'		=> 'Pode apagar permanentemente as suas mensagens ',
+	'ACL_F_DELETE'		=> 'Pode excluir permanentemente as suas mensagens ',
 	'ACL_F_SOFTDELETE'	=> 'Pode excluír as suas próprias mensagens<br /><em>Moderadores com permissões para aprovar mensagens, podes restaurar mensagens excluídas.</em>',
 	'ACL_F_IGNOREFLOOD' => 'Pode ignorar o Intervalo de Segurança',
 	'ACL_F_POSTCOUNT'	=> 'Pode aumentar o contador de mensagens<br /><em>Esta função só é válida para novas mensagens.</em>',
@@ -149,7 +149,7 @@ $lang = array_merge($lang, array(
 // Moderator Permissions
 $lang = array_merge($lang, array(
 	'ACL_M_EDIT'		=> 'Pode editar mensagens',
-	'ACL_M_DELETE'		=> 'Pode apagar mensagens permanentemente',
+	'ACL_M_DELETE'		=> 'Pode excluir mensagens permanentemente',
 	'ACL_M_SOFTDELETE'	=> 'Pode excluir mensagens<br /><em>Moderadores com permissões para aprovar mensagens, podes restaurar mensagens excluídas.</em>',
 	'ACL_M_APPROVE'		=> 'Pode aprovar e restaurar mensagens',
 	'ACL_M_REPORT'		=> 'Pode fechar e excluir denúncias',

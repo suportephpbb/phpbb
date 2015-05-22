@@ -634,7 +634,7 @@ $lang = array_merge($lang, array(
 	'LOG_IMAGE_GENERATION_ERROR'	=> '<strong>Erro ao criar imagem</strong><br />» Erro em %1$s na linha %2$s: %3$s',
 	
 	'LOG_INACTIVE_ACTIVATE'					=> '<strong>usuárioes Inativos Ativados</strong><br />» %s',
-	'LOG_INACTIVE_DELETE'					=> '<strong>usuárioes Inativos Apagados</strong><br />» %s',
+	'LOG_INACTIVE_DELETE'					=> '<strong>usuárioes Inativos Excluídos</strong><br />» %s',
 	'LOG_INACTIVE_REMIND'					=> '<strong>Foram enviados emails de aviso aos seguintes usuárioes Inativos</strong><br />» %s',
 	'LOG_INSTALL_CONVERTED'					=> '<strong>Atualizado de %1$s para o phpBB %2$s</strong>',
 	'LOG_INSTALL_INSTALLED'					=> '<strong>Versão do phpBB instalada %s</strong>',
@@ -787,10 +787,10 @@ $lang = array_merge($lang, array(
 
 	'LOG_WARNING_DELETED'		    => '<strong>Advertência do usuário deletada</strong><br />» %s',
 	'LOG_WARNINGS_DELETED'		=> array(
-		1 => '<strong>Apagado usuário avisado</strong><br />» %1$s',
-		2 => '<strong>Apagados %2$d usuários avisados</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+		1 => '<strong>Excluída a advertência do usuário</strong><br />» %1$s',
+		2 => '<strong>Excluídas %2$d advertências do usuário</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
 	),
-	'LOG_WARNINGS_DELETED_ALL'	    => '<strong>Todas advertências do usuário deletadas</strong><br />» %s',
+	'LOG_WARNINGS_DELETED_ALL'	    => '<strong>Todas advertências do usuário excluídas</strong><br />» %s',
 	
 	'LOG_WORD_ADD'			=> '<strong>Palavra censurada adicionada</strong><br />» %s', 
 	'LOG_WORD_DELETE'		=> '<strong>Palavra censurada excluída</strong><br />» %s', 
@@ -798,6 +798,6 @@ $lang = array_merge($lang, array(
 
 	'LOG_EXT_ENABLE'	=> '<strong>Extensão ativada</strong><br />» %s',
 	'LOG_EXT_DISABLE'	=> '<strong>Extensão desativada</strong><br />» %s',
-	'LOG_EXT_PURGE'		=> '<strong>Dados da extensão apagados</strong><br />» %s',
+	'LOG_EXT_PURGE'		=> '<strong>Dados da extensão excluídos</strong><br />» %s',
 )); 
 ?>

@@ -96,7 +96,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS_EXPLAIN'			=> 'Esta é uma lista de anexos que você enviou para este painel.', 
 	'ATTACHMENTS_DELETED'			=> 'Os anexos foram excluídos com sucesso.', 
 	'ATTACHMENT_DELETED'			=> 'O anexo foi excluído com sucesso.', 
-	'AUTOLOGIN_SESSION_KEYS_DELETED'	=> 'As chaves de acesso "Lembrar-me" selecionadas foram apagadas com sucesso.',
+	'AUTOLOGIN_SESSION_KEYS_DELETED'	=> 'As chaves de acesso "Lembrar-me" selecionadas foram excluídas com sucesso.',
 	'AVATAR_CATEGORY'				=> 'Categoria', 
 	'AVATAR_DRIVER_GRAVATAR_TITLE'		=> 'Gravatar',
 	'AVATAR_DRIVER_GRAVATAR_EXPLAIN'	=> 'Gravatar é um serviço que permite que tenha o mesmo avatar em vários sites. Visite <a href="http://www.gravatar.com/">Gravatar</a> para mais informações.',

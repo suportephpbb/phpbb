@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	
 	'BBCODE_ADDED'				=> 'O BBCode foi adicionado com sucesso.', 
 	'BBCODE_EDITED'				=> 'O BBCode foi editado com sucesso.', 
-	'BBCODE_DELETED'			=> 'O BBCode foi apagado com sucesso.',
+	'BBCODE_DELETED'			=> 'O BBCode foi excluído com sucesso.',
 	'BBCODE_NOT_EXIST'			=> 'O BBCode selecionado não existe.', 
 	'BBCODE_HELPLINE'			=> 'Linha de ajuda',
 	'BBCODE_HELPLINE_EXPLAIN'	=> 'Este campo contém o texto a ser exibido quando o usuário passar o mouse acima do BBCode.',

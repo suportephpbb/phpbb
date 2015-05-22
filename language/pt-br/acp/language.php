@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 	'ACP_FILES'						=> 'Administração de Idiomas', 
 	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Aqui você pode instalar/desinstalar pacotes de idiomas para o seu painel. O pacote de idiomas padrão está marcado com um asterisco (*).', 
 
-	'DELETE_LANGUAGE_CONFIRM'		=> 'Tem certeza que deseja apagar “%s”?',
+	'DELETE_LANGUAGE_CONFIRM'		=> 'Tem certeza que deseja excluir “%s”?',
 
 	'INSTALLED_LANGUAGE_PACKS'	=> 'Pacotes de idiomas instalados', 
 
