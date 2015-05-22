@@ -110,7 +110,7 @@ $lang = array_merge($lang, array(
 	'GROUP_SKIP_AUTH'				=> 'Isentar líder do grupo das permissões',
 	'GROUP_SKIP_AUTH_EXPLAIN'		=> 'Se ativado, o líder não estará mais sujeito às permissões do grupo.',
 	'GROUP_SPECIAL'						=> 'Pré definido',
-	'GROUP_TEAMPAGE'					=> 'Mostrar Grupo na página da equipa',
+	'GROUP_TEAMPAGE'					=> 'Mostrar Grupo na página da equipe',
 	'GROUP_TYPE_EXPLAIN'			=> 'Isto determina quais usuários podem entrar ou ver este grupo.', 
 	'GROUP_UPDATED'					=> 'O grupo foi atualizado com sucesso.', 
 	
@@ -124,7 +124,7 @@ $lang = array_merge($lang, array(
 	'LEGEND_SORT_GROUPNAME_EXPLAIN'		=> 'A ordem abaixo é ignorada quando esta opção estiver ativada.',
 
 	'MANAGE_LEGEND'						=> 'Administrar legenda do Grupo',
-	'MANAGE_TEAMPAGE'					=> 'Administrar página da equipa',
+	'MANAGE_TEAMPAGE'					=> 'Administrar página da equipe',
 	'MAKE_DEFAULT_FOR_ALL'	=> 'Tornar grupo padrão para todos os seus membros', 
 	'MEMBERS'				=> 'Membros', 
 
@@ -140,15 +140,15 @@ $lang = array_merge($lang, array(
 	'SPECIAL_GROUPS'			=> 'Grupos pré-definidos', 
 	'SPECIAL_GROUPS_EXPLAIN'	=> 'Grupos pré-definidos são grupos especiais, eles não podem ser excluídos ou diretamente alterados. Porém, você ainda pode adicionar membros e alterar as suas configurações básicas.',
 
-	'TEAMPAGE'							=> 'Página da Equipa',
+	'TEAMPAGE'							=> 'Página da Equipe',
 	'TEAMPAGE_DISP_ALL'					=> 'Todos os membros',
 	'TEAMPAGE_DISP_DEFAULT'				=> 'Só o Grupo padrão do usuário',
 	'TEAMPAGE_DISP_FIRST'				=> 'Só o primeiro membro',
-	'TEAMPAGE_EXPLAIN'					=> 'Grupos exibidos na página da equipa:',
+	'TEAMPAGE_EXPLAIN'					=> 'Grupos exibidos na página da equipe:',
 	'TEAMPAGE_FORUMS'					=> 'Mostrar fóruns moderados',
 	'TEAMPAGE_FORUMS_EXPLAIN'			=> 'Se definido como sim, os moderadores terão uma lista dos fóruns onde têm permissões de moderação. Esta função poderá provocar um uso intenso da Base de Dados em Fóruns grandes.',
 	'TEAMPAGE_MEMBERSHIPS'				=> 'Mostrar usuários membros',
-	'TEAMPAGE_SETTINGS'					=> 'Configuração da página da equipa',
+	'TEAMPAGE_SETTINGS'					=> 'Configuração da página da equipe',
 	'TOTAL_MEMBERS'						=> 'Membros',
 
 	'USERS_APPROVED'				=> 'Os usuários selecionados foram aprovados com sucesso.', 

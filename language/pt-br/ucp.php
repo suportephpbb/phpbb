@@ -265,7 +265,7 @@ $lang = array_merge($lang, array(
 	'GLOBAL_ANNOUNCEMENT'		=> 'Anúncio global', 
 
 	'GRAVATAR_AVATAR_EMAIL'				=> 'Email Gravatar',
-	'GRAVATAR_AVATAR_EMAIL_EXPLAIN'		=> 'Endereço de email que usou no registo da sua conta em <a href="http://www.gravatar.com/">Gravatar</a>.',
+	'GRAVATAR_AVATAR_EMAIL_EXPLAIN'		=> 'Endereço de e-mail que usou no registo da sua conta em <a href="http://www.gravatar.com/">Gravatar</a>.',
 	'GRAVATAR_AVATAR_SIZE'				=> 'Dimensões do Avatar',
 	'GRAVATAR_AVATAR_SIZE_EXPLAIN'		=> 'Especifique a largura e a altura do avatar, deixe em branco para tentar verificação automática.',
 

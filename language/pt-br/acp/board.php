@@ -459,7 +459,7 @@ $lang = array_merge($lang, array(
 
 // Server Settings 
 $lang = array_merge($lang, array( 
-	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Aqui você pode definir configurações gerais dependentes de seus servidores e domínios. Por favor, esteja certo da precisão dos dados que você digitar, pois erros resultarão em e-mails contendo informações incorretas. Quando digitar o nome do domínio, lembre-se de incluir o "http://" ou qualquer outro termo de protocolo. Apenas altere o numero da porta do servidor se você tiver a certeza de que seu servidor utiliza um valor diferente, o qual normalmente é 80.',
+	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Aqui você pode definir configurações gerais dependentes de seus servidores e domínios. Por favor, esteja certo da precisão dos dados que você digitar, pois erros resultarão em e-mails contendo informações incorretas. Quando digitar o nome do domínio, lembre-se de incluir o "http://" ou qualquer outro termo de protocolo. Apenas altere o numero da porta do servidor se você tiver certeza de que seu servidor utiliza um valor diferente, o qual normalmente é 80.',
 
 	'ENABLE_GZIP'				=> 'Ativar compressão Gzip', 
 	'ENABLE_GZIP_EXPLAIN'		=> 'O conteúdo gerado será comprimido e enviado ao navegador do usuário, se ele suportar. Isto poderá reduzir o tráfego da rede, mas aumentará o consumo da CPU do servidor e do computador do usuário. Requer a extensão PHP zlib para ser carregado.',
@@ -470,7 +470,7 @@ $lang = array_merge($lang, array(
 	'MOD_REWRITE_ENABLE'					=> 'Ativar URL Rewriting',
 	'MOD_REWRITE_ENABLE_EXPLAIN' 			=> 'Quando ativado, as URLs que contenham ’app.php’ serão reescritas para remover o nome do arquivo (ou seja, app.php/foo transforma-se em /foo). <strong>O mod_rewrite tem que estar ativado no Servidor Apache. Ativando esta opção sem o mod_rewrite, poderá comprometer o funcionamento do seu Fórum.</strong>',
 	'MOD_REWRITE_DISABLED'					=> 'O módulo <strong>mod_rewrite</strong> está desativado no seu servidor web Apache. Ative o módulo ou entre em conctato com seu serviço de hospedagem web, para ativar este recurso.',
-	'MOD_REWRITE_INFORMATION_UNAVAILABLE' 	=> 'É impossível determinar se este servidor suporta regravação de URL. A configuração pode estar ativada, mas se a regravação não estiver disponível os caminhos gerados por este fórum (para uso em links) podem não funcionar. Contacte o seu fornecedor de hospedagem web, se não tiver certeza se pode ou não ativar com segurança este recurso.',
+	'MOD_REWRITE_INFORMATION_UNAVAILABLE' 	=> 'É impossível determinar se este servidor suporta regravação de URL. A configuração pode estar ativada, mas se a regravação não estiver disponível os caminhos gerados por este fórum (para uso em links) podem não funcionar. Contate o seu fornecedor de hospedagem web, se não tiver certeza se pode ou não ativar com segurança este recurso.',
 	'PATH_SETTINGS'				=> 'Configurações de pasta', 
 	'RANKS_PATH'				=> 'Pasta dos ranks', 
 	'RANKS_PATH_EXPLAIN'		=> 'Pasta sob o diretório raiz do seu phpBB, ex. <samp>images/ranks</samp>.',
@@ -576,7 +576,7 @@ $lang = array_merge($lang, array(
 	'SMTP_PLAIN'					=> 'PLAIN', 
 	'SMTP_POP_BEFORE_SMTP'			=> 'POP-BEFORE-SMTP', 
 	'SMTP_PORT'						=> 'Porta do servidor de SMTP', 
-	'SMTP_PORT_EXPLAIN'				=> 'Escreva apenas se você tiver a certeza de que o seu servidor de SMTP está executando em uma porta diferente.', 
+	'SMTP_PORT_EXPLAIN'				=> 'Escreva apenas se você tiver certeza de que o seu servidor de SMTP está executando em uma porta diferente.', 
 	'SMTP_SERVER'					=> 'Endereço do servidor de SMTP', 
 	'SMTP_SETTINGS'					=> 'Configurações de SMTP', 
 	'SMTP_USERNAME'					=> 'Nome de usuário do SMTP', 
