@@ -419,7 +419,7 @@ $lang = array_merge($lang, array(
 	'WARNING_PM_BODY' 		=> 'A seguinte é uma advertência enviada para você por um administrador ou moderador do site.[quote]%s[/quote]', 
 	'WARNING_PM_SUBJECT' 	=> 'Advertência', 
 	'WARNING_POST_DEFAULT' 	=> 'Esta é uma advertência a respeito da seguinte mensagem enviada por você: %s .', 
-	'NO_WARNINGS'						=> 'Não há avisos.',
+	'NO_WARNINGS'						=> 'Não há advertências.',
 	
 	'YOU_SELECTED_TOPIC' 	=> 'Você selecionou o tópico de número %d: %s', 
 	
