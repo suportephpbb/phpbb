@@ -292,7 +292,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_LINK'						=> 'Ligue ou registe a sua conta usando serviço externo à sua conta no Fórum',
 	'LOGIN_LINK_EXPLAIN'				=> 'Tentou entrar usando um serviço externo que ainda não está ligado a uma conta neste fórum. Ligue-se usando uma conta existente ou crie uma nova conta.',
 	'LOGIN_LINK_MISSING_DATA'			=> 'Os dados necessários para ligar a sua conta a um serviço externo não estão disponíveis. Reinicie o processo.',
-	'LOGIN_LINK_NO_DATA_PROVIDED'		=> 'Não foi fornecido nenhum dado para ligar a sua conta externa à conta do Fórum. Se o problema persistir contacte um administrador do Fórum.',
+	'LOGIN_LINK_NO_DATA_PROVIDED'		=> 'Não foi fornecido nenhum dado para ligar a sua conta externa à conta do Fórum. Se o problema persistir contate um administrador do Fórum.',
 	'LOGIN_KEY'							=> 'Chave de acesso',
 	'LOGIN_TIME'						=> 'Hora de acesso',
 	'LOGIN_REDIRECT'			=> 'O seu login foi efetuado com sucesso.',
@@ -560,7 +560,7 @@ $lang = array_merge($lang, array(
 	'UCP_USERGROUPS_MEMBER'		=> 'Editar membros', 
 	'UCP_USERGROUPS_MANAGE'		=> 'Administrar grupos', 
 
-	'UCP_PASSWORD_RESET_DISABLED'		=> 'A funcionalidade de alteração da senha foi desativada. Se precisa de ajuda para entrar na sua conta, por favor contacte o %sAdministrador do Fórum%s',
+	'UCP_PASSWORD_RESET_DISABLED'		=> 'A funcionalidade de alteração da senha foi desativada. Se precisa de ajuda para entrar na sua conta, por favor contate o %sAdministrador do Fórum%s',
 	'UCP_REGISTER_DISABLE'			=> 'Não é possível criar novos registros atualmente.', 
 	'UCP_REMIND'					=> 'Enviar senha', 
 	'UCP_RESEND'					=> 'Enviar e-mail de ativação', 

@@ -104,7 +104,7 @@ $lang = array_merge($lang, array(
 		1	=> '%d usuário',
 		2	=> '%d usuários',
 	),
-	'LOGIN_EXPLAIN_TEAM'		=> 'Tem que estar registado e ligado para ver os membros da Equipa de Responsáveis do Fórum.',
+	'LOGIN_EXPLAIN_TEAM'		=> 'Tem que estar registado e ligado para ver os membros da Equipe de Responsáveis do Fórum.',
 	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'O administrador exige que você esteja registrado e autenticado para acessar à lista de membros.',
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'O administrador exige que você esteja registrado e autenticado para pesquisar por usuários.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'O administrador exige que você esteja registrado e autenticado para visualizar perfis.',
