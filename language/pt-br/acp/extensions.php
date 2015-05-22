@@ -63,9 +63,9 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DISABLE_EXPLAIN'		=> 'Desativar uma extensão mantém arquivos, dados e configurações, mas remove qualquer funcionalidade adicional da extensão.',
 	'EXTENSION_ENABLE_EXPLAIN'		=> 'Ativar uma extensão permite usá-la no seu Fórum.',
 
-	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'Os dados da extensão estão a ser excluídos. Por favor não deixe ou atualize esta página até a tarefa estar concluída.',
-	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'A extensão está a ser desativada. Por favor não deixe ou atualize esta página até a tarefa estar concluída.',
-	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'A extensão está a ser ativada. Por favor não deixe ou atualize esta página até a tarefa estar concluída.',
+	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'Os dados da extensão estão sendo excluídos. Por favor não deixe ou atualize esta página até a tarefa estar concluída.',
+	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'A extensão está sendo desativada. Por favor não deixe ou atualize esta página até a tarefa estar concluída.',
+	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'A extensão está sendo ativada. Por favor não deixe ou atualize esta página até a tarefa estar concluída.',
 
 	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'Os dados da extensão foram excluídos com sucesso',
 	'EXTENSION_DISABLE_SUCCESS'		=> 'A extensão foi desativada com sucesso',
