@@ -472,8 +472,8 @@ $lang = array_merge($lang, array(
 	'RULE_LIMIT_REACHED'				=> 'Você não pode adicionar mais regras, pois alcançou o número máximo de regras.',
 	'RULE_NOT_DEFINED'					=> 'Regra não especificada corretamente.', 
 	'RULE_REMOVED_MESSAGES'				=> array(
-		1	=> '%d mensagem privada foi bloqueada pelo filtro de mensagens particulares.',
-		2	=> '%d mensagens privadas foram bloqueadas pelo filtro de mensagens particulares.',
+		1	=> '%d mensagem privada foi bloqueada pelo filtro de mensagens privadas.',
+		2	=> '%d mensagens privadas foram bloqueadas pelo filtro de mensagens privadas.',
 	),
 
 	'SAME_PASSWORD_ERROR'		=> 'A nova senha que você escreveu é a mesma da anterior.',
@@ -502,7 +502,7 @@ $lang = array_merge($lang, array(
 	'TO_ADD'							=> 'Adicionar destinatários',
 	'TO_ADD_MASS'						=> 'Adicionar destinatários',
 	'TO_ADD_GROUPS'						=> 'Adicionar groups',
-	'TOO_MANY_RECIPIENTS'		=> 'Você tentou enviar uma mensagem particular a muitos destinatários.', 
+	'TOO_MANY_RECIPIENTS'		=> 'Você tentou enviar uma mensagem privada a muitos destinatários.', 
 	'TOO_MANY_REGISTERS'		=> 'Você excedeu o número máximo de tentativas de registro para esta sessão. Por favor, tente novamente mais tarde.', 
 
 	'UCP'						=> 'Painel de Controle do Usuário', 

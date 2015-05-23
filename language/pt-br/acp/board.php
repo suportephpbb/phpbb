@@ -103,7 +103,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_SIG_SMILIES'			=> 'Permitir smilies na assinatura dos usuários', 
 	'ALLOW_SMILIES'				=> 'Permitir smilies', 
 	'ALLOW_TOPIC_NOTIFY'		=> 'Permitir subscrição de tópicos', 
-	'BOARD_PM'					=> 'Mensagens particulares', 
+	'BOARD_PM'					=> 'Mensagens privadas', 
 	'BOARD_PM_EXPLAIN'			=> 'Ativar mensagens privadas para todos os usuários.',
 )); 
 
@@ -135,7 +135,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array( 
 	'ACP_MESSAGE_SETTINGS_EXPLAIN'		=> 'Aqui você poderá configurar todas opções gerais para as mensagens privadas do seu painel.',
 
-	'ALLOW_BBCODE_PM'			=> 'Permitir BBCode em mensagens particulares', 
+	'ALLOW_BBCODE_PM'			=> 'Permitir BBCode em mensagens privadas', 
 	'ALLOW_FLASH_PM'			=> 'Permitir <code>[FLASH]</code> em mensagens privadas', 
     'ALLOW_FLASH_PM_EXPLAIN'    => 'Note que a habilidade de se utilizar flash em mensagens privadas, se ativa aqui, também dependerá das respectivas permissões.',
 	'ALLOW_FORWARD_PM'			=> 'Permitir encaminhamento de mensagens privadas', 
