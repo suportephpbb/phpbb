@@ -37,7 +37,7 @@ $help = array(
    ), 
 	array(
 		0 => 'Por que preciso registar-me?',
-		1 => 'Compete ao administrador do fórum decidir se para poder criar mensagens, o registo é obrigatório. No entanto; o registo dá-lhe acesso a ferramentas adicionais não disponíveis aos visitantes, como imagens definíveis avatar, mensagens particulares, e-mail de outros usuários, subscrição de Grupos, etc Leva apenas alguns minutos para registrar, então é recomendável que o faça.'
+		1 => 'Compete ao administrador do fórum decidir se para poder criar mensagens, o registo é obrigatório. No entanto; o registo dá-lhe acesso a ferramentas adicionais não disponíveis aos visitantes, como imagens definíveis avatar, mensagens privadas, e-mail de outros usuários, subscrição de Grupos, etc Leva apenas alguns minutos para registrar, então é recomendável que o faça.'
 	),
   array( 
       0 => 'O que é a COPPA?', 
@@ -45,7 +45,7 @@ $help = array(
    ), 
    array( 
       0 => 'Por que não consigo me registrar?', 
-      1 => 'É possível que o administrador tenha banido o seu endereço de IP ou adicionado como nome de usuário proibido o que você deseja registrar. O registro também pode ter sido desativado por razões particulares. Para mais informações, contate o administrador do fórum.'
+      1 => 'É possível que o administrador tenha banido o seu endereço de IP ou adicionado como nome de usuário proibido o que você deseja registrar. O registro também pode ter sido desativado por razões privadas. Para mais informações, contate o administrador do fórum.'
    ), 
    array( 
       0 => 'Registrei-me mas não consigo entrar!', 
@@ -230,7 +230,7 @@ $help = array(
    ), 
    array( 
       0 => 'Como posso ser líder de um grupo?', 
-      1 => 'Os grupos de usuários são inicialmente criados pelo administrador do fórum, o qual encarrega alguém de ser responsável pelo mesmo, no caso, o líder do grupo. Se está interessado em criar um grupo de usuários, você deverá primeiramente contatar o administrador com uma mensagem particular circunstanciada.' 
+      1 => 'Os grupos de usuários são inicialmente criados pelo administrador do fórum, o qual encarrega alguém de ser responsável pelo mesmo, no caso, o líder do grupo. Se está interessado em criar um grupo de usuários, você deverá primeiramente contatar o administrador com uma mensagem privada circunstanciada.' 
    ), 
    array( 
       0 => 'Por que alguns grupos aparecem em diferentes cores?', 
@@ -246,15 +246,15 @@ $help = array(
    ), 
    array( 
       0 => '--', 
-      1 => 'Sobre as <i>mensagens particulares</i>' 
+      1 => 'Sobre as <i>mensagens privadas</i>' 
    ), 
    array( 
-      0 => 'Não consigo enviar mensagens particulares!', 
-      1 => 'Existem três razões para que tal possa acontecer: você não está registrado no fórum e/ou não se encontra autenticado, o administrador terá desativado a opção de enviar mensagens particulares em todo o fórum ou você encontra-se proibido de enviar mensagens. Se este último é o seu caso, então você deverá perguntar ao administrador qual o motivo, caso realmente não saiba.' 
+      0 => 'Não consigo enviar mensagens privadas!', 
+      1 => 'Existem três razões para que tal possa acontecer: você não está registrado no fórum e/ou não se encontra autenticado, o administrador terá desativado a opção de enviar mensagens privadas em todo o fórum ou você encontra-se proibido de enviar mensagens. Se este último é o seu caso, então você deverá perguntar ao administrador qual o motivo, caso realmente não saiba.' 
    ), 
    array( 
-      0 => 'Recebo mensagens particulares indesejáveis!', 
-      1 => 'Você pode bloquear as mensagens particulares enviadas por um usuário em específico utilizando o seu painel de controle do usuário. Se estiver recebendo mensagens indesejáveis por parte de algum usuário, contate o administrador do fórum para que possa proibir o determinado usuário de enviar este tipo de mensagem.' 
+      0 => 'Recebo mensagens privadas indesejáveis!', 
+      1 => 'Você pode bloquear as mensagens privadas enviadas por um usuário em específico utilizando o seu painel de controle do usuário. Se estiver recebendo mensagens indesejáveis por parte de algum usuário, contate o administrador do fórum para que possa proibir o determinado usuário de enviar este tipo de mensagem.' 
    ), 
    array( 
       0 => 'Recebi de alguém neste fórum mensagens de e-mail com assuntos irrelevantes ou abusivos!', 
@@ -266,7 +266,7 @@ $help = array(
    ), 
    array( 
       0 => 'O que é a lista de amigos e inimigos?', 
-      1 => 'Você pode utilizar esta lista para organizar os demais usuários do fórum. Os usuários adicionados em sua lista de amigos serão listados em seu painel de controle do usuário com acesso rápido para ver seus status online e para enviá-los mensagens particulares. Se você solicitar ao suporte de templates, as mensagens enviadas por estes usuários poderão aparecer em destaque. Se você adicionar um usuário em sua lista de inimigos, então qualquer mensagem enviada por ele será ocultada de forma padrão.' 
+      1 => 'Você pode utilizar esta lista para organizar os demais usuários do fórum. Os usuários adicionados em sua lista de amigos serão listados em seu painel de controle do usuário com acesso rápido para ver seus status online e para enviá-los mensagens privadas. Se você solicitar ao suporte de templates, as mensagens enviadas por estes usuários poderão aparecer em destaque. Se você adicionar um usuário em sua lista de inimigos, então qualquer mensagem enviada por ele será ocultada de forma padrão.' 
    ), 
    array( 
       0 => 'Como eu posso adicionar/excluir usuários de minha lista de amigos e inimigos?', 

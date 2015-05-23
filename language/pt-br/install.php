@@ -115,7 +115,7 @@ $lang = array_merge($lang, array(
 	'CONV_ERROR_NO_SMILIES_PATH'		=> 'Nota ao desenvolvedor: você precisa especificar $convertor[\'smilies_path\'] para utilizar %s.',
 	'CONV_ERROR_NO_UPLOAD_DIR'			=> 'Nota ao desenvolvedor: você precisa especificar $convertor[\'upload_path\'] para utilizar %s.',
 	'CONV_ERROR_PERM_SETTING'			=> 'Não foi possível inserir ou atualizar as configurações de permissões.',
-	'CONV_ERROR_PM_COUNT'				=> 'Não foi possível selecionar as pastas de mensagens particulares.',
+	'CONV_ERROR_PM_COUNT'				=> 'Não foi possível selecionar as pastas de mensagens privadas.',
 	'CONV_ERROR_REPLACE_CATEGORY'		=> 'Não foi possível inserir um novo fórum substituindo uma categoria antiga.',
 	'CONV_ERROR_REPLACE_FORUM'			=> 'Não foi possível inserir um novo fórum substituindo um fórum antigo.',
 	'CONV_ERROR_USER_ACCESS'			=> 'Não foi possível adquirir as informações de autenticação dos usuários.',
@@ -178,7 +178,7 @@ $lang = array_merge($lang, array(
 	
 	'FINAL_STEP'						=> 'Etapa final do processo',
 	'FORUM_ADDRESS'						=> 'Endereço do fórum',
-	'FORUM_ADDRESS_EXPLAIN'				=> 'Este é o endereço de seu fórum, ex. <samp>http://www.exemplo.com/phpBB2/</samp>. Se algum endereço for escrito aqui e não deixar em branco, todas as instâncias deste serão substituídas pelo endereço de seu novo painel em mensagens, mensagens particulares e assinaturas.',
+	'FORUM_ADDRESS_EXPLAIN'				=> 'Este é o endereço de seu fórum, ex. <samp>http://www.exemplo.com/phpBB2/</samp>. Se algum endereço for escrito aqui e não deixar em branco, todas as instâncias deste serão substituídas pelo endereço de seu novo painel em mensagens, mensagens privadas e assinaturas.',
 	'FORUM_PATH'						=> 'Pasta do fórum',
 	'FORUM_PATH_EXPLAIN'				=> 'Esta é a pasta <strong>relativa</strong> em disco para o seu fórum anterior a esta instalação do phpBB3.',
 	'FOUND'								=> 'Encontrado',

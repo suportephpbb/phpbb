@@ -113,7 +113,7 @@ $lang = array_merge($lang, array(
 	'DISALLOWED_CONTENT'		=> 'O envio foi rejeitado porque o anexo foi identificado como um possível vetor de ataque.',
 	'DISALLOWED_EXTENSION'		=> 'A extensão %s não é permitida.',
 	'DRAFT_LOADED'				=> 'O rascunho foi carregado com sucesso. Você pode terminar a sua mensagem agora. O seu rascunho será excluído ao enviar esta mensagem.',
-	'DRAFT_LOADED_PM'			=> 'O rascunho foi carregado com sucesso. Você pode terminar a sua mensagem agora. O seu rascunho será excluído ao enviar esta mensagem particular.',
+	'DRAFT_LOADED_PM'			=> 'O rascunho foi carregado com sucesso. Você pode terminar a sua mensagem agora. O seu rascunho será excluído ao enviar esta mensagem privada.',
 	'DRAFT_SAVED'				=> 'O rascunho foi salvo com sucesso.',
 	'DRAFT_TITLE'				=> 'Título do rascunho',
 
@@ -277,7 +277,7 @@ $lang = array_merge($lang, array(
 	'USER_CANNOT_FORUM_POST'	=> 'Você não pode utilizar estas operações porque este tipo de fórum não as suporta.',
 
 	'VIEW_MESSAGE'				=> '%sVer sua mensagem enviada%s',
-    'VIEW_PRIVATE_MESSAGE'      => '%sVer a sua mensagem particular enviada%s',
+    'VIEW_PRIVATE_MESSAGE'      => '%sVer a sua mensagem privada enviada%s',
 
 	'WRONG_FILESIZE'			=> 'O arquivo é muito grande. O tamanho máximo permitido é de %1d %2s.',
 	'WRONG_SIZE'				=> 'A imagem não deve ser inferior a %1$d pixels de largura e %2$d pixels de altura, e superior a %3$d pixels de largura e %4$d pixels de altura. A imagem enviada possui %5$d pixels de largura e %6$d pixels de altura.',
