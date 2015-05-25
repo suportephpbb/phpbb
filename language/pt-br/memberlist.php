@@ -62,7 +62,7 @@ $lang = array_merge($lang, array(
 
 	'EDIT_PROFILE'				=> 'Editar Perfil',
 
-	'EMAIL'	=> 'Enviar e-mail.',     
+	'EMAIL'	=> 'E-mail',     
 	'EMAIL_BODY_EXPLAIN'	=> 'Esta Mensagem será enviada em texto. Por Favor, não adicione qualquer Código HTML ou BBCode. Para o endereço de resposta será anexado o seu endereço de e-mail.',
 	'EMAIL_DISABLED'		=> 'Todas as funções relativas aos e-mails encontram-se desativadas.',
 	'EMAIL_SENT'			=> 'O seu e-mail foi enviado com sucesso',
