@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 
 	'DEACTIVATE_DEFAULT'		=> 'Você não pode desativar o estilo padrão do painel.', 
 	'DELETE_FROM_FS'			=> 'Excluir do sistema de arquivos', 
-	'DELETE_STYLE_FILES_FAILED'		=> 'Erro ao apagar os arquivos do estilo "%s".',
+	'DELETE_STYLE_FILES_FAILED'		=> 'Erro ao excluir os arquivos do estilo "%s".',
 	'DELETE_STYLE_FILES_SUCCESS'	=> 'Os arquivos do estilo "%s" foram excluidos.',
 	'DETAILS'						=> 'Detalhes',
 

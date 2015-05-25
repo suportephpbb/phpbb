@@ -77,7 +77,7 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_POSTGRES_MAX_WORD_LEN_EXPLAIN'	=> 'Palavras que não ultrapassem este número de caracteres serão incluídas na consulta à Base de Dados.',
 
 	'FULLTEXT_SPHINX_CONFIGURE'					=> 'Configure as definições seguintes para gerar o arquivo sphinx',
-	'FULLTEXT_SPHINX_DATA_PATH'					=> 'Caminho para a diretoria de dados',
+	'FULLTEXT_SPHINX_DATA_PATH'					=> 'Caminho para o diretório de dados',
 	'FULLTEXT_SPHINX_DATA_PATH_EXPLAIN'			=> 'Será usado para armazenar os índices e arquivos de log. Deve criar essa diretória fora das diretórias acessíveis na web. (tem de ter uma barra)',
 	'FULLTEXT_SPHINX_DELTA_POSTS'				=> 'Número de mensagens atualizadas frequentemente no indice "delta" (ou diário)',
 	'FULLTEXT_SPHINX_HOST'						=> 'Servidor de pesquisa Sphinx daemon',
@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_SPHINX_WRONG_DATABASE'			=> 'A pesquisa sphinx para phpBB apenas suporta MySQL e PostgreSQL.',
 	'FULLTEXT_SPHINX_CONFIG_FILE'				=> 'arquivo de configuração Sphinx',
 	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'		=> 'O conteúdo gerado pelo arquivo de configuração sphinx. Estes dados têm que ser colados no sphinx.conf usado pela pesquisa sphinx daemon. Substitua os espaços em [dbuser] e [dbpassword], pelas credenciais de acesso à sua Base de Dados.',
-	'FULLTEXT_SPHINX_NO_CONFIG_DATA'			=> 'O caminho da diretoria de dados e configuração sphinx e não está definido. Por favor defina-o para gerar o arquivo de configuração.',
+	'FULLTEXT_SPHINX_NO_CONFIG_DATA'			=> 'O caminho do diretório de dados e configuração sphinx e não está definido. Por favor defina-o para gerar o arquivo de configuração.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'Configurações gerais da pesquisa', 
 	'GO_TO_SEARCH_INDEX'					=> 'Ir à página inicial da pesquisa', 
