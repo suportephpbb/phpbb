@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'CODE'					=> 'Código',
 	
 	'DELETE_TOPIC'			=> 'Excluir',
-	'DELETED_INFORMATION'				=> 'Apagado por %1$s em %2$s',
+	'DELETED_INFORMATION'				=> 'Excluído por %1$s em %2$s',
 	'DISAPPROVE'						=> 'Reprovar',
 	'DOWNLOAD_NOTICE'		=> 'Você não está autorizado a ver ou baixar esse anexo.',
 

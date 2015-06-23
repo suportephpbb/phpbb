@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	
 	'BBCODE_ADDED'				=> 'O BBCode foi adicionado com sucesso.', 
 	'BBCODE_EDITED'				=> 'O BBCode foi editado com sucesso.', 
-	'BBCODE_DELETED'			=> 'O BBCode foi apagado com sucesso.',
+	'BBCODE_DELETED'			=> 'O BBCode foi excluído com sucesso.',
 	'BBCODE_NOT_EXIST'			=> 'O BBCode selecionado não existe.', 
 	'BBCODE_HELPLINE'			=> 'Linha de ajuda',
 	'BBCODE_HELPLINE_EXPLAIN'	=> 'Este campo contém o texto a ser exibido quando o usuário passar o mouse acima do BBCode.',
@@ -99,7 +99,7 @@ $lang = array_merge($lang, array(
 // Smilies and topic icons 
 $lang = array_merge($lang, array( 
 	'ACP_ICONS_EXPLAIN'		=> 'Aqui você pode adicionar, editar e excluir os ícones os quais os usuários adicionarão em seus tópicos e mensagens. Estes ícones são exibidos geralmente perto do título dos tópicos na listagem de fóruns, ou no título do tópico na listagem de tópicos. Você pode também instalar e criar novos pacotes de ícones.', 
-	'ACP_SMILIES_EXPLAIN'	=> 'Os smilies ou emoções são tipicamente pequenos às vezes imagens animadas utilizadas para expressar alguma emoção ou sentimento. Aqui você pode adicionar, editar e excluir os smilies que os usuários poderão utilizar em seus tópicos e mensagens particulares. Você também pode instalar e criar novos pacotes de smilies.', 
+	'ACP_SMILIES_EXPLAIN'	=> 'Os smilies ou emoções são tipicamente pequenos às vezes imagens animadas utilizadas para expressar alguma emoção ou sentimento. Aqui você pode adicionar, editar e excluir os smilies que os usuários poderão utilizar em seus tópicos e mensagens privadas. Você também pode instalar e criar novos pacotes de smilies.', 
 	'ADD_SMILIES'			=> 'Adicionar smilies múltiplos', 
 	'ADD_SMILEY_CODE'		=> 'Adicionar código adicional ao smiley',
 	'ADD_ICONS'				=> 'Adicionar ícones múltiplos', 

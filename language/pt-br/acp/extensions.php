@@ -55,19 +55,19 @@ $lang = array_merge($lang, array(
 	'EXTENSIONS_DISABLED'	=> 'Extensões desativadas',
 	'EXTENSIONS_ENABLED'	=> 'Extensões ativadas',
 
-	'EXTENSION_DELETE_DATA'	=> 'Apagar dados',
+	'EXTENSION_DELETE_DATA'	=> 'Excluir dados',
 	'EXTENSION_DISABLE'		=> 'Desativar',
 	'EXTENSION_ENABLE'		=> 'Ativar',
 
-	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Apagar dados de uma extensão remove todos os dados e configurações. Os arquivos da extensão são mantidas para que possa ser ativada novamente.',
+	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Excluir dados de uma extensão remove todos os dados e configurações. Os arquivos da extensão são mantidas para que possa ser ativada novamente.',
 	'EXTENSION_DISABLE_EXPLAIN'		=> 'Desativar uma extensão mantém arquivos, dados e configurações, mas remove qualquer funcionalidade adicional da extensão.',
 	'EXTENSION_ENABLE_EXPLAIN'		=> 'Ativar uma extensão permite usá-la no seu Fórum.',
 
-	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'Os dados da extensão estão a ser apagados. Por favor não deixe ou atualize esta página até a tarefa estar concluída.',
-	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'A extensão está a ser desativada. Por favor não deixe ou atualize esta página até a tarefa estar concluída.',
-	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'A extensão está a ser ativada. Por favor não deixe ou atualize esta página até a tarefa estar concluída.',
+	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'Os dados da extensão estão sendo excluídos. Por favor não deixe ou atualize esta página até a tarefa estar concluída.',
+	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'A extensão está sendo desativada. Por favor não deixe ou atualize esta página até a tarefa estar concluída.',
+	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'A extensão está sendo ativada. Por favor não deixe ou atualize esta página até a tarefa estar concluída.',
 
-	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'Os dados da extensão foram apagados com sucesso',
+	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'Os dados da extensão foram excluídos com sucesso',
 	'EXTENSION_DISABLE_SUCCESS'		=> 'A extensão foi desativada com sucesso',
 	'EXTENSION_ENABLE_SUCCESS'		=> 'A extensão foi ativada com sucesso',
 
@@ -77,21 +77,21 @@ $lang = array_merge($lang, array(
 	'EXTENSION_UPDATE_HEADLINE'	=> 'Atualizar extensões',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
 			<li>Desative a extensão</li>
-			<li>Apague os arquivos da extensão do sistema de arquivos</li>
+			<li>Exclua os arquivos da extensão do sistema de arquivos</li>
 			<li>Envie os novos arquivos</li>
 			<li>Ative a extensão</li>
 		</ol>',
 	'EXTENSION_REMOVE_HEADLINE'	=> 'Remover completamente uma extensão',
 	'EXTENSION_REMOVE_EXPLAIN'	=> '<ol>
 			<li>Desative a extensão</li>
-			<li>Apague os dados da extensão</li>
-			<li>Apague os arquivos da extensão do sistema de arquivos</li>
+			<li>Exclua os dados da extensão</li>
+			<li>Exclua os arquivos da extensão do sistema de arquivos</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'		=> 'Tem a certeza que deseja excluir os dados associados à “%s”?<br /><br />Se continuar removerá todos os dados e configurações. Esta ação é irreversível!',
-	'EXTENSION_DISABLE_CONFIRM'			=> 'Tem a certeza que deseja desativar a extensão “%s”?',
-	'EXTENSION_ENABLE_CONFIRM'			=> 'Tem a certeza que deseja ativar a extensão “%s”?',
-	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Tem a certeza que deseja forçar o uso de versões instáveis?',
+	'EXTENSION_DELETE_DATA_CONFIRM'		=> 'Tem certeza que deseja excluir os dados associados à “%s”?<br /><br />Se continuar removerá todos os dados e configurações. Esta ação é irreversível!',
+	'EXTENSION_DISABLE_CONFIRM'			=> 'Tem certeza que deseja desativar a extensão “%s”?',
+	'EXTENSION_ENABLE_CONFIRM'			=> 'Tem certeza que deseja ativar a extensão “%s”?',
+	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Tem certeza que deseja forçar o uso de versões instáveis?',
 
 	'RETURN_TO_EXTENSION_LIST'	=> 'Voltar à lista de extensões',
 
