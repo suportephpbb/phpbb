@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* acp_email [Português Brasileiro]
+* This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
@@ -9,12 +9,6 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* @package language
-* @version 2.0.0
-* @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
-* @copyright (c) 2005 phpBB Group, 2014 Suporte phpBB
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Traduzido por: suporte phpBB & Antonio Carlos Doná - segundo as normas do Acordo Ortográfico
 */
 
 /**
@@ -72,4 +66,3 @@ $lang = array_merge($lang, array(
 	'NO_EMAIL_MESSAGE'		=> 'Você deve escrever uma mensagem.',
 	'NO_EMAIL_SUBJECT'		=> 'Você deve especificar um título para a sua mensagem.',			
 )); 
-?>

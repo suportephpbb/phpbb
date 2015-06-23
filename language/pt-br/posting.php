@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* posting [Português Brasileiro]
+* This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
@@ -9,12 +9,6 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* @package language
-* @version 2.0.0
-* @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
-* @copyright (c) 2005 phpBB Group, 2014 Suporte phpBB
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Traduzido por: suporte phpBB & Antonio Carlos Doná - segundo as normas do Acordo Ortográfico
 */
 
 /**
@@ -282,4 +276,3 @@ $lang = array_merge($lang, array(
 	'WRONG_FILESIZE'			=> 'O arquivo é muito grande. O tamanho máximo permitido é de %1d %2s.',
 	'WRONG_SIZE'				=> 'A imagem não deve ser inferior a %1$d pixels de largura e %2$d pixels de altura, e superior a %3$d pixels de largura e %4$d pixels de altura. A imagem enviada possui %5$d pixels de largura e %6$d pixels de altura.',
 ));
-?>

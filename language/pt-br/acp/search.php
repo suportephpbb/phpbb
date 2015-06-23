@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* acp_search [Português Brasileiro]
+* This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
@@ -9,12 +9,6 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* @package language
-* @version 2.0.0
-* @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
-* @copyright (c) 2005 phpBB Group, 2014 Suporte phpBB
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Traduzido por: suporte phpBB & Antonio Carlos Doná - segundo as normas do Acordo Ortográfico
 */
 
 /** 
@@ -142,4 +136,3 @@ $lang = array_merge($lang, array(
 	'YES_SEARCH_UPDATE'						=> 'Ativar a atualização de textos completos', 
 	'YES_SEARCH_UPDATE_EXPLAIN'				=> 'Os índices de texto completo são atualizados ao enviar uma mensagem, mesmo se a pesquisa estiver desativada.', 
 )); 
-?>

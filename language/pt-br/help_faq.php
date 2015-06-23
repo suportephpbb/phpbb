@@ -1,21 +1,27 @@
 <?php
 /**
 *
-* help_bbcode [Português Brasileiro]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version 2.0.0
-* @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
-* @copyright (c) 2005 phpBB Group, 2014 Suporte phpBB
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Traduzido por: Antonio Carlos Doná - acdona@hotmail.com - segundo as normas do Acordo Ortográfico
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+*
 */
 
-/** 
+/**
+* DO NOT CHANGE
 */
 if (!defined('IN_PHPBB'))
 {
 	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE 
@@ -349,4 +355,3 @@ $help = array(
 		1 => 'Todos os Utilizadores do Fórum podem usar o formulário “Contate-nos”, se a opção estiver ativada.<br />Os Utilizadores podem usar o link “Equipe”.',
 	),
 ); 
-?>

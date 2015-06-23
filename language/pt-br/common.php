@@ -1,14 +1,14 @@
 <?php
 /**
 *
-* common [Português Brasileiro]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version 2.0.0
-* @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
-* @copyright (c) 2005 phpBB Group, 2014 Suporte phpBB
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Traduzido por: Antonio Carlos Doná - acdona@hotmail.com - segundo as normas do Acordo Ortográfico
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+*
 */
 
 /** 
@@ -1413,4 +1413,3 @@ $lang = array_merge($lang, array(
 	'default_dateformat'				=> 'd/M/Y, H:i', // 20/Abr/2014, 09:17
 	
 ));
-?>
