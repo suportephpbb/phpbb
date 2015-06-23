@@ -39,12 +39,12 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'CONFIG_NOT_EXIST'					=> 'Inesperadamente a opção de configuração "%s" não existe.',
 
-	'GROUP_NOT_EXIST'					=> 'Inesperadamente o Grupo "%s" não existe.',
+	'GROUP_NOT_EXIST'					=> 'Inesperadamente o grupo "%s" não existe.',
 
 	'MIGRATION_DATA_DONE'				=> 'Dados instalados: %1$s; Dados: %2$.2f segundos',
-	'MIGRATION_DATA_IN_PROGRESS'		=> 'A instalar dados: %1$s; Dados: %2$.2f segundos',
+	'MIGRATION_DATA_IN_PROGRESS'		=> 'Instalando dados: %1$s; Dados: %2$.2f segundos',
 	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'A migração já está efetivamente instalada (saltar): %s',
-	'MIGRATION_EXCEPTION_ERROR'			=> 'Algo correu mal durante a execução do pedido e foi criada uma exceção. As alterações feitas antes de ocorrer o erro foram revertidas da melhor forma que foi possível. No entanto, deve verificar se existem erros no Fórum.',
+	'MIGRATION_EXCEPTION_ERROR'			=> 'Algo correu mal durante a execução do pedido e foi criada uma exceção. As alterações feitas antes de ocorrer o erro foram revertidas da melhor forma possível. No entanto, deve verificar se existem erros no fórum.',
 	'MIGRATION_NOT_FULFILLABLE'			=> 'A migração "%1$s" não pode ser preenchida completamente, migração faltando "%2$s".',
 	'MIGRATION_SCHEMA_DONE'				=> 'Esquema instalado: %1$s; Dados: %2$.2f segundos',
 	'MIGRATION_APPLY_DEPENDENCIES'      => 'Aplicar dependencias de %s.',
@@ -52,11 +52,18 @@ $lang = array_merge($lang, array(
 	'MIGRATION_NOT_VALID'           	=> '%s não é uma migração válida.',
 	'MIGRATION_SCHEMA_RUNNING'         	=> 'Instalando esquema: %s.',
 
+	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'A migração é inválida. Uma condição em uma declaração utilizando « IF » está faltando.',
+	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'A migração é inválida. Um callback válida para uma etapa de migração em uma instrução de auxílio « IF » está faltando.',
+	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'A migração é inválida. Uma função personalizada exigível não pode ser executada.',
+	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'A migração é inválida. Um tipo de ferramenta de migração desconhecida foi encontrada.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'A migração é inválida. Uma ferramenta de migração indefinida foi encontrada.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'A migração é inválida. Um método de ferramenta de migração indefinido foi encontrado.',
+
 	'MODULE_ERROR'						=> 'Ocorreu um erro durante a criação de um módulo: %s',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Um arquivo com informações do módulo necessário está faltando: %2$s',
 	'MODULE_NOT_EXIST'					=> 'Um módulo requerido não existe: %s',
 
 	'PERMISSION_NOT_EXIST'				=> 'Inesperadamente a configuração de permissão "%s" não existe.',
 
-	'ROLE_NOT_EXIST'					=> 'Inesperadamente a Permissão "%s" não existe.',
+	'ROLE_NOT_EXIST'					=> 'Inesperadamente a permissão "%s" não existe.',
 ));
