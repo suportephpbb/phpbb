@@ -7,7 +7,7 @@ Lista de Traduções, Colaboradores e Ex-Colaboradores da tradução.
 Mantedores
 -------
 * [Chico Gois](https://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=241433)
-* [_Vinny_ (Marcus Vinícius)](https://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=1065865)
+* [Vinny (Marcus Vinícius)](https://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=1065865)
 
 
 Colaboradores
