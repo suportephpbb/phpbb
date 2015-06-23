@@ -103,7 +103,7 @@ $lang = array_merge($lang, array(
 
 	'ACL_U_SENDEMAIL'	=> 'Pode enviar emails',
 	'ACL_U_SENDIM'		=> 'Pode enviar mensagens instantâneas',
-	'ACL_U_IGNOREFLOOD'	=> 'Pode ingnorar limite de flood',
+	'ACL_U_IGNOREFLOOD'	=> 'Pode ignorar limite de flood',
 	'ACL_U_HIDEONLINE'	=> 'Pode ocultar o status online',
 	'ACL_U_VIEWONLINE'	=> 'Pode ver todos usuários online',
 	'ACL_U_SEARCH'		=> 'Pode pesquisar no painel',
