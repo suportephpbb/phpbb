@@ -154,7 +154,7 @@ $lang = array_merge($lang, array(
 	'CHANGING_PREFERENCES'			=> 'Alterando as preferências do fórum',
 	'CHANGING_PROFILE'				=> 'Alterando as configurações de perfil',
 	'CHARACTERS'					=> array(
-		1	=> '%d caracter',
+		1	=> '%d caractere',
 		2	=> '%d caracteres',
 	),
 	'COLLAPSE_VIEW'					=> 'Visão contraída',
@@ -467,7 +467,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '<strong>Tópico não aprovado</strong>:',
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Aprovação do Tópico</strong> pedida por %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'A notificação do tipo "%s" falta no sistema de arquivos.',
-	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Aprovação necessária</strong> do usuário Registado Recentemente: “%1$s”',
+	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Aprovação necessária</strong> do usuário registrado recentemente: “%1$s”',
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'outros',
 	'NOTIFICATION_X_OTHERS'				=> array(
@@ -534,7 +534,7 @@ $lang = array_merge($lang, array(
 	'ONLINE_BUDDIES'				=> 'Amigos online', 
 	// "... :: x registered and y hidden"
 	'ONLINE_USERS_TOTAL'			=> array(
-		1	=> 'No total, há <strong>%1$d</strong> usuário online :: %2$s 1 %3$s',
+		1	=> 'No total, há <strong>%1$d</strong> usuário online :: %2$s e %3$s',
 		2	=> 'No total, há <strong>%1$d</strong> usuários online :: %2$s e %3$s',
 	),
 	// "... :: x registered, y hidden and z guests"
@@ -613,12 +613,12 @@ $lang = array_merge($lang, array(
 	'REGISTERED_USERS'				=> 'Usuários registrados:', 
 // "... and 2 hidden users online"
 	'REG_USERS_ONLINE'				=> array(
-		1	=> 'Há %1$d usuário registado e %2$s conectado',
-		2	=> 'Há %1$d usuáriosregistados e %2$s conectados',
+		1	=> 'Há %1$d usuário registrado e %2$s conectado',
+		2	=> 'Há %1$d usuários registrados e %2$s conectados',
 	),
 	'REG_USERS_TOTAL'				=> array(
-		1	=> '%d registado',
-		2	=> '%d registados',
+		1	=> '%d registrado',
+		2	=> '%d registrados',
 	),
 	'REMOVE'						=> 'Excluir', 
 	'REMOVE_INSTALL'				=> 'Por favor, delete, mova ou renomeie o diretório de instalação antes de utilizar o seu painel. Se este diretório ainda estiver presente, apenas o painel de administração (ACP) estará acessível.',
