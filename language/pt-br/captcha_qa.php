@@ -60,4 +60,5 @@ $lang = array_merge($lang, array(
 
 	'QA_ERROR_MSG'				=> 'Por favor, preencha todos os campos e escreva ao menos uma resposta.',
 	'QA_LAST_QUESTION'			=> 'Você não pode excluir todas as perguntas quando o plugin estiver ativo.',
+
 ));

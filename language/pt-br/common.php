@@ -11,41 +11,41 @@
 *
 */
 
-/** 
-* DO NOT CHANGE 
-*/ 
+/**
+* DO NOT CHANGE
+*/
 if (!defined('IN_PHPBB'))
 {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang)) 
-{ 
-	$lang = array(); 
-} 
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
 
-// DEVELOPERS PLEASE NOTE 
-// 
+// DEVELOPERS PLEASE NOTE
+//
 // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
-// 
-// Placeholders can now contain order information, e.g. instead of 
-// 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows 
-// translators to re-order the output of data while ensuring it remains correct 
-// 
-// You do not need this where single placeholders are used, e.g. 'Message %d' is fine 
-// equally where a string contains only two placeholders which are used to wrap text 
-// in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine 
+//
+// Placeholders can now contain order information, e.g. instead of
+// 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+// translators to re-order the output of data while ensuring it remains correct
+//
+// You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+// equally where a string contains only two placeholders which are used to wrap text
+// in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
 // ’ » “ ” …
 //
 
-$lang = array_merge($lang, array( 
-	'TRANSLATION_INFO'				=> 'Traduzido por: <a href="http://www.suportephpbb.com.br">Suporte phpBB Brasil</a>', 
-	'DIRECTION'						=> 'ltr', 
-	'DATE_FORMAT'					=> '|d M Y|',	// 01 Jan 2014 (with Relative days enabled) 
-	'DATETIME_FORMAT'				=> '|d M Y, H:i|',	// 01 Jan 2014, 13:37 (with Relative days enabled)
-	'USER_LANG'						=> 'pt-br', 
+$lang = array_merge($lang, array(
+	'TRANSLATION_INFO'	=> 'Traduzido por: <a href="http://www.suportephpbb.com.br">Suporte phpBB Brasil</a>',
+	'DIRECTION'			=> 'ltr',
+	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled) 
+	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
+	'USER_LANG'			=> 'pt-br',
 
 	// You can define different rules for the determination of plural forms here.
 	// See http://wiki.phpbb.com/Plural_Rules for more information
@@ -109,7 +109,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_PARTIAL_UPLOAD'			=> 'O arquivo foi parcialmente enviado.',	 
 	'AVATAR_PHP_SIZE_NA'			=> 'O tamanho do avatar é muito grande.<br />Não foi possível determinar o tamanho máximo definido pelo PHP no php.ini.',
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'O tamanho do avatar é muito grande. O tamanho máximo permitido é de %1$d %2$s.<br />Isto é fixo do PHP no php.ini e não pode ser substituído.',
-	'AVATAR_REMOTE_UPLOAD_TIMEOUT'	=> 'O Avatar especificado não pôde ser carregado porque o pedido excedeu o tempo.',
+	'AVATAR_REMOTE_UPLOAD_TIMEOUT'		=> 'O Avatar especificado não pôde ser carregado porque o pedido excedeu o tempo.',
 	'AVATAR_URL_INVALID'			=> 'A URL que você especificou é inválida.', 
 	'AVATAR_URL_NOT_FOUND'			=> 'O arquivo informado não foi encontrado.',	 
 	'AVATAR_WRONG_FILESIZE'			=> 'O tamanho do avatar deve estar entre 0 e %1d %2s.', 
@@ -117,15 +117,15 @@ $lang = array_merge($lang, array(
 
 	'BACK_TO_TOP'					=> 'Voltar ao topo', 
 	'BACK_TO_PREV'					=> 'Voltar à página anterior', 
-	'BAN_TRIGGERED_BY_EMAIL'		=> 'O seu endereço de e-mail foi banido.',
+	'BAN_TRIGGERED_BY_EMAIL'=> 'O seu endereço de e-mail foi banido.',
 	'BAN_TRIGGERED_BY_IP'			=> 'O seu endereço de IP foi banido.', 
 	'BAN_TRIGGERED_BY_USER'			=> 'O seu nome de usuário foi banido.',		 
 	'BBCODE_GUIDE'					=> 'Guia de BBCode', 
 	'BCC'							=> 'BCC', 
 	'BIRTHDAYS'						=> 'Aniversários', 
-	'BOARD_BAN_PERM'				=> 'Você foi banido <b>permanentemente</b> deste fórum!<br /><br />Por favor, contate o %2$sadministrador%3$s para mais informações.', 
-	'BOARD_BAN_REASON'				=> 'Razão para o banimento: <b>%s</b>', 
-	'BOARD_BAN_TIME'				=> 'Você foi banido deste fórum até <b>%1$s</b>.<br /><br />Por favor, contate o %2$sadministrador%3$s para mais informações.', 
+	'BOARD_BAN_PERM'				=> 'Você foi banido <strong>permanentemente</strong> deste fórum!<br /><br />Por favor, contate o %2$sadministrador%3$s para mais informações.', 
+	'BOARD_BAN_REASON'				=> 'Razão para o banimento: <strong>%s</strong>', 
+	'BOARD_BAN_TIME'				=> 'Você foi banido deste fórum até <strong>%1$s</strong>.<br /><br />Por favor, contate o %2$sadministrador%3$s para mais informações.', 
 	'BOARD_DISABLE'					=> 'Este painel não se encontra disponível no momento. Por favor, tente novamente mais tarde.', 
 	'BOARD_DISABLED'				=> 'Este painel não se encontra disponível no momento. Por favor, tente novamente mais tarde.',	 
 	'BOARD_UNAVAILABLE'				=> 'Este painel não se encontra disponível no momento. Por favor, tente novamente mais tarde.',
@@ -135,16 +135,16 @@ $lang = array_merge($lang, array(
 		2	=> 'Usuários neste fórum: %2$s e %1$d visitantes',
 	),
 	'BUTTON_EDIT'					=> 'Editar',
-	'BUTTON_FORUM_LOCKED'			=> 'Fórum Bloqueado',
+	'BUTTON_FORUM_LOCKED'			=> 'Fórum Trancado',
 	'BUTTON_NEW_TOPIC'				=> 'Novo Tópico',
-	'BUTTON_PM'						=> 'PM',
+	'BUTTON_PM'						=> 'MP',
 	'BUTTON_PM_FORWARD'				=> 'Reenviar',
 	'BUTTON_PM_NEW'					=> 'Nova MP',
 	'BUTTON_PM_REPLY'				=> 'Responder MP',
 	'BUTTON_PM_REPLY_ALL'			=> 'Responder a todos',
 	'BUTTON_POST_REPLY'				=> 'Responder',
 	'BUTTON_QUOTE'					=> 'Citar',
-	'BUTTON_TOPIC_LOCKED'			=> 'Bloqueado',
+	'BUTTON_TOPIC_LOCKED'			=> 'Trancado',
 	'BYTES'							=> 'Bytes', 
 	'BYTES_SHORT'					=> 'B',
 
@@ -159,7 +159,7 @@ $lang = array_merge($lang, array(
 	),
 	'COLLAPSE_VIEW'					=> 'Visão contraída',
 	'CLOSE_WINDOW'					=> 'Fechar janela', 
-	'COLOUR_SWATCH'					=> 'Palheta de cores', 
+	'COLOUR_SWATCH'					=> 'Paleta de cores', 
 	'COLON'							=> ':',
 	'COMMA_SEPARATOR'				=> ', ',	// Used in pagination and secret yet-to-be-release style, use localised comma if appropiate, eg: Ideographic or Arabic		 
 	'CONFIRM'						=> 'Confirmar', 
@@ -214,7 +214,7 @@ $lang = array_merge($lang, array(
 	'ERR_CHANGING_DIRECTORY'			=> 'Não foi possível alterar o diretório.', 
 	'ERR_CONNECTING_SERVER'				=> 'Erro ao conectar-se com o servidor.',
 	'ERR_JAB_AUTH'          	        => 'Não foi possível autenticar-se no servidor do jabber.',
-    'ERR_JAB_CONNECT'           	    => 'Não foi possível conectar-se ao servidor do jabber.',
+	'ERR_JAB_CONNECT'           	    => 'Não foi possível conectar-se ao servidor do jabber.',
 	'ERR_UNABLE_TO_LOGIN'				=> 'O seu nome de usuário está incorreto ou inativo ou a sua senha é inválida.',	 
 	'ERR_UNWATCHING'					=> 'Um erro ocorreu durante o cancelamento da subscrição.',
 	'ERR_WATCHING'						=> 'Um erro ocorreu durante a subscrição.',	
@@ -223,7 +223,7 @@ $lang = array_merge($lang, array(
 	'EXPAND_VIEW'						=> 'Visualização expandida', 
 	'EXTENSION'							=> 'Extensão', 
 	'EXTENSION_DISABLED'				=> 'A extensão <strong>%s</strong> não está ativada.',
-	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'O anexo não pode ser exibido, pois a extensão <b>%s</b> foi desativada pelo administrador.',
+	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'O anexo não pode ser exibido, pois a extensão <strong>%s</strong> foi desativada pelo administrador.',
 	'EXTENSION_DOES_NOT_EXIST'			=> 'A extensão <strong>%s</strong> não existe.',
 
 	'FACEBOOK'							=> 'Facebook',
@@ -253,7 +253,7 @@ $lang = array_merge($lang, array(
 	'FROM'								=> 'de', 
 	'FSOCK_DISABLED'					=> 'Não foi possível concluir esta operação, porque a função <var>fsockopen</var> está desativada ou o servidor solicitado não foi encontrado.', 
 	'FSOCK_TIMEOUT'						=> 'Um tempo de espera ocorreu durante a leitura do fluxo de rede.',
-	 
+
 	'FTP_FSOCK_HOST'					=> 'Servidor do FTP', 
 	'FTP_FSOCK_HOST_EXPLAIN'			=> 'Servidor FTP utilizado para se conectar ao seu site.',
 	'FTP_FSOCK_PASSWORD'				=> 'Senha do FTP', 
@@ -334,10 +334,10 @@ $lang = array_merge($lang, array(
 	'INSECURE_REDIRECT'					=> 'Tentativa de redirecionamento para url potencialmente insegura.',
 	'INTERESTS'							=> 'Interesses', 
 	'INVALID_DIGEST_CHALLENGE'			=> 'O desafio de sumário é inválido.',
-	'INVALID_EMAIL_LOG'					=> '<b>%s</b> é um possível endereço de e-mail inválido?', 
+	'INVALID_EMAIL_LOG'					=> '<strong>%s</strong> é um possível endereço de e-mail inválido?', 
 	'INVALID_PLURAL_RULE'				=> 'A regra do plural escolhida é inválida. Os valores válidos são números inteiros entre 0 e 15.',
 	'IP'								=> 'IP', 
-	'IP_BLACKLISTED'					=> 'O seu endereço de IP %1$s foi banido porque está na lista negra. Para mais informações, por favor leia <a href="%2$s">%2$s</a>.',	 
+	'IP_BLACKLISTED'					=> 'O seu endereço de IP %1$s foi banido porque está na lista negra. Para mais informações, por favor leia <a href="%2$s">%2$s</a>.',
 
 	'JABBER'							=> 'Jabber', 
 	'JOINED'							=> 'Registrado em', 
@@ -376,7 +376,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_INFO'						=> 'Para autenticar-se você precisa estar registrado. O registro leva apenas alguns segundos, mas aumenta as suas permissões. O administrador também pode conceder permissões adicionais a usuários registrados. Antes de autenticar-se esteja familiarizado com os nossos termos de uso e políticas relacionadas. Por favor, assegure-se de ler as regras do fórum enquanto navegar pela comunidade.', 
 	'LOGIN_VIEWFORUM'					=> 'O administrador requer que você esteja registrado e autenticado para visualizar este fórum.', 
 	'LOGIN_EXPLAIN_EDIT'				=> 'Para editar mensagens você precisa estar registrado e autenticado.',
-    'LOGIN_EXPLAIN_VIEWONLINE'			=> 'Você deve estar registrado e autenticado para ver a lista de usuários online.',
+	'LOGIN_EXPLAIN_VIEWONLINE'			=> 'Você deve estar registrado e autenticado para ver a lista de usuários online.',
 	'LOGIN_REQUIRED'					=> 'Você precisa logar para realizar esta ação.',
 	'LOGOUT'							=> 'Sair',
 	'LOGOUT_USER'						=> 'Sair [ %s ]', 
@@ -416,7 +416,7 @@ $lang = array_merge($lang, array(
 	'MOVE'								=> 'Mover', 
 
 	'NA'								=> 'N/A', 
-	'NEWEST_USER'						=> 'Novo usuário: <b>%s</b>',
+	'NEWEST_USER'						=> 'Novo usuário: <strong>%s</strong>',
 	'NEW_MESSAGE'						=> 'Nova mensagem', 
 	'NEW_MESSAGES'						=> 'Novas mensagens', 
 	'NEW_POST'							=> 'Nova mensagem',  // Not used anymore
@@ -442,18 +442,18 @@ $lang = array_merge($lang, array(
 	// A, B, C and 2 others replied...
 	// A, B, C and others replied...
 	'NOTIFICATION_BOOKMARK'				=> array(
-		1	=> '<strong>Resposta</strong> de %1$s no Tópico em observação:',
+		1	=> '<strong>Resposta</strong> de %1$s no tópico em observação:',
 	),
 	'NOTIFICATION_FORUM'				=> '<em>Fórum:</em> %1$s',
-	'NOTIFICATION_GROUP_REQUEST'		=> '<strong>Pedido de adesão</strong> de %1$s ao Grupo %2$s.',
-	'NOTIFICATION_GROUP_REQUEST_APPROVED'	=> '<strong>Pedido de adesão aprovado</strong> ao Grupo %1$s.',
+	'NOTIFICATION_GROUP_REQUEST'		=> '<strong>Pedido de adesão</strong> de %1$s ao grupo %2$s.',
+	'NOTIFICATION_GROUP_REQUEST_APPROVED'	=> '<strong>Pedido de adesão aprovado</strong> ao grupo %1$s.',
 	'NOTIFICATION_PM'					=> '<strong>Mensagem Privada</strong> de %1$s:',
 	'NOTIFICATION_POST'					=> array(
 		1	=> '<strong>Resposta</strong> de %1$s ao Tópico:',
 	),
 	'NOTIFICATION_POST_APPROVED'		=> '<strong>Mensagem aprovada</strong>:',
 	'NOTIFICATION_POST_DISAPPROVED'		=> '<strong>Mensagem não aprovada</strong>:',
-	'NOTIFICATION_POST_IN_QUEUE'		=> '<strong>Aprovação de Mensagem</strong> pedida por %1$s:',
+	'NOTIFICATION_POST_IN_QUEUE'		=> '<strong>Aprovação de mensagem</strong> pedida por %1$s:',
 	'NOTIFICATION_QUOTE'				=> array(
 		1	=> '<strong>Citação</strong> de %1$s em:',
 	),
@@ -509,7 +509,7 @@ $lang = array_merge($lang, array(
 	'NO_SUPPORTED_AUTH_METHODS'		=> 'Nenhum método de autenticação suportado.',
 	'NO_TOPIC'						=> 'O tópico selecionado não existe.', 
 	'NO_TOPIC_FORUM'         		=> 'O tópico ou fórum selecionado já não existe mais.',	 
-	'NO_TOPICS'						=> 'Não há mensagens neste fórum<br />Clique em <b>novo tópico</b> para adicionar uma mensagem nova.', 
+	'NO_TOPICS'						=> 'Não há mensagens neste fórum<br />Clique em <strong>novo tópico</strong> para adicionar uma mensagem nova.', 
 	'NO_TOPICS_TIME_FRAME'			=> 'Não existem tópicos neste fórum no período selecionado.',
 	'NO_UNREAD_POSTS'				=> 'Nenhuma mensagem não lida',
 	'NO_UPLOAD_FORM_FOUND'			=> 'O envio do arquivo foi iniciado, mas nenhuma forma de envio válida foi encontrada.', 
@@ -544,7 +544,7 @@ $lang = array_merge($lang, array(
 	),
 	'OPTIONS'						=> 'Opções', 
 
-	'PAGE_OF'						=> 'Página <b>%1$d</b> de <b>%2$d</b>', 
+	'PAGE_OF'						=> 'Página <strong>%1$d</strong> de <strong>%2$d</strong>', 
 	'PAGE_TITLE_NUMBER'				=> 'Página %s',
 	'PASSWORD'						=> 'Senha', 
 	'PIXEL'							=> 'px',
@@ -568,7 +568,7 @@ $lang = array_merge($lang, array(
 	'POSTS_UNAPPROVED'				=> 'Pelo menos uma mensagem neste tópico não foi aprovada.', 
 	'POSTS_UNAPPROVED_FORUM'		=> 'Pelo menos uma mensagem neste fórum não foi aprovada.',
 	'POST_BY_AUTHOR'				=> 'por',		 
-	'POST_BY_FOE'					=> 'Esta mensagem foi enviada por <b>%1$s</b> que está na sua lista de ignorados. %2$sExibir esta mensagem%3$s.', 
+	'POST_BY_FOE'					=> 'Esta mensagem foi enviada por <strong>%1$s</strong> que está na sua lista de ignorados. %2$sExibir esta mensagem%3$s.', 
 	'POST_DISPLAY'					=> '%1$sMostrar esta mensagem%2$s.',
 	'POST_DAY'						=> '%.2f mensagens por dia', 
 	'POST_DELETED_ACTION'			=> 'Mensagem excluída:',
@@ -606,15 +606,15 @@ $lang = array_merge($lang, array(
 	'READING_TOPIC'					=> 'Lendo tópico em %s', 
 	'READ_PROFILE'					=> 'Perfil', 
 	'REASON'						=> 'Razão', 
-	'RECORD_ONLINE_USERS'			=> 'O recorde de usuários online foi de <b>%1$s</b> em %2$s', 
+	'RECORD_ONLINE_USERS'			=> 'O recorde de usuários online foi de <strong>%1$s</strong> em %2$s', 
 	'REDIRECT'						=> 'Redirecionar',	 
 	'REDIRECTS'						=> 'Total de redirecionamentos', 
 	'REGISTER'						=> 'Registrar', 
 	'REGISTERED_USERS'				=> 'Usuários registrados:', 
 // "... and 2 hidden users online"
 	'REG_USERS_ONLINE'				=> array(
-		1	=> 'Há %1$d usuário registrado e %2$s conectado',
-		2	=> 'Há %1$d usuários registrados e %2$s conectados',
+		1	=> 'Há %1$d usuário registrado e %2$s online',
+		2	=> 'Há %1$d usuários registrados e %2$s online',
 	),
 	'REG_USERS_TOTAL'				=> array(
 		1	=> '%d registrado',
@@ -637,27 +637,27 @@ $lang = array_merge($lang, array(
 	'RETURN_PAGE'					=> '%sClique aqui para voltar à página anterior%s', 
 	'RETURN_TOPIC'					=> '%sClique aqui para voltar ao tópico%s', 
 	'RETURN_TO'						=> 'Voltar para “%s”',
-	'RETURN_TO_INDEX'				=> 'Regressar ao índice do fórum',
+	'RETURN_TO_INDEX'				=> 'Voltar ao índice do fórum',
 	'FEED'							=> 'Feed',
 	'FEED_NEWS'						=> 'Notícias',
 	'FEED_TOPICS_ACTIVE'			=> 'Tópicos ativos',
 	'FEED_TOPICS_NEW'				=> 'Novos tópicos',
-	'RULES_ATTACH_CAN'				=> 'Enviar anexos: <b>Permitido</b>', 
-	'RULES_ATTACH_CANNOT'			=> 'Enviar anexos: <b>Proibido</b>', 
-	'RULES_DELETE_CAN'				=> 'Excluir mensagens: <b>Permitido</b>', 
-	'RULES_DELETE_CANNOT'			=> 'Excluir mensagens: <b>Proibido</b>', 
-	'RULES_DOWNLOAD_CAN'			=> 'Baixar anexos: <b>Permitido</b>', 
-	'RULES_DOWNLOAD_CANNOT'			=> 'Baixar anexos: <b>Proibido</b>', 
-	'RULES_EDIT_CAN'				=> 'Editar mensagens: <b>Permitido</b>', 
-	'RULES_EDIT_CANNOT'				=> 'Editar mensagens: <b>Proibido</b>', 
-	'RULES_LOCK_CAN'				=> 'Trancar tópicos: <b>Permitido</b>', 
-	'RULES_LOCK_CANNOT'				=> 'Trancar tópicos: <b>Proibido</b>', 
-	'RULES_POST_CAN'				=> 'Enviar mensagens: <b>Permitido</b>', 
-	'RULES_POST_CANNOT'				=> 'Enviar mensagens: <b>Proibido</b>', 
-	'RULES_REPLY_CAN'				=> 'Responder mensagens: <b>Permitido</b>', 
-	'RULES_REPLY_CANNOT'			=> 'Responder mensagens: <b>Proibido</b>', 
-	'RULES_VOTE_CAN'				=> 'Votar em enquetes: <b>Permitido</b>', 
-	'RULES_VOTE_CANNOT'				=> 'Votar em enquetes: <b>Proibido</b>', 
+	'RULES_ATTACH_CAN'				=> 'Enviar anexos: <strong>Permitido</strong>', 
+	'RULES_ATTACH_CANNOT'			=> 'Enviar anexos: <strong>Proibido</strong>', 
+	'RULES_DELETE_CAN'				=> 'Excluir mensagens: <strong>Permitido</strong>', 
+	'RULES_DELETE_CANNOT'			=> 'Excluir mensagens: <strong>Proibido</strong>', 
+	'RULES_DOWNLOAD_CAN'			=> 'Baixar anexos: <strong>Permitido</strong>', 
+	'RULES_DOWNLOAD_CANNOT'			=> 'Baixar anexos: <strong>Proibido</strong>', 
+	'RULES_EDIT_CAN'				=> 'Editar mensagens: <strong>Permitido</strong>', 
+	'RULES_EDIT_CANNOT'				=> 'Editar mensagens: <strong>Proibido</strong>', 
+	'RULES_LOCK_CAN'				=> 'Trancar tópicos: <strong>Permitido</strong>', 
+	'RULES_LOCK_CANNOT'				=> 'Trancar tópicos: <strong>Proibido</strong>', 
+	'RULES_POST_CAN'				=> 'Enviar mensagens: <strong>Permitido</strong>', 
+	'RULES_POST_CANNOT'				=> 'Enviar mensagens: <strong>Proibido</strong>', 
+	'RULES_REPLY_CAN'				=> 'Responder mensagens: <strong>Permitido</strong>', 
+	'RULES_REPLY_CANNOT'			=> 'Responder mensagens: <strong>Proibido</strong>', 
+	'RULES_VOTE_CAN'				=> 'Votar em enquetes: <strong>Permitido</strong>', 
+	'RULES_VOTE_CANNOT'				=> 'Votar em enquetes: <strong>Proibido</strong>', 
 
 	'SEARCH'						=> 'Pesquisar', 
 	'SEARCH_MINI'					=> 'Pesquisar…',	 
@@ -770,7 +770,7 @@ $lang = array_merge($lang, array(
 		1	=> '%d mensagem privada no total',
 		2	=> '%d mensagens privadas no total',
 	),
-	'TOPIC_POLL'			=> 'Este Tópico tem uma enquete.',
+	'TOPIC_POLL'			=> 'Este tópico tem uma enquete.',
 	'TOTAL_POSTS'			=> 'Total de mensagens',
 	'TOTAL_POSTS_COUNT'		=> array(
 		2	=> 'Total de mensagens <strong>%d</strong>',
@@ -938,8 +938,8 @@ $lang = array_merge($lang, array(
 	// because they are named invers to their offset.
 	'timezones'					=> array(
 		'UTC'					=> 'UTC',
-		'UTC_OFFSET'			=> '%1$s',
-		'UTC_OFFSET_CURRENT'	=> '%1$s - %2$s',
+		'UTC_OFFSET'			=> 'UTC%1$s',
+		'UTC_OFFSET_CURRENT'	=> 'UTC%1$s - %2$s',
 
 		'Etc/GMT-12'			=> 'UTC+12',
 		'Etc/GMT-11'			=> 'UTC+11',
