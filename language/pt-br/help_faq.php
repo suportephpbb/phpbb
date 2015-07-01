@@ -167,7 +167,7 @@ $help = array(
    ), 
    array( 
       0 => 'Como eu posso ressuscitar os meus tópicos?', 
-      1 => 'Clicando em <u>Ressuscitar Tópico</u>, quando você estiver visualizando o mesmo, você pode atualizar e levantar o tópico para o topo do fórum na primeira página. Porém, se você não ver a opção, então esta ferramenta encontra-se desativada. E também é possível efetuar isto simplesmente respondendo ao tópico desejado. Entretanto, fique atento para as regras do website em que você está acessando.' 
+      1 => 'Clicando em “Ressuscitar Tópico”, quando você estiver visualizando o mesmo, você pode atualizar e levantar o tópico para o topo do fórum na primeira página. Porém, se você não ver a opção, então esta ferramenta encontra-se desativada. E também é possível efetuar isto simplesmente respondendo ao tópico desejado. Entretanto, fique atento para as regras do website em que você está acessando.' 
    ), 
    array( 
       0 => '--', 
@@ -336,7 +336,7 @@ $help = array(
    ), 
    array( 
       0 => 'Quem escreveu o phpBB?', 
-      1 => 'Este software (em sua forma não modificada) é produzido, publicado e com direitos reservados ao <a href="https://www.phpbb.com/">phpBB Group</a>. Está disponível sob a licença <strong>GNU</strong> <em>General Public Licence</em> e pode ser distribuído gratuitamente. Verifique o link para mais informações.'
+      1 => 'Este software (em sua forma não modificada) é produzido, publicado e com direitos reservados ao <a href="https://www.phpbb.com/">phpBB Group</a>. Está disponível sob a licença GNU General Public Licence e pode ser distribuído gratuitamente. Verifique o link para mais informações.'
    ), 
    array( 
       0 => 'Quem traduziu o phpBB?', 

@@ -499,7 +499,7 @@ $lang = array_merge($lang, array(
 	'BROWSER_VALID'					=> 'Validar o navegador', 
 	'BROWSER_VALID_EXPLAIN'			=> 'Ativa a validação do navegador em cada sessão, aumentando a sua segurança.', 
 	'CHECK_DNSBL'					=> 'Verificar se o IP está na lista de DNSs bloqueados',
-	'CHECK_DNSBL_EXPLAIN'			=> 'Se ativado, os endereços de IP dos usuários serão checados nos serviços DNSBL ao enviarem mensagens ou criarem novos registros de usuário: <a href="http://spamcop.net">spamcop.net</a> e <a href="http://spamhaus.org">spamhaus.org</a>. Essa operação pode levar algum tempo, dependendo da configuração do servidor. Se essa operação ficar muito lenta ou acusar falsamente endereços de IP, é recomendado que seja desativada.',
+	'CHECK_DNSBL_EXPLAIN'			=> 'Se ativado, os endereços de IP dos usuários serão checados nos serviços DNSBL ao enviarem mensagens ou criarem novos registros de usuário: <a href="http://spamcop.net">spamcop.net</a> e <a href="http://www.spamhaus.org">www.spamhaus.org</a>. Essa operação pode levar algum tempo, dependendo da configuração do servidor. Se essa operação ficar muito lenta ou acusar falsamente endereços de IP, é recomendado que seja desativada.',
 	'CLASS_B'						=> 'A.B', 
 	'CLASS_C'						=> 'A.B.C', 
 	'EMAIL_CHECK_MX'				=> 'Verificar se o domínio é um registro MX válido',
