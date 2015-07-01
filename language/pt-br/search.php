@@ -67,7 +67,7 @@ $lang = array_merge($lang, array(
 		2	=> 'Especificou muitas palavras para pesquisar. Por favor, não insira mais de %1$d palavras.',
 	),
 	
-	'NO_KEYWORDS'			=> 'Você deve especificar pelo menos uma palavra para efetuar a pesquisa. Cada palavra deve ter no mínimo %d caracteres e não deve ultrapassar o limite de %d caracteres.', 
+	'NO_KEYWORDS'			=> 'Você deve especificar pelo menos uma palavra para efetuar a pesquisa. Cada palavra deve ter no mínimo %s caracteres e não deve ultrapassar o limite de %s caracteres.', 
 	'NO_RECENT_SEARCHES'	=> 'Nenhuma pesquisa tem sido realizada recentemente.',
 	'NO_SEARCH'				=> 'Você não pode utilizar o sistema de pesquisas do fórum.', 
 	'NO_SEARCH_RESULTS'		=> 'Nenhuma mensagem foi encontrada utilizando estes critérios', 

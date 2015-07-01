@@ -273,6 +273,6 @@ $lang = array_merge($lang, array(
 	'VIEW_MESSAGE'				=> '%sVer sua mensagem enviada%s',
     'VIEW_PRIVATE_MESSAGE'      => '%sVer a sua mensagem privada enviada%s',
 
-	'WRONG_FILESIZE'			=> 'O arquivo é muito grande. O tamanho máximo permitido é de %1d %2s.',
-	'WRONG_SIZE'				=> 'A imagem não deve ser inferior a %1$d pixels de largura e %2$d pixels de altura, e superior a %3$d pixels de largura e %4$d pixels de altura. A imagem enviada possui %5$d pixels de largura e %6$d pixels de altura.',
+	'WRONG_FILESIZE'			=> 'O arquivo é muito grande. O tamanho máximo permitido é de %1$d %2$s.',
+	'WRONG_SIZE'				=> 'A imagem não deve ser inferior a %1$s pixels de largura e %2$s pixels de altura, e superior a %3$s pixels de largura e %4$s pixels de altura. A imagem enviada possui %5$s pixels de largura e %6$s pixels de altura.',
 ));

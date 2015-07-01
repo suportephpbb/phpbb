@@ -56,7 +56,6 @@ $lang = array_merge($lang, array(
 
 	'EDIT_PROFILE'				=> 'Editar Perfil',
 
-	'EMAIL'	=> 'E-mail',     
 	'EMAIL_BODY_EXPLAIN'	=> 'Esta Mensagem será enviada em texto. Por Favor, não adicione qualquer Código HTML ou BBCode. Para o endereço de resposta será anexado o seu endereço de e-mail.',
 	'EMAIL_DISABLED'		=> 'Todas as funções relativas aos e-mails encontram-se desativadas.',
 	'EMAIL_SENT'			=> 'O seu e-mail foi enviado com sucesso',
@@ -124,7 +123,6 @@ $lang = array_merge($lang, array(
 	'SELECT_SORT_METHOD'	=> 'Selecionar método de ordenação',
 	'SENDER_EMAIL_ADDRESS'		=> 'O seu endereço de email',
 	'SENDER_NAME'				=> 'O seu nome',
-	'SEND_EMAIL'			=> 'Enviar e-mail',
 	'SEND_ICQ_MESSAGE'		=> 'Enviar mensagem ICQ',	
 	'SEND_IM'				=> 'Enviando mensagem instantânea',
 	'SEND_JABBER_MESSAGE'	=> 'Enviar mensagem jabber',
