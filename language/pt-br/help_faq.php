@@ -340,7 +340,7 @@ $help = array(
    ), 
    array( 
       0 => 'Quem traduziu o phpBB?', 
-      1 => 'O phpBB foi traduzido por <a href="http://www.suportephpbb.com.br/">Suporte phpBB</a> & <a href="http://www.amacd.com.br/forum/">Antonio Carlos Doná</a>, sendo esta tradução gratuita e disponível no link anterior. A tradução do Suporte phpBB é a oficial à Língua Portuguesa do Brasil. Para mais informações, visite o Suporte phpBB!' 
+      1 => 'O phpBB foi traduzido por <a href="http://www.suportephpbb.com.br/">Suporte phpBB</a> e seus colaboradores, sendo esta tradução gratuita e disponível no link anterior. A tradução do Suporte phpBB é a oficial à Língua Portuguesa do Brasil. Para mais informações, visite o Suporte phpBB!' 
    ), 
    array( 
       0 => 'Porque não há a função X?', 
