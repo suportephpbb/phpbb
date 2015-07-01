@@ -167,7 +167,7 @@ $lang = array_merge($lang, array(
 	'FILES_OPTIONAL_EXPLAIN'			=> '<strong>Opcional</strong> - Estes arquivos, diretórios ou permissões não são necessários. A rotina de instalação tentará usar outras técnicas para ser completada caso eles não existam ou não possam ser escritos. No entanto, a presença destes arquivos, diretórios e permissões irá acelerar o processo de instalação.',
 	'FILES_REQUIRED'					=> 'Arquivos e diretórios',
 	'FILES_REQUIRED_EXPLAIN'			=> '<strong>Necessário</strong> - Para funcionar corretamente, o phpBB precisa ter acesso ou escrever determinados arquivos ou diretórios. Se você visualizar "Não encontrado", precisará criar o diretório ou arquivo relevante. Se você visualizar "Não pode ser escrito", você precisará alterar as permissões no arquivo ou diretório para permitir que o phpBB escreva nele.',
-	'FILLING_TABLE'						=> 'Preenchendo a tabela <b>%s</b>',
+	'FILLING_TABLE'						=> 'Preenchendo a tabela <strong>%s</strong>',
 	'FILLING_TABLES'					=> 'Preenchendo as tabelas',
 	
 	'FINAL_STEP'						=> 'Etapa final do processo',
@@ -273,8 +273,8 @@ $lang = array_merge($lang, array(
 	'MBSTRING_HTTP_OUTPUT'					=> 'Conversão de caracteres de saída HTTP',
 	'MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> deve estar setada para <samp>pass</samp>.',
 
-	'MAKE_FOLDER_WRITABLE'		=> 'Por favor, certifique-se de que esta pasta existe e pode ser escrita pelo servidor e tente novamente:<br />»<b>%s</b>',
-	'MAKE_FOLDERS_WRITABLE'		=> 'Por favor, certifique-se de que estas pastas existem e podem ser escritas pelo servidor e tente novamente:<br />»<b>%s</b>',
+	'MAKE_FOLDER_WRITABLE'		=> 'Por favor, certifique-se de que esta pasta existe e pode ser escrita pelo servidor e tente novamente:<br />»<strong>%s</strong>',
+	'MAKE_FOLDERS_WRITABLE'		=> 'Por favor, certifique-se de que estas pastas existem e podem ser escritas pelo servidor e tente novamente:<br />»<strong>%s</strong>',
 
 	'MYSQL_SCHEMA_UPDATE_REQUIRED'	=> 'O schema do seu banco de dados MySQL para o phpBB encontra-se desatualizado. O phpBB detectou um schema para o MySQL 3.x/4.x, mas o servidor roda no MySQL %2$s.<br /><strong>Antes de proceder com a atualização você deve atualizar o schema.</strong><br /><br />Por favor, refira ao <a href="https://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">artigo sobre o aprimoramento do schema MySQL</a>. Caso você encontre problemas, por favor, use o <a href="https://www.phpbb.com/community/viewforum.php?f=466">phpBB.com Support Forums</a> ou <a href="http://www.suportephpbb.com.br">nossos fóruns de suporte</a>.',
 	
@@ -354,7 +354,7 @@ $lang = array_merge($lang, array(
 	'SYNC_TOPICS'				=> 'Iniciando a sincronização de tópicos',
 	'SYNC_TOPIC_ID'				=> 'Sincronizando tópicos a partir do topic_id $1%s ao $2%s.',
 
-	'TABLES_MISSING'			=> 'Não foi possível encontrar estas tabelas<br />» <b>%s</b>.',
+	'TABLES_MISSING'			=> 'Não foi possível encontrar estas tabelas<br />» <strong>%s</strong>.',
 	'TABLE_PREFIX'				=> 'Prefixo das tabelas no banco de dados',
 	'TABLE_PREFIX_EXPLAIN'		=> 'O prefixo deve iniciar com uma letra e deve conter somente letras, números e espaços.',
 	'TABLE_PREFIX_SAME'			=> 'O prefixo das tabelas precisa ser aquele usado pelo software que você está convertendo.<br />» O prefixo das tabelas especificado foi %s.',
