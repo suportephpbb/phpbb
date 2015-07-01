@@ -568,8 +568,8 @@ $lang = array_merge($lang, array(
 	'LOG_REPORT_CLOSED'			=> '<strong>Denúncia trancada</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Denúncia excluída</strong><br />» %s',
 	'LOG_RESTORE_TOPIC'			=> '<strong>Foi restaurado o Tópico “%1$s” escrito por</strong><br />» %2$s',
-	'LOG_SOFTDELETE_POST'		=> '<strong>Foi excluída a mensagem “%1$s” escrita por “%2$s” pelo seguinte motivo</strong><br />» %3$s',
-	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Foi excluído o Tópico “%1$s” escrito por “%2$s” pelo seguinte motivo</strong><br />» %3$s',
+	'LOG_SOFTDELETE_POST'		=> '<strong>Foi excluída a mensagem “%1$s” escrita por “%2$s” pela seguinte razão</strong><br />» %3$s',
+	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Foi excluído o tópico “%1$s” escrito por “%2$s” pela seguinte razão</strong><br />» %3$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Mensagens subdivididas movidas</strong><br />» para %s', 
 	'LOG_SPLIT_SOURCE'			=> '<strong>Mensagens subdivididas</strong><br />» de %s', 
 
