@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 $help = array( 
    array( 
       0 => '--', 
-      1 => 'Sobre o <i>login</i> e o <i>registro</i>' 
+      1 => 'Sobre o <em>login</em> e o <em>registro</em>' 
    ), 
 	array(
 		0 => 'Por que preciso registar-me?',
@@ -74,12 +74,12 @@ $help = array(
       1 => 'Se não assinalar <em>Lembrar minhas informações</em>, você não entrará automaticamente da próxima vez que visitar o fórum. Isto evita o uso abusivo da sua conta por parte de outras pessoas. Para manter-se online e não necessitar escrever o seu nome de usuário e senha, assinale a caixa quando estiver efetuando o login. Isto não é recomendável caso acesse o fórum através de um computador compartilhado por outros usuários, ou seja, bibliotecas, café internet ou cyber café, universidades, etc. Se não consegue visualizar a checkbox, é possível que o administrador tenha desativado esta ferramenta.' 
    ), 
  array( 
-      0 => 'O que a opção de <i>Excluir todos os cookies deste painel</i> faz?', 
+      0 => 'O que a opção de <em>Excluir todos os cookies deste painel</em> faz?', 
       1 => 'Simplesmente exclui todos os cookies gerados pelo sistema phpBB3, os quais lhe mantém autenticado dentro do fórum e que também permitem o funcionamento de determinadas opções ativadas pelo administrador. Se você estiver com problemas de entrar e sair na comunidade, deletar os cookies pode ser uma ajuda alternativa.', 
    ), 
    array( 
       0 => '--', 
-      1 => 'Sobre as <i>preferências</i> e <i>configuração</i> de usuários' 
+      1 => 'Sobre as <em>preferências</em> e <em>configuração</em> de usuários' 
    ), 
    array( 
       0 => 'Como altero a minha configuração?', 
@@ -119,7 +119,7 @@ $help = array(
    ), 
    array( 
       0 => '--', 
-      1 => 'Sobre as <i>mensagens</i>' 
+      1 => 'Sobre as <em>mensagens</em>' 
    ), 
    array( 
       0 => 'Como posso enviar uma mensagem?', 
@@ -158,7 +158,7 @@ $help = array(
       1 => 'Se o administrador tiver ativado esta opção, vá até a mensagem que você deseja denunciar e verá um botão que é utilizado para denunciar mensagens. Clicando ali, você será encaminhado às etapas necessárias para executar esta operação.' 
    ), 
    array( 
-      0 => 'O que é o botão <i>Salvar</i> no envio de tópicos?', 
+      0 => 'O que é o botão <em>Salvar</em> no envio de tópicos?', 
       1 => 'Esta opção lhe permite salvar o rascunho de uma determinada mensagem que você deseje enviar em um outro momento. Para recarregá-la, vá ao painel de controle do usuário e siga as devidas opções.' 
    ), 
    array( 
@@ -171,7 +171,7 @@ $help = array(
    ), 
    array( 
       0 => '--', 
-      1 => 'Sobre os <i>formatos</i> e <i>tipos de tópicos</i>' 
+      1 => 'Sobre os <em>formatos</em> e <em>tipos de tópicos</em>' 
    ), 
    array( 
       0 => 'O que é BBCode?', 
@@ -216,7 +216,7 @@ $help = array(
    ),   
    array( 
       0 => '--', 
-      1 => 'Sobre os <i>níveis de usuários</i> e <i>grupos</i>' 
+      1 => 'Sobre os <em>níveis de usuários</em> e <em>grupos</em>' 
    ), 
    array( 
       0 => 'O que são administradores?', 
@@ -243,16 +243,16 @@ $help = array(
       1 => 'O administrador do fórum pode assinalar cores aos membros de um determinado grupo, para identificá-los diante de outros usuários e grupos distintos.' 
    ), 
    array( 
-      0 => 'O que é um <i>Grupo padrão</i>?', 
+      0 => 'O que é um <em>Grupo padrão</em>?', 
       1 => 'Se você é membro de mais de um grupo de usuários, será determinado qual cor e rank lhe serão atribuídos por padrão. O administrador poderá lhe conceder a opção de escolha do seu grupo padrão através de seu painel de controle do usuário.' 
    ), 
    array( 
-      0 => 'O que é o link <i>Equipe do fórum</i>?', 
+      0 => 'O que é o link <em>Equipe do fórum</em>?', 
       1 => 'Esta página exibirá uma lista de todos os membros da equipe do fórum, incluindo os administradores e moderadores com todos os seus respectivos detalhes e informações adicionais.' 
    ), 
    array( 
       0 => '--', 
-      1 => 'Sobre as <i>mensagens privadas</i>' 
+      1 => 'Sobre as <em>mensagens privadas</em>' 
    ), 
    array( 
       0 => 'Não consigo enviar mensagens privadas!', 
@@ -268,7 +268,7 @@ $help = array(
    ), 
    array( 
       0 => '--', 
-      1 => 'Sobre os <i>amigos</i> e <i>inimigos</i>' 
+      1 => 'Sobre os <em>amigos</em> e <em>inimigos</em>' 
    ), 
    array( 
       0 => 'O que é a lista de amigos e inimigos?', 
@@ -280,7 +280,7 @@ $help = array(
    ), 
    array( 
       0 => '--', 
-      1 => 'Sobre a <i>pesquisa</i>' 
+      1 => 'Sobre a <em>pesquisa</em>' 
    ), 
    array( 
       0 => 'Como eu posso pesquisar?', 
@@ -304,7 +304,7 @@ $help = array(
    ), 
    array( 
       0 => '--', 
-      1 => 'Sobre a <i>subscrição de tópicos</i> e <i>favoritos</i>' 
+      1 => 'Sobre a <em>subscrição de tópicos</em> e <em>favoritos</em>' 
    ), 
    array( 
       0 => 'Qual é a diferença existente entre os favoritos e a subscrição?', 
@@ -320,7 +320,7 @@ $help = array(
    ), 
    array( 
       0 => '--', 
-      1 => 'Sobre os <i>anexos</i>' 
+      1 => 'Sobre os <em>anexos</em>' 
    ), 
    array( 
       0 => 'Quais os anexos que são permitidos no fórum?', 
@@ -332,7 +332,7 @@ $help = array(
    ), 
    array( 
       0 => '--', 
-      1 => 'Sobre o <i>Sistema phpBB3</i>' 
+      1 => 'Sobre o <em>Sistema phpBB3</em>' 
    ), 
    array( 
       0 => 'Quem escreveu o phpBB?', 
