@@ -9,4 +9,3 @@ Pedimos desculpas por este incômodo. No entanto esta ação é fundamental por 
 {USERNAME}, obrigado pela sua colaboração.
 
 {EMAIL_SIG}
-
