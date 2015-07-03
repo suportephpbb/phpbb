@@ -40,9 +40,9 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array( 
 	'TERMS_OF_USE_CONTENT'		=> 'Apesar dos administradores e moderadores deste fórum tentarem excluir ou editar qualquer material indesejável logo que detectado, é impossível rever todas as suas mensagens. Como tal você reconhece que todas as mensagens enviadas nos fóruns expressam os pontos de vista e opiniões dos seus respectivos autores e não dos administradores ou moderadores (exceto mensagens enviadas por essas pessoas) não sendo por tal responsáveis.<br />
 	<br />
-	Você aceita <b>não enviar qualquer mensagem abusiva, obscena, vulgar, insultuosa, difamadora, de ódio, ameaçadora, sexualmente tendenciosa ou qualquer outro material que possa violar qualquer lei aplicável. A incidência desses fatos implicará em sua expulsão imediata e permanente</b>. <b>Os endereços de IP de todas as mensagens são registrados para ajudar a implementar essas condições.</b> Você concorda que os administradores e moderadores deste fórum possuem o direito de excluir, editar, mover ou trancar qualquer tópico a qualquer hora que eles assim o decidam e seja implícito. Como usuário você aceita que qualquer informação que forneceu acima seja salva em um banco de dados. Apesar dessa informação não ser fornecida a terceiros sem a sua autorização, os administradores ou moderadores não podem assumir a responsabilidade por qualquer tentativa ou ato de \'hacking\', intromissão forçada e ilegal que conduza a exposição dessa informação.<br />
+	Você aceita <strong>não enviar qualquer mensagem abusiva, obscena, vulgar, insultuosa, difamadora, de ódio, ameaçadora, sexualmente tendenciosa ou qualquer outro material que possa violar qualquer lei aplicável. A incidência desses fatos implicará em sua expulsão imediata e permanente</strong>. <strong>Os endereços de IP de todas as mensagens são registrados para ajudar a implementar essas condições.</strong> Você concorda que os administradores e moderadores deste fórum possuem o direito de excluir, editar, mover ou trancar qualquer tópico a qualquer hora que eles assim o decidam e seja implícito. Como usuário você aceita que qualquer informação que forneceu acima seja salva em um banco de dados. Apesar dessa informação não ser fornecida a terceiros sem a sua autorização, os administradores ou moderadores não podem assumir a responsabilidade por qualquer tentativa ou ato de “hacking”, intromissão forçada e ilegal que conduza a exposição dessa informação.<br />
 	<br />
-	O sistema phpBB utiliza \'cookies\' para salvar informações no seu computador. Esses \'cookies\' não possuem nenhuma das informações acima fornecidas, apenas servem para melhorar o seu conforto enquanto visita este fórum. O endereço de e-mail é apenas utilizado para confirmar a informação do seu registro e a senha (bem como para enviar novas senhas caso se esqueça da que enviou ao se registrar).<br />
+	O sistema phpBB utiliza “cookies” para salvar informações no seu computador. Esses “cookies” não possuem nenhuma das informações acima fornecidas, apenas servem para melhorar o seu conforto enquanto visita este fórum. O endereço de e-mail é apenas utilizado para confirmar a informação do seu registro e a senha (bem como para enviar novas senhas caso se esqueça da que enviou ao se registrar).<br />
 	<br />
 	Ao clicar abaixo para prosseguir com o registro você concorda em seguir estas condições.', 
 	 
@@ -233,7 +233,7 @@ $lang = array_merge($lang, array(
 		2	=> '%2$d de %1$s arquivadas',
 	),
 	'FOLDER_NAME_EMPTY'			=> 'Você deve especificar um nome para este diretório.',
-	'FOLDER_NAME_EXIST'			=> 'A pasta <b>%s</b> já existe.',
+	'FOLDER_NAME_EXIST'			=> 'A pasta <strong>%s</strong> já existe.',
 	'FOLDER_OPTIONS'			=> 'Opções de pasta', 
 	'FOLDER_RENAMED'			=> 'A pasta foi renomeada com sucesso.',
 	'FOLDER_REMOVED'			=> 'A pasta foi excluída com sucesso.',
