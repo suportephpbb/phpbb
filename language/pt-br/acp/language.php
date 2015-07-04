@@ -46,9 +46,9 @@ $lang = array_merge($lang, array(
 
 	'LANGUAGE_DETAILS_UPDATED'			=> 'A configuração de idiomas foi atualizada com sucesso.', 
 	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'O pacote de idiomas já se encontra instalado.', 
-	'LANGUAGE_PACK_DELETED'				=> 'O pacote de idiomas <strong>%s</strong> foi excluído com sucesso. Todos os usuários que utilizavam este idioma foram atualizados para o idioma padrão do painel.', 
+	'LANGUAGE_PACK_DELETED'				=> 'O pacote de idiomas “%s” foi excluído com sucesso. Todos os usuários que utilizavam este idioma foram atualizados para o idioma padrão do painel.', 
 	'LANGUAGE_PACK_DETAILS'				=> 'Informações do pacote de idiomas', 
-	'LANGUAGE_PACK_INSTALLED'			=> 'O pacote de idiomas <strong>%s</strong> foi instalado com sucesso.',
+	'LANGUAGE_PACK_INSTALLED'			=> 'O pacote de idiomas “%s” foi instalado com sucesso.',
 	'LANGUAGE_PACK_CPF_UPDATE'			=> 'As sequências de idioma dos campos de perfil personalizados foram copiados do idioma padrão. Por favor, altere-os caso necessário.',
 	'LANGUAGE_PACK_ISO'					=> 'ISO', 
 	'LANGUAGE_PACK_LOCALNAME'			=> 'Nome do local', 
@@ -69,8 +69,8 @@ $lang = array_merge($lang, array(
 	'NO_REMOVE_DEFAULT_LANG'		=> 'Você não pode excluir o pacote de idiomas padrão.<br />Se você deseja excluir este pacote, primeiro altere o idioma padrão do seu painel.', 
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Não há pacotes de idiomas desinstalados', 
 
-	'THOSE_MISSING_LANG_FILES'			=> 'Os arquivos seguintes estão ausentes da pasta %s de idiomas', 
-	'THOSE_MISSING_LANG_VARIABLES'		=> 'As variáveis seguintes estão ausentes do pacote de idiomas <strong>%s</strong>', 
+	'THOSE_MISSING_LANG_FILES'			=> 'Os arquivos seguintes estão ausentes da pasta “%s” de idiomas', 
+	'THOSE_MISSING_LANG_VARIABLES'		=> 'As variáveis seguintes estão ausentes do pacote de idiomas “%s”', 
 
 	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Pacotes de Idiomas Desinstalados', 
 )); 
