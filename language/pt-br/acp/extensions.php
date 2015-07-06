@@ -111,8 +111,8 @@ $lang = array_merge($lang, array(
 
 	'NOT_UP_TO_DATE'		=> '%s não está atualizado',
 	'UP_TO_DATE'			=> '%s está atualizado',
-	'ANNOUNCEMENT_TOPIC'	=> 'Anúncio de Lançamento',
-	'DOWNLOAD_LATEST'		=> 'Versão para Transferência',
+	'ANNOUNCEMENT_TOPIC'	=> 'Anúncio de lançamento',
+	'DOWNLOAD_LATEST'		=> 'Versão para download',
 	'NO_VERSIONCHECK'		=> 'Não foi obtida de nenhuma informação de versão.',
 
 	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Verificar novamente todas as versões',

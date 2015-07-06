@@ -92,4 +92,4 @@ $lang = array_merge($lang, array(
 	'PRUNE_SUCCESS'					=> 'A limpeza foi executada com sucesso.', 
 
 	'TOPICS_PRUNED'		=> 'Tópicos limpos', 
-)); 
+));

@@ -83,4 +83,4 @@ $lang = array_merge($lang, array(
 	'STYLE_USED_BY'					=> 'Usado por (incluindo Motor de Busca)',
 
 	'UNINSTALL_DEFAULT'				=> 'Não é possivél desinstalar o estilo padrão.',
-)); 
+));

@@ -599,4 +599,4 @@ $lang = array_merge($lang, array(
     'JAB_USE_SSL_EXPLAIN'       => 'Se ativo, uma conexão segura tentará ser estabilizada. A porta Jabber será alterada para 5223 se a porta 5222 tiver sido especificada.',
 	'JAB_USERNAME'				=> 'Usuário jabber ou JID', 
 	'JAB_USERNAME_EXPLAIN'		=> 'Escreva um nome de usuário registrado ou um JID válido. O usuário não será checado para uma devida validação. Se você apenas especificar um nome de usuário, então seu JID será o seu nome de usuário junto ao servidor especificado acima. Especifique um JID válido, por exemplo user@jabber.org.', 
-)); 
+));

@@ -152,4 +152,4 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_DEFAULT'			=> 'Definir como grupo padrão', 
 	'USER_GROUP_DEFAULT_EXPLAIN'	=> 'Selecionando sim aqui, você especificará este grupo como padrão para os usuários adicionados.',
 	'USER_GROUP_LEADER'				=> 'Definir como líder do grupo', 
-)); 
+));

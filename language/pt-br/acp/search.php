@@ -135,4 +135,4 @@ $lang = array_merge($lang, array(
 	'YES_SEARCH_EXPLAIN'					=> 'Ativa a funcionalidade da pesquisa, incluindo a pesquisa de usuários.', 
 	'YES_SEARCH_UPDATE'						=> 'Ativar a atualização de textos completos', 
 	'YES_SEARCH_UPDATE_EXPLAIN'				=> 'Os índices de texto completo são atualizados ao enviar uma mensagem, mesmo se a pesquisa estiver desativada.', 
-)); 
+));

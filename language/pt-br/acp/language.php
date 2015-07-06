@@ -72,5 +72,5 @@ $lang = array_merge($lang, array(
 	'THOSE_MISSING_LANG_FILES'			=> 'Os arquivos seguintes estão ausentes da pasta “%s” de idiomas', 
 	'THOSE_MISSING_LANG_VARIABLES'		=> 'As variáveis seguintes estão ausentes do pacote de idiomas “%s”', 
 
-	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Pacotes de Idiomas Desinstalados', 
-)); 
+	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Pacotes de idiomas desinstalados', 
+));

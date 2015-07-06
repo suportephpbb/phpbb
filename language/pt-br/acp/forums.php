@@ -151,7 +151,7 @@ $lang = array_merge($lang, array(
 	'PRUNE_STICKY'				=> 'Limpar tópicos fixos', 
 	'PRUNE_OLD_POLLS'			=> 'Limpar enquetes antigas', 
 	'PRUNE_OLD_POLLS_EXPLAIN'	=> 'Exclui tópicos com enquetes que não tenham sido votadas dentro de um determinado período.', 
-	 
+
 	'REDIRECT_ACL'	=> 'Agora você pode %satribuir permissões%s para este fórum.', 
 
 	'SYNC_IN_PROGRESS'			=> 'Sincronizando fórum', 
@@ -161,4 +161,4 @@ $lang = array_merge($lang, array(
 	'TYPE_FORUM'		=> 'Fórum', 
 	'TYPE_LINK'			=> 'Link', 
 	'UNLOCKED'			=> 'Destrancado', 
-)); 
+));

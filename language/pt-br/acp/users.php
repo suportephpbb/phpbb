@@ -143,4 +143,4 @@ $lang = array_merge($lang, array(
 	'USER_SIG_UPDATED'				=> 'A assinatura do usuário foi atualizada com sucesso.', 
 	'USER_WARNING_LOG_DELETED'		=> 'Não há informação disponível. Possivelmente as entradas do log tenham sido deletadas.',
 	'USER_TOOLS'					=> 'Ferramentas básicas', 
-)); 
+));

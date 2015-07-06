@@ -286,4 +286,4 @@ $lang = array_merge($lang, array(
 	'REASON_TITLE_TRANSLATED'	=> 'Título da razão exibida', 
 	'REASON_UPDATED'			=> 'A razão para denúncia/reprovação foi atualizada com sucesso.', 
 	'USED_IN_REPORTS'		=> 'Utilizado em denúncias', 
-)); 
+));
