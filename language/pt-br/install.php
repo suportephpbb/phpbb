@@ -539,26 +539,26 @@ $lang = array_merge($lang, array(
 	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Aqui você pode atualizar a instalação do seu phpBB para a última versão.<br />Durantes este processo, todos os seus arquivos serão devidamente checados em sua integridade. Você pode revisar todas as diferenças e arquivos antes da atualização.<br /><br />A própria atualização do arquivo pode ser realizada de duas maneiras.</p><h2>Atualização Manual</h2><p>Com esta atualização, você pode baixar uma seleção pessoal de arquivos modificados para ter certeza de que você não perderá as modificações realizadas nestes. Depois de ter baixado este pacote, você deve manualmente enviar os arquivos para os seus respectivos diretórios e pastas. Em seguida, você pode fazer o estágio da verificação do arquivo novamente para ver se você moveu corretamente os seus arquivos.</p><h2>Atualização Automática com FTP</h2><p>Este método é similar ao primeiro, mas você não precisa baixar os arquivos modificados e enviá-los ao seu servidor. Isto será executado para você. Em ordem para utilizar este método, você precisa saber as informações de seu registro de FTP desde que você seja exigido para isso. Depois de finalizado, você será redirecionado para a verificação dos arquivos novamente para ter a certeza de que tudo foi atualizado corretamente.<br /><br />',
 	'UPDATE_INSTRUCTIONS'			=> '
 
-		<h1>Anúncio de lançamento</h1>
+		<h1>Release announcement</h1>
 
-		<p>Por favor, leia o anúncio de lançamento da mais nova versão</strong></a> antes de continuar com o processo de atualização, pois aqui poderá conter informações importantes. E também estarão disponíveis os links para download do pacote oficial e o code changes.</p>
+		<p>Please read the release announcement for the latest version before you continue your update process, it may contain useful information. It also contains full download links as well as the change log.</p>
 
 		<br />
 
-		<h1>Como atualizar a sua instalação com o Pacote de Atualização Automática</h1>
+		<h1>How to update your installation with the Automatic Update Package</h1>
 
-		<p>O método de atualização recomendado aqui é apenas válido para o pacote de atualização automática. Você também pode atualizar a sua instalação utilizando os métodos listados no INSTALL.html. As etapas de atualização automática do phpBB3 são as seguintes:</p>
+		<p>The recommended way of updating your installation listed here is only valid for the automatic update package. You are also able to update your installation using the methods listed within the INSTALL.html document. The steps for updating phpBB3 automatically are:</p>
 
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Vá até a <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">página de downloads do phpBB.com</a> e baixe o arquivo do "Automatic Update Package" correto.<br /><br /></li>
-			<li>Descompacte o arquivo.<br /><br /></li>
-			<li>Envie a pasta de instalação completamente descompactada para o seu servidor (onde encontra-se o arquivo config.php).<br /><br /></li>
+			<li>Go to the <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com downloads page</a> and download the "Automatic Update Package" archive.<br /><br /></li>
+			<li>Unpack the archive.<br /><br /></li>
+			<li>Upload the complete uncompressed "install" and "vendor" folders to your phpBB root directory (where your config.php file is).<br /><br /></li>
 		</ul>
 
-		<p>Depois de enviado, o seu fórum se encontrará offline para os usuários normais conforme o diretório de instalação que você enviou agora estiver presente.<br /><br />
-		<strong><a href="%1$s" title="%1$s">Agora inicie o processo de instalação inserindo em seu navegador o endereço da pasta /install</a>.</strong><br />
+		<p>Once uploaded your board will be offline for normal users due to the install directory you uploaded now present.<br /><br />
+		<strong><a href="%1$s" title="%1$s">Now start the update process by pointing your browser to the install folder</a>.</strong><br />
 		<br />
-		Você será levado em seguida ao processo de atualização. Você será devidamente avisado quando a atualização estiver completa.
+		You will then be guided through the update process. You will be notified once the update is complete.
 		</p>
 	',
 	'UPDATE_METHOD'					=> 'Método de atualização',
