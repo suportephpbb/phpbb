@@ -250,7 +250,7 @@ $help = array(
    ), 
    array( 
       0 => '--', 
-      1 => 'Sobre as Mensagens Privadas</em>' 
+      1 => 'Sobre as Mensagens Privadas' 
    ), 
    array( 
       0 => 'Não consigo enviar mensagens privadas!', 
