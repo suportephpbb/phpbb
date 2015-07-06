@@ -121,4 +121,4 @@ $lang = array_merge($lang, array(
 		1	=> 'Tem que especificar pelo menos %d caracter do nomes dos autores.',
 		2	=> 'Tem que especificar pelo menos %d caracteres do nomes dos autores.',
 	),
-)); 
+));

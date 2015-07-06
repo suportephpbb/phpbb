@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'NOT_LEADER_OF_GROUP'				=> 'A ação selecionada não pode ser realizada porque você não é líder do grupo selecionado.', 
 	'NOT_MEMBER_OF_GROUP'				=> 'A ação selecionada não pode ser realizada porque você não é membro do grupo selecionado ou a sua inscrição talvez ainda não tenha sido aceita.',
 	'NOT_RESIGN_FROM_DEFAULT_GROUP'		=> 'Você não está autorizado a sair de seu grupo padrão.', 
-	 
+
 	'PRIMARY_GROUP'						=> 'Grupo primário', 
 
 	'REMOVE_SELECTED'					=> 'Excluir selecionados', 
@@ -92,4 +92,4 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_DEMOTE'					=> 'Demitir liderança', 
 	'USER_GROUP_DEMOTE_CONFIRM'			=> 'Você deseja realmente demitir-se do grupo selecionado?', 
 	'USER_GROUP_DEMOTED'				=> 'A sua demissão foi realizada com sucesso.', 
-)); 
+));

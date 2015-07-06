@@ -655,4 +655,4 @@ $lang = array_merge($lang, array(
 	'NO_MEMBER'		=> 'Não há membros', 
 	'NO_PENDING'	=> 'Não há membros pendentes', 
 	'NO_NONMEMBER'	=> 'Não há grupos vazios', 
-)); 
+));

@@ -430,4 +430,4 @@ $lang = array_merge($lang, array(
 			'OTHER' 	=> 'A mensagem denunciada não se encaixa em qualquer outra categoria. Por favor, utilize o campo de informações adicionais.'
 		) 
 	), 
-)); 
+));
