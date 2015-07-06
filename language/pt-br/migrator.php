@@ -37,33 +37,33 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CONFIG_NOT_EXIST'					=> 'Inesperadamente a opção de configuração "%s" não existe.',
+	'CONFIG_NOT_EXIST'					=> 'Inesperadamente a opÃ§Ã£o de configuraÃ§Ã£o "%s" nÃ£o existe.',
 
-	'GROUP_NOT_EXIST'					=> 'Inesperadamente o grupo "%s" não existe.',
+	'GROUP_NOT_EXIST'					=> 'Inesperadamente o grupo "%s" nÃ£o existe.',
 
 	'MIGRATION_DATA_DONE'				=> 'Dados instalados: %1$s; Dados: %2$.2f segundos',
 	'MIGRATION_DATA_IN_PROGRESS'		=> 'Instalando dados: %1$s; Dados: %2$.2f segundos',
-	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'A migração já está efetivamente instalada (saltar): %s',
-	'MIGRATION_EXCEPTION_ERROR'			=> 'Algo correu mal durante a execução do pedido e foi criada uma exceção. As alterações feitas antes de ocorrer o erro foram revertidas da melhor forma possível. No entanto, deve verificar se existem erros no fórum.',
-	'MIGRATION_NOT_FULFILLABLE'			=> 'A migração "%1$s" não pode ser preenchida completamente, migração faltando "%2$s".',
+	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'A migraÃ§Ã£o jÃ¡ estÃ¡ efetivamente instalada (saltar): %s',
+	'MIGRATION_EXCEPTION_ERROR'			=> 'Algo correu mal durante a execuÃ§Ã£o do pedido e foi criada uma exceÃ§Ã£o. As alteraÃ§Ãµes feitas antes de ocorrer o erro foram revertidas da melhor forma possÃ­vel. No entanto, deve verificar se existem erros no fÃ³rum.',
+	'MIGRATION_NOT_FULFILLABLE'			=> 'A migraÃ§Ã£o "%1$s" nÃ£o pode ser preenchida completamente, migraÃ§Ã£o faltando "%2$s".',
 	'MIGRATION_SCHEMA_DONE'				=> 'Esquema instalado: %1$s; Dados: %2$.2f segundos',
 	'MIGRATION_APPLY_DEPENDENCIES'      => 'Aplicar dependencias de %s.',
 	'MIGRATION_DATA_RUNNING'         	=> 'Instalando dados: %s.',
-	'MIGRATION_NOT_VALID'           	=> '%s não é uma migração válida.',
+	'MIGRATION_NOT_VALID'           	=> '%s nÃ£o Ã© uma migraÃ§Ã£o vÃ¡lida.',
 	'MIGRATION_SCHEMA_RUNNING'         	=> 'Instalando esquema: %s.',
 
-	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'A migração é inválida. Uma condição em uma declaração utilizando « IF » está faltando.',
-	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'A migração é inválida. Um callback válida para uma etapa de migração em uma instrução de auxílio « IF » está faltando.',
-	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'A migração é inválida. Uma função personalizada exigível não pode ser executada.',
-	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'A migração é inválida. Um tipo de ferramenta de migração desconhecida foi encontrada.',
-	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'A migração é inválida. Uma ferramenta de migração indefinida foi encontrada.',
-	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'A migração é inválida. Um método de ferramenta de migração indefinido foi encontrado.',
+	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'A migraÃ§Ã£o Ã© invÃ¡lida. Uma condiÃ§Ã£o em uma declaraÃ§Ã£o utilizando Â« IF Â» estÃ¡ faltando.',
+	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'A migraÃ§Ã£o Ã© invÃ¡lida. Um callback vÃ¡lida para uma etapa de migraÃ§Ã£o em uma instruÃ§Ã£o de auxÃ­lio Â« IF Â» estÃ¡ faltando.',
+	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'A migraÃ§Ã£o Ã© invÃ¡lida. Uma funÃ§Ã£o personalizada exigÃ­vel nÃ£o pode ser executada.',
+	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'A migraÃ§Ã£o Ã© invÃ¡lida. Um tipo de ferramenta de migraÃ§Ã£o desconhecida foi encontrada.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'A migraÃ§Ã£o Ã© invÃ¡lida. Uma ferramenta de migraÃ§Ã£o indefinida foi encontrada.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'A migraÃ§Ã£o Ã© invÃ¡lida. Um mÃ©todo de ferramenta de migraÃ§Ã£o indefinido foi encontrado.',
 
-	'MODULE_ERROR'						=> 'Ocorreu um erro durante a criação de um módulo: %s',
-	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Um arquivo com informações do módulo necessário está faltando: %2$s',
-	'MODULE_NOT_EXIST'					=> 'Um módulo requerido não existe: %s',
+	'MODULE_ERROR'						=> 'Ocorreu um erro durante a criaÃ§Ã£o de um mÃ³dulo: %s',
+	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Um arquivo com informaÃ§Ãµes do mÃ³dulo necessÃ¡rio estÃ¡ faltando: %2$s',
+	'MODULE_NOT_EXIST'					=> 'Um mÃ³dulo requerido nÃ£o existe: %s',
 
-	'PERMISSION_NOT_EXIST'				=> 'Inesperadamente a configuração de permissão "%s" não existe.',
+	'PERMISSION_NOT_EXIST'				=> 'Inesperadamente a configuraÃ§Ã£o de permissÃ£o "%s" nÃ£o existe.',
 
-	'ROLE_NOT_EXIST'					=> 'Inesperadamente a permissão "%s" não existe.',
+	'ROLE_NOT_EXIST'					=> 'Inesperadamente a permissÃ£o "%s" nÃ£o existe.',
 ));

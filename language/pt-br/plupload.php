@@ -4,6 +4,7 @@
 * This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @copyright (c) 2010-2013 Moxiecode Systems AB
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 * For full copyright and license information, please see
@@ -38,32 +39,32 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'PLUPLOAD_ADD_FILES'		=> 'Adicionar arquivos',
-	'PLUPLOAD_ADD_FILES_TO_QUEUE'	=> 'Adicione arquivos à fila de envio e clique no botão Iniciar.',
-	'PLUPLOAD_ALREADY_QUEUED'	=> '%s já está na fila.',
+	'PLUPLOAD_ADD_FILES_TO_QUEUE'	=> 'Adicione arquivos Ã  fila de envio e clique no botÃ£o Iniciar.',
+	'PLUPLOAD_ALREADY_QUEUED'	=> '%s jÃ¡ estÃ¡ na fila.',
 	'PLUPLOAD_CLOSE'			=> 'Fechar',
-	'PLUPLOAD_DRAG'				=> 'Arraste arquivos para cá.',
+	'PLUPLOAD_DRAG'				=> 'Arraste arquivos para cÃ¡.',
 	'PLUPLOAD_DUPLICATE_ERROR'	=> 'Erro de arquivo duplicado.',
 	'PLUPLOAD_DRAG_TEXTAREA'	=> 'Pode anexar arquivos arrastando-os e soltando-os na caixa de mensagem.',
 	'PLUPLOAD_ERR_INPUT'		=> 'Falha ao abrir fluxo de entrada.',
 	'PLUPLOAD_ERR_MOVE_UPLOADED'	=> 'Falha ao mover o arquivo enviado.',
-	'PLUPLOAD_ERR_OUTPUT'		=> 'Falha ao abrir fluxo de saída.',
+	'PLUPLOAD_ERR_OUTPUT'		=> 'Falha ao abrir fluxo de saÃ­da.',
 	'PLUPLOAD_ERR_FILE_TOO_LARGE'	=> 'arquivo muito grande:',
 	'PLUPLOAD_ERR_FILE_COUNT'	=> 'Erro na contagem de arquivos.',
-	'PLUPLOAD_ERR_FILE_INVALID_EXT'	=> 'Extensão de arquivo inválida:',
-	'PLUPLOAD_ERR_RUNTIME_MEMORY'	=> 'Não há memória RAM disponível.',
-	'PLUPLOAD_ERR_UPLOAD_URL'	=> 'URL carregado está errado ou não existe.',
-	'PLUPLOAD_EXTENSION_ERROR'	=> 'Extensão do arquivo errada.',
+	'PLUPLOAD_ERR_FILE_INVALID_EXT'	=> 'ExtensÃ£o de arquivo invÃ¡lida:',
+	'PLUPLOAD_ERR_RUNTIME_MEMORY'	=> 'NÃ£o hÃ¡ memÃ³ria RAM disponÃ­vel.',
+	'PLUPLOAD_ERR_UPLOAD_URL'	=> 'URL carregado estÃ¡ errado ou nÃ£o existe.',
+	'PLUPLOAD_EXTENSION_ERROR'	=> 'ExtensÃ£o do arquivo errada.',
 	'PLUPLOAD_FILE'				=> 'arquivo: %s',
-	'PLUPLOAD_FILE_DETAILS'		=> 'arquivo: %s, tamanho: %d, tamanho máximo do arquivo: %d',
+	'PLUPLOAD_FILE_DETAILS'		=> 'arquivo: %s, tamanho: %d, tamanho mÃ¡ximo do arquivo: %d',
 	'PLUPLOAD_FILENAME'			=> 'Nome do arquivo',
 	'PLUPLOAD_FILES_QUEUED'		=> '%d arquivos na fila',
-	'PLUPLOAD_GENERIC_ERROR'	=> 'Erro genérico.',
+	'PLUPLOAD_GENERIC_ERROR'	=> 'Erro genÃ©rico.',
 	'PLUPLOAD_HTTP_ERROR'		=> 'Erro HTTP.',
-	'PLUPLOAD_IMAGE_FORMAT'		=> 'Formato da imagem errado ou não suportado.',
+	'PLUPLOAD_IMAGE_FORMAT'		=> 'Formato da imagem errado ou nÃ£o suportado.',
 	'PLUPLOAD_INIT_ERROR'		=> 'Erro Init.',
 	'PLUPLOAD_IO_ERROR'			=> 'Erro IO.',
 	'PLUPLOAD_NOT_APPLICABLE'	=> 'N/A',
-	'PLUPLOAD_SECURITY_ERROR'	=> 'Erro de segurança.',
+	'PLUPLOAD_SECURITY_ERROR'	=> 'Erro de seguranÃ§a.',
 	'PLUPLOAD_SELECT_FILES'		=> 'Selecione os arquivos',
 	'PLUPLOAD_SIZE'				=> 'Tamanho',
 	'PLUPLOAD_SIZE_ERROR'		=> 'Erro no tamanho do arquivo.',
