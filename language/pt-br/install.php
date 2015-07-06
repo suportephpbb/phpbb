@@ -80,7 +80,7 @@ $lang = array_merge($lang, array(
 	'CONTINUE_OLD_CONVERSION'			=> 'Continuar conversão previamente interrompida',
 	'CONVERT'							=> 'Converter',
 	'CONVERT_COMPLETE'					=> 'Conversão concluída',
-	'CONVERT_COMPLETE_EXPLAIN'			=> 'Você converteu o seu fórum para o phpBB 3.1. com sucesso. Você pode já pode efetuar o login e <a href="../">acessar o seu painel</a>. Por favor, certifique-se de que as suas configurações foram transferidas corretamente antes de ativar o seu fórum deletando o diretório de instalação do sistema. E ainda, lembre-se de que você pode solicitar ajuda online através da <a href="https://www.phpbb.com/support/documentation/3.0/">Documentação do phpBB3</a>, no <a href="https://www.phpbb.com/phpBB/viewforum.php?f=46">phpBB.com support forums</a> e ainda no <a href="http://www.suportephpbb.com.br/">Suporte Brasileiro ao phpBB</a>.',
+	'CONVERT_COMPLETE_EXPLAIN'			=> 'Você converteu o seu fórum para o phpBB 3.1. com sucesso. Você pode já pode efetuar o login e <a href="../">acessar o seu painel</a>. Por favor, certifique-se de que as suas configurações foram transferidas corretamente antes de ativar o seu fórum deletando o diretório de instalação do sistema. E ainda, lembre-se de que você pode solicitar ajuda online através da <a href="https://www.phpbb.com/support/docs/en/3.1/ug/">Documentação do phpBB3</a>, no <a href="https://www.phpbb.com/phpBB/viewforum.php?f=466">phpBB.com support forums</a> e ainda no <a href="http://www.suportephpbb.com.br/">Suporte Brasileiro ao phpBB</a>.',
 	'CONVERT_INTRO'						=> 'Bem-vindo à conversão unificada do phpBB',
 	'CONVERT_INTRO_BODY'				=> 'Aqui você pode importar os dados de outros sistemas de fóruns instalados. A lista abaixo exibe todos os módulos de conversão disponíveis. Se não existe um conversor na lista para o código de fórum que você deseja converter, por favor, verifique em nosso website onde outros conversores podem estar disponíveis para download.',
 	'CONVERT_NEW_CONVERSION'			=> 'Nova conversão',
@@ -167,7 +167,7 @@ $lang = array_merge($lang, array(
 	'FILES_OPTIONAL_EXPLAIN'			=> '<strong>Opcional</strong> - Estes arquivos, diretórios ou permissões não são necessários. A rotina de instalação tentará usar outras técnicas para ser completada caso eles não existam ou não possam ser escritos. No entanto, a presença destes arquivos, diretórios e permissões irá acelerar o processo de instalação.',
 	'FILES_REQUIRED'					=> 'Arquivos e diretórios',
 	'FILES_REQUIRED_EXPLAIN'			=> '<strong>Necessário</strong> - Para funcionar corretamente, o phpBB precisa ter acesso ou escrever determinados arquivos ou diretórios. Se você visualizar "Não encontrado", precisará criar o diretório ou arquivo relevante. Se você visualizar "Não pode ser escrito", você precisará alterar as permissões no arquivo ou diretório para permitir que o phpBB escreva nele.',
-	'FILLING_TABLE'						=> 'Preenchendo a tabela <b>%s</b>',
+	'FILLING_TABLE'						=> 'Preenchendo a tabela <strong>%s</strong>',
 	'FILLING_TABLES'					=> 'Preenchendo as tabelas',
 	
 	'FINAL_STEP'						=> 'Etapa final do processo',
@@ -188,11 +188,11 @@ $lang = array_merge($lang, array(
 	'INITIAL_CONFIG_EXPLAIN'			=> 'Agora que a instalação determinou que o seu servidor pode executar o phpBB, você precisa escrever algumas informações específicas. Caso você não saiba como conectar-se ao seu banco de dados, por favor, contate o seu servidor (em primeiro caso) ou utilize o <a href="http://www.suportephpbb.com.br/">Suporte phpBB</a> para solicitar ajuda. Quando inserir os dados, certifique-se de que eles estão corretos antes de continuar.',
 	'INSTALL_CONGRATS'					=> 'Parabéns',
 	'INSTALL_CONGRATS_EXPLAIN'			=> '
-	   <p>A Instalação do phpBB %1$s foi concluída com sucesso. Por favor, prossiga selecionando uma das seguintes opções:</p>
+		A Instalação do phpBB %1$s foi concluída com sucesso. Por favor, prossiga selecionando uma das seguintes opções:</p>
 		<h2>Converter algum painel existente ao phpBB3</h2>
 		<p>O Conversor Framework Unificado do phpBB suporta a conversão do phpBB 2.0.x e outros sistemas de fóruns diversos ao phpBB3. Se você possui algum painel existente que deseje converter, por favor, <a href="%2$s">prossiga diretamente ao conversor</a>.</p>
 		<h2>Divirta-se com o seu phpBB3!</h2>
-		<p>Clicando no botão abaixo acederá ao formulário de apresentação dos dados estatísticos do phpBB no seu Painel de Administração (ACP). Gostaríamos que nos ajudasse enviando essa informação. Depois, deve examinar as opções disponíveis. Lembre-se que existe ajuda online disponível: <a href="https://www.phpbb.com/support/documentation/3.0/">Documentação</a>, <a href="%3$s">Leia-me</a>, <a href="https://www.phpbb.com/community/viewforum.php?f=46">Fórum de Suporte em língua inglesa</a> e o Suporte phpBB Brasil.</p><p><strong>Não se esqueça de excluir, renomear ou mover o diretório de instalação! Enquanto este diretório existir, só terá acesso ao Painel de Administração (ACP).</strong>',
+		<p>Clicando no botão abaixo acederá ao formulário de apresentação dos dados estatísticos do phpBB no seu Painel de Administração (ACP). Gostaríamos que nos ajudasse enviando essa informação. Depois, deve examinar as opções disponíveis. Lembre-se que existe ajuda online disponível: <a href="https://www.phpbb.com/support/docs/en/3.1/ug/">Documentação</a>, <a href="%3$s">Leia-me</a>, <a href="https://www.phpbb.com/community/viewforum.php?f=466">Fórum de Suporte em língua inglesa</a> e e ainda no <a href="http://www.suportephpbb.com.br/">Suporte Brasileiro ao phpBB</a>.</p><p><strong>Não se esqueça de excluir, renomear ou mover o diretório de instalação! Enquanto este diretório existir, só terá acesso ao Painel de Administração (ACP).</strong>',
 	'INSTALL_INTRO'				=> 'Bem-vindo à Instalação',
 	
 	'INSTALL_INTRO_BODY'		=> 'Aqui você poderá instalar o phpBB em seu servidor.</p><p>Para prosseguir, você irá precisar das configurações de seu banco de dados. Se você não souber de suas configurações, por favor, contate o seu servidor e pergunte a respeito. Não será possível prosseguir sem as devidas informações. Você precisará de:</p>
@@ -273,10 +273,10 @@ $lang = array_merge($lang, array(
 	'MBSTRING_HTTP_OUTPUT'					=> 'Conversão de caracteres de saída HTTP',
 	'MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> deve estar setada para <samp>pass</samp>.',
 
-	'MAKE_FOLDER_WRITABLE'		=> 'Por favor, certifique-se de que esta pasta existe e pode ser escrita pelo servidor e tente novamente:<br />»<b>%s</b>',
-	'MAKE_FOLDERS_WRITABLE'		=> 'Por favor, certifique-se de que estas pastas existem e podem ser escritas pelo servidor e tente novamente:<br />»<b>%s</b>',
+	'MAKE_FOLDER_WRITABLE'		=> 'Por favor, certifique-se de que esta pasta existe e pode ser escrita pelo servidor e tente novamente:<br />»<strong>%s</strong>',
+	'MAKE_FOLDERS_WRITABLE'		=> 'Por favor, certifique-se de que estas pastas existem e podem ser escritas pelo servidor e tente novamente:<br />»<strong>%s</strong>',
 
-	'MYSQL_SCHEMA_UPDATE_REQUIRED'	=> 'O schema do seu banco de dados MySQL para o phpBB encontra-se desatualizado. O phpBB detectou um schema para o MySQL 3.x/4.x, mas o servidor roda no MySQL %2$s.<br /><strong>Antes de proceder com a atualização você deve atualizar o schema.</strong><br /><br />Por favor, refira ao <a href="https://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">artigo sobre o aprimoramento do schema MySQL</a>. Caso você encontre problemas, por favor, use o <a href="https://www.phpbb.com/">phpBB.com Support Forums</a> ou <a href="http://www.suportephpbb.com.br">nossos fóruns de suporte</a>.',
+	'MYSQL_SCHEMA_UPDATE_REQUIRED'	=> 'O schema do seu banco de dados MySQL para o phpBB encontra-se desatualizado. O phpBB detectou um schema para o MySQL 3.x/4.x, mas o servidor roda no MySQL %2$s.<br /><strong>Antes de proceder com a atualização você deve atualizar o schema.</strong><br /><br />Por favor, refira ao <a href="https://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">artigo sobre o aprimoramento do schema MySQL</a>. Caso você encontre problemas, por favor, use o <a href="https://www.phpbb.com/community/viewforum.php?f=466">phpBB.com Support Forums</a> ou <a href="http://www.suportephpbb.com.br">nossos fóruns de suporte</a>.',
 	
 	'NAMING_CONFLICT'			=> 'Conflito de nomes: %s e %s são pseudônimos<br /><br />%s',
 	'NEXT_STEP'					=> 'Ir para o próximo passo',
@@ -354,7 +354,7 @@ $lang = array_merge($lang, array(
 	'SYNC_TOPICS'				=> 'Iniciando a sincronização de tópicos',
 	'SYNC_TOPIC_ID'				=> 'Sincronizando tópicos a partir do topic_id $1%s ao $2%s.',
 
-	'TABLES_MISSING'			=> 'Não foi possível encontrar estas tabelas<br />» <b>%s</b>.',
+	'TABLES_MISSING'			=> 'Não foi possível encontrar estas tabelas<br />» <strong>%s</strong>.',
 	'TABLE_PREFIX'				=> 'Prefixo das tabelas no banco de dados',
 	'TABLE_PREFIX_EXPLAIN'		=> 'O prefixo deve iniciar com uma letra e deve conter somente letras, números e espaços.',
 	'TABLE_PREFIX_SAME'			=> 'O prefixo das tabelas precisa ser aquele usado pelo software que você está convertendo.<br />» O prefixo das tabelas especificado foi %s.',
