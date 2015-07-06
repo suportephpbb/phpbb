@@ -72,7 +72,7 @@ $lang = array_merge($lang, array(
 	'OPTIONS_EXCLUDED'			=> 'Excluído',
 
 	'PERMANENT'		=> 'Permanente', 
-	 
+
 	'UNTIL'						=> 'Até',
 	'USER_BAN'					=> 'Banir um ou mais usuários selecionados',
 	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Ative a seguinte opção para banir a todos os usuários desejados.',
@@ -80,4 +80,4 @@ $lang = array_merge($lang, array(
 	'USER_NO_BANNED'			=> 'Não há nomes de usuários banidos', 
 	'USER_UNBAN'				=> 'Desbanir um ou mais usuários', 
 	'USER_UNBAN_EXPLAIN'		=> 'Você pode desbanir diversos usuários de uma só vez, utilizando as combinações apropriadas de mouse em seu computador e navegador. Os usuários banidos possuem uma seleção ao fundo.', 
-)); 
+));
