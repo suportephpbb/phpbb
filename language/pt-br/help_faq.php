@@ -145,7 +145,7 @@ $help = array(
    ), 
 	array(
 		0 => 'Por que não consigo adicionar anexos?',
-		1 => ' Attachment permissions are granted on a per forum, per group, or per user basis. The board administrator may not have allowed attachments to be added for the specific forum you are posting in, or perhaps only certain groups can post attachments. Contact the board administrator if you are unsure about why you are unable to add attachments.'
+		1 => 'O uso de anexos é garantido por fórum, por grupo ou por usuário. O administrador do fórum talvez não permita que anexos sejam adicionados especificando no fórum que você esteja postando ou que apenas certos grupos possam adicionar anexos. Contate o administrador do fórum se você não tem certeza que não pode adicionar anexos.'
 	),
    array( 
       0 => 'Por que eu recebi uma advertência?', 
