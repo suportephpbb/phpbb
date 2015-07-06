@@ -33,7 +33,7 @@ if (!defined('IN_PHPBB'))
 $help = array( 
    array( 
       0 => '--', 
-      1 => 'Sobre o <em>login</em> e o <em>registro</em>' 
+      1 => 'Sobre o Login e o Registro' 
    ), 
 	array(
 		0 => 'Por que preciso registar-me?',
@@ -68,12 +68,12 @@ $help = array(
       1 => 'Se não assinalar <em>Lembrar minhas informações</em>, você não entrará automaticamente da próxima vez que visitar o fórum. Isto evita o uso abusivo da sua conta por parte de outras pessoas. Para manter-se online e não necessitar escrever o seu nome de usuário e senha, assinale a caixa quando estiver efetuando o login. Isto não é recomendável caso acesse o fórum através de um computador compartilhado por outros usuários, ou seja, bibliotecas, café internet ou cyber café, universidades, etc. Se não consegue visualizar a checkbox, é possível que o administrador tenha desativado esta ferramenta.' 
    ), 
  array( 
-      0 => 'O que a opção de <em>Excluir todos os cookies deste painel</em> faz?', 
+      0 => 'O que a opção de “Excluir todos os cookies deste painel” faz?', 
       1 => 'Simplesmente exclui todos os cookies gerados pelo sistema phpBB3, os quais lhe mantém autenticado dentro do fórum e que também permitem o funcionamento de determinadas opções ativadas pelo administrador. Se você estiver com problemas de entrar e sair na comunidade, deletar os cookies pode ser uma ajuda alternativa.', 
    ), 
    array( 
       0 => '--', 
-      1 => 'Sobre as <em>preferências</em> e <em>configuração</em> de usuários' 
+      1 => 'Sobre as Preferências e Configuração de usuários' 
    ), 
    array( 
       0 => 'Como altero a minha configuração?', 
@@ -81,7 +81,7 @@ $help = array(
    ), 
    array( 
       0 => 'Como posso ocultar o meu nome de usuário da lista de usuários online?', 
-      1 => 'Em seu painel de controle do usuário, dentro da categoria "Preferências", você encontrará uma opção nomeada <em>Ocultar seus status online</em>. Se selecionar <samp>Sim</samp>, apenas você, o administrador e os moderadores poderão ver que está online. Passará a ser considerado pelo sistema como um usuário invisível.' 
+      1 => 'Em seu painel de controle do usuário, dentro da categoria "Preferências", você encontrará uma opção nomeada <em>Ocultar seus status online</em>. Se selecionar Sim, apenas você, o administrador e os moderadores poderão ver que está online. Passará a ser considerado pelo sistema como um usuário invisível.' 
    ), 
    array( 
       0 => 'A data e hora estão erradas!', 
@@ -113,7 +113,7 @@ $help = array(
    ), 
    array( 
       0 => '--', 
-      1 => 'Sobre as <em>mensagens</em>' 
+      1 => 'Sobre as mensagens' 
    ), 
    array( 
       0 => 'Como posso enviar uma mensagem?', 
@@ -145,7 +145,7 @@ $help = array(
    ), 
 	array(
 		0 => 'Por que não consigo adicionar anexos?',
-		1 => 'O uso de anexos é garantido por fórum, por grupo ou por usuário. O administrador do fórum talvez não permita que anexos sejam adicionados especificando no fórum que você esteja postando ou que apenas certos grupos possam adicionar anexos. Contate o administrador do fórum se você não tem certeza que não pode adicionar anexos.'
+		1 => 'O uso de anexos é garantido por fórum, por grupo ou por usuário. O administrador do fórum talvez não permita que anexos sejam adicionados especificando no fórum que você esteja postando ou que apenas certos grupos possam adicionar anexos. Se você não tem certeza sobre o que pode ser enviado, contate o administrador para maiores informações.'
 	),
    array( 
       0 => 'Por que eu recebi uma advertência?', 
@@ -156,7 +156,7 @@ $help = array(
       1 => 'Se o administrador tiver ativado esta opção, vá até a mensagem que você deseja denunciar e verá um botão que é utilizado para denunciar mensagens. Clicando ali, você será encaminhado às etapas necessárias para executar esta operação.' 
    ), 
    array( 
-      0 => 'O que é o botão <em>Salvar</em> no envio de tópicos?', 
+      0 => 'O que é o botão “Salvar” no envio de tópicos?', 
       1 => 'Esta opção lhe permite salvar o rascunho de uma determinada mensagem que você deseje enviar em um outro momento. Para recarregá-la, vá ao painel de controle do usuário e siga as devidas opções.' 
    ), 
    array( 
@@ -169,7 +169,7 @@ $help = array(
    ), 
    array( 
       0 => '--', 
-      1 => 'Sobre os <em>formatos</em> e <em>tipos de tópicos</em>' 
+      1 => 'Sobre os Formatos e Tipos de tópicos' 
    ), 
    array( 
       0 => 'O que é BBCode?', 
@@ -214,7 +214,7 @@ $help = array(
 	),  
    array( 
       0 => '--', 
-      1 => 'Sobre os <em>níveis de usuários</em> e <em>grupos</em>' 
+      1 => 'Sobre os Níveis de usuários e Grupos' 
    ), 
    array( 
       0 => 'O que são administradores?', 
@@ -241,16 +241,16 @@ $help = array(
       1 => 'O administrador do fórum pode assinalar cores aos membros de um determinado grupo, para identificá-los diante de outros usuários e grupos distintos.' 
    ), 
    array( 
-      0 => 'O que é um <em>Grupo padrão</em>?', 
+      0 => 'O que é um “Grupo padrão”?', 
       1 => 'Se você é membro de mais de um grupo de usuários, será determinado qual cor e rank lhe serão atribuídos por padrão. O administrador poderá lhe conceder a opção de escolha do seu grupo padrão através de seu painel de controle do usuário.' 
    ), 
    array( 
-      0 => 'O que é o link <em>Equipe do fórum</em>?', 
+      0 => 'O que é o link “Equipe do fórum”?', 
       1 => 'Esta página exibirá uma lista de todos os membros da equipe do fórum, incluindo os administradores e moderadores com todos os seus respectivos detalhes e informações adicionais.' 
    ), 
    array( 
       0 => '--', 
-      1 => 'Sobre as <em>mensagens privadas</em>' 
+      1 => 'Sobre as Mensagens Privadas</em>' 
    ), 
    array( 
       0 => 'Não consigo enviar mensagens privadas!', 
@@ -266,7 +266,7 @@ $help = array(
    ), 
    array( 
       0 => '--', 
-      1 => 'Sobre os <em>amigos</em> e <em>inimigos</em>' 
+      1 => 'Sobre os Amigos e Inimigos' 
    ), 
    array( 
       0 => 'O que é a lista de amigos e inimigos?', 
@@ -278,7 +278,7 @@ $help = array(
    ), 
    array( 
       0 => '--', 
-      1 => 'Sobre a <em>pesquisa</em>' 
+      1 => 'Sobre a Pesquisa' 
    ), 
    array( 
       0 => 'Como eu posso pesquisar?', 
@@ -302,7 +302,7 @@ $help = array(
    ), 
    array( 
       0 => '--', 
-      1 => 'Sobre a <em>subscrição de tópicos</em> e <em>favoritos</em>' 
+      1 => 'Sobre a Subscrição de tópicos e Favoritos' 
    ), 
    array( 
       0 => 'Qual é a diferença existente entre os favoritos e a subscrição?', 
@@ -318,7 +318,7 @@ $help = array(
    ), 
    array( 
       0 => '--', 
-      1 => 'Sobre os <em>anexos</em>' 
+      1 => 'Sobre os Anexos' 
    ), 
    array( 
       0 => 'Quais os anexos que são permitidos no fórum?', 
@@ -330,7 +330,7 @@ $help = array(
    ), 
    array( 
       0 => '--', 
-      1 => 'Sobre o <em>Sistema phpBB3</em>' 
+      1 => 'Sobre o Sistema phpBB3' 
    ), 
    array( 
       0 => 'Quem escreveu o phpBB?', 
