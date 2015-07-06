@@ -12,29 +12,23 @@
 */
 
 /**
-* DO NOT CHANGE
 */
 if (!defined('IN_PHPBB'))
 {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
-	$lang = array();
-}
-
-// DEVELOPERS PLEASE NOTE 
-// 
-// All language files should use UTF-8 as their encoding and the files must not contain a BOM. 
-// 
-// Placeholders can now contain order information, e.g. instead of 
-// 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows 
-// translators to re-order the output of data while ensuring it remains correct 
-// 
-// You do not need this where single placeholders are used, e.g. 'Message %d' is fine 
-// equally where a string contains only two placeholders which are used to wrap text 
-// in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine 
+// DEVELOPERS PLEASE NOTE
+//
+// All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+//
+// Placeholders can now contain order information, e.g. instead of
+// 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+// translators to re-order the output of data while ensuring it remains correct
+//
+// You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+// equally where a string contains only two placeholders which are used to wrap text
+// in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $help = array( 
    array( 
@@ -102,8 +96,8 @@ $help = array(
       1 => 'O administrador pode não ter instalado o seu idioma ou o phpBB ainda não foi traduzido para o mesmo. Peça ao administrador que instale o seu pacote de idiomas e, caso não exista, você poderá criar uma nova tradução. Mais informações, consulte a página oficial do Grupo phpBB (clicar no link ao fundo desta página).' 
    ), 
 	array(
-		0 => 'O que são as imagens ao lado do meu nome de utilizador?',
-		1 => 'Há duas imagens que podem aparecer junto com um nome de Utilizador quando se veem as Mensagens. Uma delas pode ser uma imagem associada à sua classificação, geralmente na forma de blocos, estrelas ou pontos, indicando a quantidade de mensagens que tenha feito ou o seu estatuto no Fórum. Outra, geralmente uma imagem maior, é conhecida como um Avatar, que é normalmente única ou pertencente a cada Utilizador. Cabe ao Administrador permitir ou não o uso de Avatar e definir como podem ser usados. Se não conseguir utilizar Avatares, contate o Administrador do Fórum.',
+		0 => 'O que são as imagens ao lado do meu nome de usuário?',
+		1 => 'Há duas imagens que podem aparecer junto com um nome de usuário quando se veem as mensagens. Uma delas pode ser uma imagem associada à sua classificação, geralmente na forma de blocos, estrelas ou pontos, indicando a quantidade de mensagens que tenha feito ou o seu estatuto no Fórum. Outra, geralmente uma imagem maior, é conhecida como um Avatar, que é normalmente única ou pertencente a cada usuário. Cabe ao Administrador permitir ou não o uso de Avatar e definir como podem ser usados. Se não conseguir utilizar Avatares, contate o Administrador do Fórum.',
 	),
    array( 
       0 => 'Como posso exibir uma imagem junto ao meu nome de usuário?', 
@@ -142,13 +136,17 @@ $help = array(
 	  1 => 'O limite de opções de voto é configurado pelo administrador do fórum. Se você sentir que precisa adicionar mais opções de voto do que a quantidade permitida, contate o administrador para solicitar as devidas permissões.'
    ), 
   array( 
-      0 => 'Por que não consigo entrar em um fórum?', 
-      1 => 'O acesso a alguns fóruns poderá estar limitado apenas a determinados usuários ou grupos. Para ver, ler, enviar mensagens, etc., você precisa de uma autorização especial. Apenas o moderador desse fórum e um administrador podem permitir esse acesso. Entre em contato, caso julgue necessário.' 
-   ), 
-  array( 
       0 => 'Como posso editar ou excluir uma enquete?', 
       1 => 'Da mesma forma que as mensagens, as enquetes apenas poderão ser editadas pelo seu autor, moderadores ou administradores do fórum. Para editar uma enquete, clique na primeira mensagem do tópico; esta mensagem é a que tem a enquete associada ao tópico. Caso ninguém tenha submetido voto, o seu autor poderá excluir a enquete ou editar as suas opções de voto. Contudo, se usuários já tiverem submetido os seus votos, apenas moderadores e administradores podem editar ou excluir essa enquete. Isso é para evitar com que sejam alteradas as opções de voto de enquetes em curso.' 
    ), 
+  array( 
+      0 => 'Por que não consigo entrar em um fórum?', 
+      1 => 'O acesso a alguns fóruns poderá estar limitado apenas a determinados usuários ou grupos. Para ver, ler, enviar mensagens, etc., você precisa de uma autorização especial. Apenas o moderador desse fórum e um administrador podem permitir esse acesso. Entre em contato, caso julgue necessário.' 
+   ), 
+	array(
+		0 => 'Por que não consigo adicionar anexos?',
+		1 => ' Attachment permissions are granted on a per forum, per group, or per user basis. The board administrator may not have allowed attachments to be added for the specific forum you are posting in, or perhaps only certain groups can post attachments. Contact the board administrator if you are unsure about why you are unable to add attachments.'
+	),
    array( 
       0 => 'Por que eu recebi uma advertência?', 
       1 => 'Cada administrador possui suas próprias regras para o seu website. Se ele perceber que elas estão sendo ignoradas, você receberá uma advertência. Por favor, note que esta é a decisão do administrador do fórum, e o Grupo phpBB não possui autoridade nenhuma sobre a advertência enviada em seu website. Contate o administrador se você não sabe as razões pelas quais recebeu esta advertência.' 
@@ -209,11 +207,11 @@ $help = array(
       0 => 'O que são ícones de tópicos?', 
       1 => 'Os ícones de tópicos são imagens que podem ser associadas com as mensagens para indicar o seu conteúdo. Se você pode ou não utilizar essa função, depende das permissões que lhe foram atribuídas pelo administrador do fórum.' 
    ),
-   // This block will switch the FAQ-Questions to the second template column
+	// This block will switch the FAQ-Questions to the second template column
 	array(
 		0 => '--',
 		1 => '--'
-   ),   
+	),  
    array( 
       0 => '--', 
       1 => 'Sobre os <em>níveis de usuários</em> e <em>grupos</em>' 
@@ -352,6 +350,6 @@ $help = array(
    ),
 	array(
 		0 => 'Como faço para entrar em contato com o administrador do fórum?',
-		1 => 'Todos os Utilizadores do Fórum podem usar o formulário “Contate-nos”, se a opção estiver ativada.<br />Os Utilizadores podem usar o link “Equipe”.',
+		1 => 'Todos os usuários do fórum podem usar o formulário “Contate-nos”, se a opção estiver ativada.<br />Os usuários podem usar o link “Equipe do fórum”.',
 	),
 );
