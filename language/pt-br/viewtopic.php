@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-        'APPROVE'						=> 'Aprovar',
+	'APPROVE'						=> 'Aprovar',
 	'ATTACHMENT'						=> 'Anexo',
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'A ferramenta de anexos encontra-se desativada.',
 
@@ -50,15 +50,15 @@ $lang = array_merge($lang, array(
 	'BUMP_TOPIC'			=> 'Ressuscitar',
 
 	'CODE'					=> 'Código',
-	
+
 	'DELETE_TOPIC'			=> 'Excluir',
 	'DELETED_INFORMATION'				=> 'Excluído por %1$s em %2$s',
 	'DISAPPROVE'						=> 'Reprovar',
 	'DOWNLOAD_NOTICE'		=> 'Você não está autorizado a ver ou baixar esse anexo.',
 
 	'EDITED_TIMES_TOTAL'	=> array(
-		1	=> 'Última edição por %2$s em %3$s, editado %1$d vez no total.',
-		2	=> 'Última edição por %2$s em %3$s, editado %1$d vezes no total.',
+		1	=> 'Editado pela última vez por %2$s em %3$s, em um total de %1$d vez.',
+		2	=> 'Editado pela última vez por %2$s em %3$s, em um total de %1$d vezes.',
 	),
 	'EMAIL_TOPIC'			=> 'Enviar para um amigo',
 	'ERROR_NO_ATTACHMENT'	=> 'O anexo selecionado já não existe mais.',
@@ -76,8 +76,8 @@ $lang = array_merge($lang, array(
 	'MAKE_NORMAL'				=> 'Marcar como "Normal"',
 	'MAKE_STICKY'				=> 'Marcar como "Fixo"',
 	'MAX_OPTIONS_SELECT'		=> array(
-		1	=> 'Pode selecionar <strong>%d</strong> opção',
-		2	=> 'Pode selecionar até <strong>%d</strong> opções',
+		1	=> 'Você pode selecionar somente <strong>%d</strong> opção',
+		2	=> 'Você pode selecionar até <strong>%d</strong> opções',
 	),
 	'MISSING_INLINE_ATTACHMENT'	=> 'O anexo <strong>%s</strong> não se encontra mais disponível',
 	'MOVE_TOPIC'				=> 'Mover',
@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 	'POLL_ENDED_AT'			=> 'Esta enquete foi concluída em %s',
 	'POLL_RUN_TILL'			=> 'Esta enquete será concluída em %s',
 	'POLL_VOTED_OPTION'		=> 'Você já votou nessa opção',
-	'POST_DELETED_RESTORE'				=> 'Esta mensagem foi excluída. Pode ser restaurada.',
+	'POST_DELETED_RESTORE'	=> 'Esta mensagem foi excluída. Pode ser restaurada.',
 	'PRINT_TOPIC'			=> 'Exibir página para impressão',
 
 	'QUICK_MOD'				=> 'Ferramentas rápidas',
@@ -100,13 +100,13 @@ $lang = array_merge($lang, array(
 	'QUOTE'					=> 'Citação',
 
 	'REPLY_TO_TOPIC'		=> 'Responder',
-	'RESTORE'							=> 'Restaurar',
-	'RESTORE_TOPIC'						=> 'Restaurar tópico',
+	'RESTORE'				=> 'Restaurar',
+	'RESTORE_TOPIC'			=> 'Restaurar tópico',
 	'RETURN_POST'			=> '%sVoltar à sua Mensagem%s',
 
 	'SUBMIT_VOTE'			=> 'Votar',
 
-	'TOPIC_TOOLS'						=> 'Ferramentas do Tópico',
+	'TOPIC_TOOLS'			=> 'Ferramentas do Tópico',
 	'TOTAL_VOTES'			=> 'Total de votos',
 
 	'UNLOCK_TOPIC'			=> 'Destrancar',
