@@ -54,11 +54,11 @@ $lang = array_merge($lang, array(
 	'APPROVE_POST_CONFIRM'	=> 'Você deseja realmente aprovar esta mensagem?', 
 	'APPROVE_POSTS'			=> 'Aprovar mensagens', 
 	'APPROVE_POSTS_CONFIRM'	=> 'Você deseja realmente aprovar as mensagens selecionadas?', 
-	'APPROVE_TOPIC'						=> 'Aprovar tópico',
-	'APPROVE_TOPIC_CONFIRM'				=> 'Tem certeza que pretende aprovar este Tópico?',
-	'APPROVE_TOPICS'					=> 'Aprovar tópicos',
-	'APPROVE_TOPICS_CONFIRM'			=> 'Tem certeza que pretende aprovar os tópicos selecionados?',
-	
+	'APPROVE_TOPIC'			=> 'Aprovar tópico',
+	'APPROVE_TOPIC_CONFIRM'	=> 'Você deseja realmente aprovar este Tópico?',
+	'APPROVE_TOPICS'		=> 'Aprovar tópicos',
+	'APPROVE_TOPICS_CONFIRM'=> 'Você deseja realmente aprovar os tópicos selecionados?',
+
 	'CANNOT_MOVE_SAME_FORUM'=> 'Você não pode mover o tópico para o fórum onde ele já se encontra inserido.', 
 	'CANNOT_WARN_ANONYMOUS' => 'Você não pode advertir visitantes não registrados.',
 	'CANNOT_WARN_SELF'		=> 'Você não pode advertir a si mesmo.',
@@ -92,10 +92,10 @@ $lang = array_merge($lang, array(
 	'DISAPPROVE_POSTS_CONFIRM'	=> 'Você deseja realmente reprovar as mensagens selecionadas?', 
 	'DISPLAY_LOG'				=> 'Exibir resultados anteriores', 
 	'DISPLAY_OPTIONS'			=> 'Opções de exibição', 
-	
+
 	'EMPTY_REPORT'					=> 'Você deve escrever uma descrição enquanto selecionar esta razão.',
 	'EMPTY_TOPICS_REMOVED_WARNING'	=> 'Por favor, note que um ou alguns tópicos foram removidos do banco de dados porque eram ou tornaram-se vazios.',
-	
+
 	'FEEDBACK'				=> 'Relatório', 
 	'FORK'					=> 'Copiar',
 	'FORK_TOPIC'			=> 'Copiar tópico',
@@ -108,12 +108,12 @@ $lang = array_merge($lang, array(
 	'FORUM_NOT_POSTABLE'	=> 'Você não pode enviar mensagens neste fórum.',
 	'FORUM_STATUS'			=> 'Estado do fórum', 
 	'FORUM_STYLE'			=> 'Estilo do fórum', 
-	
+
 	'GLOBAL_ANNOUNCEMENT'	=> 'Anúncio Global', 
-	
+
 	'IP_INFO'				=> 'Informação de IP', 
 	'IPS_POSTED_FROM'		=> 'Endereço de IP utilizado pelo usuário ao enviar esta mensagem',
-		
+
 	'LATEST_LOGS'				=> 'Últimas 5 ações registradas', 
 	'LATEST_REPORTED'			=> 'Últimas 5 denúncias', 
 	'LATEST_REPORTED_PMS'		=> 'Últimas 5 MPs denunciadas',
@@ -140,21 +140,21 @@ $lang = array_merge($lang, array(
 	'LOGVIEW_VIEWFORUM'			=> 'Exibir fórum', 
 	'LOOKUP_ALL'				=> 'Exibir todos os IPs', 
 	'LOOKUP_IP'					=> 'Pesquisar por IP', 
-	
+
 	'MARKED_NOTES_DELETED'		=> 'As notas do usuário selecionadas foram excluídas com sucesso.',
-	
+
 	'MCP_ADD'						=> 'Adicionar uma advertência', 
-	
+
 	'MCP_BAN'					=> 'Banimento', 
 	'MCP_BAN_EMAILS'			=> 'Banir endereços de e-mail', 
 	'MCP_BAN_IPS'				=> 'Banir endereços de IP', 
 	'MCP_BAN_USERNAMES'			=> 'Banir usuários', 
-	
+
 	'MCP_LOGS'						=> 'Logs do moderador', 
 	'MCP_LOGS_FRONT'				=> 'Página Inicial', 
 	'MCP_LOGS_FORUM_VIEW'			=> 'Logs do fórum', 
 	'MCP_LOGS_TOPIC_VIEW'			=> 'Logs do tópico', 
-	
+
 	'MCP_MAIN'						=> 'Principal', 
 	'MCP_MAIN_FORUM_VIEW'			=> 'Exibir fórum', 
 	'MCP_MAIN_FRONT'				=> 'Página Inicial', 
@@ -176,13 +176,13 @@ $lang = array_merge($lang, array(
 	'MCP_MAKE_NORMAL_CONFIRM'		=> 'Você deseja realmente modificar o tópico selecionado para um "tópico normal"?', 
 	'MCP_MAKE_NORMALS'				=> 'Modificar para "Tópicos Normais"', 
 	'MCP_MAKE_NORMALS_CONFIRM'		=> 'Você deseja realmente modificar os tópicos selecionados para "tópicos normais"?', 
-	
+
 	'MCP_NOTES'						=> 'Notas do usuário', 
 	'MCP_NOTES_FRONT'				=> 'Página Inicial', 
 	'MCP_NOTES_USER'				=> 'Informações do usuário', 
-	
+
 	'MCP_POST_REPORTS'				=> 'Denúncias enviadas a esta mensagem',
-	
+
 	'MCP_PM_REPORTS'				=> 'MPs denunciadas',
 	'MCP_PM_REPORT_DETAILS'			=> 'Informações de denúncia da MP',
 	'MCP_PM_REPORTS_CLOSED'			=> 'Denúncias de MP trancadas',
@@ -196,7 +196,7 @@ $lang = array_merge($lang, array(
 	'MCP_REPORTS_CLOSED_EXPLAIN'	=> 'Esta é uma lista de todas as denúncias de mensagens que foram previamente concluídas.',
 	'MCP_REPORTS_OPEN'				=> 'Denúncias abertas', 
 	'MCP_REPORTS_OPEN_EXPLAIN'		=> 'Esta é uma lista de todas as denúncias de mensagens que ainda não foram concluídas.',
-	
+
 	'MCP_QUEUE'								=> 'Moderação', 
 	'MCP_QUEUE_APPROVE_DETAILS'				=> 'Informações de aprovação', 
 	'MCP_QUEUE_UNAPPROVED_POSTS'			=> 'Mensagens aguardando aprovação', 
@@ -209,13 +209,13 @@ $lang = array_merge($lang, array(
 	'MCP_QUEUE_DELETED_TOPICS_EXPLAIN'		=> 'Esta é uma lista de todos os tópicos excluídos. Pode restaurar ou excluir permanentemente todos os tópicos.',
 
 	'MCP_VIEW_USER'			=> 'Ver advertências de um usuário específico',
-	
+
 	'MCP_WARN'				=> 'Advertências', 
 	'MCP_WARN_FRONT'		=> 'Página Inicial', 
 	'MCP_WARN_LIST'			=> 'Lista de advertências', 
 	'MCP_WARN_POST'			=> 'Advertir uma mensagem específica', 
 	'MCP_WARN_USER'			=> 'Advertir usuário', 
-	
+
 	'MERGE_POSTS_CONFIRM'	=> 'Você deseja realmente mover as mensagens selecionadas?', 
 	'MERGE_TOPIC_EXPLAIN'	=> 'Utilizando esta ferramenta você pode mover mensagens selecionadas em um tópico diferente. As mensagens não serão reordenadas e serão exibidas como se os usuários as tivessem enviadas ao novo tópico.<br />Por favor, escreva a ID do tópico desejado ou clique em "Selecionar tópico" para pesquisar por um.',
 	'MERGE_TOPIC_ID'		=> 'ID do tópico de fusão', 
@@ -230,14 +230,14 @@ $lang = array_merge($lang, array(
 	'MOVE_TOPIC_CONFIRM'	=> 'Você deseja realmente mover o tópico selecionado?', 
 	'MOVE_TOPICS'			=> 'Mover tópicos selecionados', 
 	'MOVE_TOPICS_CONFIRM'	=> 'Você deseja realmente mover os tópicos selecionados?', 
-	
+
 	'NOTIFY_POSTER_APPROVAL'		=> 'Notificar o autor da mensagem sobre a aprovação?', 
 	'NOTIFY_POSTER_DISAPPROVAL'		=> 'Notificar o autor da mensagem sobre a reprovação?', 
 	'NOTIFY_USER_WARN'				=> 'Notificar o usuário sobre a advertência?', 
 	'NOT_MODERATOR'					=> 'Você não é moderador deste fórum.',
 	'NO_DESTINATION_FORUM'			=> 'Por favor, selecione um fórum de destino.',
 	'NO_DESTINATION_FORUM_FOUND'	=> 'Não há fóruns de destino disponíveis.', 
-	'NO_ENTRIES'					=> 'Não há logs para este período.',
+	'NO_ENTRIES'					=> 'Não há logs.',
 	'NO_FEEDBACK'					=> 'Não existem relatórios deste usuário.',
 	'NO_FINAL_TOPIC_SELECTED'		=> 'Você deve selecionar um tópico de destino para fundir as mensagens.',
 	'NO_MATCHES_FOUND'				=> 'Nenhum resultado foi encontrado.',
@@ -245,16 +245,16 @@ $lang = array_merge($lang, array(
 	'NO_POST_REPORT'				=> 'A mensagem selecionada ainda não foi denunciada.', 
 	'NO_POST_SELECTED'				=> 'Você deve selecionar pelo menos uma mensagem para realizar esta ação.',
 	'NO_POSTS_DELETED'				=> 'Não há mensagens excluídas.',
-	'NO_POSTS_QUEUE'				=> 'Não há mensagens à espera de aprovação.',
+	'NO_POSTS_QUEUE'				=> 'Não há mensagens aguardando por aprovação.',
 	'NO_REASON_DISAPPROVAL'			=> 'Por favor, dê uma razão apropriada para esta reprovação.',
 	'NO_REPORT'						=> 'Nenhuma denúncia foi encontrada.',
 	'NO_REPORTS'					=> 'Nenhuma denúncia foi encontrada.',
 	'NO_REPORT_SELECTED'			=> 'Você deve selecionar pelo menos uma denúncia para realizar esta ação.',	
 	'NO_TOPIC_ICON'					=> 'Nenhum', 
 	'NO_TOPIC_SELECTED'				=> 'Você deve selecionar pelo menos um tópico para realizar esta ação.',
-	'NO_TOPICS_DELETED'					=> 'Não há tópicos excluídos.',
+	'NO_TOPICS_DELETED'				=> 'Não há tópicos excluídos.',
 	'NO_TOPICS_QUEUE'				=> 'Não há tópicos aguardando por aprovação.',
-	
+
 	'ONLY_TOPIC'			=> 'Somente o tópico "%s"', 
 	'OTHER_USERS'			=> 'Usuários que enviaram mensagens a partir deste IP',
 
@@ -266,9 +266,9 @@ $lang = array_merge($lang, array(
 	'PM_REPORTS_CLOSED_SUCCESS'			=> 'As denúncias às MPs selecionadas foram fechadas com sucesso.',
 	'PM_REPORTS_DELETED_SUCCESS'		=> 'As denúncias às MPs selecionadas foram excluídas com sucesso.',
 	'PM_REPORTS_TOTAL'			=> array(
-		0	=> 'Não há nenhuma MP denunciada.',
-		1	=> 'No total há <strong>1</strong> MP denunciada.',
-		2	=> 'No total há <strong>%d</strong> MPs denunciadas.',
+		0	=> 'Não há denúncias de MP a serem revisadas.',
+		1	=> 'No total, há <strong>1</strong> denúncia de MP para ser revisada.',
+		2	=> 'No total, há <strong>%d</strong> denúncias de MP para serem revisadas.',
 	),
 	'PM_REPORT_DETAILS'			=> 'Informações de denúncia da MP',
 	'POSTER'					=> 'Autor', 
@@ -277,19 +277,19 @@ $lang = array_merge($lang, array(
 	'POSTS_DISAPPROVED_SUCCESS' => 'As mensagens selecionadas foram reprovadas com sucesso.',
 	'POSTS_LOCKED_SUCCESS'		=> 'As mensagens selecionadas foram trancadas com sucesso.', 
 	'POSTS_MERGED_SUCCESS'		=> 'As mensagens selecionadas foram fundidas com sucesso.',
-	'POSTS_PER_PAGE'					=> 'Mensagens por Página',
-	'POSTS_PER_PAGE_EXPLAIN'			=> '(0 para ver todas as Mensagens)',
-	'POSTS_RESTORED_SUCCESS'			=> 'As mensagens selecionadas foram restaurados com sucesso.',
+	'POSTS_PER_PAGE'			=> 'Mensagens por página',
+	'POSTS_PER_PAGE_EXPLAIN'	=> '(Escreva 0 para ver todas as mensagens.)',
+	'POSTS_RESTORED_SUCCESS'	=> 'As mensagens selecionadas foram restaurados com sucesso.',
 	'POSTS_UNLOCKED_SUCCESS'	=> 'As mensagens selecionadas foram destrancadas com sucesso.', 
 	'POST_APPROVED_SUCCESS' 	=> 'A mensagem selecionada foi aprovada com sucesso.',
 	'POST_DELETED_SUCCESS'		=> 'A mensagem selecionada foi excluída com sucesso.', 
 	'POST_DISAPPROVED_SUCCESS'	=> 'A mensagem selecionada foi reprovada com sucesso.',
 	'POST_LOCKED_SUCCESS'		=> 'A mensagem selecionada foi trancada com sucesso.', 
 	'POST_NOT_EXIST'			=> 'A mensagem selecionada não existe.', 
-	'POST_REPORTED_SUCCESS'		=> 'A mensagem foi denunciada com sucesso.', 
-	'POST_RESTORED_SUCCESS'				=> 'Esta mensagem foi restaurada com sucesso.',
-	'POST_UNLOCKED_SUCCESS'		=> 'A mensagem foi destrancada com sucesso.', 
-	
+	'POST_REPORTED_SUCCESS'		=> 'A mensagem selecionada foi denunciada com sucesso.', 
+	'POST_RESTORED_SUCCESS'		=> 'A mensagem selecionada foi restaurada com sucesso.',
+	'POST_UNLOCKED_SUCCESS'		=> 'A mensagem selecionada foi destrancada com sucesso.', 
+
 	'READ_USERNOTES'			=> 'Notas do usuário', 
 	'READ_WARNINGS'				=> 'Advertências do usuário', 
 	'REPORTER'					=> 'Denunciador', 
@@ -298,12 +298,12 @@ $lang = array_merge($lang, array(
 	'REPORTED_ON_DATE'			=> 'em', 
 	'REPORTS_CLOSED_SUCCESS'	=> 'As denúncias selecionadas foram trancadas com sucesso.', 
 	'REPORTS_DELETED_SUCCESS'	=> 'As denúncias selecionadas foram excluídas com sucesso.', 
-'REPORTS_TOTAL'				=> array(
-		0	=> 'Não há denúncias para analisar.',
-		1	=> 'No total há <strong>1</strong> denúncia para ver.',
-		2	=> 'No total há <strong>%d</strong> denúncias para ver.',
+	'REPORTS_TOTAL'				=> array(
+		0	=> 'Não há denúncias para revisão.',
+		1	=> 'Há um total de <strong>1</strong> denúncia para ser revisada.',
+		2	=> 'Há um total de <strong>%d</strong> denúncias para revisão.',
 	),
-		'REPORT_CLOSED'				=> 'Esta denúncia encontra-se temporariamente trancada.', 
+	'REPORT_CLOSED'				=> 'Esta denúncia encontra-se temporariamente trancada.', 
 	'REPORT_CLOSED_SUCCESS' 	=> 'A denúncia selecionada foi trancada com sucesso.', 
 	'REPORT_DELETED_SUCCESS'	=> 'A denúncia selecionada foi removida com sucesso.', 
 	'REPORT_DETAILS'			=> 'Informações da denúncia', 
@@ -314,16 +314,16 @@ $lang = array_merge($lang, array(
 	'REPORT_POST_EXPLAIN'		=> 'Use esta ferramenta para denunciar as mensagens selecionadas aos moderadores do fórum e aos administradores do painel. A mensagem deve ser denunciada geralmente quando a mesma quebrar as regras do fórum.', 
 	'REPORT_REASON'				=> 'Razão para a denúncia', 
 	'REPORT_TIME'				=> 'Tempo da denúncia', 
-	'RESTORE'							=> 'Restaurar',
-	'RESTORE_POST'						=> 'Restaurar mensagem',
-	'RESTORE_POST_CONFIRM'				=> 'Tem certeza que deseja restaurar esta mensagem?',
-	'RESTORE_POSTS'						=> 'Restaurar mensagens',
-	'RESTORE_POSTS_CONFIRM'				=> 'Tem certeza que deseja restaurar estas mensagens?',
-	'RESTORE_TOPIC'						=> 'Restaurar tópico',
-	'RESTORE_TOPIC_CONFIRM'				=> 'Tem certeza que deseja restaurar este tópico?',
-	'RESTORE_TOPICS'					=> 'Restaurar tópicos',
-	'RESTORE_TOPICS_CONFIRM'			=> 'Tem certeza que deseja restaurar estes tópicos?',
-'RESYNC'					=> 'Re-Sincronizar', 
+	'RESTORE'					=> 'Restaurar',
+	'RESTORE_POST'				=> 'Restaurar mensagem',
+	'RESTORE_POST_CONFIRM'		=> 'Você deseja realmente restaurar esta mensagem?',
+	'RESTORE_POSTS'				=> 'Restaurar mensagens',
+	'RESTORE_POSTS_CONFIRM'		=> 'Você deseja realmente restaurar estas mensagens?',
+	'RESTORE_TOPIC'				=> 'Restaurar tópico',
+	'RESTORE_TOPIC_CONFIRM'		=> 'Você deseja realmente restaurar este tópico?',
+	'RESTORE_TOPICS'			=> 'Restaurar tópicos',
+	'RESTORE_TOPICS_CONFIRM'	=> 'Você deseja realmente restaurar estes tópicos?',
+	'RESYNC'					=> 'Re-Sincronizar', 
 	'RETURN_MESSAGE'			=> '%sVoltar à mensagem%s', 
 	'RETURN_NEW_FORUM'			=> '%sIr ao novo fórum%s', 
 	'RETURN_NEW_TOPIC'			=> '%sIr ao novo tópico%s', 
@@ -332,7 +332,7 @@ $lang = array_merge($lang, array(
 	'RETURN_QUEUE'				=> '%sVoltar à lista%s', 
 	'RETURN_REPORTS'			=> '%sVoltar às denúncias%s', 
 	'RETURN_TOPIC_SIMPLE'		=> '%sVoltar ao tópico%s',
-		
+
 	'SEARCH_POSTS_BY_USER'				=> 'Pesquisar mensagens por', 
 	'SELECT_ACTION'						=> 'Selecione a ação desejada',
 	'SELECT_FORUM_GLOBAL_ANNOUNCEMENT'	=> 'Por favor, selecione o fórum onde você deseja exibir este anúncio global.',
@@ -354,7 +354,7 @@ $lang = array_merge($lang, array(
 	'SPLIT_TOPIC_BEYOND'				=> 'Dividir o tópico na mensagem selecionada', 
 	'SPLIT_TOPIC_BEYOND_CONFIRM'		=> 'Você deseja realmente dividir o tópico na mensagem selecionada?', 
 	'SPLIT_TOPIC_EXPLAIN'				=> 'Aqui você pode dividir um tópico em dois, tanto selecionando as mensagens individualmente, como dividindo a partir de uma mensagem selecionada.',
-	
+
 	'THIS_PM_IP'				=> 'Endereço IP para esta mensagem privada',
 	'THIS_POST_IP'				=> 'Endereço de IP para esta mensagem', 
 	'TOPICS_APPROVED_SUCCESS'	=> 'Os tópicos selecionados foram aprovados com sucesso.',
@@ -363,7 +363,7 @@ $lang = array_merge($lang, array(
 	'TOPICS_FORKED_SUCCESS'		=> 'Os tópicos selecionados foram copiados com sucesso.', 
 	'TOPICS_LOCKED_SUCCESS'		=> 'Os tópicos selecionados foram trancados com sucesso.',
 	'TOPICS_MOVED_SUCCESS'		=> 'Os tópicos selecionados foram movidos com sucesso.', 
-	'TOPICS_RESTORED_SUCCESS'			=> 'Os tópicos selecionados foram restaurados com sucesso.',
+	'TOPICS_RESTORED_SUCCESS'	=> 'Os tópicos selecionados foram restaurados com sucesso.',
 	'TOPICS_RESYNC_SUCCESS'		=> 'Os tópicos selecionados foram re-sincronizados com sucesso.', 
 	'TOPICS_TYPE_CHANGED'		=> 'O tipo dos Tópicos foram alterados com sucesso.',
 	'TOPICS_UNLOCKED_SUCCESS'	=> 'Os tópicos selecionados foram destrancados com sucesso.',
@@ -374,18 +374,18 @@ $lang = array_merge($lang, array(
 	'TOPIC_LOCKED_SUCCESS'		=> 'O tópico selecionado foi trancado com sucesso.',
 	'TOPIC_MOVED_SUCCESS'		=> 'O tópico selecionado foi movido com sucesso.', 
 	'TOPIC_NOT_EXIST'			=> 'O tópico selecionado não existe.', 
-	'TOPIC_RESTORED_SUCCESS'			=> 'O Tópico selecionado foi restaurado com sucesso.',
+	'TOPIC_RESTORED_SUCCESS'	=> 'O tópico selecionado foi restaurado com sucesso.',
 	'TOPIC_RESYNC_SUCCESS'		=> 'O tópico selecionado foi re-sincronizado com sucesso.',
 	'TOPIC_SPLIT_SUCCESS'		=> 'O tópico selecionado foi subdividido com sucesso.', 
 	'TOPIC_TIME'				=> 'Tempo do tópico', 
 	'TOPIC_TYPE_CHANGED'		=> 'O tipo do tópico foi alterado com sucesso.', 
 	'TOPIC_UNLOCKED_SUCCESS'	=> 'O tópico selecionado foi destrancado com sucesso.',
 	'TOTAL_WARNINGS' 			=> 'Total de advertências',
-	
+
 	'UNAPPROVED_POSTS_TOTAL'		=> array(
-		0	=> 'Não há mensagens para aprovação.',
-		1	=> 'No total há <strong>1</strong> mensagem a aguardar aprovação.',
-		2	=> 'No total há <strong>%d</strong> mensagens a aguardar aprovação.',
+		0	=> 'Não há mensagens aguardando aprovação.',
+		1	=> 'Há um total de <strong>1</strong> mensagem aguardando aprovação.',
+		2	=> 'Há um total de <strong>%d</strong> mensagens aguardando aprovação.',
 	),
 	'UNLOCK'						=> 'Destrancar', 
 	'UNLOCK_POST'					=> 'Destrancar mensagem', 
@@ -402,32 +402,32 @@ $lang = array_merge($lang, array(
 	'USER_CANNOT_REPORT'			=> 'Você não pode denunciar mensagens neste fórum.',
 	'USER_FEEDBACK_ADDED'			=> 'O relatório do usuário foi adicionado com sucesso.', 
 	'USER_WARNING_ADDED'			=> 'O usuário foi advertido com sucesso.', 
-	
+
 	'VIEW_DETAILS' 			=> 'Ver informações', 
 	'VIEW_PM'				=> 'Ver mensagem privada',
 	'VIEW_POST'				=> 'Ver mensagem',
-	
+
 	'WARNED_USERS' 			=> 'Usuários advertidos',
 	'WARNED_USERS_EXPLAIN' 	=> 'Esta é uma lista dos usuários com advertências permanentes enviadas aos mesmos.', 
 	'WARNING_PM_BODY' 		=> 'A seguinte é uma advertência enviada para você por um administrador ou moderador do site.[quote]%s[/quote]', 
 	'WARNING_PM_SUBJECT' 	=> 'Advertência', 
 	'WARNING_POST_DEFAULT' 	=> 'Esta é uma advertência a respeito da seguinte mensagem enviada por você: %s .', 
-	'NO_WARNINGS'						=> 'Não há advertências.',
-	
+	'NO_WARNINGS'			=> 'Nenhuma advertência existente.',
+
 	'YOU_SELECTED_TOPIC' 	=> 'Você selecionou o tópico de número %d: %s', 
-	
-	'report_reasons' => array( 
-		'TITLE' => array( 
-			'WAREZ'		=> 'Pirataria', 
-			'SPAM' 		=> 'Spam', 
-			'OFF_TOPIC' => 'Off-topic', 
-			'OTHER' 	=> 'Outros' 
+
+	'report_reasons' => array(
+		'TITLE' => array(
+			'WAREZ'		=> 'Pirataria',
+			'SPAM' 		=> 'Spam',
+			'OFF_TOPIC' => 'Off-topic',
+			'OTHER' 	=> 'Outros',
 		), 
 		'DESCRIPTION' => array( 
 			'WAREZ'		=> 'A mensagem denunciada possui endereços ilegais ou softwares pirateados.', 
 			'SPAM' 		=> 'A mensagem denunciada possui apenas o propósito de anunciar algum outro website ou produto.', 
 			'OFF_TOPIC' => 'A mensagem denunciada encontra-se fora de discussão no tópico.', 
-			'OTHER' 	=> 'A mensagem denunciada não se encaixa em qualquer outra categoria. Por favor, utilize o campo de informações adicionais.'
-		) 
-	), 
+			'OTHER' 	=> 'A mensagem denunciada não se encaixa em qualquer outra categoria. Por favor, utilize o campo de informações adicionais.',
+		),
+	),
 ));
