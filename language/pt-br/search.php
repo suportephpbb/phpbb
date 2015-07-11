@@ -43,12 +43,12 @@ $lang = array_merge($lang, array(
 	'DISPLAY_RESULTS'		=> 'Exibir resultados como', 
 
 	'FOUND_SEARCH_MATCHES'		=> array(
-		1	=> 'A pesquisa encontrou %d resultado',
-		2	=> 'A pesquisa encontrou %d resultados',
+		1	=> 'Pesquisa resultou em %d ocorrência',
+		2	=> 'Pesquisa resultou em %d ocorrências',
 	),
 	'FOUND_MORE_SEARCH_MATCHES'		=> array(
-		1	=> 'Foi encontrado mais do que %d resultado',
-		2	=> 'Foram encontrados mais do que %d resultados',
+		1	=> 'Pesquisa resultou em mais de %d ocorrência',
+		2	=> 'Pesquisa resultou em mais de %d ocorrências',
 	),
 
 	'GLOBAL'				=> 'Anúncio global', 
@@ -63,8 +63,8 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'Este painel exige que você esteja registrado e autenticado para ver as novas mensagens desde a sua última visita.',
 	
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
-		1	=> 'Especificou muitas palavras para pesquisar. Por favor, não insira mais de %1$d palavra.',
-		2	=> 'Especificou muitas palavras para pesquisar. Por favor, não insira mais de %1$d palavras.',
+		1	=> 'Você especificou muitas palavras em sua pesquisa. Por favor, não insira mais que %1$d palavra.',
+		2	=> 'Você especificou muitas palavras em sua pesquisa. Por favor, não insira mais que %1$d palavras.',
 	),
 	
 	'NO_KEYWORDS'			=> 'Você deve especificar pelo menos uma palavra para efetuar a pesquisa. Cada palavra deve ter no mínimo %s caracteres e não deve ultrapassar o limite de %s caracteres.', 
@@ -73,21 +73,21 @@ $lang = array_merge($lang, array(
 	'NO_SEARCH_RESULTS'		=> 'Nenhuma mensagem foi encontrada utilizando estes critérios', 
 	'NO_SEARCH_LOAD'		=> 'Desculpe, você não pode usar o sistema de pesquisa neste momento. O servidor está sobrecarregado. Por favor, tente novamente mais tarde.',
 	'NO_SEARCH_TIME'		=> array(
-		1	=> 'Neste momento não é possível usar a pesquisa. Por favor, tente novamente daqui a %d segundo.',
-		2	=> 'Neste momento não é possível usar a pesquisa. Por favor, tente novamente daqui a %d segundos.',
+		1	=> 'Você não pode utilizar o sistema de pesquisas agora. Por favor, tente novamente em %d segundo.',
+		2	=> 'Você não pode utilizar o sistema de pesquisas agora. Por favor, tente novamente em %d segundos.',
 	),
 	'NO_SEARCH_UNREADS'		=> 'Desculpe, mas as pesquisas pelas mensagens não lidas está desativada neste fórum.',
 	'WORD_IN_NO_POST'		=> 'Nenhuma mensagem foi encontrada, pois a palavra %s não foi localizada em nenhuma ocorrência.', 
 	'WORDS_IN_NO_POST'		=> 'Nenhuma mensagem foi encontrada, pois as palavras %s não foram localizadas em nenhuma ocorrência.', 
 
 	'POST_CHARACTERS'		=> 'caracteres das mensagens', 
-	'PHRASE_SEARCH_DISABLED'	=> 'A pesquisa por palavra exata não é suportada neste Fórum.',
+	'PHRASE_SEARCH_DISABLED'	=> 'Não há suporte para a busca de frases exatas neste fórum.',
 
 	'RECENT_SEARCHES'		=> 'Pesquisas recentes', 
 	'RESULT_DAYS'			=> 'Limitar resultados anteriores', 
 	'RESULT_SORT'			=> 'Classificar resultados por', 
 	'RETURN_FIRST'			=> 'Voltar aos primeiros', 
-	'GO_TO_SEARCH_ADV'			=> 'Pesquisa avançada',
+	'GO_TO_SEARCH_ADV'	=> 'Pesquisa avançada',
 	
 	'SEARCHED_FOR'				=> 'Pesquisar por termo utilizado', 
 	'SEARCHED_TOPIC'			=> 'Tópico pesquisado', 
@@ -98,7 +98,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_AUTHOR_EXPLAIN'		=> 'Use * como complemento para palavras parciais.', 
 	'SEARCH_FIRST_POST'			=> 'Apenas a primeira mensagem dos tópicos', 
 	'SEARCH_FORUMS'				=> 'Pesquisar nos fóruns', 
-	'SEARCH_FORUMS_EXPLAIN'		=> 'Selecione o fórum, ou os fóruns, no qual você deseja realizar a pesquisa. Todos os sub fóruns serão incluídos na pesquisa se você não desmarcar a opção "Pesquisar nos sub fóruns" abaixo.', 
+	'SEARCH_FORUMS_EXPLAIN'		=> 'Selecione o fórum, ou os fóruns, no qual você deseja realizar a pesquisa. Todos os sub fóruns serão incluídos na pesquisa se você não desmarcar a opção “Pesquisar nos sub fóruns“ abaixo.', 
 	'SEARCH_IN_RESULTS'			=> 'Pesquisar por estes resultados', 
 	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Você pode inserir <strong>+</strong> na frente de uma palavra que deve ser localizada na pesquisa e <strong>-</strong> na frente de uma palavra que não deve ser localizada. Escreva uma lista de palavras separadas por <strong>|</strong> se somente uma das palavras inseridas deva ser encontrada. Use * como complemento para resultados parciais.', 
 	'SEARCH_MSG_ONLY'			=> 'Somente texto da mensagem', 
@@ -115,10 +115,10 @@ $lang = array_merge($lang, array(
 	'SORT_POST_SUBJECT'			=> 'Título da mensagem', 
 	'SORT_TIME'					=> 'Enviado em', 
 	'SPHINX_SEARCH_FAILED'		=> 'A pesquisa falhou: %s',
-	'SPHINX_SEARCH_FAILED_LOG'	=> 'Desculpe, pesquisa não pôde ser executada. Mais informações sobre esta falha foram registrada no log de erro.',
+	'SPHINX_SEARCH_FAILED_LOG'	=> 'Desculpe, pesquisa não pôde ser executada. Para mais informações sobre esta falha, consulte o log de erros.',
 
 	'TOO_FEW_AUTHOR_CHARS'	=> array(
-		1	=> 'Tem que especificar pelo menos %d caracter do nomes dos autores.',
-		2	=> 'Tem que especificar pelo menos %d caracteres do nomes dos autores.',
+		1	=> 'Você deve especificar pelo menos %d caractere no nome do autor.',
+		2	=> 'Você deve especificar pelo menos %d caracteres no nome do autor.',
 	),
 ));
