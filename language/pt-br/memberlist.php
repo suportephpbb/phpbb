@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'DEST_LANG'				=> 'Idioma',
 	'DEST_LANG_EXPLAIN'		=> 'Selecione o idioma desejado (se ativo) para o destinatário dessa mensagem.',
 
-	'EDIT_PROFILE'				=> 'Editar Perfil',
+	'EDIT_PROFILE'			=> 'Editar Perfil',
 
 	'EMAIL_BODY_EXPLAIN'	=> 'Esta Mensagem será enviada em texto. Por Favor, não adicione qualquer Código HTML ou BBCode. Para o endereço de resposta será anexado o seu endereço de e-mail.',
 	'EMAIL_DISABLED'		=> 'Todas as funções relativas aos e-mails encontram-se desativadas.',
@@ -64,10 +64,9 @@ $lang = array_merge($lang, array(
 	'EMPTY_MESSAGE_EMAIL'	=> 'Você deve escrever uma mensagem para ser enviada.',
  	'EMPTY_MESSAGE_IM'		=> 'Você deve escrever uma mensagem para ser enviada.',
 	'EMPTY_NAME_EMAIL'		=> 'Você deve escrever o nome do destinatário.',
+	'EMPTY_SENDER_EMAIL'	=> 'Você deve escrever um endereço de e-mail válido.',
+	'EMPTY_SENDER_NAME'		=> 'Você deve escrever um nome.',
 	'EMPTY_SUBJECT_EMAIL'	=> 'Você deve escrever um título para o e-mail.',
-	'EMPTY_SENDER_NAME'			=> 'Tem que fornecer um nome.',
-	'EMPTY_SENDER_EMAIL'			=> 'Tem que fornecer um e-mail válido.',
-	'EMPTY_SUBJECT_EMAIL'		=> 'Indique um assunto para o email',
 	'EQUAL_TO'				=> 'Igual a',
 
 	'FIND_USERNAME_EXPLAIN'	=> 'Aqui você pode pesquisar por usuários específicos. Você não precisa preencher todos os campos. Use * como complemento para palavras parciais. Se informar uma data, utilize o formato <kbd>YYYY-MM-DD</kbd>, ex. <samp>2007-03-14</samp>. Além disso, use as marcas de seleção para selecionar um ou mais nomes de usuários (podem ser aceitos vários usuários), e clique no botão selecionado para voltar à forma anterior.',
@@ -104,8 +103,8 @@ $lang = array_merge($lang, array(
 
 	'MORE_THAN'				=> 'Maior que',
 
-	'NO_CONTACT_FORM'			=> 'O formulário de contato do administrador foi desativado.',
-	'NO_CONTACT_PAGE'			=> 'A página de contato do administrador foi desativada.',
+	'NO_CONTACT_FORM'		=> 'O formulário de contato para o administrador do fórum foi desativado.',
+	'NO_CONTACT_PAGE'		=> 'A página de contato do administrador do fórum foi desativado.',
 	'NO_EMAIL'				=> 'Você não está autorizado a enviar e-mails para este usuário.',
 	'NO_VIEW_USERS'			=> 'Você não está autorizado a ver a lista de membros ou perfis.',
 
@@ -121,8 +120,8 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MARKED'			=> 'Selecionar marcados',
 	'SELECT_SORT_METHOD'	=> 'Selecionar método de ordenação',
-	'SENDER_EMAIL_ADDRESS'		=> 'O seu endereço de email',
-	'SENDER_NAME'				=> 'O seu nome',
+	'SENDER_EMAIL_ADDRESS'	=> 'Seu endereço de email',
+	'SENDER_NAME'			=> 'Seu nome',
 	'SEND_ICQ_MESSAGE'		=> 'Enviar mensagem ICQ',	
 	'SEND_IM'				=> 'Enviando mensagem instantânea',
 	'SEND_JABBER_MESSAGE'	=> 'Enviar mensagem jabber',
@@ -138,17 +137,17 @@ $lang = array_merge($lang, array(
 	'USER_FORUM'			=> 'Estatísticas do usuário',
 	'USER_LAST_REMINDED'	=> array(
 		0		=> 'Nenhum lembrete enviado atualmente',
-		1		=> '%1$d lembretes enviados<br />» %2$s',
-		2		=> 'Foram enviadas %1$d advertências<br />» %2$s',
+		1		=> '%1$d lembrete enviado<br />» %2$s',
+		2		=> '%1$d lembretes enviados<br />» %2$s',
 	),
 	'USER_ONLINE'			=> 'Online',
 	'USER_PRESENCE'			=> 'Frequência no fórum',
 	'USERS_PER_PAGE'			=> 'Usuários por página',
 
 	'VIEWING_PROFILE'		=> 'Visualizando perfil - %s',
-	'VIEW_FACEBOOK_PROFILE'		=> 'Ver perfil do Facebook',
-	'VIEW_SKYPE_PROFILE'		=> 'Ver perfil do Skype',
-	'VIEW_TWITTER_PROFILE'		=> 'Ver perfil do Twitter',
-	'VIEW_YOUTUBE_CHANNEL'		=> 'Ver canal YouTube',
-	'VIEW_GOOGLEPLUS_PROFILE'	=> 'Ver perfil do Google+',
+	'VIEW_FACEBOOK_PROFILE'	=> 'Ver perfil no Facebook',
+	'VIEW_SKYPE_PROFILE'	=> 'Ver perfil no Skype',
+	'VIEW_TWITTER_PROFILE'	=> 'Ver perfil no Twitter',
+	'VIEW_YOUTUBE_CHANNEL'	=> 'Ver canal no YouTube',
+	'VIEW_GOOGLEPLUS_PROFILE'	=> 'Ver perfil no Google+',
 ));
