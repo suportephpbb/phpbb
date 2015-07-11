@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 	'ATTACH_QUOTA_REACHED'		=> 'Desculpe, o limite de quota de anexos foi alcançado.',
 	'ATTACH_SIG'				=> 'Anexar assinatura (assinaturas podem ser alteradas em UCP)',
 
-	'BBCODE_A_HELP'				=> 'Anexo: [attachment=]nome do arquivo.ext[/attachment]',
+	'BBCODE_A_HELP'				=> 'Anexo: [attachment=]arquivo.ext[/attachment]',
 	'BBCODE_B_HELP'				=> 'Negrito: [b]texto[/b]',
 	'BBCODE_C_HELP'				=> 'Código: [code]código[/code]',
 	'BBCODE_D_HELP'				=> 'Flash: [flash=width,height]http://url[/flash]',
@@ -73,12 +73,12 @@ $lang = array_merge($lang, array(
 	'CANNOT_POST_STICKY'		=> 'Desculpe, mas você não pode enviar tópico fixos',
 	'CHANGE_TOPIC_TO'			=> 'Marcar tópico como',
 	'CHARS_POST_CONTAINS'		=> array(
-		1	=> 'Sua mensagem possui %1$d caractere.',
-		2	=> 'Sua mensagem possui %1$d caracteres.',
+		1	=> 'Sua mensagem contém %1$d caractere.',
+		2	=> 'Sua mensagem contém %1$d caracteres.',
 	),
 	'CHARS_SIG_CONTAINS'		=> array(
-		1	=> 'Sua assinatura possui %1$d caractere.',
-		2	=> 'Sua assinatura possui %1$d caracteres.',
+		1	=> 'Sua assinatura contém %1$d caractere.',
+		2	=> 'Sua assinatura contém %1$d caracteres.',
 	),
 	'CLOSE_TAGS'				=> 'Fechar todas as marcas de BBCode',
 	'CURRENT_TOPIC'				=> 'Tópico atual',
@@ -143,28 +143,28 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_QUOTE'		=> 'Você precisa se autenticar para citar mensagens neste fórum.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'Você precisa se autenticar para responder mensagens neste fórum.',
 
-	'MAX_FONT_SIZE_EXCEEDED'	=> 'Você pode utilizar fontes apenas até o tamanho %1$d.',
+	'MAX_FONT_SIZE_EXCEEDED'	=> 'Você pode utilizar fontes apenas até o tamanho %d.',
 	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
-		1	=> 'O seu arquivo flash só pode ter até %d pixel de altura.',
-		2	=> 'Os seus arquivosflash só podem ter até %d pixel de altura.',
+		1	=> 'Você apenas pode utilizar arquivos flash com o tamanho máximo de %d pixel de altura.',
+		2	=> 'Você apenas pode utilizar arquivos flash com o tamanho máximo de %d pixels de altura.',
 	),
 	'MAX_FLASH_WIDTH_EXCEEDED'	=> array(
-		1	=> 'O seu arquivo flash só pode ter até %d pixel de largura.',
-		2	=> 'Os seus arquivosflash só podem ter até %d pixel de largura.',
+		1	=> 'Você apenas pode utilizar arquivos flash com o tamanho máximo de %d pixel de largura.',
+		2	=> 'Você apenas pode utilizar arquivos flash com o tamanho máximo de %d pixels de largura.',
 	),
 	'MAX_IMG_HEIGHT_EXCEEDED'	=> array(
-		1	=> 'A sua imagem só pode ter até %1$d pixel de altura.',
-		2	=> 'As suas imagens só podem ter até %1$d pixel de altura.',
+		1	=> 'Você apenas pode utilizar imagens com o tamanho máximo de %1$d pixel de altura.',
+		2	=> 'Você apenas pode utilizar imagens com o tamanho máximo de %1$d pixels de altura.',
 	),
 	'MAX_IMG_WIDTH_EXCEEDED'	=> array(
-		1	=> 'A sua imagem só pode ter até %d pixel de largura.',
-		2	=> 'As suas imagens só podem ter até %d pixel de largura.',
+		1	=> 'Você apenas pode utilizar imagens com o tamanho máximo de %d pixel de largura.',
+		2	=> 'Você apenas pode utilizar imagens com o tamanho máximo de %d pixels de largura.',
 	),
 
 	'MESSAGE_BODY_EXPLAIN'		=> array(
 		0	=> '', // zero means no limit, so we don't view a message here.
-		1	=> 'Digite aqui a sua mensagem, pode conter mais do que <strong>%d</strong> caracter.',
-		2	=> 'Digite aqui a sua mensagem, pode conter mais do que <strong>%d</strong> caracteres.',
+		1	=> 'Escreva sua mensagem aqui, ela não pode ultrapassar o número de <strong>%d</strong> caractere.',
+		2	=> 'Escreva sua mensagem aqui, ela não pode ultrapassar o número de <strong>%d</strong> caracteres.',
 	),
 	'MESSAGE_DELETED'			=> 'A mensagem foi excluída com sucesso.',
 	'MORE_SMILIES'				=> 'Ver mais Smilies',
@@ -183,17 +183,17 @@ $lang = array_merge($lang, array(
 	'PLACE_INLINE'				=> 'Insira na linha',
 	'POLL_DELETE'				=> 'Excluir esta enquete',
 	'POLL_FOR'					=> 'Duração da enquete',
-	'POLL_FOR_EXPLAIN'			=> '[Escreva 0 ou deixe em branco para uma enquete sem tempo limite]',
+	'POLL_FOR_EXPLAIN'			=> '[Escreva 0 para uma enquete sem tempo limite]',
 	'POLL_MAX_OPTIONS'			=> 'Opções por usuário',
 	'POLL_MAX_OPTIONS_EXPLAIN'	=> 'Este é o número de opções que cada usuário pode selecionar ao votar.',
 	'POLL_OPTIONS'				=> 'Opções de voto',
 	'POLL_OPTIONS_EXPLAIN'		=> array(
-		1	=> 'Coloque uma opção por linha. Não pode colocar mais do que <strong>%d</strong> opção.',
-		2	=> 'Coloque uma opção por linha. Não pode colocar mais do que <strong>%d</strong> opções.',
+		1	=> 'Escreva cada opção em uma nova linha. Você pode adicionar <strong>%d</strong> opção de voto.',
+		2	=> 'Escreva cada opção em uma nova linha. Você pode adicionar mais de <strong>%d</strong> opções de voto.',
 	),
 	'POLL_OPTIONS_EDIT_EXPLAIN'		=> array(
-		1	=> 'Coloque uma opção por linha. Não pode colocar mais do que <strong>%d</strong> opção. Se adicionar ou remover opções, os votos anteriores serão excluídos.',
-		2	=> 'Coloque uma opção por linha. Não pode colocar mais do que <strong>%d</strong> opções. Se adicionar ou remover opções, os votos anteriores serão excluídos.',
+		1	=> 'Escreva cada opção em uma nova linha. Você pode adicionar <strong>%d</strong> opção. Se você excluir ou adicionar opções, todos os votos anteriores serão resetados.',
+		2	=> 'Escreva cada opção em uma nova linha. Você pode adicionar mais de <strong>%d</strong> opções. Se você excluir ou adicionar opções, todos os votos anteriores serão resetados.',
 	),
 	'POLL_QUESTION'				=> 'Título para a enquete',
 	'POLL_TITLE_TOO_LONG'		=> 'O título para a enquete é muito grande. Ele deve possuir no máximo 100 caracteres.',
@@ -220,10 +220,10 @@ $lang = array_merge($lang, array(
 	'PROGRESS_BAR'				=> 'Barra de progresso',
 
 	'QUOTE_DEPTH_EXCEEDED'		=> array(
-		1	=> 'Só pode sobrepor %d citação.',
-		2	=> 'Só pode sobrepor %d citações.',
+		1	=> 'Você pode inserir apenas %d citação dentro de outras mais.',
+		2	=> 'Você pode inserir apenas %d citações dentro de outras mais.',
 	),
-	'QUOTE_NO_NESTING'				=> 'Não pode inserir citações dentro de outra citação.',
+	'QUOTE_NO_NESTING'				=> 'Não é possível inserir citações dentro de outra citação.',
 
 	'REMOTE_UPLOAD_TIMEOUT'			=> 'O arquivo selecionado não pôde ser carregado porque o pedido excedeu o tempo.',
 	'SAVE'						=> 'Salvar',
@@ -235,13 +235,13 @@ $lang = array_merge($lang, array(
 	'SMILIES_ARE_ON'			=> 'Smilies estão <em>ativos</em>',
 	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Tempo limite do anúncio/tópico fixo',
 	'STICK_TOPIC_FOR'			=> 'Fixar tópico por',
-	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Escreva 0 ou deixe em branco para um anúncio/tópico fixo sem tempo limite. Por favor, note que este número é relativo a data da mensagem.',
+	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Escreva 0 para um anúncio/tópico fixo sem tempo limite. Por favor, note que este número é relativo a data da mensagem.',
 	'STYLES_TIP'				=> 'Dica: Estilos podem ser aplicados rapidamente ao texto selecionado.',
 
 	'TOO_FEW_CHARS'				=> 'A mensagem possui poucos caracteres.',
 	'TOO_FEW_CHARS_LIMIT'		=> array(
-		1	=> 'Tem que inserir pelo menos %1$d caracter.',
-		2	=> 'Tem que inserir pelo menos %1$d caracteres.',
+		1	=> 'A sua mensagem contém %1$d caractere.',
+		2	=> 'A sua mensagem contém %1$d caracteres.',
 	),
 	'TOO_FEW_POLL_OPTIONS'		=> 'Você deverá escrever pelo menos duas opções de voto para a enquete.',
 	'TOO_MANY_ATTACHMENTS'		=> 'O anexo não pôde ser adicionado, pois o número máximo de %d anexos neste tópico já foi alcançado.',
@@ -257,8 +257,8 @@ $lang = array_merge($lang, array(
 
 	'UNAUTHORISED_BBCODE'		=> 'Você não pode utilizar determinados BBCodes: %s',
 	'UNGLOBALISE_EXPLAIN'		=> 'Para exibir um anúncio como um tópico normal, você precisa informar o fórum aonde ele será exibido.',
-	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'A sua mensagem contém os seguintes caracteres não suportados:<br />%s',
-	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'O assunto contém os seguintes caracteres não suportados:<br />%s',
+	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Sua mensagem contém os seguintes caracteres não suportados:<br />%s',
+	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Seu tópico contém os seguintes caracteres não suportados:<br />%s',
 	'UPDATE_COMMENT'			=> 'Atualizar descrição',
 	'URL_INVALID'				=> 'A URL especificada está inválida.',
 	'URL_NOT_FOUND'				=> 'O arquivo selecionado não foi encontrado.',
