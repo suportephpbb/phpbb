@@ -350,6 +350,6 @@ $help = array(
    ),
 	array(
 		0 => 'Como faço para entrar em contato com o administrador do fórum?',
-		1 => 'Todos os usuários do fórum podem usar o formulário “Contate-nos”, se a opção estiver ativada.<br />Os usuários podem usar o link “Equipe do fórum”.',
+		1 => 'Todos os usuários do fórum podem usar o formulário “Contate-nos”, se a opção estiver ativada.<br />Os usuários registrados também podem usar o link “Equipe do fórum”.',
 	),
 );
