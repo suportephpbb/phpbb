@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array( 
 	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Aqui você pode personalizar todas as opções gerais do seu phpBB e determinar as operações básicas do sistema.',
 	'BOARD_INDEX_TEXT'				=> 'Texto do índice fórum',
-	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'Este texto será exibido nos links de navegação do fórum. Se nenhum texto for especificado, “Índice do fórum” será exibida por padrão.',
+	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'Este texto será exibido nos links de navegação do fórum. Se nenhum texto for especificado, “Índice do fórum” será exibido por padrão.',
 	'BOARD_STYLE'					=> 'Estilo do fórum',
 	'CUSTOM_DATEFORMAT'				=> 'Personalizar…',
 	'DEFAULT_DATE_FORMAT'			=> 'Formato da data', 
@@ -51,14 +51,14 @@ $lang = array_merge($lang, array(
 	'DISABLE_BOARD'					=> 'Desativar painel', 
 	'DISABLE_BOARD_EXPLAIN'			=> 'Isto torna o fórum inacessível aos usuários. Você também pode escrever uma pequena mensagem (255 caracteres) para ser exibida se desejar.', 
 	'DISPLAY_LAST_SUBJECT'			=> 'Exibir o título da última mensagem adicionada na lista de fóruns',
-	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'O título da última mensagem será exibido na lista de fóruns com um link para mensagem. Os títulos em fóruns que são protegidos por uma senha e fóruns que são somente leitura não são exibidos.',
+	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'O título da última mensagem será exibido na lista de fóruns com um link para mensagem. Os títulos em fóruns que são protegidos por uma senha e fóruns que são somente de leitura não são exibidos.',
 	'GUEST_STYLE'					=> 'Estilo para visitantes',
 	'GUEST_STYLE_EXPLAIN'			=> 'Estilo do fórum para os visitantes.',
 	'OVERRIDE_STYLE'				=> 'Substituir estilo do usuário', 
 	'OVERRIDE_STYLE_EXPLAIN'		=> 'Os usuários (e visitantes) são obrigados a utilizar o estilo definido em "Estilo padrão".', 
 	'SITE_DESC'						=> 'Descrição do site', 
 	'SITE_HOME_TEXT'				=> 'Texto para página inicial do website',
-	'SITE_HOME_TEXT_EXPLAIN'		=> 'Este texto será exibido como um link redirecionando para o seu website e será inserido em seus links de navegação do fórum. Se nenhum texto for especificado, “Página inicial” será exibida por padrão.',
+	'SITE_HOME_TEXT_EXPLAIN'		=> 'Este texto será exibido como um link redirecionando para o seu website e será inserido em seus links de navegação do fórum. Se nenhum texto for especificado, “Página inicial” será exibido por padrão.',
 	'SITE_HOME_URL'					=> 'Link para website',
 	'SITE_HOME_URL_EXPLAIN'			=> 'Se for especificado, este link será exibido no inicio dos links de navegação do fórum e o logotipo do fórum vai redirecionar para este URL em vez do índice do fórum. Por favor insira um URL absoluto, por exemplo, <samp>http://www.phpbb.com</samp>.',
 	'SITE_NAME'						=> 'Nome do site', 
@@ -482,7 +482,7 @@ $lang = array_merge($lang, array(
 	'UPLOAD_ICONS_PATH'			=> 'Pasta dos ícones de grupos de extensões', 
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'Pasta sob o diretório raiz do seu phpBB, ex. <samp>images/upload_icons</samp>.',
 	'USE_SYSTEM_CRON'		=> 'Executar tarefas periódicas do sistema cron',
-	'USE_SYSTEM_CRON_EXPLAIN'		=> 'Se esta opção estiver desativada, o phpBB irá garantir que as tarefas periódicas sejam executadas automaticamente. Se esta opção for ativada, o phpBB não irá planejar qualquer tarefa periódica por si só, um administrador de sistema deve certifique-se de executar <code>bin/phpbbcli.php cron:run</code> em intervalos regulares (a cada 5 minutos, por exemplo) pelo sistema cron.',
+	'USE_SYSTEM_CRON_EXPLAIN'		=> 'Se esta opção estiver desativada, o phpBB irá garantir que as tarefas periódicas sejam executadas automaticamente. Se esta opção for ativada, o phpBB não irá planejar qualquer tarefa periódica por si só, um administrador do sistema deve certifique-se de executar <code>bin/phpbbcli.php cron:run</code> em intervalos regulares (a cada 5 minutos, por exemplo) pelo sistema cron.',
 )); 
 
 // Security Settings 
