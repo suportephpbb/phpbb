@@ -75,8 +75,8 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_USERS'				=> 'Usuários', 
 	'ACP_CLIENT_COMMUNICATION'	=> 'Comunicação do Cliente', 
 	'ACP_COOKIE_SETTINGS'		=> 'Configurações do cookie', 
-	'ACP_CONTACT'					=> 'Página de contato',
-	'ACP_CONTACT_SETTINGS'			=> 'Configurações da página de contato',
+	'ACP_CONTACT'				=> 'Página de contato',
+	'ACP_CONTACT_SETTINGS'		=> 'Configuração da página de contato',
 	'ACP_CRITICAL_LOGS'			=> 'Log de erros', 
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Campos de perfil personalizados', 
 
@@ -86,8 +86,8 @@ $lang = array_merge($lang, array(
 
 	'ACP_EMAIL_SETTINGS'		=> 'Configurações de e-mail', 
 	'ACP_EXTENSION_GROUPS'		=> 'Administrar grupos de extensão', 
-	'ACP_EXTENSION_MANAGEMENT'		=> 'Administração de Extensões',
-	'ACP_EXTENSIONS'				=> 'Administrar Extensões',
+	'ACP_EXTENSION_MANAGEMENT'	=> 'Administração de Extensões',
+	'ACP_EXTENSIONS'			=> 'Administrar Extensões',
 
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Permissões do fórum',
 	'ACP_FORUM_LOGS'				=> 'Logs do Fórum', 
