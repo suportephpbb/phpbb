@@ -123,7 +123,7 @@ $lang = array_merge($lang, array(
 	'ACP_MAIN'						=> 'Índice do ACP',
 
 	'ACP_MANAGE_ATTACHMENTS'			=> 'Administrar anexos',
-	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Aqui pode listar e excluir arquivoss anexados a mensagens e mensagens privadas.',
+	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Aqui pode listar e excluir arquivos anexados a mensagens e mensagens privadas.',
 
 	'ACP_MANAGE_EXTENSIONS'			=> 'Administrar extensões', 
 	'ACP_MANAGE_FORUMS'				=> 'Administrar fóruns', 
