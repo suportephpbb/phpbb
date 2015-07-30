@@ -63,7 +63,7 @@ $lang = array_merge($lang, array(
 	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'Tamanho máximo de cada arquivo anexo em mensagens privadas, sendo 0 um valor ilimitado .', 
 	'ATTACH_ORPHAN_URL'					=> 'Anexos órfãos', 
 	'ATTACH_POST_ID'					=> 'ID da mensagem', 
-	'ATTACH_POST_TYPE'					=> 'Tipo de Mensagem',
+	'ATTACH_POST_TYPE'					=> 'Tipo de mensagem',
 	'ATTACH_QUOTA'						=> 'Quota total de anexos', 
 	'ATTACH_QUOTA_EXPLAIN'				=> 'Espaço máximo em disco que todos os anexos podem ocupar em sua pasta de envio, sendo 0 um valor ilimitado.', 
 	'ATTACH_TO_POST'					=> 'Anexar arquivo à mensagem', 
@@ -109,8 +109,8 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_REAL_MEDIA'			=> 'Real Media',
 	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows Media',
 
-	'FILES_GONE'						=> 'Alguns dos anexos que selecionou para eliminar não existem. Eles podem já ter sido excluídos. Os anexos que existiam foram eliminados.',
-	'FILES_STATS_WRONG'					=> 'As estatísticas dos seus arquivos são imprecisas e provavelmente precisam ser resincronizadas. Valores atuais: Número de arquivos = %1$d, tamanho total dos arquivos = %2$s.<br />Clique %3$saqui%4$s para os resincronizar.',
+	'FILES_GONE'			=> 'Alguns dos anexos que você deseja excluir não foram encontrados. Eles podem já ter sido excluídos. Os anexos encontrados foram excluídos.',
+	'FILES_STATS_WRONG'		=> 'As estatísticas de arquivos são imprecisas e devem ser re-sincronizadas. Valores atuais: Número de arquivos = %1$d, tamanho total dos arquivos = %2$s.<br />Clique %3$saqui%4$s para os re-sincronizar.',
 
 	'GO_TO_EXTENSIONS'		=> 'Ir à administração de extensões', 
 	'GROUP_NAME'			=> 'Nome do grupo', 
@@ -149,9 +149,9 @@ $lang = array_merge($lang, array(
 	'ORDER_ALLOW_DENY'		=> 'Permitir', 
 	'ORDER_DENY_ALLOW'		=> 'Proibir', 
 
-	'REMOVE_ALLOWED_IPS'		=> 'Excluir IPs/hostnames <em>permitidos</em>', 
-	'REMOVE_DISALLOWED_IPS'		=> 'Excluir IPs/hostnames <em>proibidos</em>', 
-	'RESYNC_FILES_STATS_CONFIRM'		=> 'Tem certeza que deseja resincronizar estatísticas de arquivos?',
+	'REMOVE_ALLOWED_IPS'			=> 'Excluir IPs/hostnames <em>permitidos</em>', 
+	'REMOVE_DISALLOWED_IPS'			=> 'Excluir IPs/hostnames <em>proibidos</em>', 
+	'RESYNC_FILES_STATS_CONFIRM'	=> 'Você deseja realmente re-sincronizar estatísticas de arquivos?',
 
 	'SEARCH_IMAGICK'				=> 'Localizar Imagemagick', 
 	'SECURE_ALLOW_DENY'				=> 'Lista de permissões/proibições', 
