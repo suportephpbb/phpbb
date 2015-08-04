@@ -38,9 +38,9 @@ if (empty($lang) || !is_array($lang))
 
 // User pruning 
 $lang = array_merge($lang, array( 
-	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Esta seção permite a você deletar ou desativar usuários em seu painel. Os registros podem ser filtrados de diversas maneiras: pelo seu contador de mensagens, últimas atividades, etc. Cada um desses critérios podem ser combinados para que sejam escolhidos quais registros serão afetados, ex. você pode limpar usuários com menos de 10 mensagens e que ficaram inativos depois de 2002-01-01. Alternativamente, você pode pular estes critérios de seleção e escrever uma lista de usuários (cada um em uma linha separada) dentro da caixa de texto. Cuidado com esta facilidade! Uma vez que o usuário seja deletado, não há como reverter esta ação.', 
+	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Esta seção permite a você deletar ou desativar usuários em seu painel. Os registros podem ser filtrados de diversas maneiras: pelo seu contador de mensagens, últimas atividades, etc. Cada um desses critérios podem ser combinados para que sejam escolhidos quais registros serão afetados, ex. você pode limpar usuários com menos de 10 mensagens e que ficaram inativos depois de 2002-01-01. Use * como complemento para os campos de texto. Alternativamente, você pode pular estes critérios de seleção e escrever uma lista de usuários (cada um em uma linha separada) dentro da caixa de texto. Cuidado com esta facilidade! Uma vez que o usuário seja deletado, não há como reverter esta ação.',
 
-	'CRITERIA'						=> 'Critérios',
+	'CRITERIA'					=> 'Critérios',
 
 	'DEACTIVATE_DELETE'			=> 'Desativar ou excluir', 
 	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Escolha entre desativar os usuários ou excluí-los diretamente. Por favor, note que os usuários deletados não poderão ser restaurados!', 
@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'DELETE_USER_POSTS'			=> 'Excluir mensagens limpas', 
 	'DELETE_USER_POSTS_EXPLAIN' => 'Exclui mensagens de usuários deletados, não possui efeito se os usuários estiverem desativados.', 
 
-	'JOINED_EXPLAIN'			=> 'Escrever uma data no formato <kbd>YYYY-MM-DD</kbd>.', 
+	'JOINED_EXPLAIN'			=> 'Escrever uma data no formato <kbd>YYYY-MM-DD</kbd>. Você pode usar os dois campos para selecionar um intervalo ou deixar em branco para especificar um período de tempo aberto.', 
 
 	'LAST_ACTIVE_EXPLAIN'		=> 'Escrever uma data no formato <kbd>YYYY-MM-DD</kbd>. Insira <kbd>0000-00-00</kbd> para limpar usuários que nunca tenham logado, critérios de <em>Antes</em> e <em>Depois</em> serão ignorados.', 
 
@@ -56,8 +56,8 @@ $lang = array_merge($lang, array(
 	'PRUNE_USERS_GROUP_EXPLAIN'		=> 'Limite de usuários no grupo selecionado.',
 	'PRUNE_USERS_GROUP_NONE'		=> 'Todos os grupos',
 	'PRUNE_USERS_LIST'				=> 'Limpeza automática de usuários',
-	'PRUNE_USERS_LIST_DELETE'		=> 'Se selecionar este critério, os usuários terão os seus registros excluídos.',
-	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Se selecionar este critério, os usuários terão os seus registros desativados.',
+	'PRUNE_USERS_LIST_DELETE'		=> 'Se selecionar este critério, os usuários terão os seus registros excluídos. Você pode remover usuários individuais da lista de exclusão, desmarcando a caixa ao lado de seu nome de usuário.',
+	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Se selecionar este critério, os usuários terão os seus registros desativados. Você pode remover usuários individuais da lista inativos, desmarcando a caixa ao lado de seu nome de usuário.',
 
 	'SELECT_USERS_EXPLAIN'		=> 'Escrevendo usuários específicos aqui, eles serão utilizados em preferência para os critérios acima. Fundadores não podem ser limpos.', 
 
