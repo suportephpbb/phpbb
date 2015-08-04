@@ -86,8 +86,8 @@ $lang = array_merge($lang, array(
 		'URL'			=> 'Uma URL válida utilizando qualquer protocolo (http, ftp, etc. não pode ser utilizada para javascript). Se nenhum for concedido, "http://" é o prefixo padrão para a sequência.', 
 		'LOCAL_URL'		=> 'Uma URL local. A URL deve ser relativa à página do tópico e não pode ser um nome de servidor ou protocolo, como links que são prefixados com “%s”',
 		'RELATIVE_URL'	=> 'Uma URL relativa. Você pode usar isso para combinar partes de uma URL, porém tenha cuidado: uma URL completa é uma URL relativa válida. Quando você quiser usar URLs relativas em seu fórum, use o token LOCAL_URL.', 
-		'COLOR'			=> 'Uma cor de HTML, pode ser tanto na forma hexadecimal <samp>#FF1234</samp> como em uma <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">cor de estilos CSS</a> assim como <samp>fuchsia</samp> ou <samp>InactiveBorder</samp>' 
-	) 
+		'COLOR'			=> 'Uma cor de HTML, pode ser tanto na forma hexadecimal <samp>#FF1234</samp> como em uma <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">cor de estilos CSS</a> assim como <samp>fuchsia</samp> ou <samp>InactiveBorder</samp>',
+	),
 )); 
 
 // Smilies and topic icons 
@@ -122,7 +122,7 @@ $lang = array_merge($lang, array(
 
 	'ICONS_ADD'				=> 'Adicionar novo ícone', 
 	'ICONS_ADDED'			=> array(
-		0	=> 'Não foram adicionados icones.',
+		0	=> 'Nenhum ícone foi adicionado.',
 		1	=> 'O ícone foi adicionado com sucesso.',
 		2	=> 'Os ícones foram adicionados com sucesso.',
 	),
@@ -130,7 +130,7 @@ $lang = array_merge($lang, array(
 	'ICONS_DELETED'			=> 'O ícone foi excluído com sucesso.', 
 	'ICONS_EDIT'			=> 'Editar ícone', 
 	'ICONS_EDITED'			=> array(
-		0	=> 'Não há icones para atualizar.',
+		0	=> 'Nenhum ícone foi atualizado.',
 		1	=> 'O ícone foi atualizado com sucesso.',
 		2	=> 'Os ícones foram atualizados com sucesso.',
 	),
@@ -166,7 +166,7 @@ $lang = array_merge($lang, array(
 	'SELECT_PACKAGE'			=> 'Selecionar um arquivo do pacote', 
 	'SMILIES_ADD'				=> 'Adicionar novo smiley', 
 	'SMILIES_ADDED'				=> array(
-		0	=> 'Não foram adicionados smilies.',
+		0	=> 'Nenhum smiley foi adicionado.',
 		1	=> 'O smiley foi adicionado com sucesso.',
 		2	=> 'Os smilies foram adicionados com sucesso.',
 	),
@@ -178,7 +178,7 @@ $lang = array_merge($lang, array(
 	'SMILIE_NO_EMOTION'         => 'O smiley "%s" foi ignorado, como se nenhuma emoção tivesse sido escrita.',
 	'SMILIE_NO_FILE'			=> 'O smiley “%s” foi ignorado, como se o arquivo tivesse ausente.',
 	'SMILIES_EDITED'			=> array(
-		0	=> 'Não foram atualizados smilies.',
+		0	=> 'Nenhum smiley foi atualizado.',
 		1	=> 'O smiley foi atualizado com sucesso.',
 		2	=> 'Os smilies foram atualizados com sucesso.',
 	),
@@ -194,8 +194,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_WIDTH'				=> 'Largura do smiley', 
 
 	'TOO_MANY_SMILIES'			=> array(
-		1	=> 'Limite de %d smiley atingido.',
-		2	=> 'Limite de %d smilies atingido.',
+		1	=> 'O limite de %d smiley foi alcançado.',
+		2	=> 'O limite de %d smilies foi alcançado',
 	),
 	
 	'WRONG_PAK_TYPE'	=> 'O pacote selecionado não possui as informações apropriadas.', 
