@@ -481,8 +481,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_PATH_EXPLAIN'		=> 'Pasta sob o diretório raiz do seu phpBB, ex. <samp>images/smilies</samp>.',
 	'UPLOAD_ICONS_PATH'			=> 'Pasta dos ícones de grupos de extensões', 
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'Pasta sob o diretório raiz do seu phpBB, ex. <samp>images/upload_icons</samp>.',
-	'USE_SYSTEM_CRON'		=> 'Executar tarefas periódicas do sistema cron',
-	'USE_SYSTEM_CRON_EXPLAIN'		=> 'Se esta opção estiver desativada, o phpBB irá garantir que as tarefas periódicas sejam executadas automaticamente. Se esta opção for ativada, o phpBB não irá planejar qualquer tarefa periódica por si só, um administrador do sistema deve certifique-se de executar <code>bin/phpbbcli.php cron:run</code> em intervalos regulares (a cada 5 minutos, por exemplo) pelo sistema cron.',
+	'USE_SYSTEM_CRON'			=> 'Executar tarefas periódicas do sistema cron',
+	'USE_SYSTEM_CRON_EXPLAIN'	=> 'Se esta opção estiver desativada, o phpBB irá garantir que as tarefas periódicas sejam executadas automaticamente. Se esta opção for ativada, o phpBB não irá planejar qualquer tarefa periódica por si só, um administrador do sistema deve certifique-se de executar <code>bin/phpbbcli.php cron:run</code> em intervalos regulares (a cada 5 minutos, por exemplo) pelo sistema cron.',
 )); 
 
 // Security Settings 

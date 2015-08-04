@@ -85,9 +85,9 @@ $lang = array_merge($lang, array(
 	'ACP_DISALLOW_USERNAMES'	=> 'Nomes proibidos', 
 
 	'ACP_EMAIL_SETTINGS'		=> 'Configurações de e-mail', 
-	'ACP_EXTENSION_GROUPS'		=> 'Administrar grupos de extensão', 
-	'ACP_EXTENSION_MANAGEMENT'	=> 'Administração de Extensões',
-	'ACP_EXTENSIONS'			=> 'Administrar Extensões',
+	'ACP_EXTENSION_GROUPS'		=> 'Administrar grupos de extensão de anexos',
+	'ACP_EXTENSION_MANAGEMENT'	=> 'Administração de extensões',
+	'ACP_EXTENSIONS'			=> 'Extensões',
 
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Permissões do fórum',
 	'ACP_FORUM_LOGS'				=> 'Logs do Fórum', 
@@ -106,7 +106,7 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGE'				=> 'Administrar grupos',
 	'ACP_GROUPS_MANAGEMENT'			=> 'Administração de grupos',
 	'ACP_GROUPS_PERMISSIONS'		=> 'Permissões de grupo',
-	'ACP_GROUPS_POSITION'			=> 'Administrar posições dos Grupos',
+	'ACP_GROUPS_POSITION'			=> 'Posições de grupos',
 
 	'ACP_ICONS'						=> 'Ícones', 
 	'ACP_ICONS_SMILIES'				=> 'Ícones/smilies', 
@@ -123,9 +123,9 @@ $lang = array_merge($lang, array(
 	'ACP_MAIN'						=> 'Índice do ACP',
 
 	'ACP_MANAGE_ATTACHMENTS'			=> 'Administrar anexos',
-	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Aqui pode listar e excluir arquivos anexados a mensagens e mensagens privadas.',
+	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Aqui você pode listar e excluir arquivos anexados em mensagens e mensagens privadas.',
 
-	'ACP_MANAGE_EXTENSIONS'			=> 'Administrar extensões', 
+	'ACP_MANAGE_EXTENSIONS'			=> 'Administrar extensões de anexos', 
 	'ACP_MANAGE_FORUMS'				=> 'Administrar fóruns', 
 	'ACP_MANAGE_RANKS'				=> 'Ranks', 
 	'ACP_MANAGE_REASONS'			=> 'Administrar razões para denúncias/reprovações', 
@@ -174,8 +174,8 @@ $lang = array_merge($lang, array(
 	'ACP_SMILIES'				=> 'Smilies', 
 	'ACP_STYLE_MANAGEMENT'		=> 'Administração de estilos', 
 	'ACP_STYLES'				=> 'Estilos', 
-	'ACP_STYLES_CACHE'				=> 'Limpar Cache',
-	'ACP_STYLES_INSTALL'			=> 'Instalar Estilos',
+	'ACP_STYLES_CACHE'			=> 'Limpar Cache',
+	'ACP_STYLES_INSTALL'		=> 'Instalar Estilos',
 
 	'ACP_SUBMIT_CHANGES'		=> 'Enviar modificações',
 	
@@ -227,10 +227,10 @@ $lang = array_merge($lang, array(
 
 	'COLOUR_SWATCH'			=> 'Cores seguras de navegação', 
 	'CONFIG_UPDATED'		=> 'Configuração atualizada com sucesso.', 
-	'CRON_LOCK_ERROR'				=> 'Não foi possível obter o Cron lock.',
-	'CRON_NO_SUCH_TASK'				=> 'A tarefa Cron “%s” não foi encontrada.',
-	'CRON_NO_TASK'					=> 'Não há nenhuma tarefa Cron para executar.',
-	'CRON_NO_TASKS'					=> 'Não foram encontradas tarefas Cron.',
+	'CRON_LOCK_ERROR'		=> 'Não foi possível obter o bloqueio cron.',
+	'CRON_NO_SUCH_TASK'		=> 'A tarefa cron “%s” não foi encontrada.',
+	'CRON_NO_TASK'			=> 'Não há nenhuma tarefa cron para executar.',
+	'CRON_NO_TASKS'			=> 'Não foram encontradas tarefas cron.',
 
 	'DEACTIVATE'				=> 'Desativar',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'A pasta "%s" selecionada não existe.', 
@@ -241,7 +241,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_AS'				=> 'Baixar como', 
 	'DOWNLOAD_STORE'			=> 'Baixar ou salvar arquivo', 
 	'DOWNLOAD_STORE_EXPLAIN'	=> 'Você deve baixar diretamente o arquivo ou salvá-lo em seu diretório.', 
-	'DOWNLOADS'					=> 'Transferências',
+	'DOWNLOADS'					=> 'Downloads',
 
 	'EDIT'					=> 'Editar',
 	'ENABLE'				=> 'Ativar', 
@@ -256,8 +256,8 @@ $lang = array_merge($lang, array(
 	'IP'					=> 'IP do usuário', 
 	'IP_HOSTNAME'			=> 'Endereços de IP ou hostnames',
 
-	'LOAD_NOTIFICATIONS'			=> 'Mostrar notificações',
-	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'Mostrar a lista de notificações em cada página (normalmente no cabeçalho).',
+	'LOAD_NOTIFICATIONS'			=> 'Ativar notificações',
+	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'A lista de notificações será exibida em todas as páginas do fórum (normalmente no topo da página).',
 	'LOGGED_IN_AS'			=> 'Você está logado como:', 
 	'LOGIN_ADMIN'			=> 'Para administrar o fórum, você precisa ser um usuário autenticado.', 
 	'LOGIN_ADMIN_CONFIRM'	=> 'Para administrar o fórum, você precisa reautenticar o seu registro.', 
@@ -275,7 +275,7 @@ $lang = array_merge($lang, array(
 	'NOTIFY'				=> 'Notificação', 
 	'NO_ADMIN'				=> 'Você não está autorizado a administrar este painel.', 
 	'NO_EMAILS_DEFINED'		=> 'Não há endereços de e-mail válidos encontrados.',
-	'NO_FILES_TO_DELETE'		=> 'Os anexos que selecionou para eliminação não existem.',
+	'NO_FILES_TO_DELETE'	=> 'Os anexos selecionados para excluir não existem.',
 	'NO_PASSWORD_SUPPLIED'	=> 'Você precisa informar a sua senha para acessar ao painel de administração.',	
 
 	'OFF'					=> 'Inativo',
@@ -291,7 +291,7 @@ $lang = array_merge($lang, array(
 	'REMIND'							=> 'Lembrar', 
 	'RESYNC'							=> 'Re-sincronizar',
 
-	'RUNNING_TASK'					=> 'Executando as tarefas: %s.',
+	'RUNNING_TASK'			=> 'Executando a tarefa: %s.',
 	'SELECT_ANONYMOUS'		=> 'Selecionar usuário anônimo',
 	'SELECT_OPTION'			=> 'Selecionar opção',
 	
@@ -302,9 +302,9 @@ $lang = array_merge($lang, array(
 
 	'SHOW_ALL_OPERATIONS'	=> 'Exibir todas as operações',
 	
-	'TASKS_NOT_READY'				=> 'As tarefas não estão preparadas:',
-	'TASKS_READY'					=> 'Tarefas preparadas:',
-	'TOTAL_SIZE'					=> 'Tamanho total',
+	'TASKS_NOT_READY'			=> 'As tarefas não estão prontas:',
+	'TASKS_READY'			=> 'Tarefas prontas:',
+	'TOTAL_SIZE'			=> 'Tamanho total',
 
 	'UCP'					=> 'Painel de Controle do Usuário',
 	'USERNAMES_EXPLAIN'		=> 'Insira cada usuário em uma linha separada.', 
@@ -365,7 +365,7 @@ $lang = array_merge($lang, array(
 
 	'GZIP_COMPRESSION'	=> 'Compressão Gzip', 
 
-	'NO_SEARCH_INDEX'				=> 'O modo de pesquisa selecionado não possui um índice de pesquisa.<br />Por favor, crie o índice para “%1$s” na seção %2$spesquisa de índice%3$s.',
+	'NO_SEARCH_INDEX'	=> 'O modo de pesquisa que você selecionou não possui um índice de pesquisa.<br />Por favor, crie o índice para “%1$s” na seção %2$sÍndice da pesquisa%3$s.',
 	'NOT_AVAILABLE'		=> 'Não disponível', 
 	'NUMBER_FILES'		=> 'Número de anexos', 
 	'NUMBER_POSTS'		=> 'Número de mensagens', 
@@ -380,38 +380,38 @@ $lang = array_merge($lang, array(
 	'PURGE_CACHE'			=> 'Limpar o cache',
 	'PURGE_CACHE_CONFIRM'	=> 'Você deseja realmente limpar o cache?',
 	'PURGE_CACHE_EXPLAIN'	=> 'Limpar todos os itens relacionados ao cache, isto inclui qualquer arquivo de cache de templates ou de solicitações ao banco de dados.',
-	'PURGE_CACHE_SUCCESS'			=> 'A Cache foi limpa com sucesso.',
+	'PURGE_CACHE_SUCCESS'	=> 'O cache foi limpo com sucesso.',
 
 	'PURGE_SESSIONS'			    => 'Limpar todas as sessões',
 	'PURGE_SESSIONS_CONFIRM'	    => 'Você deseja realmente limpar todas as sessões? Esta configuração acarretará logout a todos os usuários.',
 	'PURGE_SESSIONS_EXPLAIN'	    => 'Limpa todas as sessões. Esta configuração acarretará logout a todos os usuários através do truncamento da tabela de sessões.',
-	'PURGE_SESSIONS_SUCCESS'		=> 'Todas as sessões encerradas com sucesso.',
+	'PURGE_SESSIONS_SUCCESS'		=> 'Todas as sessões foram limpas com sucesso.',
 	
 	'RESET_DATE'					=> 'Resetar data', 
 	'RESET_DATE_CONFIRM'			=> 'Você deseja realmente resetar a data de início do fórum?',
-	'RESET_DATE_SUCCESS'			=> 'Data de fundação do Fórum reiniciada com sucesso',
+	'RESET_DATE_SUCCESS'			=> 'A data de fundação do fórum foi resetada com sucesso',
 	'RESET_ONLINE'					=> 'Resetar recorde online', 
 	'RESET_ONLINE_CONFIRM'			=> 'Você deseja realmente resetar o recorde de usuários online?',	
-	'RESET_ONLINE_SUCCESS'			=> 'Recorde de usuárioes online reiniciado com sucesso',
+	'RESET_ONLINE_SUCCESS'			=> 'Recorde de usuários online reiniciado com sucesso',
 	'RESYNC_POSTCOUNTS'				=> 'Re-sincronizar contador de mensagens', 
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Somente mensagens que existam serão consideradas. Mensagens excluídas não serão contadas.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Você deseja realmente re-sincronizar o contador de mensagens?',			
-	'RESYNC_POSTCOUNTS_SUCCESS'		=> 'Ressincronizar contador de mensagens',
+	'RESYNC_POSTCOUNTS_SUCCESS'		=> 'O contador mensagens foi re-sincronizado com sucesso',
 	'RESYNC_POST_MARKING'			=> 'Re-sincronizar tópicos recentes', 
 	'RESYNC_POST_MARKING_CONFIRM'	=> 'Você deseja realmente re-sincronizar os tópicos recentes?',
 	'RESYNC_POST_MARKING_EXPLAIN'	=> 'Primeiro desmarca todos os tópicos e depois seleciona corretamente todos os que tiveram alguma atividade nos últimos seis meses.',	
-	'RESYNC_POST_MARKING_SUCCESS'	=> '"Tópicos Marcados" ressincronizar com sucesso',
+	'RESYNC_POST_MARKING_SUCCESS'	=> 'Os tópicos recentes foram re-sincronizados com sucesso',
 	'RESYNC_STATS'					=> 'Re-sincronizar estatísticas', 
 	'RESYNC_STATS_CONFIRM'			=> 'Você deseja realmente re-sincronizar todas as estatísticas?',
 	'RESYNC_STATS_EXPLAIN'			=> 'Recalcula o número total de mensagens, tópicos, usuários e arquivos.',
-	'RESYNC_STATS_SUCCESS'			=> 'Estatísticas ressincronizadas',
+	'RESYNC_STATS_SUCCESS'			=> 'As estatísticas foram re-sincronizadas com sucesso',
 	'RUN'							=> 'Executar agora',
 
 	'STATISTIC'					=> 'Estatísticas', 
 	'STATISTIC_RESYNC_OPTIONS'	=> 'Re-sincronizar ou resetar as estatísticas',
 
-	'TIMEZONE_INVALID'				=> 'A timezone que selecionou é inválida',
-	'TIMEZONE_SELECTED'				=> '(selecionada atualmente)',
+	'TIMEZONE_INVALID'	=> 'O fuso horário que selecionou é inválido',
+	'TIMEZONE_SELECTED'	=> '(selecionada atualmente)',
 	'TOPICS_PER_DAY'	=> 'Tópicos por dia', 
 
 	'UPLOAD_DIR_SIZE'	=> 'Tamanho dos anexos enviados', 
@@ -560,16 +560,16 @@ $lang = array_merge($lang, array(
 	'LOG_MOVE'					=> '<strong>Tópico movido</strong><br />» de %1$s para %2$s', 
 	'LOG_MOVED_TOPIC'			=> '<strong>Tópico movido</strong><br />» %s',
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>Denúncia de MP trancada</strong><br />» %s',
-	'LOG_PM_REPORT_DELETED'		=> '<strong>Denúncia de MP deletada</strong><br />» %s',
+	'LOG_PM_REPORT_DELETED'		=> '<strong>Denúncia de MP excluída</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Mensagem aprovada</strong><br />» %s',
 	'LOG_POST_DISAPPROVED'		=> '<strong>Mensagem reprovada “%1$s” escrita por “%3$s” pela seguinte razão</strong><br />» %2$s',
 	'LOG_POST_EDITED'			=> '<strong>Mensagem editada “%1$s” escrita por “%2$s” pela seguinte razão</strong><br />» %3$s',
-	'LOG_POST_RESTORED'			=> '<strong>Mensagem recuperada</strong><br />» %s',
+	'LOG_POST_RESTORED'			=> '<strong>Mensagem restaurada</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Denúncia trancada</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Denúncia excluída</strong><br />» %s',
-	'LOG_RESTORE_TOPIC'			=> '<strong>Foi restaurado o Tópico “%1$s” escrito por</strong><br />» %2$s',
-	'LOG_SOFTDELETE_POST'		=> '<strong>Foi excluída a mensagem “%1$s” escrita por “%2$s” pela seguinte razão</strong><br />» %3$s',
-	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Foi excluído o tópico “%1$s” escrito por “%2$s” pela seguinte razão</strong><br />» %3$s',
+	'LOG_RESTORE_TOPIC'			=> '<strong>Tópico restaurado “%1$s” escrito por</strong><br />» %2$s',
+	'LOG_SOFTDELETE_POST'		=> '<strong>Mensagem excluída “%1$s” escrita por “%2$s” pela seguinte razão</strong><br />» %3$s',
+	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Tópico excluído “%1$s” escrito por “%2$s” pela seguinte razão</strong><br />» %3$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Mensagens subdivididas movidas</strong><br />» para %s', 
 	'LOG_SPLIT_SOURCE'			=> '<strong>Mensagens subdivididas</strong><br />» de %s', 
 
@@ -627,9 +627,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_IMAGE_GENERATION_ERROR'	=> '<strong>Erro ao criar imagem</strong><br />» Erro em %1$s na linha %2$s: %3$s',
 	
-	'LOG_INACTIVE_ACTIVATE'					=> '<strong>usuárioes Inativos Ativados</strong><br />» %s',
-	'LOG_INACTIVE_DELETE'					=> '<strong>usuárioes Inativos Excluídos</strong><br />» %s',
-	'LOG_INACTIVE_REMIND'					=> '<strong>Foram enviados emails de aviso aos seguintes usuárioes Inativos</strong><br />» %s',
+	'LOG_INACTIVE_ACTIVATE'					=> '<strong>usuários Inativos Ativados</strong><br />» %s',
+	'LOG_INACTIVE_DELETE'					=> '<strong>usuários Inativos Excluídos</strong><br />» %s',
+	'LOG_INACTIVE_REMIND'					=> '<strong>Foram enviados emails de aviso aos seguintes usuários Inativos</strong><br />» %s',
 	'LOG_INSTALL_CONVERTED'					=> '<strong>Atualizado de %1$s para o phpBB %2$s</strong>',
 	'LOG_INSTALL_INSTALLED'					=> '<strong>Versão do phpBB instalada %s</strong>',
 
@@ -671,7 +671,7 @@ $lang = array_merge($lang, array(
 	'LOG_U_ROLE_EDIT'		=> '<strong>Tarefa do usuário editada</strong><br />» %s', 
 	'LOG_U_ROLE_REMOVED'	=> '<strong>Tarefa do usuário excluída</strong><br />» %s', 
 
-	'LOG_PLUPLOAD_TIDY_FAILED'				=> '<strong>Não foi possível abrir %1$s para arrumação, verifique as permissões.</strong><br />Exception: %2$s<br />Trace: %3$s',
+	'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>O armazenamento falhou porque não foi possível abrir %1$s, verifique as permissões.</strong><br />Exceção: %2$s<br />Local: %3$s',
 
 	'LOG_PROFILE_FIELD_ACTIVATE'	=> '<strong>Campo de perfil ativado</strong><br />» %s', 
 	'LOG_PROFILE_FIELD_CREATE'		=> '<strong>Campo de perfil adicionado</strong><br />» %s', 
@@ -681,7 +681,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_PRUNE'					=> '<strong>Fóruns limpos</strong><br />» %s', 
 	'LOG_AUTO_PRUNE'			=> '<strong>Fóruns automaticamente limpos</strong><br />» %s', 
-	'LOG_PRUNE_SHADOW'						=> '<strong>Auto limpeza de Tópicos Fantasma</strong><br />» %s',
+	'LOG_PRUNE_SHADOW'			=> '<strong>Tópicos fantasma limpos</strong><br />» %s',
 	'LOG_PRUNE_USER_DEAC'		=> '<strong>Usuários desativados</strong><br />» %s', 
 	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>Usuários limpos e mensagens excluídas</strong><br />» %s', 
 	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>Usuários limpos e mensagens salvas</strong><br />» %s', 
@@ -700,14 +700,14 @@ $lang = array_merge($lang, array(
 
 	'LOG_RESET_DATE'			=> '<strong>Início do fórum resetado</strong>', 
 	'LOG_RESET_ONLINE'			=> '<strong>Recorde de usuários online resetado</strong>', 
-	'LOG_RESYNC_FILES_STATS'				=> '<strong>Estatísticas dos arquivoss ressincronizadas</strong>',
+	'LOG_RESYNC_FILES_STATS'	=> '<strong>Estatísticas de arquivos re-sincronizadas</strong>',
 	'LOG_RESYNC_POSTCOUNTS'		=> '<strong>Contagem de mensagens re-sincronizada</strong>', 
 	'LOG_RESYNC_POST_MARKING'	=> '<strong>Tópicos pontilhados re-sincronizados</strong>', 
 	'LOG_RESYNC_STATS'			=> '<strong>Estatísticas de usuários, tópicos e mensagens re-sincronizadas</strong>', 
 
 	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Índice de pesquisa criado por</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Índice de pesquisa excluído por</strong><br />» %s',
-	'LOG_SPHINX_ERROR'						=> '<strong>Erro de Sphinx</strong><br />» %s',
+	'LOG_SPHINX_ERROR'			=> '<strong>Erro do Sphinx</strong><br />» %s',
 	'LOG_STYLE_ADD'				=> '<strong>Template adicionada</strong><br />» %s', 
 	'LOG_STYLE_DELETE'			=> '<strong>Template excluída</strong><br />» %s', 
 	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>Template editada</strong><br />» %s', 
@@ -726,7 +726,7 @@ $lang = array_merge($lang, array(
 	'LOG_TEMPLATE_REFRESHED'		=> '<strong>Template atualizada</strong><br />» %s', 
 
 	// @deprecated 3.1	
-	'LOG_THEME_ADD_DB'			=> '<strong>Novo tema adicionado ao banco de Dados</strong><br />» %s', 
+	'LOG_THEME_ADD_DB'			=> '<strong>Novo tema adicionado ao banco de dados</strong><br />» %s', 
 	// @deprecated 3.1
 	'LOG_THEME_ADD_FS'			=> '<strong>Novo tema adicionado no sistema</strong><br />» %s', 
 	'LOG_THEME_DELETE'			=> '<strong>Tema excluído</strong><br />» %s', 
@@ -779,10 +779,10 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_JOIN_PENDING'	=> '<strong>O usuário se inscreveu no grupo e precisa ser aprovado</strong><br />» %s', 
 	'LOG_USER_GROUP_RESIGN'			=> '<strong>Excluída a inscrição do usuário no grupo</strong><br />» %s', 
 
-	'LOG_WARNING_DELETED'		    => '<strong>Advertência do usuário deletada</strong><br />» %s',
+	'LOG_WARNING_DELETED'		    => '<strong>Advertência do usuário excluída</strong><br />» %s',
 	'LOG_WARNINGS_DELETED'		=> array(
-		1 => '<strong>Excluída a advertência do usuário</strong><br />» %1$s',
-		2 => '<strong>Excluídas %2$d advertências do usuário</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+		1 => '<strong>Advertência do usuário excluída</strong><br />» %1$s',
+		2 => '<strong>%2$d advertências do usuário excluídas</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
 	),
 	'LOG_WARNINGS_DELETED_ALL'	    => '<strong>Todas advertências do usuário excluídas</strong><br />» %s',
 	
