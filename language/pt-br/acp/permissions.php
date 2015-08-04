@@ -183,7 +183,7 @@ $lang = array_merge($lang, array(
 	'ROLE_USER_NOPM'			=> 'Sem mensagens privadas', 
 	'ROLE_USER_STANDARD'		=> 'Permissões padrão', 
 	'ROLE_USER_NEW_MEMBER'		=> 'Recursos de Usuário registrado recentemente',
-	
+
 	'ROLE_DESCRIPTION_ADMIN_FORUM'			=> 'Pode acessar as configurações de gerenciamento e permissões de fóruns.', 
 	'ROLE_DESCRIPTION_ADMIN_FULL'			=> 'Pode acessar à todas as funções administrativas neste fórum.<br />Não recomendado.', 
 	'ROLE_DESCRIPTION_ADMIN_STANDARD'		=> 'Pode acessar à maior parte das funções administrativas, mas não está autorizado a utilizar ferramentas relacionadas ao servidor ou ao sistema.', 
