@@ -315,7 +315,7 @@ $lang = array_merge($lang, array(
 
 // PHP info 
 $lang = array_merge($lang, array( 
-	'ACP_PHP_INFO_EXPLAIN'	=> 'Esta página lista as informações da versão do PHP instalada neste servidor. Isto inclui detalhes de módulos instalados, variáveis disponíveis e configurações padrão. Esta informação pode ser necessária quando erros forem detectados. Por favor, fique atento que alguns servidores irão limitar quais informações serão exibidas aqui por medidas de segurança. Você está alertado a não entregar qualquer detalhes nesta página exceto quando perguntado pela <a href="https://www.phpbb.com/about/">equipe oficial do phpBB</a> nos fóruns de suporte.', 
+	'ACP_PHP_INFO_EXPLAIN'	=> 'Esta página lista as informações da versão do PHP instalada neste servidor. Isto inclui detalhes de módulos instalados, variáveis disponíveis e configurações padrão. Esta informação pode ser necessária quando erros forem detectados. Por favor, fique atento que alguns servidores irão limitar quais informações serão exibidas aqui por medidas de segurança. Você está alertado a não entregar qualquer detalhes nesta página exceto quando perguntado pela <a href="https://www.phpbb.com/about/team/">equipe oficial do phpBB</a> nos fóruns de suporte.', 
 
 	'NO_PHPINFO_AVAILABLE'	=> 'As informações PHP não podem ser determinadas. O Phpinfo() foi desativado por medidas de segurança.',
 )); 
