@@ -396,7 +396,7 @@ $lang = array_merge($lang, array(
 	'RESYNC_POSTCOUNTS'				=> 'Re-sincronizar contador de mensagens', 
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Somente mensagens que existam serão consideradas. Mensagens excluídas não serão contadas.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Você deseja realmente re-sincronizar o contador de mensagens?',			
-	'RESYNC_POSTCOUNTS_SUCCESS'		=> 'O contador mensagens foi re-sincronizado com sucesso',
+	'RESYNC_POSTCOUNTS_SUCCESS'		=> 'O contador de mensagens foi re-sincronizado com sucesso',
 	'RESYNC_POST_MARKING'			=> 'Re-sincronizar tópicos recentes', 
 	'RESYNC_POST_MARKING_CONFIRM'	=> 'Você deseja realmente re-sincronizar os tópicos recentes?',
 	'RESYNC_POST_MARKING_EXPLAIN'	=> 'Primeiro desmarca todos os tópicos e depois seleciona corretamente todos os que tiveram alguma atividade nos últimos seis meses.',	
@@ -410,7 +410,7 @@ $lang = array_merge($lang, array(
 	'STATISTIC'					=> 'Estatísticas', 
 	'STATISTIC_RESYNC_OPTIONS'	=> 'Re-sincronizar ou resetar as estatísticas',
 
-	'TIMEZONE_INVALID'	=> 'O fuso horário que selecionou é inválido',
+	'TIMEZONE_INVALID'	=> 'O fuso horário selecionado é inválido',
 	'TIMEZONE_SELECTED'	=> '(selecionada atualmente)',
 	'TOPICS_PER_DAY'	=> 'Tópicos por dia', 
 
@@ -627,9 +627,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_IMAGE_GENERATION_ERROR'	=> '<strong>Erro ao criar imagem</strong><br />» Erro em %1$s na linha %2$s: %3$s',
 	
-	'LOG_INACTIVE_ACTIVATE'					=> '<strong>usuários Inativos Ativados</strong><br />» %s',
-	'LOG_INACTIVE_DELETE'					=> '<strong>usuários Inativos Excluídos</strong><br />» %s',
-	'LOG_INACTIVE_REMIND'					=> '<strong>Foram enviados emails de aviso aos seguintes usuários Inativos</strong><br />» %s',
+	'LOG_INACTIVE_ACTIVATE'					=> '<strong>Usuários inativos ativados</strong><br />» %s',
+	'LOG_INACTIVE_DELETE'					=> '<strong>Usuários inativos excluídos</strong><br />» %s',
+	'LOG_INACTIVE_REMIND'					=> '<strong>Foram enviados emails de aviso aos seguintes usuários inativos</strong><br />» %s',
 	'LOG_INSTALL_CONVERTED'					=> '<strong>Atualizado de %1$s para o phpBB %2$s</strong>',
 	'LOG_INSTALL_INSTALLED'					=> '<strong>Versão do phpBB instalada %s</strong>',
 
