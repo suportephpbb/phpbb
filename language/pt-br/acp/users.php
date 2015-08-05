@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_FORCE_REACT_FOUNDER'	=> 'Você não está autorizado a forçar a reativação de uma conta de fundador.',		
 	'CANNOT_FORCE_REACT_YOURSELF'	=> 'Você não está autorizado a forçar a sua própria reativação.', 
 	'CANNOT_REMOVE_ANONYMOUS'		=> 'Você não está autorizado a excluir o registro do usuário convidado.', 
-	'CANNOT_REMOVE_FOUNDER'			=> 'Não tem permissão para remover contas de fundador.',
+	'CANNOT_REMOVE_FOUNDER'			=> 'Você não está autorizado a excluir contas de fundador.',
 	'CANNOT_REMOVE_YOURSELF'		=> 'Você não está autorizado a excluir a si próprio.', 
 	'CANNOT_SET_FOUNDER_IGNORED'	=> 'Você não está autorizado a promover usuários ignorados a serem fundadores.',
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Você precisa ativar os usuários antes de você os promover a fundadores. Somente usuários ativos podem ser promovidos.',	
@@ -141,6 +141,6 @@ $lang = array_merge($lang, array(
 	'USER_RANK'						=> 'Rank do usuário', 
 	'USER_RANK_UPDATED'				=> 'O rank do usuário foi atualizado com sucesso.', 
 	'USER_SIG_UPDATED'				=> 'A assinatura do usuário foi atualizada com sucesso.', 
-	'USER_WARNING_LOG_DELETED'		=> 'Não há informação disponível. Possivelmente as entradas do log tenham sido deletadas.',
-	'USER_TOOLS'					=> 'Ferramentas básicas', 
+	'USER_WARNING_LOG_DELETED'		=> 'Não há informação disponível. Possivelmente as entradas do log tenham sido excluídas.',
+	'USER_TOOLS'					=> 'Ferramentas básicas',
 ));

@@ -38,19 +38,19 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_PERMISSIONS_EXPLAIN'	=> ' 
-		<p>As Permissões do phpBB3 são bastante abrangentes e estão agrupadas em quatro grandes Grupos:</p> 
+		<p>As permissões gerais em seu phpBB3 são bastante abrangentes e agrupadas em quatro grandes grupos, que são:</p> 
 
-		<h2>1 - Permissões Globais</h2> 
-		<p>Gestão, controlo e aplicação das Permissões ao nível global de acesso ao Fórum. As Permissões estão divididas em Permissões do Utilizador, Permissões do Grupo, Permissões dos Administradores e Permissões dos Moderadores Globais.</p>
+		<h2>1 - Permissões Globais</h2>
+		<p>Aqui você pode controlar o acesso em um nível global e aplicar ao fórum inteiro. As permissões aqui ainda são dividias em permissões de usuário, permissões de grupo, administradores e moderadores globais.</p>
 
-		<h2>2 - Permissões do Fórum</h2> 
-		<p>Gestão, controlo e aplicação das Permissões de acesso aos fóruns. As Permissões estão dividias em Permissões de Fóruns, Permissões dos Moderadores nos Fóruns, Permissões dos utilizadores nos Fóruns e Permissões dos Grupos nos Fóruns.</p>
+		<h2>2 - Permissões Baseadas em Fóruns</h2>
+		<p>Aqui você pode controlar o acesso por bases de fóruns. As permissões aqui ainda são dividias em permissões de fóruns, moderadores de fóruns, permissões de usuário em fóruns e permissões de grupo em fóruns.</p>
 
-		<h2>3 - Categorias das Permissões</h2>
-		<p>Gestão, controlo e aplicação das Permissões às categorias. As Permissões estão divididas em 4 grupos, Categorias dos Administradores, Categorias dos Moderadores, Categorias dos Utilizadores e Categorias dos Fóruns. As categorias padrão cobrem a Administração do Fórum. Pode editar cada uma das categorias, para adicionar ou excluir tarefas se o desejar ou achar necessário.</p>
+		<h2>3 - Tarefas de Permissão</h2>
+		<p>Aqui você pode criar diferentes termos de permissão para os diversos tipos de permissões existentes. As configurações padrão devem acobertar a administração do fórum, entretanto com uma das quatro divisões, você ainda pode adicionar/editar/excluir configurações se assim desejar ou achar necessário.</p>
 
-		<h2>4 - Cenário das Permissões</h2>
-		<p>Dá uma visão global das Permissões atribuídas a Utilizadores, Moderadores (locais e globais), Administradores ou Fóruns.</p>
+		<h2>Máscaras de Permissão</h2>
+		<p>Aqui você pode visualizar as permissões efetivas atribuídas a usuários, moderadores (locais e globais), administradores ou fóruns.</p> 
 	 
 		<br /> 
 

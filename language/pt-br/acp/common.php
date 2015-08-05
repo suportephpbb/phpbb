@@ -302,7 +302,7 @@ $lang = array_merge($lang, array(
 
 	'SHOW_ALL_OPERATIONS'	=> 'Exibir todas as operações',
 	
-	'TASKS_NOT_READY'			=> 'As tarefas não estão prontas:',
+	'TASKS_NOT_READY'		=> 'As tarefas não estão prontas:',
 	'TASKS_READY'			=> 'Tarefas prontas:',
 	'TOTAL_SIZE'			=> 'Tamanho total',
 
@@ -411,7 +411,7 @@ $lang = array_merge($lang, array(
 	'STATISTIC_RESYNC_OPTIONS'	=> 'Re-sincronizar ou resetar as estatísticas',
 
 	'TIMEZONE_INVALID'	=> 'O fuso horário selecionado é inválido',
-	'TIMEZONE_SELECTED'	=> '(selecionada atualmente)',
+	'TIMEZONE_SELECTED'	=> '(selecionado atualmente)',
 	'TOPICS_PER_DAY'	=> 'Tópicos por dia', 
 
 	'UPLOAD_DIR_SIZE'	=> 'Tamanho dos anexos enviados', 
@@ -627,11 +627,11 @@ $lang = array_merge($lang, array(
 
 	'LOG_IMAGE_GENERATION_ERROR'	=> '<strong>Erro ao criar imagem</strong><br />» Erro em %1$s na linha %2$s: %3$s',
 	
-	'LOG_INACTIVE_ACTIVATE'					=> '<strong>Usuários inativos ativados</strong><br />» %s',
-	'LOG_INACTIVE_DELETE'					=> '<strong>Usuários inativos excluídos</strong><br />» %s',
-	'LOG_INACTIVE_REMIND'					=> '<strong>Foram enviados emails de aviso aos seguintes usuários inativos</strong><br />» %s',
-	'LOG_INSTALL_CONVERTED'					=> '<strong>Atualizado de %1$s para o phpBB %2$s</strong>',
-	'LOG_INSTALL_INSTALLED'					=> '<strong>Versão do phpBB instalada %s</strong>',
+	'LOG_INACTIVE_ACTIVATE'	=> '<strong>Usuários inativos ativados</strong><br />» %s',
+	'LOG_INACTIVE_DELETE'	=> '<strong>Usuários inativos excluídos</strong><br />» %s',
+	'LOG_INACTIVE_REMIND'	=> '<strong>Enviado e-mails de lembrete a usuários inativos</strong><br />» %s',
+	'LOG_INSTALL_CONVERTED'	=> '<strong>Atualizado do phpBB %1$s para o phpBB %2$s</strong>',
+	'LOG_INSTALL_INSTALLED'	=> '<strong>phpBB %s instalado</strong>',
 
 	'LOG_IP_BROWSER_FORWARDED_CHECK'	=> '<strong>A verificação da sessão de IP/navegador/X_FORWARDED_FOR falhou</strong><br />»Verificado o endereço de IP do usuário "<em>%1$s</em>" em contraste com a sessão de IP "<em>%2$s</em>", verificado o navegador do usuário "<em>%3$s</em>" em contraste com a sessão de navegador "<em>%4$s</em>" e verificado o X_FORWARDED_FOR do usuário "<em>%5$s</em>" em contraste com a sessão de X_FORWARDED_FOR "<em>%6$s</em>".', 
 
