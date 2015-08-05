@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 	'INSTALL_STYLE'					=> 'Instalar estilo',
 	'INSTALL_STYLES'				=> 'Instalar estilos',
 	'INSTALL_STYLES_EXPLAIN'		=> 'Aqui pode instalar um novo Estilo e elementos correspondentes. Se já tem instalados os elementos relevantes do Estilo serão substituídos. Alguns Estilos necessitam que os elementos do Estilo já estejam instalados. Se tentar instalar um Estilo e os seus elementos ainda não estiverem instalados será avisado.',
-	'INVALID_STYLE_ID'				=> 'O ID do estilo inválido.',
+	'INVALID_STYLE_ID'				=> 'O ID do estilo é inválido.',
 
 	'NO_MATCHING_STYLES_FOUND'		=> 'Nenhum estilo corresponde à sua consulta.',
 	'NO_UNINSTALLED_STYLE'			=> 'Nenhum estilo desinstalado.',
