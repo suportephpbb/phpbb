@@ -1,19 +1,19 @@
-Subject: Notificação de resposta ao Tópico - "{TOPIC_TITLE}"
+Subject: Notificação de resposta ao tópico - "{TOPIC_TITLE}"
 
 Olá {USERNAME},
 
-Está a receber esta notificação porque "{AUTHOR_NAME}" citou-te no Tópico "{TOPIC_TITLE}" em "{SITENAME}". Pode usar o link seguinte para ver a resposta.
+Você recebeu este e-mail porque "{AUTHOR_NAME}" citou você no tópico "{TOPIC_TITLE}" em "{SITENAME}". Você pode usar o seguinte endereço para ler a resposta.
 
-Para ver a mensagem citada, clique no seguinte link:
+Se você deseja visualizar a mensagem citada, clique no seguinte link:
 {U_VIEW_POST}
 
-Para ver o tópico, clique no seguinte link:
+Se você deseja visualizar o tópico, clique no seguinte link:
 {U_TOPIC}
 
-Para ver o fórum, clique no seguinte link:
+Se você deseja visualizar o fórum, clique no seguinte link:
 {U_FORUM}
 
-Para não receber notificações de respostas com citações suas, por favor atualize configurações de notificação aqui:
+Se você deseja parar de receber notificações de respostas com citações suas, por favor atualize configurações de notificação aqui:
 
 {U_NOTIFICATION_SETTINGS}
 

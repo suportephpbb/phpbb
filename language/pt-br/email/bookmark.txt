@@ -1,19 +1,19 @@
-Subject: Notificação de resposta ao Tópico - "{TOPIC_TITLE}"
+Subject: Notificação de resposta ao tópico - "{TOPIC_TITLE}"
 
 Olá {USERNAME},
 
-Você está recebendo esta notificação porque o tópico que você marcou, "{TOPIC_TITLE}" em "{SITENAME}", recebeu uma resposta desde a sua última visita. Pode usar o link abaixo para ler as respostas feitas, não mais serão enviadas notificações até que visite o tópico.
+Você recebeu este e-mail porque está acompanhando o tópico "{TOPIC_TITLE}" em "{SITENAME}". Este tópico recebeu uma resposta. Você pode usar o seguinte endereço para ler as respostas escritas. Não serão enviadas mais notificações enquanto você não visitar este tópico.
 
-Para ver o que há de novo desde sua última visita, clique no seguinte link:
+Se você deseja visualizar a mensagem mais recente desde sua última visita, clique no seguinte link:
 {U_NEWEST_POST}
 
-Para ver o tópico, clique no seguinte link:
+Se você deseja visualizar o tópico, clique no seguinte link:
 {U_TOPIC}
 
-Para ver o fórum, clique no seguinte link:
+Se você deseja visualizar o fórum, clique no seguinte link:
 {U_FORUM}
 
-Para não receber mais notificações relativas a respostas aos favoritos, por favor atualize suas configurações de notificação aqui:
+Se você deseja parar de receber notificações relativas aos tópicos favoritos, por favor atualize suas configurações de notificação aqui:
 
 {U_NOTIFICATION_SETTINGS}
 

@@ -10,5 +10,4 @@ Use este endereço para visualizar o perfil do usuário:
 Use este endereço para ativar o registro:
 {U_ACTIVATE}
 
-
 {EMAIL_SIG}

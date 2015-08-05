@@ -10,5 +10,4 @@ A mensagem enviada para você é a seguinte:
 
 {MESSAGE}
 
-
 {EMAIL_SIG}

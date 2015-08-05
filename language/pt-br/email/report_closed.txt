@@ -4,11 +4,4 @@ Olá {USERNAME},
 
 Você recebeu esta notificação porque a sua denúncia feita acerca da mensagem "{POST_SUBJECT}" no tópico "{TOPIC_TITLE}" em "{SITENAME}" foi manuseada por um moderador ou administrador e trancada em seguida. Se você tem mais perguntas a respeito, contate o usuário {CLOSER_NAME} com uma mensagem privada.
 
-
-
-Obrigado {USERNAME}.
-Continue a participar ativamente.
-A sua colaboração é fundamental para todos nós.
-
-
 {EMAIL_SIG}

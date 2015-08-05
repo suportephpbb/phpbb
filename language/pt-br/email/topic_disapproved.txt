@@ -7,9 +7,5 @@ Você recebeu este e-mail porque o seu tópico "{TOPIC_TITLE}" em "{SITENAME}" f
 A seguinte razão foi dada para a reprovação:
 
 {REASON}
-Obrigado {USERNAME}.
-Gostaríamos que continuasse a participar ativamente.
-A sua colaboração é fundamental para todos nós.
-
 
 {EMAIL_SIG}

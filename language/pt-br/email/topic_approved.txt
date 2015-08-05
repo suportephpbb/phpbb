@@ -6,9 +6,5 @@ Você recebeu este e-mail porque o seu tópico "{TOPIC_TITLE}" em "{SITENAME}" f
 
 Se você deseja visualizar o tópico, clique no seguinte link:
 {U_VIEW_TOPIC}
-Obrigado {USERNAME}.
-Continue a participar ativamente.
-A sua colaboração é fundamental para todos nós.
-
 
 {EMAIL_SIG}
