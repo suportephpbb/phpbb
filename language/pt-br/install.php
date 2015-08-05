@@ -192,7 +192,7 @@ $lang = array_merge($lang, array(
 		<h2>Converter algum painel existente ao phpBB3</h2>
 		<p>O Conversor Framework Unificado do phpBB suporta a conversão do phpBB 2.0.x e outros sistemas de fóruns diversos ao phpBB3. Se você possui algum painel existente que deseje converter, por favor, <a href="%2$s">prossiga diretamente ao conversor</a>.</p>
 		<h2>Divirta-se com o seu phpBB3!</h2>
-		<p>Clicando no botão abaixo acederá ao formulário de apresentação dos dados estatísticos do phpBB no seu Painel de Administração (ACP). Gostaríamos que nos ajudasse enviando essa informação. Depois, deve examinar as opções disponíveis. Lembre-se que existe ajuda online disponível: <a href="https://www.phpbb.com/support/docs/en/3.1/ug/">Documentação</a>, <a href="%3$s">Leia-me</a>, <a href="https://www.phpbb.com/community/viewforum.php?f=466">Fórum de Suporte em língua inglesa</a> e e ainda no <a href="http://www.suportephpbb.com.br/">Suporte Brasileiro ao phpBB</a>.</p><p><strong>Não se esqueça de excluir, renomear ou mover o diretório de instalação! Enquanto este diretório existir, só terá acesso ao Painel de Administração (ACP).</strong>',
+		<p>Clicando no botão abaixo você será encaminhado ao formulário de apresentação dos dados estatísticos do phpBB no seu Painel de Administração (ACP). Nós ficaríamos muito gratos caso você pudesse nos ajudar enviando as suas informações estatísticas. É recomendável que se leve algum tempo analisando todas as opções que lhe são disponíveis neste painel. E ainda, lembre-se de que você pode solicitar ajuda online através da <a href="https://www.phpbb.com/support/docs/en/3.1/ug/">Documentação</a>, <a href="%3$s">Leia-me</a>, <a href="https://www.phpbb.com/community/viewforum.php?f=466">Fórum de Suporte em língua inglesa</a> e ainda no <a href="http://www.suportephpbb.com.br/">Suporte Brasileiro ao phpBB</a>.</p><p><strong>Por favor, agora delete, mova ou renomeie o diretório de instalação antes de utilizar o seu painel. Se este diretório ainda estiver presente, apenas o Painel de Administração (ACP) estará acessível.</strong>',
 	'INSTALL_INTRO'				=> 'Bem-vindo à Instalação',
 	
 	'INSTALL_INTRO_BODY'		=> 'Aqui você poderá instalar o phpBB em seu servidor.</p><p>Para prosseguir, você irá precisar das configurações de seu banco de dados. Se você não souber de suas configurações, por favor, contate o seu servidor e pergunte a respeito. Não será possível prosseguir sem as devidas informações. Você precisará de:</p>
@@ -275,7 +275,7 @@ $lang = array_merge($lang, array(
 	'MAKE_FOLDER_WRITABLE'		=> 'Por favor, certifique-se de que esta pasta existe e pode ser escrita pelo servidor e tente novamente:<br />»<strong>%s</strong>',
 	'MAKE_FOLDERS_WRITABLE'		=> 'Por favor, certifique-se de que estas pastas existem e podem ser escritas pelo servidor e tente novamente:<br />»<strong>%s</strong>',
 
-	'MYSQL_SCHEMA_UPDATE_REQUIRED'	=> 'O schema do seu banco de dados MySQL para o phpBB encontra-se desatualizado. O phpBB detectou um schema para o MySQL 3.x/4.x, mas o servidor roda no MySQL %2$s.<br /><strong>Antes de proceder com a atualização você deve atualizar o schema.</strong><br /><br />Por favor, refira ao <a href="https://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">artigo sobre o aprimoramento do schema MySQL</a>. Caso você encontre problemas, por favor, use o <a href="https://www.phpbb.com/community/viewforum.php?f=466">phpBB.com Support Forums</a> ou <a href="http://www.suportephpbb.com.br">nossos fóruns de suporte</a>.',
+	'MYSQL_SCHEMA_UPDATE_REQUIRED'	=> 'O schema do seu banco de dados MySQL para o phpBB encontra-se desatualizado. O phpBB detectou um schema para o MySQL 3.x/4.x, mas o servidor roda no MySQL %2$s.<br /><strong>Antes de proceder com a atualização você deve atualizar o schema.</strong><br /><br />Por favor, refira ao <a href="https://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">artigo sobre o aprimoramento do schema MySQL</a>. Caso você encontre problemas, por favor, use os <a href="https://www.phpbb.com/community/viewforum.php?f=466">fóruns de suporte do phpBB.com</a> ou <a href="http://www.suportephpbb.com.br">nossos fóruns de suporte</a>.',
 	
 	'NAMING_CONFLICT'			=> 'Conflito de nomes: %s e %s são pseudônimos<br /><br />%s',
 	'NEXT_STEP'					=> 'Ir para o próximo passo',
@@ -572,7 +572,7 @@ $lang = array_merge($lang, array(
 	'UPLOAD_METHOD'					=> 'Método de envio',
 
 	'UPDATE_DB_SUCCESS'				=> 'A atualização do banco de dados foi executada com sucesso.',
-	'UPDATE_FILE_SUCCESS'			=> 'arquivos atualizados com sucesso.',
+	'UPDATE_FILE_SUCCESS'			=> 'Arquivos atualizados com sucesso.',
     'USER_ACTIVE'					=> 'Ativar usuário',
 	'USER_INACTIVE'					=> 'Desativar usuário',
 

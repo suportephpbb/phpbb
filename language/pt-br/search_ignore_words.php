@@ -222,7 +222,7 @@ $words = array(
    'acima',
    'acima de',
    'utilizar',
-   'Utilizadores',
+   'usuários',
    'versão',
    'muito',
    'por',

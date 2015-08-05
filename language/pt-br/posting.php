@@ -225,7 +225,7 @@ $lang = array_merge($lang, array(
 	),
 	'QUOTE_NO_NESTING'				=> 'Não é possível inserir citações dentro de outra citação.',
 
-	'REMOTE_UPLOAD_TIMEOUT'			=> 'O arquivo selecionado não pôde ser carregado porque o pedido excedeu o tempo.',
+	'REMOTE_UPLOAD_TIMEOUT'		=> 'O arquivo não pôde ser enviado porque a solicitação expirou.',
 	'SAVE'						=> 'Salvar',
 	'SAVE_DATE'					=> 'Salvar em',
 	'SAVE_DRAFT'				=> 'Salvar rascunho',
