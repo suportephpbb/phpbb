@@ -1,6 +1,7 @@
 [Português Brasileiro](https://www.phpbb.com/customise/db/translation/brazilian_portuguese/)
 =============
 
+
 Lista de Tradutores, Colaboradores e Ex-Colaboradores da tradução.
 
 
