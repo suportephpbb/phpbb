@@ -38,15 +38,15 @@ if (empty($lang) || !is_array($lang))
 
 // User pruning 
 $lang = array_merge($lang, array( 
-	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Esta seção permite a você deletar ou desativar usuários em seu painel. Os registros podem ser filtrados de diversas maneiras: pelo seu contador de mensagens, últimas atividades, etc. Cada um desses critérios podem ser combinados para que sejam escolhidos quais registros serão afetados, ex. você pode limpar usuários com menos de 10 mensagens e que ficaram inativos depois de 2002-01-01. Use * como complemento para os campos de texto. Alternativamente, você pode pular estes critérios de seleção e escrever uma lista de usuários (cada um em uma linha separada) dentro da caixa de texto. Cuidado com esta facilidade! Uma vez que o usuário seja deletado, não há como reverter esta ação.',
+	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Esta seção permite a você excluir ou desativar usuários em seu painel. Os registros podem ser filtrados de diversas maneiras: pelo seu contador de mensagens, últimas atividades, etc. Cada um desses critérios podem ser combinados para que sejam escolhidos quais registros serão afetados, ex. você pode limpar usuários com menos de 10 mensagens e que ficaram inativos depois de 2002-01-01. Use * como complemento para os campos de texto. Alternativamente, você pode pular estes critérios de seleção e escrever uma lista de usuários (cada um em uma linha separada) dentro da caixa de texto. Cuidado com esta facilidade! Uma vez que o usuário seja excluído, não há como reverter esta ação.',
 
 	'CRITERIA'					=> 'Critérios',
 
 	'DEACTIVATE_DELETE'			=> 'Desativar ou excluir', 
-	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Escolha entre desativar os usuários ou excluí-los diretamente. Por favor, note que os usuários deletados não poderão ser restaurados!', 
+	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Escolha entre desativar os usuários ou excluí-los diretamente. Por favor, note que os usuários excluídos não poderão ser restaurados!', 
 	'DELETE_USERS'				=> 'Excluir', 
 	'DELETE_USER_POSTS'			=> 'Excluir mensagens limpas', 
-	'DELETE_USER_POSTS_EXPLAIN' => 'Exclui mensagens de usuários deletados, não possui efeito se os usuários estiverem desativados.', 
+	'DELETE_USER_POSTS_EXPLAIN' => 'Exclui mensagens de usuários excluídos, não possui efeito se os usuários estiverem desativados.', 
 
 	'JOINED_EXPLAIN'			=> 'Escrever uma data no formato <kbd>YYYY-MM-DD</kbd>. Você pode usar os dois campos para selecionar um intervalo ou deixar em branco para especificar um período de tempo aberto.', 
 
@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 
 // Forum Pruning 
 $lang = array_merge($lang, array( 
-	'ACP_PRUNE_FORUMS_EXPLAIN'	=> 'Aqui você pode excluir qualquer tópico que não tenha sido respondido ou visualizado dentro do número de dias selecionado. Se você não escrever um número, então todos os tópicos serão deletados. Note que esta operação não excluirá tópicos com enquetes em curso ou tópicos fixos e anúncios.', 
+	'ACP_PRUNE_FORUMS_EXPLAIN'	=> 'Aqui você pode excluir qualquer tópico que não tenha sido respondido ou visualizado dentro do número de dias selecionado. Se você não escrever um número, então todos os tópicos serão excluídos. Note que esta operação não excluirá tópicos com enquetes em curso ou tópicos fixos e anúncios.', 
 
 	'FORUM_PRUNE'		=> 'Limpeza', 
 
