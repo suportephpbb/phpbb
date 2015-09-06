@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine 
 
 $lang = array_merge($lang, array( 
-	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Aqui você pode gerenciar todos os tipos de módulos. Por favor, note que o ACP possui uma estrutura de menu de três níveis (Categoria -> Categoria -> Módulo) diferente de outros que possuem uma estrutura de menu de dois níveis (Categoria -> Módulo) que precisam ser salvos. Além disso, fique atento que você pode bloquear a si mesmo se desativar ou deletar os módulos responsáveis pelo gerenciamento do painel. Cuidado ao utilizar esta ferramenta!', 
+	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Aqui você pode gerenciar todos os tipos de módulos. Por favor, note que o ACP possui uma estrutura de menu de três níveis (Categoria -> Categoria -> Módulo) diferente de outros que possuem uma estrutura de menu de dois níveis (Categoria -> Módulo) que precisam ser salvos. Além disso, fique atento que você pode bloquear a si mesmo se desativar ou excluir os módulos responsáveis pelo gerenciamento do painel. Cuidado ao utilizar esta ferramenta!', 
 	'ADD_MODULE'					=> 'Adicionar um módulo', 
 	'ADD_MODULE_CONFIRM'			=> 'Você deseja realmente adicionar este módulo sob o modo selecionado?', 
 	'ADD_MODULE_TITLE'				=> 'Adicionar módulos', 

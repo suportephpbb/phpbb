@@ -69,7 +69,7 @@ $help = array(
    ), 
  array( 
       0 => 'O que a opção de “Excluir todos os cookies deste painel” faz?', 
-      1 => 'Simplesmente exclui todos os cookies gerados pelo sistema phpBB3, os quais lhe mantém autenticado dentro do fórum e que também permitem o funcionamento de determinadas opções ativadas pelo administrador. Se você estiver com problemas de entrar e sair na comunidade, deletar os cookies pode ser uma ajuda alternativa.', 
+      1 => 'Simplesmente exclui todos os cookies gerados pelo sistema phpBB3, os quais lhe mantém autenticado dentro do fórum e que também permitem o funcionamento de determinadas opções ativadas pelo administrador. Se você estiver com problemas de entrar e sair na comunidade, excluir os cookies pode ser uma ajuda alternativa.', 
    ), 
    array( 
       0 => '--', 
@@ -181,7 +181,7 @@ $help = array(
    ), 
    array( 
       0 => 'O que são smilies?', 
-      1 => 'Os smilies, ou emoticons, são pequenas representações gráficas que podem ser usadas para expressar algum sentimento utilizando poucos caracteres, ou seja, :) quer dizer feliz, :( quer dizer triste. Uma lista completa de smilies pode ser vista no formulário junto à caixa de cada mensagem. Tente evitar o uso excessivo dos smilies, já que podem tornar uma mensagem ilegível, podendo o administrador ou um moderador excluí-los ou deletar a mensagem inteira. O administrador também pode ter configurado um limite para o número de smilies que você pode utilizar em uma mensagem.' 
+      1 => 'Os smilies, ou emoticons, são pequenas representações gráficas que podem ser usadas para expressar algum sentimento utilizando poucos caracteres, ou seja, :) quer dizer feliz, :( quer dizer triste. Uma lista completa de smilies pode ser vista no formulário junto à caixa de cada mensagem. Tente evitar o uso excessivo dos smilies, já que podem tornar uma mensagem ilegível, podendo o administrador ou um moderador excluí-los ou excluir a mensagem inteira. O administrador também pode ter configurado um limite para o número de smilies que você pode utilizar em uma mensagem.' 
    ), 
    array( 
       0 => 'Posso exibir imagens?', 

@@ -621,7 +621,7 @@ $lang = array_merge($lang, array(
 		2	=> '%d usuários registrados',
 	),
 	'REMOVE'						=> 'Excluir', 
-	'REMOVE_INSTALL'				=> 'Por favor, delete, mova ou renomeie o diretório de instalação antes de utilizar o seu painel. Se este diretório ainda estiver presente, apenas o painel de administração (ACP) estará acessível.',
+	'REMOVE_INSTALL'				=> 'Por favor, exclua, mova ou renomeie o diretório de instalação antes de utilizar o seu painel. Se este diretório ainda estiver presente, apenas o painel de administração (ACP) estará acessível.',
 	'REPLIES'						=> 'Respostas', 
 	'REPLY_WITH_QUOTE'				=> 'Responder com citação', 
 	'REPLYING_GLOBAL_ANNOUNCE'		=> 'Respondendo anúncio global', 
