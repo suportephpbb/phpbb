@@ -68,6 +68,12 @@ $lang = array_merge($lang, array(
 	'EXTENSION_NAME'			=> 'Nome da Extensão',
 	'EXTENSION_ACTIONS'			=> 'Ações',
 	'EXTENSION_OPTIONS'			=> 'Opções',
+	'EXTENSION_INSTALL_HEADLINE'=> 'Installing an extension',
+	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
+			<li>Baixe uma extensão do banco de dados de extensões do phpBB</li>
+			<li>Descompacte a extensão e a envie para o diretório <samp>ext/</samp> do seu fórum phpBB</li>
+			<li>Ative a extensão, aqui no gerenciar de Extensões</li>
+		</ol>',
 	'EXTENSION_UPDATE_HEADLINE'	=> 'Atualizar extensões',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
 			<li>Desative a extensão</li>
@@ -118,6 +124,8 @@ $lang = array_merge($lang, array(
 	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Verificar novamente todas as versões',
 	'FORCE_UNSTABLE'					=> 'Verifique sempre se há versões instáveis',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Configurações de verificação de versão',
+
+	'BROWSE_EXTENSIONS_DATABASE'		=> 'Navegue no banco de dados de extensões',
 
 	'META_FIELD_NOT_SET'	=> 'O Meta Campo obrigatório %s não foi definido.',
 	'META_FIELD_INVALID'	=> 'O Meta Campo %s é inválido.',

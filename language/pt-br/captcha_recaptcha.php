@@ -47,6 +47,6 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE'				=> 'Chave privada do reCaptcha',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'A sua chave privada do reCaptcha. Chaves podem ser obtidas em <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'No esforço de prevenir submissões automáticas, nós solicitamos que você escreva o texto exibido dentro da caixa de texto.',
+	'RECAPTCHA_EXPLAIN'				=> 'No esforço de prevenir submissões automáticas, nós solicitamos que você escreva o texto exibido no campo de texto abaixo.',
 	'RECAPTCHA_SOCKET_ERROR'		=> 'Houve um problema de conexão com o serviço RECAPTCHA: não foi possível abrir socket. Tente novamente mais tarde.',
 ));
