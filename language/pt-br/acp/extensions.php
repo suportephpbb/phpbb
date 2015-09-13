@@ -68,7 +68,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_NAME'			=> 'Nome da Extensão',
 	'EXTENSION_ACTIONS'			=> 'Ações',
 	'EXTENSION_OPTIONS'			=> 'Opções',
-	'EXTENSION_INSTALL_HEADLINE'=> 'Installing an extension',
+	'EXTENSION_INSTALL_HEADLINE'=> 'Instalando uma extensão',
 	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
 			<li>Baixe uma extensão do banco de dados de extensões do phpBB</li>
 			<li>Descompacte a extensão e a envie para o diretório <samp>ext/</samp> do seu fórum phpBB</li>
