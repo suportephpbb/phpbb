@@ -72,7 +72,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
 			<li>Baixe uma extensão do banco de dados de extensões do phpBB</li>
 			<li>Descompacte a extensão e a envie para o diretório <samp>ext/</samp> do seu fórum phpBB</li>
-			<li>Ative a extensão, aqui no gerenciar de Extensões</li>
+			<li>Ative a extensão, aqui no gerenciador de Extensões</li>
 		</ol>',
 	'EXTENSION_UPDATE_HEADLINE'	=> 'Atualizar extensões',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
