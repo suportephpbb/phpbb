@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 	'BAN_EXCLUDE'			=> 'Excluir banimento',
 	'BAN_LENGTH'			=> 'Duração do banimento',
 	'BAN_REASON'			=> 'Razão para o banimento',
-	'BAN_GIVE_REASON'		=> 'A razão ou motivo escrito para o banimento.',
+	'BAN_GIVE_REASON'		=> 'Razão para o banimento mostrada ao banido',
 	'BAN_UPDATE_SUCCESSFUL'	=> 'A lista de banimentos foi atualizada com sucesso.',
 	'BANNED_UNTIL_DATE'		=> 'até %s', // Example: "until Mon 13.Jul.2009, 14:44"
 	'BANNED_UNTIL_DURATION'	=> '%1$s (até %2$s)', // Example: "7 days (until Tue 14.Jul.2009, 14:44)"
@@ -75,7 +75,7 @@ $lang = array_merge($lang, array(
 
 	'UNTIL'						=> 'Até',
 	'USER_BAN'					=> 'Banir um ou mais usuários selecionados',
-	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Ative a seguinte opção para banir a todos os usuários desejados.',
+	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Ative a seguinte opção para excluir os usuários acima de todos os banimentos atuais.',
 	'USER_BAN_EXPLAIN'			=> 'Você pode banir diversos usuários de uma só vez, separando cada item em uma nova linha. Use a opção <span style="text-decoration: underline;">Encontrar um usuário</span> para pesquisar e adicionar um ou mais usuários automaticamente.', 
 	'USER_NO_BANNED'			=> 'Não há nomes de usuários banidos', 
 	'USER_UNBAN'				=> 'Desbanir um ou mais usuários', 
