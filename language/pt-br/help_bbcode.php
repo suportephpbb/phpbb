@@ -45,7 +45,7 @@ $help = array(
 	),
 	array(
 		0 => 'Como criar textos em negrito, itálico e sublinhado',
-		1 => 'O BBCode inclui tags que lhe permitem mudar rapidamente o estilo básico do texto. Isto é possível das seguintes formas: <ul><li>Para tornar uma parte do texto em negrito, você deve incluí-la entre as tags <strong>[b][/b]</strong>, ou seja, <br /><br /><strong>[b]</strong>Olá<strong>[/b]</strong><br /><br />passará a ser <strong>Olá</strong></li><li> Para sublinhar use <strong>[u][/u]</strong>. Por exemplo:<br /><br /><strong>[u]</strong>Bom Dia<strong>[/u]</strong><br /><br />passa a ser <span style="text-decoration: underline">Bom Dia</span></li><li> Para tornar o texo itálico, utilize <strong>[i][/i]</strong>, ou seja,<br /><br />Isto é <strong>[i]</strong>Ótimo!<strong>[/i]</strong><br /><br /> resulta em: Isto é <i>Ótimo!</i></li></ul>' 
+		1 => 'O BBCode inclui tags que lhe permitem mudar rapidamente o estilo básico do texto. Isto é possível das seguintes formas: <ul><li>Para tornar uma parte do texto em negrito, você deve incluí-la entre as tags <strong>[b][/b]</strong>, ou seja, <br /><br /><strong>[b]</strong>Olá<strong>[/b]</strong><br /><br />passará a ser <strong>Olá</strong></li><li> Para sublinhar use <strong>[u][/u]</strong>. Por exemplo:<br /><br /><strong>[u]</strong>Bom Dia<strong>[/u]</strong><br /><br />passa a ser <span style="text-decoration: underline">Bom Dia</span></li><li> Para tornar o texo itálico, utilize <strong>[i][/i]</strong>, ou seja,<br /><br />Isto é <strong>[i]</strong>Ótimo!<strong>[/i]</strong><br /><br /> resulta em: Isto é <em>Ótimo!</em></li></ul>' 
 	),
 	array(
 		0 => 'Como mudar a cor e o tamanho do texto',
@@ -73,7 +73,7 @@ $help = array(
 	),
 	array(
 		0 => 'Criar uma lista sem ordem específica',
-		1 => 'O BBCode aceita dois tipos de lista: Uma lista sem ordem e outra ordenada. São basicamente o mesmo que em HTML. Uma lista sem ordem produz cada item de uma forma sequencial, um em seguida do outro, precedendo-o um caractere constante. Para criar, você deve utilizar <strong>[list][/list]</strong> e colocar cada item entre as tags, utilizando <strong>[*]</strong> antes de cada um. Por exemplo, para listar as suas cores favoritas, você pode escrever:<br /><br /><strong>[list]</strong><br /><strong>[*]</strong>Vermelho<br /><strong>[*]</strong>Azul<br /><strong>[*]</strong>Amarelo<br /><strong>[/list]</strong><br /><br /> Esta lista aparecerá como:<ul><li>Vermelho</li><li>Azul</li><li>Amarelo</li></ul>'
+		1 => 'O BBCode aceita dois tipos de lista: Uma lista sem ordem e outra ordenada. São basicamente o mesmo que em HTML. Uma lista sem ordem produz cada item de uma forma sequencial, um em seguida do outro, precedendo-o um caractere constante. Para criar, você deve utilizar <strong>[list][/list]</strong> e colocar cada item entre as tags, utilizando <strong>[*]</strong> antes de cada um. Por exemplo, para listar as suas cores favoritas, você pode escrever:<br /><br /><strong>[list]</strong><br /><strong>[*]</strong>Vermelho<br /><strong>[*]</strong>Azul<br /><strong>[*]</strong>Amarelo<br /><strong>[/list]</strong><br /><br /> Esta lista aparecerá como:<ul><li>Vermelho</li><li>Azul</li><li>Amarelo</li></ul><br />Você também pode personalizar o estilo de uma lista usando as tags <strong>[list=disc][/list]</strong>, <strong>[list=circle][/list]</strong> ou <strong>[list=square][/list]</strong>.'
 	),
 	array(
 		0 => 'Criar uma lista ordenada',

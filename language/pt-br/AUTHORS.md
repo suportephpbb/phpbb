@@ -15,10 +15,10 @@ Colaboradores
 -------
 * [acdona (Antonio Carlos Doná)](http://www.suportephpbb.com.br/forum/memberlist.php?mode=viewprofile&u=31780)
 * [henrique.seven2011 (Saulo Henrique)](https://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=1371157)
-* [umarizal (Leandro dos Santos)](https://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=512395)
 
 
 Ex-Colaboradores
 -------
 * [Andre Távora](https://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=302277)
 * [jvc94](https://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=1089185)
+* [umarizal (Leandro dos Santos)](https://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=512395)

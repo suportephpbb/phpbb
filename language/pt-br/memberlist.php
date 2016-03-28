@@ -101,6 +101,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'O administrador exige que você esteja registrado e autenticado para pesquisar por usuários.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'O administrador exige que você esteja registrado e autenticado para visualizar perfis.',
 
+	'MANAGE_GROUP'			=> 'Gerenciar Grupo',
 	'MORE_THAN'				=> 'Maior que',
 
 	'NO_CONTACT_FORM'		=> 'O formulário de contato para o administrador do fórum foi desativado.',

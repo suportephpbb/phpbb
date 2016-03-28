@@ -340,7 +340,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_QUOTE'							=> 'Alguém lhe citou em uma mensagem',
 	'NOTIFICATION_TYPE_REPORT'							=> 'Alguém denunciou uma mensagem',
 	'NOTIFICATION_TYPE_TOPIC'							=> 'Alguém criou um novo tópico em um fórum em que você está visualizando',
-	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Usuário registrado recentemente aguarda ativação',
+	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Usuário aguarda ativação',
 
 	'NOTIFY_METHOD'					=> 'Método de notificação', 
 	'NOTIFY_METHOD_BOTH'			=> 'Ambos', 
