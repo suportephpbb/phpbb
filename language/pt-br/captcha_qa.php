@@ -40,6 +40,7 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_QA'				=> 'Q&amp;A',
 	'CONFIRM_QUESTION_EXPLAIN'	=> 'Esta pergunta é uma maneira de  prevenir submissões automáticas de spambots.',
 	'CONFIRM_QUESTION_WRONG'	=> 'Você escreveu uma resposta inválida para a pergunta de confirmação.',
+	'CONFIRM_QUESTION_MISSING'	=> 'As perguntas para o CAPTCHA não foram encontrados. Entre em contato com o administrador do fórum.',
 
 	'QUESTION_ANSWERS'			=> 'Respostas',
 	'ANSWERS_EXPLAIN'			=> 'Por favor, escreva respostas válidas para a pergunta, uma por linha.',

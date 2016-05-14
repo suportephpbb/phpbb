@@ -593,7 +593,8 @@ $lang = array_merge($lang, array(
 	'LOG_DOWNLOAD_REMOVE_IP'	=> '<strong>Endereço de IP/hostname excluído da lista de downloads</strong><br />» %s', 
 
 	'LOG_ERROR_JABBER'		=> '<strong>Erro de jabber</strong><br />» %s', 
-	'LOG_ERROR_EMAIL'		=> '<strong>Erro no e-mail</strong><br />» %s', 
+	'LOG_ERROR_EMAIL'		=> '<strong>Erro no e-mail</strong><br />» %s',
+	'LOG_ERROR_CAPTCHA'		=> '<strong>Erro no CAPTCHA</strong><br />» %s',
 
 	'LOG_FORUM_ADD'							=> '<strong>Novo fórum criado</strong><br />» %s', 
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Permissões do fórum copiadas</strong> de %1$s<br />» %2$s',
