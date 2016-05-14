@@ -2,6 +2,7 @@
 =============
 
 Versão da Tradução: 1.2.3
+
 Versão do phpBB: 3.1.9
 
 
