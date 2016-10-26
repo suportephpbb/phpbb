@@ -263,10 +263,10 @@ $lang = array_merge($lang, array(
 	'GRAVATAR_AVATAR_SIZE'			=> 'Dimensões do avatar',
 	'GRAVATAR_AVATAR_SIZE_EXPLAIN'	=> 'Especifique a largura e a altura de seu avatar. Deixe este espaço em branco para tentar uma verificação automática.',
 
-	'HIDE_ONLINE'				=> 'Ocultar meus status online',
-	'HIDE_ONLINE_EXPLAIN'       => 'Alterando, esta configuração não será efetiva até a sua próxima visita no fórum.',
-    'HOLD_NEW_MESSAGES'			=> 'Não serão aceitas novas mensagens (serão presas mensagens novas até haver espaço disponível)', 
-	'HOLD_NEW_MESSAGES_SHORT'	=> 'As mensagens novas serão presas', 
+	'HIDE_ONLINE'				=> 'Ocultar meu status online',
+	'HIDE_ONLINE_EXPLAIN'       => 'Esta configuração será efetivada na sua próxima visita ao fórum.',
+    'HOLD_NEW_MESSAGES'			=> 'Não serão aceitas novas mensagens (serão presas até haver espaço disponível)', 
+	'HOLD_NEW_MESSAGES_SHORT'	=> 'As novas mensagens serão presas', 
 
 	'IF_FOLDER_FULL'			=> 'Se a pasta estiver cheia', 
 	'IMPORTANT_NEWS'			=> 'Anúncios importantes',

@@ -41,12 +41,13 @@ $lang = array_merge($lang, array(
 
 	'GROUP_NOT_EXIST'					=> 'Inesperadamente o grupo "%s" não existe.',
 
-	'MIGRATION_DATA_DONE'				=> 'Dados instalados: %1$s; Dados: %2$.2f segundos',
-	'MIGRATION_DATA_IN_PROGRESS'		=> 'Instalando dados: %1$s; Dados: %2$.2f segundos',
+	'MIGRATION_DATA_DONE'				=> 'Dados instalados: %1$s; Duração: %2$.2f segundos',
+	'MIGRATION_DATA_IN_PROGRESS'		=> 'Instalando dados: %1$s; Duração: %2$.2f segundos',
 	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'A migração já está efetivamente instalada (saltar): %s',
 	'MIGRATION_EXCEPTION_ERROR'			=> 'Algo correu mal durante a execução do pedido e foi criada uma exceção. As alterações feitas antes de ocorrer o erro foram revertidas da melhor forma possível. No entanto, deve verificar se existem erros no fórum.',
 	'MIGRATION_NOT_FULFILLABLE'			=> 'A migração "%1$s" não pode ser preenchida completamente, migração faltando "%2$s".',
-	'MIGRATION_SCHEMA_DONE'				=> 'Esquema instalado: %1$s; Dados: %2$.2f segundos',
+	'MIGRATION_SCHEMA_DONE'				=> 'Esquema instalado: %1$s; Duração: %2$.2f segundos',
+	'MIGRATION_SCHEMA_IN_PROGRESS'		=> 'Instalando esquema: %1$s; Duração: %2$.2f segundos',
 	'MIGRATION_APPLY_DEPENDENCIES'      => 'Aplicar dependencias de %s.',
 	'MIGRATION_DATA_RUNNING'         	=> 'Instalando dados: %s.',
 	'MIGRATION_NOT_VALID'           	=> '%s não é uma migração válida.',
@@ -60,9 +61,12 @@ $lang = array_merge($lang, array(
 	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'A migração é inválida. Um método de ferramenta de migração indefinido foi encontrado.',
 
 	'MODULE_ERROR'						=> 'Ocorreu um erro durante a criação de um módulo: %s',
+	'MODULE_EXISTS'						=> 'Um módulo já existe: %s',
+	'MODULE_EXIST_MULTIPLE'				=> 'Vários módulos com o nome do idioma do módulo pai já existem: %s. Tente usar as chaves antes/depois para posicionar o módulo.',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Um arquivo com informações do módulo necessário está faltando: %2$s',
 	'MODULE_NOT_EXIST'					=> 'Um módulo requerido não existe: %s',
 
+	'PARENT_MODULE_FIND_ERROR'			=> 'Não é possível determinar a identificação do módulo pai: %s',
 	'PERMISSION_NOT_EXIST'				=> 'Inesperadamente a configuração de permissão "%s" não existe.',
 
 	'ROLE_NOT_EXIST'					=> 'Inesperadamente a permissão "%s" não existe.',

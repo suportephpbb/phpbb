@@ -117,7 +117,7 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'			=> 'Dimensões do link da imagem', 
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Exibe o anexo de uma imagem como link, caso a imagem seja maior que o informado. Escreva 0px por 0px para desativar este recurso.', 
-	'IMAGICK_PATH'				=> 'Local do Imagemagick', 
+	'IMAGICK_PATH'				=> 'Local do ImageMagick', 
 	'IMAGICK_PATH_EXPLAIN'		=> 'O local completo ao programa de aplicação do imagemagick, ex. <samp>/usr/bin/</samp>.', 
 
 	'MAX_ATTACHMENTS'				=> 'Número máximo de anexos por mensagem', 
@@ -153,7 +153,7 @@ $lang = array_merge($lang, array(
 	'REMOVE_DISALLOWED_IPS'			=> 'Excluir IPs/hostnames <em>proibidos</em>', 
 	'RESYNC_FILES_STATS_CONFIRM'	=> 'Você deseja realmente re-sincronizar estatísticas de arquivos?',
 
-	'SEARCH_IMAGICK'				=> 'Localizar Imagemagick', 
+	'SEARCH_IMAGICK'				=> 'Localizar ImageMagick', 
 	'SECURE_ALLOW_DENY'				=> 'Lista de permissões/proibições', 
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Substitui o comportamento padrão quando os downloads seguros estão ativos na lista de permissões/proibições através de uma <strong>lista branca</strong> (permissões) ou uma <strong>lista negra</strong> (proibições).',
 	'SECURE_DOWNLOADS'				=> 'Ativar downloads seguros', 

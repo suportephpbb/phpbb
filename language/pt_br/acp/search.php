@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'O modo de pesquisa está atualmente limpando os seus índices. Isto pode levar alguns minutos.', 
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'O modo de pesquisa de textos completos do MySQL somente pode ser usado com MySQL4 e superior.', 
-	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'Índices de textos completos do MySQL podem apenas ser utilizados com tabelas do MyISAM ou do InnoDB. MySQL 5.6.4 ou versão anterior é necessário para índices de textos completos em tabelas InnoDB.', 
+	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'Índices de textos completos do MySQL podem apenas ser utilizados com tabelas do MyISAM ou do InnoDB. MySQL 5.6.8 ou versão anterior é necessário para índices de textos completos em tabelas InnoDB.', 
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Número total de mensagens indexadas', 
 	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'Palavras com pelo menos essa quantidade de caracteres serão indexadas na pesquisa. Você ou seu servidor só poderão alterar essa configuração se a configuração do mysql for alterada.',
 	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Palavras com no máximo esse número de caracteres serão indexadas na pesquisa. Você ou seu servidor só poderão alterar essa configuração se a configuração do mysql for alterada.',
