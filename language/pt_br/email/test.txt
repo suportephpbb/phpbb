@@ -1,0 +1,9 @@
+Subject: phpBB está corretamente configurado para enviar e-mails
+
+Olá {USERNAME},
+
+Parabéns. Se você recebeu este e-mail, phpBB está corretamente configurado para enviar e-mails.
+
+Caso necessite de assistência, visite os fóruns de suporte do phpBB - https://www.phpbb.com/community/
+
+{EMAIL_SIG}
