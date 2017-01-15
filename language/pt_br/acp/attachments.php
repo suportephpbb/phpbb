@@ -70,9 +70,6 @@ $lang = array_merge($lang, array(
 
 	'CAT_FLASH_FILES'			=> 'Arquivos Flash',
 	'CAT_IMAGES'				=> 'Imagens', 
-	'CAT_QUICKTIME_FILES'		=> 'Arquivos do Quicktime',
-	'CAT_RM_FILES'				=> 'Arquivos do RealMedia', 
-	'CAT_WM_FILES'				=> 'Arquivos do Windows Media',
 	'CHECK_CONTENT'				=> 'Verificar arquivos anexos',
 	'CHECK_CONTENT_EXPLAIN'		=> 'Alguns navegadores podem serem enganados e assumir funções incorretas a alguns dos arquivos enviados. Esta opção lhe assegura que estes arquivos sejam rejeitados.',
 	'CREATE_GROUP'				=> 'Criar novo grupo', 
@@ -105,9 +102,6 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_FLASH_FILES'			=> 'Arquivos em Flash',
 	'EXT_GROUP_IMAGES'				=> 'Imagens',
 	'EXT_GROUP_PLAIN_TEXT'			=> 'Texto simples',
-	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'Quicktime Media',
-	'EXT_GROUP_REAL_MEDIA'			=> 'Real Media',
-	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows Media',
 
 	'FILES_GONE'			=> 'Alguns dos anexos que você deseja excluir não foram encontrados. Eles podem já ter sido excluídos. Os anexos encontrados foram excluídos.',
 	'FILES_STATS_WRONG'		=> 'As estatísticas de arquivos são imprecisas e devem ser re-sincronizadas. Valores atuais: Número de arquivos = %1$d, tamanho total dos arquivos = %2$s.<br />Clique %3$saqui%4$s para os re-sincronizar.',
