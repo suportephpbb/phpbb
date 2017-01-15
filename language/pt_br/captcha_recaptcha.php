@@ -40,13 +40,13 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_LANG'				=> 'pt',
 	'RECAPTCHA_NOT_AVAILABLE'		=> 'Para usar o reCaptcha, você deve criar um registro em <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
-	'RECAPTCHA_INCORRECT'			=> 'O código de confirmação visual escrito estava incorreto',
+	'RECAPTCHA_INCORRECT'			=> 'A informação que você forneceu estava incorreta',
+	'RECAPTCHA_NOSCRIPT'			=> 'Por favor, ative o JavaScript no seu browser para carregar o captcha.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Chave pública do reCaptcha',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'A sua chave pública do reCaptcha. Chaves podem ser obtidas em <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'RECAPTCHA_PRIVATE'				=> 'Chave privada do reCaptcha',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'A sua chave privada do reCaptcha. Chaves podem ser obtidas em <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'No esforço de prevenir submissões automáticas, nós solicitamos que você escreva o texto exibido no campo de texto abaixo.',
-	'RECAPTCHA_SOCKET_ERROR'		=> 'Houve um problema de conexão com o serviço RECAPTCHA: não foi possível abrir socket. Tente novamente mais tarde.',
+	'RECAPTCHA_EXPLAIN'				=> 'Em um esforço para evitar cadastros automáticos, exigimos que você complete o seguinte captcha.',
 ));
