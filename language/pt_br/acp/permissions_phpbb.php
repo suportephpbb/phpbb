@@ -119,6 +119,7 @@ $lang = array_merge($lang, array(
 	'ACL_F_POST'		=> 'Pode enviar mensagens novas',
 	'ACL_F_STICKY'		=> 'Pode enviar tópicos fixos',
 	'ACL_F_ANNOUNCE'	=> 'Pode enviar anúncios',
+	'ACL_F_ANNOUNCE_GLOBAL'	=> 'Pode enviar anúncios globais',
 	'ACL_F_REPLY'		=> 'Pode responder mensagens',
 	'ACL_F_EDIT'		=> 'Pode editar as próprias mensagens',
 	'ACL_F_DELETE'		=> 'Pode excluir as próprias mensagens',
