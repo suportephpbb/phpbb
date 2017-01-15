@@ -135,6 +135,7 @@ $lang = array_merge($lang, array(
 	'LOCK_TOPICS_CONFIRM'		=> 'Você deseja realmente trancar todos os tópicos selecionados?', 
 	'LOGS_CURRENT_TOPIC'		=> 'Exibindo logs de:', 
 	'LOGIN_EXPLAIN_MCP'			=> 'Para moderar este fórum, você precisa autenticar o seu registro.', 
+	'LOGVIEW_VIEWPOST'			=> 'Ver post',
 	'LOGVIEW_VIEWTOPIC'			=> 'Exibir tópico', 
 	'LOGVIEW_VIEWLOGS'			=> 'Exibir log do Tópico', 
 	'LOGVIEW_VIEWFORUM'			=> 'Exibir fórum', 
