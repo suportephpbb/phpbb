@@ -328,6 +328,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_GROUP_MODERATION'						=> 'Notificações de Moderação',
 	'NOTIFICATION_GROUP_ADMINISTRATION'					=> 'Notificações da Administração',
 	'NOTIFICATION_GROUP_POSTING'						=> 'Notificações de Mensagens',
+	'NOTIFICATION_METHOD_BOARD'							=> 'Notificações',
 	'NOTIFICATION_METHOD_EMAIL'							=> 'Email',
 	'NOTIFICATION_METHOD_JABBER'						=> 'Jabber',
 	'NOTIFICATION_TYPE'									=> 'Tipo de Notificação',
