@@ -50,7 +50,9 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_CRON_LIST'					=> 'Imprime a lista de tarefas Cron agendadas prontas e não prontas.',
 	'CLI_DESCRIPTION_CRON_RUN'					=> 'Executa todas as tarefas Cron prontas agendadas.',
 	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'		=> 'Nome da tarefa a ser executada',
+	'CLI_DESCRIPTION_DB_LIST'					=> 'Listar todas as migrações instalados e disponíveis.',
 	'CLI_DESCRIPTION_DB_MIGRATE'				=> 'Atualiza o Banco de Dados através da aplicação de migrações.',
+	'CLI_DESCRIPTION_DB_REVERT'					=> 'Reverter uma migração.',
 	'CLI_DESCRIPTION_DELETE_CONFIG'				=> 'Elimina uma opção de configuração',
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Desativa a extensão especificada.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Ativa a extensão especificada.',
@@ -58,9 +60,13 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Obtém o valor de uma opção de configuração',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Aumenta o valor inteiro de uma opção de configuração',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Lista todas as Extensões no Banco de Dados e no sistema de arquivos.',
+
+	'CLI_DESCRIPTION_OPTION_ENV'				=> 'O nome The Environment name.',
 	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'Executar em modo de segurança (sem extensões).',
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Iniciar o modo shell.',
+
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Limpa a extensão especificada.',
+
 	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Recalcula a coluna user_email_hash da Tabela de Usuários.',
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Define o valor de uma opção de configuração só se o anterior corresponde ao valor atual',
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Define o valor de uma opção de configuração',
