@@ -311,8 +311,8 @@ $lang = array_merge($lang, array(
 	'G_NEWLY_REGISTERED'				=> 'Usuários registrados recentemente',	
 
 	'HIDDEN_USERS_ONLINE'				=> array(
-		1	=> '%d usuário invisível online',
-		2	=> '%d usuários invisíveis online',
+		1	=> '%d usuário invisível',
+		2	=> '%d usuários invisíveis',
 	),
 	'HIDDEN_USERS_TOTAL'				=> array(
 		1	=> '%d invisivel',
