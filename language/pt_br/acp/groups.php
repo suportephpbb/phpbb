@@ -81,12 +81,12 @@ $lang = array_merge($lang, array(
 	'GROUP_LIST'					=> 'Membros atuais', 
 	'GROUP_LIST_EXPLAIN'			=> 'Esta é uma lista completa de todos os membros atuais com inscrição neste grupo. Você pode excluir usuários (exceto em certos grupos especiais) ou adicionar novos, se achar necessário.', 
     'GROUP_MAX_RECIPIENTS'			=> 'Número máximo de destinatários permitido por mensagem privada',
-	'GROUP_MAX_RECIPIENTS_EXPLAIN'	=> 'O número máximo de destinatários permitido por mensagem privada. Se definido 0, então as configurações gerais do painel serão utilizadas.',
+	'GROUP_MAX_RECIPIENTS_EXPLAIN'	=> 'O número máximo de destinatários permitido por mensagem privada. O valor máximo para todos os grupos de usuários é usado para determinar o valor atual.<br />Um valor igual a 0 significa substituir a configuração para todos os usuários neste grupo pela configuração geral do fórum.',
 	'GROUP_OPTIONS_SAVE'			=> 'Opções gerais do grupo',
 	'GROUP_MEMBERS'					=> 'Membros do grupo', 
 	'GROUP_MEMBERS_EXPLAIN'			=> 'Aqui está uma lista completa de todos os usuários pertencentes a este grupo. Isto inclui seções separadas para líderes, membros pendentes e membros existentes. Através deste painel você pode gerenciar todos os aspectos sobre quem possui inscrição neste grupo e o que eles realizam. Para excluir um líder sem retirá-lo do grupo, utilize Demitir. Similarmente, use Promover para tornar um membro existente um líder.', 
 	'GROUP_MESSAGE_LIMIT'			=> 'Limite de mensagens privadas do grupo por pasta', 
-	'GROUP_MESSAGE_LIMIT_EXPLAIN'	=> 'Esta configuração substitui o limite da pasta de mensagens privadas por usuário. Um valor igual a 0 significa manter as configurações individuais ao usuário.', 
+	'GROUP_MESSAGE_LIMIT_EXPLAIN'	=> 'Esta configuração substitui o limite da pasta de mensagens privadas por usuário. O valor máximo para todos os grupos de usuários é usado para determinar o valor atual.<br />Um valor igual a 0 significa substituir a configuração para todos os usuários neste grupo pela configuração geral do fórum.',
 	'GROUP_MODS_ADDED'				=> 'Novos líderes do grupo adicionados com sucesso.', 
 	'GROUP_MODS_DEMOTED'			=> 'Os líderes selecionados foram demitidos com sucesso.', 
 	'GROUP_MODS_PROMOTED'			=> 'Os membros selecionados foram promovidos com sucesso.', 
@@ -129,8 +129,10 @@ $lang = array_merge($lang, array(
 	'NO_USERS'					=> 'Você não especificou quaisquer usuários.', 
     'NO_USERS_ADDED'            => 'Nenhum usuário foi adicionado ao grupo.',
 	'NO_VALID_USERS'			=> 'Você não inseriu quaisquer usuários convenientes para aquela ação.',
-	'SELECT_GROUP'				=> 'Selecione um grupo',
 
+	'PENDING_MEMBERS'			=> 'Pendente',
+
+	'SELECT_GROUP'				=> 'Selecione um grupo',
 	'SPECIAL_GROUPS'			=> 'Grupos predefinidos',
 	'SPECIAL_GROUPS_EXPLAIN'	=> 'Grupos predefinidos são grupos especiais, eles não podem ser excluídos ou diretamente alterados. Porém, você ainda pode adicionar membros e alterar as suas configurações básicas.',
 
