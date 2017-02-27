@@ -108,6 +108,8 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_PERMISSIONS'		=> 'Permissões de grupo',
 	'ACP_GROUPS_POSITION'			=> 'Posições de grupos',
 
+	'ACP_HELP_PHPBB'			=> 'Ajude o phpBB',
+
 	'ACP_ICONS'						=> 'Ícones', 
 	'ACP_ICONS_SMILIES'				=> 'Ícones/smilies', 
 	'ACP_INACTIVE_USERS'			=> 'Usuários inativos', 
@@ -167,7 +169,6 @@ $lang = array_merge($lang, array(
 	'ACP_SEARCH_SETTINGS'		=> 'Configurações da pesquisa', 
 
 	'ACP_SECURITY_SETTINGS'		=> 'Configurações de segurança', 
-	'ACP_SEND_STATISTICS'		=> 'Enviar informações estatísticas',
 	'ACP_SERVER_CONFIGURATION'	=> 'Configurações do servidor', 
 	'ACP_SERVER_SETTINGS'		=> 'Configurações do servidor', 
 	'ACP_SIGNATURE_SETTINGS'	=> 'Configurações da assinatura', 
@@ -223,14 +224,28 @@ $lang = array_merge($lang, array(
 	'ADM_LOGOUT'			=> 'Sair do ACP',
 	'ADM_LOGGED_OUT'		=> 'O seu logout do painel de administração foi efetuado com sucesso.',
 
-	'BACK'					=> 'Voltar', 
+	'BACK'					=> 'Voltar',
 
-	'COLOUR_SWATCH'			=> 'Cores seguras de navegação', 
+	'CANNOT_CHANGE_FILE_GROUP'	=> 'Não foi possível alterar o grupo do arquivo',
+	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Não foi possível alterar as permissões de arquivo',
+	'CANNOT_COPY_FILES'		=> 'Não foi possível copiar arquivos',
+	'CANNOT_CREATE_SYMLINK'	=> 'Não foi possível criar um link simbólico(symlink)',
+	'CANNOT_DELETE_FILES'	=> 'Não foi possível excluir os arquivos de sistema',
+	'CANNOT_DUMP_FILE'		=> 'Não foi possível despejar o arquivo',
+	'CANNOT_MIRROR_DIRECTORY'	=> 'Não foi possível replicar o diretório',
+	'CANNOT_RENAME_FILE'	=> 'Não foi possível renomear um arquivo de sistema',
+	'CANNOT_TOUCH_FILES'	=> 'Não foi possível determinar se o arquivo existe',
+
+	'CONTAINER_EXCEPTION' => 'O phpBB encontrou um erro devido a uma extensão instalada. Por este motivo, todas as extensões foram desativadas temporariamente. Por favor, tente limpar o cache do seu fórum. Todas as extensões serão reativadas automaticamente quando o erro for corrigido. Se o erro persistir, visite <a href="https://www.phpbb.com/support">phpBB.com</a> para suporte.',
+	'EXCEPTION' => 'Exception',
+
+	'COLOUR_SWATCH'			=> 'Paleta de cores',
 	'CONFIG_UPDATED'		=> 'Configuração atualizada com sucesso.', 
 	'CRON_LOCK_ERROR'		=> 'Não foi possível obter o bloqueio cron.',
 	'CRON_NO_SUCH_TASK'		=> 'A tarefa cron “%s” não foi encontrada.',
 	'CRON_NO_TASK'			=> 'Não há nenhuma tarefa cron para executar.',
 	'CRON_NO_TASKS'			=> 'Não foram encontradas tarefas cron.',
+	'CURRENT_VERSION'		=> 'Versão atual',
 
 	'DEACTIVATE'				=> 'Desativar',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'A pasta "%s" selecionada não existe.', 
@@ -256,6 +271,7 @@ $lang = array_merge($lang, array(
 	'IP'					=> 'IP do usuário', 
 	'IP_HOSTNAME'			=> 'Endereços de IP ou hostnames',
 
+	'LATEST_VERSION'		=> 'Última versão',
 	'LOAD_NOTIFICATIONS'			=> 'Ativar notificações',
 	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'A lista de notificações será exibida em todas as páginas do fórum (normalmente no topo da página).',
 	'LOGGED_IN_AS'			=> 'Você está logado como:', 
@@ -288,7 +304,9 @@ $lang = array_merge($lang, array(
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Você está atualmente possuindo as permissões de %1$s. Você pode navegar pelo painel com as permissões de usuário, mas não acessar o painel de administração desde que possua as devidas permissões. Você pode <a href="%2$s"><strong>reverter as suas permissões</strong></a> a qualquer momento.', 
 	'PROCEED_TO_ACP'					=> '%sProceder ao ACP%s', 
 
+	'RELEASE_ANNOUNCEMENT'		=> 'Anúncio',
 	'REMIND'							=> 'Lembrar', 
+	'REPARSE_LOCK_ERROR'				=> 'A análise já está em andamento por outro processo.',
 	'RESYNC'							=> 'Re-sincronizar',
 
 	'RUNNING_TASK'			=> 'Executando a tarefa: %s.',
@@ -308,9 +326,13 @@ $lang = array_merge($lang, array(
 
 	'UCP'					=> 'Painel de Controle do Usuário',
 	'USERNAMES_EXPLAIN'		=> 'Insira cada usuário em uma linha separada.', 
-	'USER_CONTROL_PANEL'	=> 'Painel de Controle do Usuário', 
+	'USER_CONTROL_PANEL'	=> 'Painel de Controle do Usuário',
 
-	'WARNING'				=> 'Advertência', 
+	'UPDATE_NEEDED'			=> 'O fórum está desatualizado',
+	'UPDATE_NOT_NEEDED'		=> 'O fórum está atualizado',
+	'UPDATES_AVAILABLE'		=> 'Atualizações disponíveis:',
+
+	'WARNING'				=> 'Advertência',
 )); 
 
 // PHP info 
@@ -420,6 +442,11 @@ $lang = array_merge($lang, array(
 	'VALUE'					    => 'Valor', 
 	'VERSIONCHECK_FAIL'			=> 'Não foi possível obter a informação da última versão.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'Checar versão novamente',
+	'VERSION_CHECK'				=> 'Checar versão',
+	'VERSION_CHECK_EXPLAIN'		=> 'Verifica se sua instalação do phpBB está atualizada.',
+	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'A sua instalação do phpBB está desatualizada.<br />Abaixo você encontrará um link para o anúncio de lançamento, que contém mais informações e instruções para atualização.',
+	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'A sua instalação do phpBB está desatualizada.',
+	'VERSION_UP_TO_DATE_ACP'	=> 'A sua instalação do phpBB está atualizada. Não há atualização disponível no momento',
 	'VIEW_ADMIN_LOG'		    => 'Ver log do administrador', 
 	'VIEW_INACTIVE_USERS'	    => 'Ver usuários inativos', 
 
@@ -452,16 +479,18 @@ $lang = array_merge($lang, array(
 	'USER_IS_INACTIVE'		=> 'Usuário está inativo', 
 )); 
 
-// Send statistics page
+// Help support phpBB page
 $lang = array_merge($lang, array(
 	'EXPLAIN_SEND_STATISTICS'	=> 'Por favor, envie as informações sobre o seu servidor e configurações do painel para análises estatísticas do phpBB. Todas as informações que possam identificá-lo ou seu website foram removidas - os dados estão assinados como <strong>anônimo</strong>. Nossas decisões a respeito das futuras versões do phpBB serão baseadas nestas informações. As estatísticas estarão disponíveis publicamente. Nós também compartilhamos estes dados com o projeto PHP, a linguagem de programação em que o phpBB é desenvolvido.',
 	'EXPLAIN_SHOW_STATISTICS'	=> 'Usando o botão abaixo você pode prever todas as variáveis que serão transmitidas.',
 	'DONT_SEND_STATISTICS'		=> 'Retorne ao ACP se você não deseja enviar as suas informações estatísticas ao phpBB.',
 	'GO_ACP_MAIN'				=> 'Voltar ao índice do ACP',
 	'HIDE_STATISTICS'			=> 'Ocultar informações',
-	'SEND_STATISTICS'			=> 'Enviar informações estatísticas',
+	'SEND_STATISTICS'			=> 'Enviar estatísticas',
+	'SEND_STATISTICS_LONG'		=> 'Enviar informações estatísticas',
 	'SHOW_STATISTICS'			=> 'Exibir informações',
 	'THANKS_SEND_STATISTICS'	=> 'Obrigado por enviar as suas informações estatísticas ao phpBB.',
+	'FAIL_SEND_STATISTICS'		=> 'Falha ao enviar estatísticas',
 ));
 
 // Log Entries 
@@ -794,4 +823,5 @@ $lang = array_merge($lang, array(
 	'LOG_EXT_ENABLE'	=> '<strong>Extensão ativada</strong><br />» %s',
 	'LOG_EXT_DISABLE'	=> '<strong>Extensão desativada</strong><br />» %s',
 	'LOG_EXT_PURGE'		=> '<strong>Dados da extensão excluídos</strong><br />» %s',
+	'LOG_EXT_UPDATE'	=> '<strong>Extensão atualizada</strong><br />» %s',
 ));
