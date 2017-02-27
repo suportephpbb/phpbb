@@ -99,6 +99,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_TOPIC_NOTIFY'		=> 'Permitir subscrição de tópicos', 
 	'BOARD_PM'					=> 'Mensagens privadas', 
 	'BOARD_PM_EXPLAIN'			=> 'Ativar mensagens privadas para todos os usuários.',
+	'ALLOW_BOARD_NOTIFICATIONS' => 'Permitir notificações',
 )); 
 
 // Avatar Settings 
@@ -350,7 +351,9 @@ $lang = array_merge($lang, array(
 	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Esses detalhes definem como os cookies serão enviados para os navegadores de seus usuários. Na maioria das vezes, os valores padrão para a configuração dos cookies deverão ser suficientes, mas caso necessite alterá-los, faça-o com cuidado, pois uma configuração incorreta poderá impedir o acesso dos usuários ao fórum.', 
 
 	'COOKIE_DOMAIN'			=> 'Domínio do cookie', 
-	'COOKIE_NAME'			=> 'Nome do cookie', 
+	'COOKIE_NAME'			=> 'Nome do cookie',
+	'COOKIE_NOTICE'				=> 'Informações sobre cookies',
+	'COOKIE_NOTICE_EXPLAIN'		=> 'Se esta opção for ativada, as informações sobre o uso de cookies será exibida aos usuários ao visitar o fórum. Esta informação é um requisito legal em alguns países, dependendo do conteúdo e extensões habilitado no seu fórum.',
 	'COOKIE_PATH'			=> 'Pasta do cookie', 
 	'COOKIE_SECURE'			=> 'Cookie seguro [ https:// ]', 
 	'COOKIE_SECURE_EXPLAIN'	=> 'Se o seu servidor estiver executando através de SSL, ative esta opção, caso contrário, deixe desativada. Se ativar isto sem que funcione via SSL, poderá resultar em erros no servidor durante os redirecionamentos.', 
@@ -533,9 +536,11 @@ $lang = array_merge($lang, array(
 	'REF_HOST'						=> 'Apenas validar servidor',
 	'REF_PATH'						=> 'Também validar pasta',
 	'REFERRER_VALID'				=> 'Validar referenciador',
-	'REFERRER_VALID_EXPLAIN'		=> 'Se ativado, o referenciador de requisição de POST será checada junto à configuração da pasta do servidor/script. Isto pode ocasionar erros em fóruns que utilizem diversos domínios e/ou logins externos.',
+	'REFERRER_VALID_EXPLAIN'		=> 'Se esta opção for ativada, o referenciador de requisição de POST será checada junto à configuração da pasta do servidor/script. Isto pode ocasionar erros em fóruns que utilizem diversos domínios e/ou logins externos.',
 	'TPL_ALLOW_PHP'					=> 'Permitir php nas templates', 
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Se esta opção for ativada, comandos <code>PHP</code> e <code>INCLUDEPHP</code> serão reconhecidos e inseridos nas templates.',
+	'UPLOAD_CERT_VALID'				=> 'Validar envio de certificado',
+	'UPLOAD_CERT_VALID_EXPLAIN'		=> 'Se esta opção for ativada, certificados de envio remoto serão validados. O pacote CA deve ser definido por meio da configuração <samp>openssl.cafile</samp> ou <samp>curl.cainfo</samp> no php.ini.',
 )); 
 
 // Email Settings 
@@ -560,6 +565,8 @@ $lang = array_merge($lang, array(
 	'EMAIL_SIG_EXPLAIN'				=> 'Este texto será anexado a todos os e-mails enviados pelo painel.',
 	'ENABLE_EMAIL'					=> 'Ativar os e-mails do painel', 
 	'ENABLE_EMAIL_EXPLAIN'			=> 'Se for desativado, os e-mails não serão enviados pelo painel. <em>Note que as configurações para ativação de registro por parte do administrador ou do usuário requerem que esta configuração esteja ativada. Caso esteja utilizando a ativação por parte do administrador ou do usuário em sua configuração, desativando esta ferramenta não será mais necessária a ativação de novos registros.</em>',
+	'SEND_TEST_EMAIL'				=> 'Enviar um e-mail de teste',
+	'SEND_TEST_EMAIL_EXPLAIN'		=> 'Isto irá enviar um e-mail de teste para o endereço de e-mail especificado na sua conta.',
 	'SMTP_AUTH_METHOD'				=> 'Método de autenticação de SMTP', 
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Apenas utilizado se um nome/senha for especificado, pergunte ao seu provedor se não souber qual método usar.', 
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5', 
@@ -575,7 +582,8 @@ $lang = array_merge($lang, array(
 	'SMTP_SERVER_EXPLAIN'			=> 'Por favor, note que você deve fornecer o protocolo usado pelo servidor. Se você estiver usando SSL, então deve ser "ssl://your.mailserver.com"',
 	'SMTP_SETTINGS'					=> 'Configurações de SMTP', 
 	'SMTP_USERNAME'					=> 'Nome de usuário do SMTP', 
-	'SMTP_USERNAME_EXPLAIN'			=> 'Só escreva o nome de usuário se o seu servidor de SMTP assim o exigir.', 
+	'SMTP_USERNAME_EXPLAIN'			=> 'Só escreva o nome de usuário se o seu servidor de SMTP assim o exigir.',
+	'TEST_EMAIL_SENT'				=> 'O e-mail de teste foi enviado.<br />Se você não recebeu, por favor, verifique a configuração de e-mail.<br /><br />Se você precisar de ajuda, por favor, visite <a href="https://www.phpbb.com/community/">fóruns de suporte ao phpBB(em inglês)</a>.',
 	'USE_SMTP'						=> 'Usar um servidor de SMTP para enviar e-mails', 
 	'USE_SMTP_EXPLAIN'				=> 'Selecione "Sim" se você deseja ou precisa enviar e-mails através de um servidor de SMPT ao invés de uma função de e-mail local.',
 )); 
