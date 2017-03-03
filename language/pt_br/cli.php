@@ -67,46 +67,46 @@ $lang = array_merge($lang, array(
 
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Limpa a extensão especificada.',
 
-	'CLI_DESCRIPTION_REPARSER_LIST'						=> 'Lists the types of text that can be reparsed.',
-	'CLI_DESCRIPTION_REPARSER_AVAILABLE'				=> 'Available reparsers:',
-	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Reparses stored text with the current text_formatter services.',
-	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'Type of text to reparse. Leave blank to reparse everything.',
-	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Do not save any changes; just print what would happen',
-	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'Lowest record ID to process',
-	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'Highest record ID to process',
-	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Approximate number of records to process at a time',
-	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Start reparsing where the last execution stopped',
+	'CLI_DESCRIPTION_REPARSER_LIST'						=> 'Listas de tipos de texto que podem ser reanalisados.',
+	'CLI_DESCRIPTION_REPARSER_AVAILABLE'				=> 'Reanalisados disponíveis:',
+	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Textos reanalisados armazenado com serviços text_formatter atuais.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'O tipo de texto para reanalisar. Deixe em branco para reanalisar tudo.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Não salve as alterações; apenas imprima o que ocorreu',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'ID de registro mais baixo para processar',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'ID de registro mais alto para processar',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Número aproximado de registros para processar de cada vez',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Comece a reanalisar de onde a última execução parou',
 
-	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Recalcula a coluna user_email_hash da Tabela de Usuários.',
+	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Recalcula a coluna user_email_hash da tabela de usuários.',
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Define o valor de uma opção de configuração só se o anterior corresponde ao valor atual',
 
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Define o valor de uma opção de configuração',
 
-	'CLI_DESCRIPTION_THUMBNAIL_DELETE'					=> 'Delete all existing thumbnails.',
-	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'				=> 'Generate all missing thumbnails.',
-	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'				=> 'Recreate all thumbnails.',
+	'CLI_DESCRIPTION_THUMBNAIL_DELETE'					=> 'Excluir todas as miniaturas existentes.',
+	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'				=> 'Gerar todas as miniaturas ausentes.',
+	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'				=> 'Recriar todas as miniaturas',
 
-	'CLI_DESCRIPTION_UPDATE_CHECK'					=> 'Check if the board is up to date.',
-	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Name of the extension to check (if all, checks all the extensions)',
-	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Run check command with cache.',
-	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Run command choosing to check only stable or unstable versions.',
+	'CLI_DESCRIPTION_UPDATE_CHECK'					=> 'Verificar se o fórum está atualizado.',
+	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Nome da extensão para verificar (se todos, irá verificar todas as extensões)',
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Execute o comando de verificação com o cache.',
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Execute o comando optando por verificar somente por versões estáveis ou instáveis.',
 
-	'CLI_ERROR_INVALID_STABILITY' => '"%s" is not a valid stability.',
+	'CLI_ERROR_INVALID_STABILITY' => '"%s" não é uma estabilidade válida.',
 
-	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Activate (or deactivate) a user account.',
-	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Username of the account to activate.',
-	'CLI_DESCRIPTION_USER_ACTIVATE_DEACTIVATE'	=> 'Deactivate the user’s account',
-	'CLI_DESCRIPTION_USER_ACTIVATE_ACTIVE'		=> 'The user is already active.',
-	'CLI_DESCRIPTION_USER_ACTIVATE_INACTIVE'	=> 'The user is already inactive.',
-	'CLI_DESCRIPTION_USER_ADD'					=> 'Add a new user.',
-	'CLI_DESCRIPTION_USER_ADD_OPTION_USERNAME'	=> 'Username of the new user',
-	'CLI_DESCRIPTION_USER_ADD_OPTION_PASSWORD'	=> 'Password of the new user',
-	'CLI_DESCRIPTION_USER_ADD_OPTION_EMAIL'		=> 'E-mail address of the new user',
-	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Send account activation email to the new user (not sent by default)',
-	'CLI_DESCRIPTION_USER_DELETE'				=> 'Delete a user account.',
-	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Username of the user to delete',
-	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Delete all posts by the user. Without this option, the user’s posts will be retained.',
-	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Re-clean usernames.',
+	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Ativar (ou desativar) a conta de um usuário.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Nome de usuário da conta para ativar.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_DEACTIVATE'	=> 'Desativar a conta de um usuário',
+	'CLI_DESCRIPTION_USER_ACTIVATE_ACTIVE'		=> 'O usuário já está ativado.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_INACTIVE'	=> 'O usuário já está desativado.',
+	'CLI_DESCRIPTION_USER_ADD'					=> 'Adicionar um novo usuário.',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_USERNAME'	=> 'Nome de usuário do novo usuário',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_PASSWORD'	=> 'Senha do novo usuário',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_EMAIL'		=> 'Endereço de e-mail do novo usuário',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Enviar o e-mail de ativação de conta para o novo usuário (não enviado por padrão)',
+	'CLI_DESCRIPTION_USER_DELETE'				=> 'Excluir conta de usuário.',
+	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Nome de usuário do usuário para excluir',
+	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Excluir todas as mensagens do usuário. Sem esta opção, as mensagens do usuário serão mantidas.',
+	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Re-limpar nome de usuários.',
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Não foi possível desativar a extensão %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'A extensão %s foi desativada com sucesso',
@@ -124,46 +124,46 @@ $lang = array_merge($lang, array(
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Recalculado com sucesso todos os hashes de e-mail.',
 
-	'CLI_MIGRATION_NAME'					=> 'Migration name, including the namespace (use forward slashes instead of backslashes to avoid problems).',
-	'CLI_MIGRATIONS_AVAILABLE'				=> 'Available migrations',
-	'CLI_MIGRATIONS_INSTALLED'				=> 'Installed migrations',
-	'CLI_MIGRATIONS_ONLY_AVAILABLE'		    => 'Show only available migrations',
-	'CLI_MIGRATIONS_EMPTY'                  => 'No migrations.',
+	'CLI_MIGRATION_NAME'					=> 'Nome da migração, incluindo o namespace (use barras em vez de barras invertidas para evitar complicações).',
+	'CLI_MIGRATIONS_AVAILABLE'				=> 'Migrações disponíveis´',
+	'CLI_MIGRATIONS_INSTALLED'				=> 'Migrações instaladas',
+	'CLI_MIGRATIONS_ONLY_AVAILABLE'		    => 'Exibir somente migrações disponíveis',
+	'CLI_MIGRATIONS_EMPTY'                  => 'Não há migrações.',
 
-	'CLI_REPARSER_REPARSE_REPARSING'		=> 'Reparsing %1$s (range %2$d..%3$d)',
-	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'Reparsing %s...',
-	'CLI_REPARSER_REPARSE_SUCCESS'			=> 'Reparsing ended with success',
+	'CLI_REPARSER_REPARSE_REPARSING'		=> 'Reanalisando %1$s (linha %2$d..%3$d)',
+	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'Reanalisando %s...',
+	'CLI_REPARSER_REPARSE_SUCCESS'			=> 'A reanálise foi realizada com sucesso',
 
 	// In all the case %1$s is the logical name of the file and %2$s the real name on the filesystem
 	// eg: big_image.png (2_a51529ae7932008cf8454a95af84cacd) generated.
-	'CLI_THUMBNAIL_DELETED'		=> '%1$s (%2$s) deleted.',
-	'CLI_THUMBNAIL_DELETING'	=> 'Deleting thumbnails',
-	'CLI_THUMBNAIL_SKIPPED'		=> '%1$s (%2$s) skipped.',
-	'CLI_THUMBNAIL_GENERATED'	=> '%1$s (%2$s) generated.',
-	'CLI_THUMBNAIL_GENERATING'	=> 'Generating thumbnails',
-	'CLI_THUMBNAIL_GENERATING_DONE'	=> 'All thumbnails have been regenerated.',
-	'CLI_THUMBNAIL_DELETING_DONE'	=> 'All thumbnails have been deleted.',
+	'CLI_THUMBNAIL_DELETED'		=> '%1$s (%2$s) excluída.',
+	'CLI_THUMBNAIL_DELETING'	=> 'Excluindo miniaturas',
+	'CLI_THUMBNAIL_SKIPPED'		=> '%1$s (%2$s) ignorada.',
+	'CLI_THUMBNAIL_GENERATED'	=> '%1$s (%2$s) gerada.',
+	'CLI_THUMBNAIL_GENERATING'	=> 'Gerando miniaturas',
+	'CLI_THUMBNAIL_GENERATING_DONE'	=> 'Todas as miniaturas foram regeradas.',
+	'CLI_THUMBNAIL_DELETING_DONE'	=> 'Todas as miniaturas foram excluídas.',
 
-	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'No thumbnails to generate.',
-	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'No thumbnails to delete.',
+	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'Não há miniaturas para gerar.',
+	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Não há miniaturas para excluir.',
 
-	'CLI_USER_ADD_SUCCESS'		=> 'Successfully added user %s.',
-	'CLI_USER_DELETE_CONFIRM'	=> 'Are you sure you want to delete ‘%s’? [y/N]',
-	'CLI_USER_RECLEAN_START'	=> 'Re-cleaning usernames',
+	'CLI_USER_ADD_SUCCESS'		=> 'O usuário %s foi adicionado com sucesso.',
+	'CLI_USER_DELETE_CONFIRM'	=> 'Você deseja realmente excluir ‘%s’? [y/N]',
+	'CLI_USER_RECLEAN_START'	=> 'Re-limpando nome de usuários',
 	'CLI_USER_RECLEAN_DONE'		=> [
-		0	=> 'Re-cleaning complete. No usernames needed to be cleaned.',
-		1	=> 'Re-cleaning complete. %d username was cleaned.',
-		2	=> 'Re-cleaning complete. %d usernames were cleaned.',
+		0	=> 'Re-limpeza completa. Não há nome de usuários para limpar.',
+		1	=> 'Re-limpeza completa. %d nome de usuário foi limpo.',
+		2	=> 'Re-limpeza completa. %d nomes de usuários foram limpos.',
 	],
 ));
 
 // Additional help for commands.
 $lang = array_merge($lang, array(
 	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Opcionalmente, você pode especificar um nome de uma tarefa cron para executar apenas a tarefa cron especificada.',
-	'CLI_HELP_USER_ACTIVATE'	=> 'Activate a user account, or deactivate an account using the <info>--deactivate</info> option.
-To optionally send an activation email to the user, use the <info>--send-email</info> option.',
-	'CLI_HELP_USER_ADD'			=> 'The <info>%command.name%</info> command adds a new user:
-If this command is run without options, you will be prompted to enter them.
-To optionally send an email to the new user, use the <info>--send-email</info> option.',
-	'CLI_HELP_USER_RECLEAN'		=> 'Re-clean usernames will check all stored usernames and ensure clean versions are also stored. Cleaned usernames are a case insensitive form, NFC normalized and transformed to ASCII.',
+	'CLI_HELP_USER_ACTIVATE'	=> 'Ative ou desative uma conta de usuário usando a opção <info>--deactivate</info>.
+Se você quiser enviar um e-mail de ativação para o usuário, você deve usar a opção <info>--send-email</info>.',
+	'CLI_HELP_USER_ADD'			=> 'O comando <info>%command.name%</info> adiciona um novo usuário:
+Se esse comando é executado sem opções, você será solicitado a inseri-las.
+Se você quiser enviar um e-mail para o usuário, você deve usar a opção <info>--send-email</info>.',
+	'CLI_HELP_USER_RECLEAN'		=> 'A re-limpeza de nomes de usuários irá verificar todos os nomes de usuários para garantir que as versões limpas também possam ser armazenados. Os nomes de usuários limpos não diferem de maiúsculas e minúsculas, são normalizadas com NFC e são transformados em ASCII.',
 ));
