@@ -38,6 +38,6 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ACP_VIGLINK_SETTINGS'		=> 'VigLink settings',
-	'LOG_VIGLINK_CHECK_FAIL'	=> '<strong>VigLink settings could not be verified with phpBB.com</strong><br />» %s',
+	'ACP_VIGLINK_SETTINGS'		=> 'Configurações do VigLink',
+	'LOG_VIGLINK_CHECK_FAIL'	=> '<strong>Configurações do VigLink não podem ser verificadas pelo phpBB.com</strong><br />» %s',
 ));
