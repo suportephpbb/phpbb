@@ -36,8 +36,8 @@ $help = array(
       1 => 'Sobre o Login e o Registro' 
    ), 
 	array(
-		0 => 'Por que preciso registar-me?',
-		1 => 'Compete ao administrador do fórum decidir se para poder criar mensagens, o registo é obrigatório. No entanto; o registo dá-lhe acesso a ferramentas adicionais não disponíveis aos visitantes, como imagens definíveis avatar, mensagens privadas, e-mail de outros usuários, subscrição de Grupos, etc Leva apenas alguns minutos para registrar, então é recomendável que o faça.'
+		0 => 'Por que preciso registrar-me?',
+		1 => 'Compete ao administrador do fórum decidir se para poder criar mensagens, o registro é obrigatório. No entanto; o registro dá-lhe acesso a ferramentas adicionais não disponíveis aos visitantes, como imagens definíveis avatar, mensagens privadas, e-mail de outros usuários, subscrição de Grupos, etc Leva apenas alguns minutos para registrar, então é recomendável que o faça.'
 	),
   array( 
       0 => 'O que é a COPPA?', 
