@@ -878,7 +878,7 @@ $lang = array_merge($lang, array(
 	'YAHOO'						=> 'Yahoo Messenger',
 	'YOUTUBE'					=> 'YouTube',
 	'YEAR'						=> 'Ano', 
-	'YEAR_MONTH_DAY'			=> '(DD-MM-YYYY)',	
+	'YEAR_MONTH_DAY'			=> '(YYYY-MM-DD)',
 	'YES'						=> 'Sim', 
 	'YOU_LAST_VISIT'			=> 'A sua última visita foi em %s', 
 
