@@ -185,7 +185,7 @@ $lang = array_merge($lang, array(
 	'GPL'								=> 'General Public License',
 
 	'INITIAL_CONFIG'					=> 'Configuração básica',
-	'INITIAL_CONFIG_EXPLAIN'			=> 'Agora que a instalação determinou que o seu servidor pode executar o phpBB, você precisa escrever algumas informações específicas. Caso você não saiba como conectar-se ao seu banco de dados, por favor, contate o seu servidor (em primeiro caso) ou utilize o <a href="http://www.suportephpbb.com.br/">Suporte phpBB</a> para solicitar ajuda. Quando inserir os dados, certifique-se de que eles estão corretos antes de continuar.',
+	'INITIAL_CONFIG_EXPLAIN'			=> 'Agora que a instalação determinou que o seu servidor pode executar o phpBB, você precisa escrever algumas informações específicas. Caso você não saiba como conectar-se ao seu banco de dados, por favor, contate o seu servidor (em primeiro caso) ou utilize os fóruns de suporte ao phpBB para solicitar ajuda. Quando inserir os dados, certifique-se de que eles estão corretos antes de continuar.',
 	'INSTALL_CONGRATS'					=> 'Parabéns',
 	'INSTALL_CONGRATS_EXPLAIN'			=> '
 		A Instalação do phpBB %1$s foi concluída com sucesso. Por favor, prossiga selecionando uma das seguintes opções:</p>
@@ -243,7 +243,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_EMAIL_INVALID'	=> 'O endereço de e-mail informado é inválido.',
 	'INST_ERR_EMAIL_MISMATCH'	=> 'Os e-mails que você digitou não coincidem.',
 	'INST_ERR_FATAL'			=> 'Erro fatal de instalação',
-	'INST_ERR_FATAL_DB'			=> 'Um erro fatal e irrecuperável no banco de dados ocorreu. Isto pode ter acontecido pelo fato de o usuário especificado não possuir a permissão para <code>CRIAR TABELAS</code> ou <code>INSERIR DADOS</code>, etc. Maiores informações serão exibidas abaixo. Por favor, contate o seu servidor ou o <a href="http://www.suportephpbb.com.br/">Suporte phpBB</a> para uma maior assistência.',
+	'INST_ERR_FATAL_DB'			=> 'Um erro fatal e irrecuperável no banco de dados ocorreu. Isto pode ter acontecido pelo fato de o usuário especificado não possuir a permissão para <code>CRIAR TABELAS</code> ou <code>INSERIR DADOS</code>, etc. Maiores informações serão exibidas abaixo. Por favor, contate o seu servidor ou os fóruns de suporte ao phpBB para uma maior assistência.',
 	'INST_ERR_FTP_PATH'			=> 'Não foi possível alterar para o diretório especificado, por favor, verifique a pasta.',
 	'INST_ERR_FTP_LOGIN'		=> 'Não foi possível logar no servidor de FTP. Por favor, verifique o seu nome de usuário e senha.',
 	'INST_ERR_MISSING_DATA'		=> 'Você deve preencher todos os campos deste bloco.',
