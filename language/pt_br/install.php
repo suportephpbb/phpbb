@@ -578,6 +578,7 @@ $lang = array_merge($lang, array(
 	'UPDATING_DATA'					=> 'Atualizando os dados',
 	'UPDATING_TO_LATEST_STABLE'		=> 'Atualizando banco de dados para o novo lançamento',
 	'UPDATED_VERSION'				=> 'Versão atualizada',
+	'UPGRADE_INSTRUCTIONS'			=> 'A versão <strong>%1$s</strong>, incluindo novos recursos, está disponível. Por favor, leia <a href="%2$s" title="%2$s"><strong>o anúncio de lançamento</strong></a> para aprender sobre tudo o que ela traz e como atualizar seu fórum.',
 	'UPLOAD_METHOD'					=> 'Método de envio',
 
 	'UPDATE_DB_SUCCESS'				=> 'A atualização do banco de dados foi executada com sucesso.',

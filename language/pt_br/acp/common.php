@@ -373,7 +373,7 @@ $lang = array_merge($lang, array(
 	'NUMBER_USERS'		=> 'Número de usuários', 
 	'NUMBER_ORPHAN'		=> 'Anexos órfãos', 
 	
-	'PHP_VERSION_OLD'	=> 'A versão do PHP presente em seu servidor deixará de ser suportado pelas futuras versões do phpBB. %sDetalhes%s',
+	'PHP_VERSION_OLD'	=> 'A versão do PHP presente em seu servidor (%1$s) deixará de ser suportado pelas futuras versões do phpBB. A versão mínima requerida será PHP %2$s. %3$sDetalhes%4$s',
 
 	'POSTS_PER_DAY'		=> 'Mensagens por dia', 
 
@@ -420,6 +420,9 @@ $lang = array_merge($lang, array(
 	'VALUE'					    => 'Valor', 
 	'VERSIONCHECK_FAIL'			=> 'Não foi possível obter a informação da última versão.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'Checar versão novamente',
+	'VERSIONCHECK_INVALID_ENTRY'	=> 'A informação da última versão contém entradas não suportadas.',
+	'VERSIONCHECK_INVALID_URL'		=> 'A informação da última versão contém URL inválido.',
+	'VERSIONCHECK_INVALID_VERSION'	=> 'A informação da última versão contém uma versão inválida.',
 	'VIEW_ADMIN_LOG'		    => 'Ver log do administrador', 
 	'VIEW_INACTIVE_USERS'	    => 'Ver usuários inativos', 
 

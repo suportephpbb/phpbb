@@ -347,11 +347,14 @@ $lang = array_merge($lang, array(
 
 // Cookie Settings 
 $lang = array_merge($lang, array( 
-	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Esses detalhes definem como os cookies serão enviados para os navegadores de seus usuários. Na maioria das vezes, os valores padrão para a configuração dos cookies deverão ser suficientes, mas caso necessite alterá-los, faça-o com cuidado, pois uma configuração incorreta poderá impedir o acesso dos usuários ao fórum.', 
+	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Esses detalhes definem como os cookies serão enviados para os navegadores de seus usuários. Na maioria das vezes, os valores padrão para a configuração dos cookies deverão ser suficientes, mas caso necessite alterá-los, faça-o com cuidado, pois uma configuração incorreta poderá impedir o acesso dos usuários ao fórum. Se você tiver problemas que os usuários permaneça <b><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Knowledge Base - Fixing incorrect cookie settings</a></b>.',
 
-	'COOKIE_DOMAIN'			=> 'Domínio do cookie', 
-	'COOKIE_NAME'			=> 'Nome do cookie', 
-	'COOKIE_PATH'			=> 'Pasta do cookie', 
+	'COOKIE_DOMAIN'			=> 'Domínio do cookie',
+	'COOKIE_DOMAIN_EXPLAIN'	=> 'Na maioria dos casos, o domínio do cookie é opcional. Deixe em branco se você tiver quaisquer dúvidas.<br /><br /> No entanto, se seu fórum é integrado com outro software ou está hospedado em vários domínios, você vai precisar determinar o domínio do cookie. Se você tiver algo como <i>exemple.com</i> e <i>forums.exemple.com</i> ou <i>forums.exemple.com</i> e <i>blog.exemple.com</i>. Exclua os subdomínios para manter apenas o domínio comum, <i>exemple.com</i>. Em seguida, basta adicionar um ponto antes do domínio comum e o cookie será semelhante com .example.com (repare no ponto no início).',
+	'COOKIE_NAME'			=> 'Nome do cookie',
+	'COOKIE_NAME_EXPLAIN'	=> 'A escolha do nome é inteiramente livre, tente ser original. Sempre que as configurações de cookie são alteradas, você também deve alterar o nome do cookie.',
+	'COOKIE_PATH'			=> 'Pasta do cookie',
+	'COOKIE_PATH_EXPLAIN'	=> 'O caminho sempre é uma barra, independentemente do endereço do seu fórum.',
 	'COOKIE_SECURE'			=> 'Cookie seguro [ https:// ]', 
 	'COOKIE_SECURE_EXPLAIN'	=> 'Se o seu servidor estiver executando através de SSL, ative esta opção, caso contrário, deixe desativada. Se ativar isto sem que funcione via SSL, poderá resultar em erros no servidor durante os redirecionamentos.', 
 	'ONLINE_LENGTH'				=> 'Tempo online do usuário', 
@@ -560,6 +563,8 @@ $lang = array_merge($lang, array(
 	'EMAIL_SIG_EXPLAIN'				=> 'Este texto será anexado a todos os e-mails enviados pelo painel.',
 	'ENABLE_EMAIL'					=> 'Ativar os e-mails do painel', 
 	'ENABLE_EMAIL_EXPLAIN'			=> 'Se for desativado, os e-mails não serão enviados pelo painel. <em>Note que as configurações para ativação de registro por parte do administrador ou do usuário requerem que esta configuração esteja ativada. Caso esteja utilizando a ativação por parte do administrador ou do usuário em sua configuração, desativando esta ferramenta não será mais necessária a ativação de novos registros.</em>',
+	'SMTP_ALLOW_SELF_SIGNED'		=> 'Permitir certificados SSL auto-assinados',
+	'SMTP_ALLOW_SELF_SIGNED_EXPLAIN'=> 'Permitir conexões com o servidor SMTP com certificado SSL auto-assinado.<em><strong>Nota:</strong> certificados SSL auto-assinado podem ter implicações de segurança.</em>',
 	'SMTP_AUTH_METHOD'				=> 'Método de autenticação de SMTP', 
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Apenas utilizado se um nome/senha for especificado, pergunte ao seu provedor se não souber qual método usar.', 
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5', 
@@ -575,7 +580,12 @@ $lang = array_merge($lang, array(
 	'SMTP_SERVER_EXPLAIN'			=> 'Por favor, note que você deve fornecer o protocolo usado pelo servidor. Se você estiver usando SSL, então deve ser "ssl://your.mailserver.com"',
 	'SMTP_SETTINGS'					=> 'Configurações de SMTP', 
 	'SMTP_USERNAME'					=> 'Nome de usuário do SMTP', 
-	'SMTP_USERNAME_EXPLAIN'			=> 'Só escreva o nome de usuário se o seu servidor de SMTP assim o exigir.', 
+	'SMTP_USERNAME_EXPLAIN'			=> 'Só escreva o nome de usuário se o seu servidor de SMTP assim o exigir.',
+	'SMTP_VERIFY_PEER'				=> 'Verificar o certificado SSL',
+	'SMTP_VERIFY_PEER_EXPLAIN'		=> 'Força a verificação do certificado SSL usado pelos servidores SMTP.<em><strong>Nota:</strong> conexão pares com certificados SSL que não são verificados podem ter implicações de segurança.</em>',
+	'SMTP_VERIFY_PEER_NAME'			=> 'Verificar o nome de usuario SMTP',
+	'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> 'Força a verificação do nome de usuário para servidores SMTP que usam conexões SSL / TLS.<em><strong>Nota:</strong> conexão pares com certificados não são verificados podem ter implicações de segurança.</em>',
+
 	'USE_SMTP'						=> 'Usar um servidor de SMTP para enviar e-mails', 
 	'USE_SMTP_EXPLAIN'				=> 'Selecione "Sim" se você deseja ou precisa enviar e-mails através de um servidor de SMPT ao invés de uma função de e-mail local.',
 )); 
@@ -584,6 +594,8 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array( 
 	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'Aqui você pode ativar e controlar o uso de Jabber para mensagens instantâneas e notícias. O Jabber é um protocolo de código livre, sendo disponível a qualquer pessoa interessada. Alguns servidores de Jabber incluem gateways ou transportes, os quais permitem a você contatar usuários em outras redes. Nem todos os servidores oferecem todos os transportes, e alterações no protocolo podem evitar as operações destes transportes. Por favor, certifique-se de escrever informações de contas já registradas - o phpBB irá se utilizar das informações fornecidas aqui.',
 
+	'JAB_ALLOW_SELF_SIGNED'			=> 'Permitir certificados SSL auto-assinados',
+	'JAB_ALLOW_SELF_SIGNED_EXPLAIN'	=> 'Permitir conexões com o servidor Jabber com certificado SSL auto-assinado.<em><strong>Nota:</strong> certificados SSL auto-assinado podem ter implicações de segurança.</em>',
 	'JAB_ENABLE'				=> 'Ativar Jabber', 
 	'JAB_ENABLE_EXPLAIN'		=> 'Ativa o uso de mensagens e notícias do jabber.',
 	'JAB_GTALK_NOTE'            => 'Por favor, note que o GTalk não irá funcionar porque a função <samp>dns_get_record</samp> não pôde ser encontrada. Esta função não se encontra disponível no PHP4, e não é implementada nas plataformas do windows. Isto não é executável atualmente em sistemas BSD-based, incluindo o Mac OS.',
@@ -599,5 +611,9 @@ $lang = array_merge($lang, array(
 	'JAB_USE_SSL'               => 'Usar SLL para conexão',
     'JAB_USE_SSL_EXPLAIN'       => 'Se ativo, uma conexão segura tentará ser estabilizada. A porta Jabber será alterada para 5223 se a porta 5222 tiver sido especificada.',
 	'JAB_USERNAME'				=> 'Usuário jabber ou JID', 
-	'JAB_USERNAME_EXPLAIN'		=> 'Escreva um nome de usuário registrado ou um JID válido. O usuário não será checado para uma devida validação. Se você apenas especificar um nome de usuário, então seu JID será o seu nome de usuário junto ao servidor especificado acima. Especifique um JID válido, por exemplo user@jabber.org.', 
+	'JAB_USERNAME_EXPLAIN'		=> 'Escreva um nome de usuário registrado ou um JID válido. O usuário não será checado para uma devida validação. Se você apenas especificar um nome de usuário, então seu JID será o seu nome de usuário junto ao servidor especificado acima. Especifique um JID válido, por exemplo user@jabber.org.',
+	'JAB_VERIFY_PEER'				=> 'Verificar o certificado SSL',
+	'JAB_VERIFY_PEER_EXPLAIN'		=> 'Força a verificação do certificado SSL usado pelos servidores Jabber.<em><strong>Nota:</strong> conexão pares com certificados SSL que não são verificados podem ter implicações de segurança.</em>',
+	'JAB_VERIFY_PEER_NAME'			=> 'Verificar o nome de usuario Jabber',
+	'JAB_VERIFY_PEER_NAME_EXPLAIN'	=> 'Força a verificação do nome de usuário para servidores Jabber que usam conexões SSL / TLS.<em><strong>Nota:</strong> conexão pares com certificados não são verificados podem ter implicações de segurança.</em>',
 ));
