@@ -241,9 +241,9 @@ $lang = array_merge($lang, array(
 	'SMILIES'					=> 'Smilies',
 	'SMILIES_ARE_OFF'			=> 'Smilies estão <em>inativos</em>',
 	'SMILIES_ARE_ON'			=> 'Smilies estão <em>ativos</em>',
-	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Tempo limite do anúncio/tópico fixo',
+	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Tempo limite do Anúncio/Tópico fixo/Anúncio global',
 	'STICK_TOPIC_FOR'			=> 'Fixar tópico por',
-	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Escreva 0 para um anúncio/tópico fixo sem tempo limite. Por favor, note que este número é relativo a data da mensagem.',
+	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Escreva 0 para um Anúncio/Tópico fixo/Anúncio global sem tempo limite. Por favor, note que este número é relativo a data da mensagem.',
 	'STYLES_TIP'				=> 'Dica: Estilos podem ser aplicados rapidamente ao texto selecionado.',
 
 	'TOO_FEW_CHARS'				=> 'A mensagem possui poucos caracteres.',

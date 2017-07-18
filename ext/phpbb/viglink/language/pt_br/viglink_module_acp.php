@@ -41,6 +41,7 @@ $lang = array_merge($lang, array(
 	'ACP_VIGLINK_SETTINGS'			=> 'Configurações do VigLink',
 	'ACP_VIGLINK_SETTINGS_EXPLAIN'	=> 'VigLink é um serviço de terceiros que pode discretamente rentabilizar os links postados por usuários do seu fórum sem que isso tenha um impacto sobre a experiência do usuário. Quando os usuários clicam em links para produtos ou serviços e compram algo em um comerciante parceiro, este paga uma comissão ao VigLink e parte do montante é compartilhada com o projeto phpBB. Ao escolher ativar o VigLink e deixando as comissões para o projeto phpBB, você ajuda muito o nossa organização de software de código aberto e assegura a continuidade da nossa segurança financeira.',
 	'ACP_VIGLINK_SETTINGS_CHANGE'	=> 'Você pode alterar essas configurações a qualquer momento no painel “<a href="%1$s">Configurações do VigLink</a>”.',
+	'ACP_VIGLINK_SUPPORT_EXPLAIN'	=> 'Você não vai ser redirecionado para esta página depois de ter preenchido as suas preferências disponíveis abaixo, clicando no botão Enviar.',
 	'ACP_VIGLINK_ENABLE'			=> 'Ativar VigLink',
 	'ACP_VIGLINK_ENABLE_EXPLAIN'	=> 'Ativa o uso dos serviços VigLink.',
 	'ACP_VIGLINK_EARNINGS'			=> 'Reivindicar quota de comissões (opcional)',

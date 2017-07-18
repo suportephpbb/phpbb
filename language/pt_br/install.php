@@ -84,7 +84,7 @@ $lang = array_merge($lang, array(
 	'ACP_LINK'	=> 'Ir para o <a href="%1$s">ACP</a>',
 
 	'INSTALL_PHPBB_INSTALLED'		=> 'O phpBB já está instalado.',
-	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'O phpBB não está instalado.'
+	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'O phpBB não está instalado.',
 ));
 
 // Requirements translation
@@ -120,7 +120,7 @@ $lang = array_merge($lang, array(
 
 	'RETEST_REQUIREMENTS'	=> 'Verificar novamente requerimentos',
 
-	'STAGE_REQUIREMENTS'	=> 'Verificar requerimentos'
+	'STAGE_REQUIREMENTS'	=> 'Verificar requerimentos',
 ));
 
 // General error messages
@@ -200,6 +200,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_NAME'			=> 'O nome do banco de dados deve ser especificado.',
 	'INST_ERR_DB_FORUM_PATH'		=> 'O arquivo do banco de dados informado está dentro da estrutura de diretórios do painel. Você deveria inserir este arquivo em um local não acessível através da internet.',
 	'INST_ERR_DB_CONNECT'			=> 'Não foi possível conectar-se ao banco de dados, veja a mensagem de erro abaixo.',
+	'INST_ERR_DB_NO_WRITABLE'		=> 'O banco de dados e o diretório de contéudo não podem ser escritos.',
 	'INST_ERR_DB_NO_ERROR'			=> 'Nenhuma mensagem de erro foi exibida.',
 	'INST_ERR_PREFIX'				=> 'Já existem tabelas com o prefixo especificado, por favor, escolha um alternativo.',
 	'INST_ERR_DB_NO_MYSQLI'			=> 'A versão do Mysql instalada nesta máquina é incompatível com a opção “MySQL with MySQLi Extension” selecionada. Por favor, tente com uma outra opção do “MySQL”.',
@@ -225,6 +226,7 @@ $lang = array_merge($lang, array(
 	// Server data
 	//
 	// Form labels
+	'UPGRADE_INSTRUCTIONS'		=> 'A versão <strong>%1$s</strong>, incluindo novos recursos, está disponível. Por favor, leia <a href="%2$s" title="%2$s"><strong>o anúncio de lançamento</strong></a> para aprender sobre tudo o que ela traz e como atualizar seu fórum.',
 	'SERVER_CONFIG'				=> 'Configuração do servidor',
 	'SCRIPT_PATH'				=> 'Pasta do sistema',
 	'SCRIPT_PATH_EXPLAIN'		=> 'A pasta onde os arquivos do phpBB estão localizados em seu servidor, ex. <samp>/phpBB3</samp>.',
@@ -300,6 +302,7 @@ $lang = array_merge($lang, array(
 	'TASK_ADD_BOTS'			=> 'Registrando bots',
 	'TASK_ADD_LANGUAGES'	=> 'Instalando idiomas disponíveis',
 	'TASK_ADD_MODULES'		=> 'Instalando módulos',
+	'TASK_CREATE_SEARCH_INDEX'	=> 'Criando índice de pesquisa',
 
 	// Install finish tasks
 	'TASK_INSTALL_EXTENSIONS'	=> 'Instalando pacotes de extensões',

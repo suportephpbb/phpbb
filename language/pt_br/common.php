@@ -181,6 +181,7 @@ $lang = array_merge($lang, array(
 	'COOKIE_CONSENT_INFO'			=> 'Saiba mais',
 	'COOKIE_CONSENT_MSG'			=> 'Este site utiliza cookies para garantir que você desfrute a melhor experiência de navegação.',
 	'COOKIE_CONSENT_OK'				=> 'Eu entendi!',
+	'COOKIE_CONSENT_HREF'			=> 'http://cookiesandyou.com',
 	'COOKIES_DELETED'				=> 'Todos os cookies foram excluídos com sucesso.', 
 	'CURRENT_TIME'					=> 'Bem-vindo: %s', 
 
