@@ -328,7 +328,7 @@ $lang = array_merge($lang, array(
 		2	=> '%d invisiveis',
 	),
 	'HIDE_GUESTS'						=> 'Ocultar visitantes', 
-	'HIDE_ME'							=> 'Ocultar meus status nesta sessão', 
+	'HIDE_ME'							=> 'Ocultar meu status nesta sessão', 
 	'HOURS'								=> 'Horas', 
 	'HOME'								=> 'Principal', 
 

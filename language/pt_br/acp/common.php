@@ -674,9 +674,9 @@ $lang = array_merge($lang, array(
 	'LOG_JAB_REGISTER'			=> '<strong>Jabber registrado</strong>', 
 	'LOG_JAB_SETTINGS_CHANGED'	=> '<strong>Configurações de jabber alteradas</strong>', 
 
-	'LOG_LANGUAGE_PACK_DELETED'		=> '<strong>Pacotes de idiomas excluídos</strong><br />» %s', 
-	'LOG_LANGUAGE_PACK_INSTALLED'	=> '<strong>Pacotes de idiomas instalados</strong><br />» %s', 
-	'LOG_LANGUAGE_PACK_UPDATED'		=> '<strong>Informações do pacote de idiomas atualizadas</strong><br />» %s', 
+	'LOG_LANGUAGE_PACK_DELETED'		=> '<strong>Pacote de idioma excluído</strong><br />» %s', 
+	'LOG_LANGUAGE_PACK_INSTALLED'	=> '<strong>Pacote de idioma instalado</strong><br />» %s', 
+	'LOG_LANGUAGE_PACK_UPDATED'		=> '<strong>Informações do pacote de idioma atualizadas</strong><br />» %s', 
 	'LOG_LANGUAGE_FILE_REPLACED'	=> '<strong>Arquivos de linguagem substituídos</strong><br />» %s', 
 	'LOG_LANGUAGE_FILE_SUBMITTED'	=> '<strong>Arquivo de linguagem enviado e armazenado na pasta /store</strong><br />» %s',
 
@@ -742,10 +742,10 @@ $lang = array_merge($lang, array(
 	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Índice de pesquisa criado por</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Índice de pesquisa excluído por</strong><br />» %s',
 	'LOG_SPHINX_ERROR'			=> '<strong>Erro do Sphinx</strong><br />» %s',
-	'LOG_STYLE_ADD'				=> '<strong>Template adicionada</strong><br />» %s', 
-	'LOG_STYLE_DELETE'			=> '<strong>Template excluída</strong><br />» %s', 
-	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>Template editada</strong><br />» %s', 
-	'LOG_STYLE_EXPORT'			=> '<strong>Template exportada</strong><br />» %s', 
+	'LOG_STYLE_ADD'				=> '<strong>Novo estilo adicionado</strong><br />» %s', 
+	'LOG_STYLE_DELETE'			=> '<strong>Estilo excluído</strong><br />» %s', 
+	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>Estilo editado</strong><br />» %s', 
+	'LOG_STYLE_EXPORT'			=> '<strong>Estilo exportado</strong><br />» %s', 
 
 	// @deprecated 3.1
 	'LOG_TEMPLATE_ADD_DB'			=> '<strong>Nova template adicionada ao banco de dados</strong><br />» %s', 
