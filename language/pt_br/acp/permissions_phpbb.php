@@ -116,7 +116,7 @@ $lang = array_merge($lang, array(
 	'ACL_F_DOWNLOAD'	=> 'Pode baixar arquivos',
 	'ACL_F_REPORT'		=> 'Pode denunciar mensagens',
 
-	'ACL_F_POST'		=> 'Pode enviar mensagens novas',
+	'ACL_F_POST'		=> 'Pode enviar tópicos novos',
 	'ACL_F_STICKY'		=> 'Pode enviar tópicos fixos',
 	'ACL_F_ANNOUNCE'	=> 'Pode enviar anúncios',
 	'ACL_F_ANNOUNCE_GLOBAL'	=> 'Pode enviar anúncios globais',
