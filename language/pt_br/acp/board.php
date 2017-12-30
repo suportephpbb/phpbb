@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Os avatares são pequenas imagens que o usuário pode associar a ele mesmo. Dependendo do estilo em uso, eles normalmente são exibidos abaixo do nome do usuário na visualização de tópicos. Aqui você pode determinar como os usuários poderão definir os seus avatares. Por favor, note que para enviar avatares você precisa já ter criado o respectivo diretório e estar certo de que ele aceita a permissão de escrita pelo servidor do painel. O limite do tamanho da imagem de avatar é válido apenas para avatares enviados, não se aplicando a imagens utilizadas de outros websites.',
 
 	'ALLOW_AVATARS'					=> 'Permitir avatares',
-	'ALLOW_AVATARS_EXPLAIN'			=> 'Permite o uso geral de avatares;<br />Caso você desative os avatares de forma geral ou de um certo modo, os avatares desativados não serão mais exibidos no painel, mas os usuários ainda poderão baixar seus próprios avatares no painel de controle do usuário.',	
+	'ALLOW_AVATARS_EXPLAIN'			=> 'Permite o uso geral de avatares;<br>Caso você desative os avatares de forma geral ou de um certo modo, os avatares desativados não serão mais exibidos no painel, mas os usuários ainda poderão baixar seus próprios avatares no painel de controle do usuário.',	
 	'ALLOW_GRAVATAR'				=> 'Permitir imagens do Gravatar',
 	'ALLOW_LOCAL'					=> 'Permitir galeria de avatares', 
 	'ALLOW_REMOTE'					=> 'Permitir avatares remotos',
@@ -116,9 +116,9 @@ $lang = array_merge($lang, array(
 	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Permite o envio de avatares de outros websites.',
 	'ALLOW_UPLOAD'					=> 'Permitir o envio de avatares',
 	'AVATAR_GALLERY_PATH'			=> 'Pasta da galeria de avatares', 
-	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Pasta sob o diretório raiz do seu phpBB, exemplo <samp>images/avatars/gallery</samp>.<br /> Dois pontos (<samp>../</samp>) será removido do caminho por razões de segurança.',
+	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Pasta sob o diretório raiz do seu phpBB, exemplo <samp>images/avatars/gallery</samp>.<br> Dois pontos (<samp>../</samp>) será removido do caminho por razões de segurança.',
 	'AVATAR_STORAGE_PATH'			=> 'Pasta dos avatares', 
-	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Pasta sob o diretório raiz do seu phpBB, exemplo <samp>images/avatars/upload</samp>.<br />O envio de avatares <strong>não estará disponível</strong> se este caminho não pode ser escrito.<br />Dois pontos (<samp>../</samp>) será removido do caminho por razões de segurança.',
+	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Pasta sob o diretório raiz do seu phpBB, exemplo <samp>images/avatars/upload</samp>.<br>O envio de avatares <strong>não estará disponível</strong> se este caminho não pode ser escrito.<br>Dois pontos (<samp>../</samp>) será removido do caminho por razões de segurança.',
 	'MAX_AVATAR_SIZE'				=> 'Dimensões máxima dos avatares', 
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Largura x altura em pixels.',
 	'MAX_FILESIZE'					=> 'Tamanho máximo do arquivo de avatar', 
@@ -274,7 +274,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_SETTINGS_OTHER'			=> 'Outros feeds e configurações',
 	
 	'ACP_FEED_ENABLE'					=> 'Ativar feeds',
-	'ACP_FEED_ENABLE_EXPLAIN'			=> 'Define como ativo ou não os ATOM Feeds para o painel inteiro.<br />Desativando, todos os feeds deverão tornar-se inativos, não importando qual configuração abaixo seja definida.',
+	'ACP_FEED_ENABLE_EXPLAIN'			=> 'Define como ativo ou não os ATOM Feeds para o painel inteiro.<br>Desativando, todos os feeds deverão tornar-se inativos, não importando qual configuração abaixo seja definida.',
 	'ACP_FEED_LIMIT'					=> 'Número de itens',
 	'ACP_FEED_LIMIT_EXPLAIN'			=> 'O número máximo de itens feed que serão exibidos.',
 
@@ -290,7 +290,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_TOPICS_ACTIVE'			=> 'Ativar feeds para tópicos ativos',
 	'ACP_FEED_TOPICS_ACTIVE_EXPLAIN'	=> 'Ativa os feeds para "Tópicos Ativos", que exibe os últimos tópicos ativos incluindo a última mensagem.',
 	'ACP_FEED_NEWS'						=> 'Feed de notícias',
-	'ACP_FEED_NEWS_EXPLAIN'				=> 'Captura a primeira mensagem destes fóruns. Selecione nenhum fórum para desativar o feed de notícias.<br />Selecione múltiplos fóruns pressionando <samp>CTRL</samp> e clicando.',
+	'ACP_FEED_NEWS_EXPLAIN'				=> 'Captura a primeira mensagem destes fóruns. Selecione nenhum fórum para desativar o feed de notícias.<br>Selecione múltiplos fóruns pressionando <samp>CTRL</samp> e clicando.',
 
 	'ACP_FEED_OVERALL_FORUMS'			=> 'Ativar feeds para os fóruns',
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Ative os feeds para "Todos os fóruns", que exibe a lista de fóruns.',
@@ -298,9 +298,9 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_HTTP_AUTH'				=> 'Permitir autenticação HTTP',
 	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Permitir autenticação HTTP, significa permitir aos usuários receber o conteúdo que está oculto aos visitantes adicionando o parâmetro <samp>auth=http</samp> a URL do feeds. Note que algumas configurações do PHP exigem mudanças adicionais no arquivo .htaccess. As instruções podem ser encontradas no arquivo.',
 	'ACP_FEED_ITEM_STATISTICS'			=> 'Estatísticas do item',
-	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Exibe estatísticas individuais abaixo dos itens do feed<br />(Enviado por, data e hora, Respostas, Exibições)',
+	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Exibe estatísticas individuais abaixo dos itens do feed<br>(Enviado por, data e hora, Respostas, Exibições)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Excluir estes fóruns',
-	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'O conteúdo destes fóruns <strong>não será incluído nos feeds</strong>. Selecione nenhum para ocultar os dados de todos os fóruns.<br />Selecione ou desmarque múltiplos fóruns pressionando <samp>CTRL</samp> e clicando.',
+	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'O conteúdo destes fóruns <strong>não será incluído nos feeds</strong>. Selecione nenhum para ocultar os dados de todos os fóruns.<br>Selecione ou desmarque múltiplos fóruns pressionando <samp>CTRL</samp> e clicando.',
 ));
 
 // Visual Confirmation Settings 
@@ -350,17 +350,17 @@ $lang = array_merge($lang, array(
 
 // Cookie Settings 
 $lang = array_merge($lang, array( 
-	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Esses detalhes definem como os cookies serão enviados para os navegadores de seus usuários. Na maioria das vezes, os valores padrão para a configuração dos cookies deverão ser suficientes, mas caso necessite alterá-los, faça-o com cuidado, pois uma configuração incorreta poderá impedir o acesso dos usuários ao fórum. Se você tiver problemas que os usuários permaneça <b><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Knowledge Base - Fixing incorrect cookie settings</a></b>.',
+	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Esses detalhes definem como os cookies serão enviados para os navegadores de seus usuários. Na maioria das vezes, os valores padrão para a configuração dos cookies deverão ser suficientes, mas caso necessite alterá-los, faça-o com cuidado, pois uma configuração incorreta poderá impedir o acesso dos usuários ao fórum. Se você tiver problemas que os usuários permaneçam conectados ao seu fórum, leia o artigo <b><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Knowledge Base - Fixing incorrect cookie settings</a></b>.',
 
 	'COOKIE_DOMAIN'			=> 'Domínio do cookie',
-	'COOKIE_DOMAIN_EXPLAIN'	=> 'Na maioria dos casos, o domínio do cookie é opcional. Deixe em branco se você tiver quaisquer dúvidas.<br /><br /> No entanto, se seu fórum é integrado com outro software ou está hospedado em vários domínios, você vai precisar determinar o domínio do cookie. Se você tiver algo como <i>exemple.com</i> e <i>forums.exemple.com</i> ou <i>forums.exemple.com</i> e <i>blog.exemple.com</i>. Exclua os subdomínios para manter apenas o domínio comum, <i>exemple.com</i>. Em seguida, basta adicionar um ponto antes do domínio comum e o cookie será semelhante com .example.com (repare no ponto no início).',
+	'COOKIE_DOMAIN_EXPLAIN'	=> 'Na maioria dos casos, o domínio do cookie é opcional. Deixe em branco se você tiver quaisquer dúvidas.<br><br>No entanto, se seu fórum é integrado com outro software ou está hospedado em vários domínios, você vai precisar determinar o domínio do cookie. Se você tiver algo como <i>exemple.com</i> e <i>forums.exemple.com</i> ou <i>forums.exemple.com</i> e <i>blog.exemple.com</i>. Exclua os subdomínios para manter apenas o domínio comum, <i>exemple.com</i>. Em seguida, basta adicionar um ponto antes do domínio comum e o cookie será semelhante com .example.com (repare no ponto no início).',
 	'COOKIE_NAME'			=> 'Nome do cookie',
 	'COOKIE_NAME_EXPLAIN'	=> 'A escolha do nome é inteiramente livre, tente ser original. Sempre que as configurações de cookie são alteradas, você também deve alterar o nome do cookie.',
 	'COOKIE_NOTICE'				=> 'Informações sobre cookies',
 	'COOKIE_NOTICE_EXPLAIN'		=> 'Se esta opção for ativada, as informações sobre o uso de cookies será exibida aos usuários ao visitar o fórum. Esta informação é um requisito legal em alguns países, dependendo do conteúdo e extensões habilitado no seu fórum.',
-	'COOKIE_PATH'			=> 'Pasta do cookie',
-	'COOKIE_PATH_EXPLAIN'	=> 'O caminho sempre é uma barra, independentemente do endereço do seu fórum.',
-	'COOKIE_SECURE'			=> 'Cookie seguro [ https:// ]', 
+	'COOKIE_PATH'			=> 'Caminho do cookie',
+	'COOKIE_PATH_EXPLAIN'	=> 'O caminho geralmente é o mesmo que conduz a pasta onde se encontra o phpBB3 ou é simplesmente uma barra, permitindo que o cookie seja acessível em todo o domínio do site.',
+	'COOKIE_SECURE'			=> 'Cookie seguro',
 	'COOKIE_SECURE_EXPLAIN'	=> 'Se o seu servidor estiver executando através de SSL, ative esta opção, caso contrário, deixe desativada. Se ativar isto sem que funcione via SSL, poderá resultar em erros no servidor durante os redirecionamentos.', 
 	'ONLINE_LENGTH'				=> 'Tempo online do usuário', 
 	'ONLINE_LENGTH_EXPLAIN'		=> 'Tempo em minutos após o qual os usuários inativos serão retirados da lista de usuários online. Quanto maior este valor, maior serão os recursos necessários para manter esta lista.', 
@@ -373,7 +373,7 @@ $lang = array_merge($lang, array(
 	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Aqui você pode ativar e desativar a página de contato e adicionar o texto que será exibido.',
 
 	'CONTACT_US_ENABLE'				=> 'Ativar página de contato',
-	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Esta página permite aos usuários enviar emails para os administradores do fórum',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Esta página permite aos usuários enviar emails para os administradores do fórum. Observe que a configuração de envio de e-mail no fórum deve estar habilitada. Você encontrará esta configuração em Geral > Comunicação do Cliente > Configurações de e-mail.',
 
 	'CONTACT_US_INFO'				=> 'Informações da página de contato',
 	'CONTACT_US_INFO_EXPLAIN'		=> 'A mensagem é exibida na página de contato',
@@ -432,7 +432,7 @@ $lang = array_merge($lang, array(
 	'AUTH_METHOD'				=> 'Selecionar um método de autenticação', 
 
 	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Você deve fornecer a chave e a chave secreta para cada provedor de serviço ativado. Apenas um destes dados foi fornecido para um provedor de serviços OAuth.',
-	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Cada provedor de serviço OAuth deve ser informado por uma chave e uma chave secreta única, a fim de ser autenticado pelo servidor externo. Estes dados são fornecidos pelos serviços OAuth ao registrar o seu website e devem ser inseridos exatamente como fornecido.<br />Os serviços que não estejam com esses dados especificados não serão acessíveis aos usuários do fórum. Note que os usuários ainda podem se registrar e fazer login usando a autenticação via banco de dados.',
+	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Cada provedor de serviço OAuth deve ser informado por uma chave e uma chave secreta única, a fim de ser autenticado pelo servidor externo. Estes dados são fornecidos pelos serviços OAuth ao registrar o seu website e devem ser inseridos exatamente como fornecido.<br>Os serviços que não estejam com esses dados especificados não serão acessíveis aos usuários do fórum. Note que os usuários ainda podem se registrar e fazer login usando a autenticação via banco de dados.',
 	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Chave',
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
 	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Chave Secreta',
@@ -448,7 +448,7 @@ $lang = array_merge($lang, array(
 	'LDAP_NO_EMAIL'				=> 'O atributo do e-mail especificado não existe.',
 	'LDAP_NO_IDENTITY'			=> 'Não foi possível encontrar uma identificação de acesso para %s.',
 	'LDAP_PASSWORD'					=> 'Senha LDAP',
-	'LDAP_PASSWORD_EXPLAIN'			=> 'Deixe este campo em branco para utilizar um acesso anônimo, caso contrário preencha a senha ao usuário acima informado.<br /><em><strong>ATENÇÃO:</strong> Esta senha será armazenada em texto no banco de dados, podendo ser visualizada por qualquer pessoa que tiver acesso a ele ou a esta página de configuração.</em>', 
+	'LDAP_PASSWORD_EXPLAIN'			=> 'Deixe este campo em branco para utilizar um acesso anônimo, caso contrário preencha a senha ao usuário acima informado.<br><em><strong>ATENÇÃO:</strong> Esta senha será armazenada em texto no banco de dados, podendo ser visualizada por qualquer pessoa que tiver acesso a ele ou a esta página de configuração.</em>', 
 	'LDAP_PORT'                    => 'Porta do servidor LDAP',
     'LDAP_PORT_EXPLAIN'            => 'Opcionalmente você pode especificar a porta a qual será utilizada para o servidor LDAP, diferente da porta padrão 389.',
 	'LDAP_SERVER'				=> 'Nome do servidor de LDAP', 
@@ -529,7 +529,7 @@ $lang = array_merge($lang, array(
 	'IP_LOGIN_LIMIT_TIME'			=> 'Tempo de expiração de tentativas de login por endereço de IP',
 	'IP_LOGIN_LIMIT_TIME_EXPLAIN'	=> 'Tentativas de login expiram após este prazo.',
 	'IP_LOGIN_LIMIT_USE_FORWARDED'	=> 'Limite de tentativas de login do cabeçalho <var>X_FORWARDED_FOR</var>',
-	'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'	=> 'Como alternativa de limitação as tentativas de login por endereços de IP que são limitados por valores <var>X_FORWARDED_FOR</var>. <br /><em><strong>Atenção:</strong> Apenas ative esta opção se está operando um servidor proxy que define o <var>X_FORWARDED_FOR</var> para valores confiáveis.</em>',	
+	'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'	=> 'Como alternativa de limitação as tentativas de login por endereços de IP que são limitados por valores <var>X_FORWARDED_FOR</var>. <br><em><strong>Atenção:</strong> Apenas ative esta opção se está operando um servidor proxy que define o <var>X_FORWARDED_FOR</var> para valores confiáveis.</em>',	
 	'MAX_LOGIN_ATTEMPTS'			=> 'Número máximo de tentativas de login por usuário', 
 	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'O número máximo de tentativas de login por uma única conta antes da tarefa anti-spambot ser executada. Escreva 0 para impedir que a tarefa anti-spambot seja executada para contas de usuários distintas.',
 	'NO_IP_VALIDATION'				=> 'Nenhum',
@@ -554,8 +554,8 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array( 
 	'ACP_EMAIL_SETTINGS_EXPLAIN'	=> 'Esta informação é utilizada quando o sistema envia e-mails para os seus usuários. Por favor, certifique-se de que o e-mail que você especificou é válido, qualquer mensagem incorreta ou não entregue será encaminhada a este endereço. Se o seu servidor não suporta a função php mail(), então você pode enviar mensagens diretamente usando um servidor SMTP. Isto exige o endereço de um servidor apropriado (pergunte ao seu host se necessário). Se o servidor escrito requer autenticação, digite os nomes, senhas e métodos necessários.',
 
-	'ADMIN_EMAIL'					=> 'Endereço de e-mail do administrador', 
-	'ADMIN_EMAIL_EXPLAIN'			=> 'Este é o endereço padrão do fórum para contato e envio de e-mails pelo sistema phpBB.',
+	'ADMIN_EMAIL'					=> 'Endereço de e-mail de origem',
+	'ADMIN_EMAIL_EXPLAIN'			=> 'Este endereço será usado como o endereço de e-mail de origem de todos os envios de e-mails pelo sistema phpBB.',
 	'BOARD_EMAIL_FORM'				=> 'Envio de e-mails pelo painel',
 	'BOARD_EMAIL_FORM_EXPLAIN'		=> 'Permite o envio de e-mails entre os usuários pelo sistema phpBB.',
 	'BOARD_HIDE_EMAILS'				=> 'Ocultar endereços de e-mail',
@@ -564,8 +564,9 @@ $lang = array_merge($lang, array(
 	'CONTACT_EMAIL_EXPLAIN'			=> 'Este endereço será usado sempre que um ponto de contato específico for necessário, ex. spam, erro de envio, e etc. Este será sempre utilizado como o endereço de envio e resposta nos e-mails.',
 	'CONTACT_EMAIL_NAME'			=> 'Nome de contato',
 	'CONTACT_EMAIL_NAME_EXPLAIN'	=> 'Este é o nome do contato que os destinatários dos e-mails vão ver. Se não quer ter um nome de contato, deixe este campo em branco.',
-	'EMAIL_FUNCTION_NAME'			=> 'Nome da função de e-mail', 
-	'EMAIL_FUNCTION_NAME_EXPLAIN'	=> 'Função de e-mail usada para enviar e-mails através do PHP.', 
+	'EMAIL_FORCE_SENDER'			=> 'Forçar o endereço de e-mail de origem',
+	'EMAIL_FORCE_SENDER_EXPLAIN'	=> 'O endereço de e-mail de origem usará a função <samp>Return-Path</samp> em vez de usar o usuário e o nome do host local do servidor. Observe que este parâmetro é ignorado se você estiver usando o protocolo SMTP.<br><em><strong>ATENÇÃO:</strong> Você deve garantir que no servidor seja adicionado um usuário confiável na configuração de envio de e-mails.</em>',
+	
 	'EMAIL_PACKAGE_SIZE'			=> 'Tamanho do pacote de e-mail', 
 	'EMAIL_PACKAGE_SIZE_EXPLAIN'	=> 'Este é o número de e-mails enviados em um pacote. Esta configuração é aplicada à lista de mensagens internas, escreva 0 se você tiver problemas com e-mails de notificação de mensagens não encaminhadas.', 
 	'EMAIL_SIG'						=> 'Assinatura do e-mail', 
@@ -575,14 +576,14 @@ $lang = array_merge($lang, array(
 	'SEND_TEST_EMAIL'				=> 'Enviar um e-mail de teste',
 	'SEND_TEST_EMAIL_EXPLAIN'		=> 'Isto irá enviar um e-mail de teste para o endereço de e-mail especificado na sua conta.',
 	'SMTP_ALLOW_SELF_SIGNED'		=> 'Permitir certificados SSL auto-assinados',
-	'SMTP_ALLOW_SELF_SIGNED_EXPLAIN'=> 'Permitir conexões com o servidor SMTP com certificado SSL auto-assinado.<em><strong>Nota:</strong> certificados SSL auto-assinado podem ter implicações de segurança.</em>',
+	'SMTP_ALLOW_SELF_SIGNED_EXPLAIN'=> 'Permitir conexões com o servidor SMTP com certificado SSL auto-assinado. <br><em><strong>Nota:</strong> certificados SSL auto-assinado podem ter implicações de segurança.</em>',
 	'SMTP_AUTH_METHOD'				=> 'Método de autenticação de SMTP', 
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Apenas utilizado se um nome/senha for especificado, pergunte ao seu provedor se não souber qual método usar.', 
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5', 
 	'SMTP_DIGEST_MD5'				=> 'DIGEST-MD5', 
 	'SMTP_LOGIN'					=> 'LOGIN', 
 	'SMTP_PASSWORD'					=> 'Senha do SMTP', 
-	'SMTP_PASSWORD_EXPLAIN'			=> 'Só escreva a senha se o seu servidor de SMTP assim o exigir.<br /><strong>ATENÇÃO:</strong> Esta senha será armazenada em texto no banco de dados, podendo ser visualizada por qualquer pessoa que tiver acesso a ele ou quem pode ver esta página de configuração.',  
+	'SMTP_PASSWORD_EXPLAIN'			=> 'Só escreva a senha se o seu servidor de SMTP assim o exigir.<br><strong>ATENÇÃO:</strong> Esta senha será armazenada em texto no banco de dados, podendo ser visualizada por qualquer pessoa que tiver acesso a ele ou quem pode ver esta página de configuração.',  
 	'SMTP_PLAIN'					=> 'PLAIN', 
 	'SMTP_POP_BEFORE_SMTP'			=> 'POP-BEFORE-SMTP', 
 	'SMTP_PORT'						=> 'Porta do servidor de SMTP', 
@@ -593,10 +594,10 @@ $lang = array_merge($lang, array(
 	'SMTP_USERNAME'					=> 'Nome de usuário do SMTP', 
 	'SMTP_USERNAME_EXPLAIN'			=> 'Só escreva o nome de usuário se o seu servidor de SMTP assim o exigir.',
 	'SMTP_VERIFY_PEER'				=> 'Verificar o certificado SSL',
-	'SMTP_VERIFY_PEER_EXPLAIN'		=> 'Força a verificação do certificado SSL usado pelos servidores SMTP.<em><strong>Nota:</strong> conexão pares com certificados SSL que não são verificados podem ter implicações de segurança.</em>',
+	'SMTP_VERIFY_PEER_EXPLAIN'		=> 'Força a verificação do certificado SSL usado pelos servidores SMTP. <br><em><strong>Nota:</strong> conexão pares com certificados SSL que não são verificados podem ter implicações de segurança.</em>',
 	'SMTP_VERIFY_PEER_NAME'			=> 'Verificar o nome de usuario SMTP',
-	'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> 'Força a verificação do nome de usuário para servidores SMTP que usam conexões SSL / TLS.<em><strong>Nota:</strong> conexão pares com certificados não são verificados podem ter implicações de segurança.</em>',
-	'TEST_EMAIL_SENT'				=> 'O e-mail de teste foi enviado.<br />Se você não recebeu, por favor, verifique a configuração de e-mail.<br /><br />Se você precisar de ajuda, por favor, visite <a href="https://www.phpbb.com/community/">fóruns de suporte ao phpBB(em inglês)</a>.',
+	'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> 'Força a verificação do nome de usuário para servidores SMTP que usam conexões SSL / TLS. <br><em><strong>Nota:</strong> conexão pares com certificados não são verificados podem ter implicações de segurança.</em>',
+	'TEST_EMAIL_SENT'				=> 'O e-mail de teste foi enviado.<br>Se você não recebeu, por favor, verifique a configuração de e-mail.<br><br>Se você precisar de ajuda, por favor, visite <a href="https://www.phpbb.com/community/">fóruns de suporte ao phpBB(em inglês)</a>.',
 
 	'USE_SMTP'						=> 'Usar um servidor de SMTP para enviar e-mails', 
 	'USE_SMTP_EXPLAIN'				=> 'Selecione "Sim" se você deseja ou precisa enviar e-mails através de um servidor de SMPT ao invés de uma função de e-mail local.',
@@ -607,7 +608,7 @@ $lang = array_merge($lang, array(
 	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'Aqui você pode ativar e controlar o uso de Jabber para mensagens instantâneas e notícias. O Jabber é um protocolo de código livre, sendo disponível a qualquer pessoa interessada. Alguns servidores de Jabber incluem gateways ou transportes, os quais permitem a você contatar usuários em outras redes. Nem todos os servidores oferecem todos os transportes, e alterações no protocolo podem evitar as operações destes transportes. Por favor, certifique-se de escrever informações de contas já registradas - o phpBB irá se utilizar das informações fornecidas aqui.',
 
 	'JAB_ALLOW_SELF_SIGNED'			=> 'Permitir certificados SSL auto-assinados',
-	'JAB_ALLOW_SELF_SIGNED_EXPLAIN'	=> 'Permitir conexões com o servidor Jabber com certificado SSL auto-assinado.<em><strong>Nota:</strong> certificados SSL auto-assinado podem ter implicações de segurança.</em>',
+	'JAB_ALLOW_SELF_SIGNED_EXPLAIN'	=> 'Permitir conexões com o servidor Jabber com certificado SSL auto-assinado. <br><em><strong>Nota:</strong> certificados SSL auto-assinado podem ter implicações de segurança.</em>',
 	'JAB_ENABLE'				=> 'Ativar Jabber',
 	'JAB_ENABLE_EXPLAIN'		=> 'Ativa o uso de mensagens e notícias do jabber.',
 	'JAB_GTALK_NOTE'            => 'Por favor, note que o GTalk não irá funcionar porque a função <samp>dns_get_record</samp> não pôde ser encontrada. Esta função não se encontra disponível no PHP4, e não é implementada nas plataformas do windows. Isto não é executável atualmente em sistemas BSD-based, incluindo o Mac OS.',
@@ -625,7 +626,7 @@ $lang = array_merge($lang, array(
 	'JAB_USERNAME'				=> 'Usuário jabber ou JID', 
 	'JAB_USERNAME_EXPLAIN'		=> 'Escreva um nome de usuário registrado ou um JID válido. O usuário não será checado para uma devida validação. Se você apenas especificar um nome de usuário, então seu JID será o seu nome de usuário junto ao servidor especificado acima. Especifique um JID válido, por exemplo user@jabber.org.',
 	'JAB_VERIFY_PEER'				=> 'Verificar o certificado SSL',
-	'JAB_VERIFY_PEER_EXPLAIN'		=> 'Força a verificação do certificado SSL usado pelos servidores Jabber.<em><strong>Nota:</strong> conexão pares com certificados SSL que não são verificados podem ter implicações de segurança.</em>',
+	'JAB_VERIFY_PEER_EXPLAIN'		=> 'Força a verificação do certificado SSL usado pelos servidores Jabber. <br><em><strong>Nota:</strong> conexão pares com certificados SSL que não são verificados podem ter implicações de segurança.</em>',
 	'JAB_VERIFY_PEER_NAME'			=> 'Verificar o nome de usuario Jabber',
-	'JAB_VERIFY_PEER_NAME_EXPLAIN'	=> 'Força a verificação do nome de usuário para servidores Jabber que usam conexões SSL / TLS.<em><strong>Nota:</strong> conexão pares com certificados não são verificados podem ter implicações de segurança.</em>',
+	'JAB_VERIFY_PEER_NAME_EXPLAIN'	=> 'Força a verificação do nome de usuário para servidores Jabber que usam conexões SSL / TLS. <br><em><strong>Nota:</strong> conexão pares com certificados não são verificados podem ter implicações de segurança.</em>',
 ));
