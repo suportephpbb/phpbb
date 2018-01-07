@@ -54,6 +54,7 @@ $lang = array_merge($lang, array(
 	'NO_NEW_POSTS_HOT'		=> 'Não há mensagens novas [ Popular ]',	// Not used anymore
 	'NO_NEW_POSTS_LOCKED'	=> 'Não há mensagens novas [ Trancadas ]',	// Not used anymore
 	'NO_READ_ACCESS'		=> 'Você não possui as permissões requeridas para ver e ler tópicos neste fórum.',
+	'NO_FORUMS_IN_CATEGORY'	=> 'Esta categoria não possui fóruns.',
 	'NO_UNREAD_POSTS_HOT'	=> 'Nenhuma mensagem não lida [ Populares ]',
 	'NO_UNREAD_POSTS_LOCKED'	=> 'Nenhuma mensagem não lida [ Trancadas ]',
 

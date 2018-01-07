@@ -50,5 +50,5 @@ $lang = array_merge($lang, array(
 	'ACP_VIGLINK_CLAIM'				=> 'Reivindicar quota de comissões',
 	'ACP_VIGLINK_CLAIM_EXPLAIN'		=> 'Você pode obter todas as comissões de vendas sobre as ações geradas a partir dos links monetizado para o seu fórum em vez de pagar estas ações como doações para o projeto phpBB. Para gerenciar as configurações de conta, você deve ter uma conta “VigLink Convert” clicando em “Converter conta”.',
 	'ACP_VIGLINK_CONVERT_ACCOUNT'	=> 'Converter conta',
-	'ACP_VIGLINK_NO_CONVERT_LINK'	=> 'O link para sua conta VigLink não foi encontrado.'
+	'ACP_VIGLINK_NO_CONVERT_LINK'	=> 'O link para sua conta VigLink não foi encontrado.',
 ));
