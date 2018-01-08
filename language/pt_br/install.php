@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 // Common installer pages
 $lang = array_merge($lang, array(
-	'INSTALL_PANEL'	=> 'Painel de Instalaçãol',
+	'INSTALL_PANEL'	=> 'Painel de Instalação',
 	'SELECT_LANG'	=> 'Selecionar idioma',
 
 	'STAGE_INSTALL'	=> 'Instalando o phpBB',
