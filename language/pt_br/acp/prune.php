@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'DEACTIVATE_DELETE'			=> 'Desativar ou excluir', 
 	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Escolha entre desativar os usuários ou excluí-los diretamente. Por favor, note que os usuários excluídos não poderão ser restaurados!', 
 	'DELETE_USERS'				=> 'Excluir', 
-	'DELETE_USER_POSTS'			=> 'Excluir mensagens limpas', 
+	'DELETE_USER_POSTS'			=> 'Excluir mensagens de usuários excluídos', 
 	'DELETE_USER_POSTS_EXPLAIN' => 'Exclui mensagens de usuários excluídos, não possui efeito se os usuários estiverem desativados.', 
 
 	'JOINED_EXPLAIN'			=> 'Escrever uma data no formato <kbd>YYYY-MM-DD</kbd>. Você pode usar os dois campos para selecionar um intervalo ou deixar em branco para especificar um período de tempo aberto.', 
