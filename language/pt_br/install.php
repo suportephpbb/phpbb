@@ -149,6 +149,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_USERNAME_EXPLAIN'	=> 'Por favor, escreva um nome de usuário que tenha entre 3 e 20 caracteres.',
 
 	// Errors
+	'INST_ERR_DB'					=> 'Erro na instalação do banco de dados',
 	'INST_ERR_EMAIL_INVALID'		=> 'O endereço de e-mail informado é inválido.',
 	'INST_ERR_PASSWORD_MISMATCH'	=> 'As senhas informadas não coincidem.',
 	'INST_ERR_PASSWORD_TOO_LONG'	=> 'A senha digitada é muito grande. O tamanho máximo é de 30 caracteres.',
@@ -355,17 +356,41 @@ $lang = array_merge($lang, array(
 
 		<br />
 
-		<h1>Como atualizar a sua instalação com o Pacote de Atualização Automática</h1>
 
-		<p>O método de atualização recomendado aqui é apenas válido para o pacote de atualização automática. Você também pode atualizar a sua instalação utilizando os métodos listados no INSTALL.html. As etapas de atualização automática do phpBB3 são as seguintes:</p>
+		<h1>Como atualizar a sua instalação com o Pacote Completo (Full Package)</h1>
 
+		<p>A maneira recomendada de atualizar sua instalação é usando o pacote completo. Se os arquivos principais do phpBB foram modificados na sua instalação, você pode querer usar o pacote de atualização automática para evitar perder essas alterações. Você também pode atualizar sua instalação usando os outros métodos listados no INSTALL.html. As etapas para atualizar o phpBB3 usando o pacote completo são as seguintes:</p>
+
+		<ol style="margin-left: 20px; font-size: 1.1em;">
+			<li><strong class="error">Backup de todos os arquivos e do banco de dados.</strong></li>
+			<li>Vá até a <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">página de downloads do phpBB.com</a> e baixe o arquivo do "Full Package".</li>
+			<li>Descompacte o arquivo.</li>
+			<li>Exclua o arquivo <code class="inline">config.php</code> e as pastas <code class="inline">/images</code>, <code class="inline">/store</code> e <code class="inline">/files</code> <em>do pacote</em> (não do seu site).</li>
+			<li>Vá para o ACP, Configurações do Fórum e certifique-se de que o prosilver é o estilo padrão. Se não for, defina o prosilver como padrão.</li>
+			<li>Exclua as pastas <code class="inline">/vendor</code> e <code class="inline">/cache</code> da pasta raiz do fórum, no seu servidor.</li>
+			<li>Usando FTP ou SSH envie os arquivos e pastas restantes (isto é, o CONTEÚDO restante da pasta phpBB3) para a pasta raiz da instalação do fórum no servidor, sobrescrevendo os arquivos existentes. (Nota: tenha cuidado para não excluir nenhuma extensão na pasta <code class="inline">/ext</code> quando fizer o envio do novo conteúdo do phpBB3.)</li>
+			<li><strong><a href="%1$s" title="%1$s">Agora inicie o processo de atualização, apontando seu navegador para a pasta de instalação</a>.</strong></li>
+			<li>Siga as etapas para atualizar o banco de dados e deixe que seja executado até a conclusão.</li>
+			<li>Usando FTP ou SSH exclua a pasta <code class="inline">/install</code> da pasta raiz da instalação do fórum no servidor.<br><br></li>
+		</ol>
+		
+		<p>Agora você tem um novo fórum atualizado que contém todos os seus usuários e mensagens. Tarefas complementares:</p>
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Vá até a <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">página de downloads do phpBB.com</a> e baixe o arquivo do "Automatic Update Package".<br /><br /></li>
-			<li>Descompacte o arquivo.<br /><br /></li>
-			<li>Envie os diretórios "install" e "vendor" completamente descompactados para o diretório raiz do seu phpBB (onde encontra-se o arquivo config.php).<br /><br /></li>
+			<li>Atualize seu pacote de idioma</li>
+			<li>Atualize seu estilo<br><br></li>
 		</ul>
 
-		<p>Depois de enviado, o seu fórum se encontrará offline para os usuários normais conforme o diretório de instalação que você enviou agora estiver presente.<br /><br />
+		<h1>Como atualizar a sua instalação com o Pacote de Atualização Automática (Automatic Update Package)</h1>
+
+		<p>O pacote de atualização automática é recomendado somente se os arquivos principais do phpBB foram modificados na sua instalação. Você também pode atualizar sua instalação usando os outros métodos listados no INSTALL.html. As etapas para atualizar o phpBB3 usando o pacote de atualização automática são as seguintes:</p>
+
+		<ul style="margin-left: 20px; font-size: 1.1em;">
+			<li>Vá até a <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">página de downloads do phpBB.com</a> e baixe o arquivo do "Automatic Update Package".</li>
+			<li>Descompacte o arquivo.</li>
+			<li>Envie os diretórios "install" e "vendor" completamente descompactados para o diretório raiz do seu phpBB (onde encontra-se o arquivo config.php).<br><br></li>
+		</ul>
+
+		<p>Depois de enviado, o seu fórum se encontrará offline para os usuários normais conforme o diretório de instalação que você enviou agora estiver presente.<br><br>
 		<strong><a href="%1$s" title="%1$s">Agora inicie o processo de instalação inserindo em seu navegador o endereço do diretório install</a>.</strong><br />
 		<br />
 		Você será levado em seguida ao processo de atualização. Você será devidamente avisado quando a atualização estiver completa.
