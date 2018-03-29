@@ -195,6 +195,7 @@ $lang = array_merge($lang, array(
 	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
 
 	// Errors
+	'INST_ERR_DB'					=> 'Erro de instalação do banco de dados',
 	'INST_ERR_NO_DB'				=> 'Não foi possível carregar o módulo PHP para o tipo de banco de dados selecionado.',
 	'INST_ERR_DB_INVALID_PREFIX'	=> 'O prefixo informado é inválido. Deve iniciar com uma letra e deve conter somente letras, números e espaços.',
 	'INST_ERR_PREFIX_TOO_LONG'		=> 'O prefixo informado é muito grande. O comprimento máximo é de %d caracteres',
