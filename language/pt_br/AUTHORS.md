@@ -6,8 +6,7 @@ Versão da Tradução: 1.3.3
 Versão do phpBB: 3.2.3
 
 
-Lista de Tradutores, Colaboradores e Ex-Colaboradores da tradução.
-
+Lista de Tradutores, Colaboradores e Ex-Colaboradores da tradução
 
 Mantedores
 -------
