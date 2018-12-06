@@ -69,7 +69,7 @@ $lang = array_merge($lang, array(
 	'EMPTY_SUBJECT_EMAIL'	=> 'Você deve escrever um título para o e-mail.',
 	'EQUAL_TO'				=> 'Igual a',
 
-	'FIND_USERNAME_EXPLAIN'	=> 'Aqui você pode pesquisar por usuários específicos. Você não precisa preencher todos os campos. Use * como complemento para palavras parciais. Se informar uma data, utilize o formato <kbd>YYYY-MM-DD</kbd>, ex. <samp>2007-03-14</samp>. Além disso, use as marcas de seleção para selecionar um ou mais nomes de usuários (podem ser aceitos vários usuários), e clique no botão selecionado para voltar à forma anterior.',
+	'FIND_USERNAME_EXPLAIN'	=> 'Aqui você pode pesquisar por usuários específicos. Você não precisa preencher todos os campos. Use * como complemento para palavras parciais. Se informar uma data, utilize o formato <kbd>AAAA-MM-DD</kbd>, ex. <samp>2007-03-14</samp>. Além disso, use as marcas de seleção para selecionar um ou mais nomes de usuários (podem ser aceitos vários usuários), e clique no botão selecionado para voltar à forma anterior.',
 	'FLOOD_EMAIL_LIMIT'		=> 'Você não pode enviar um e-mail em seguida. Por favor, tente novamente mais tarde.',
 
 	'GROUP_LEADER'			=> 'Líder do grupo',

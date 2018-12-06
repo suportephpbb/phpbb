@@ -48,9 +48,9 @@ $lang = array_merge($lang, array(
 	'DELETE_USER_POSTS'			=> 'Excluir mensagens de usuários excluídos', 
 	'DELETE_USER_POSTS_EXPLAIN' => 'Exclui mensagens de usuários excluídos, não possui efeito se os usuários estiverem desativados.', 
 
-	'JOINED_EXPLAIN'			=> 'Escrever uma data no formato <kbd>YYYY-MM-DD</kbd>. Você pode usar os dois campos para selecionar um intervalo ou deixar em branco para especificar um período de tempo aberto.', 
+	'JOINED_EXPLAIN'			=> 'Escrever uma data no formato <kbd>AAAA-MM-DD</kbd>. Você pode usar os dois campos para selecionar um intervalo ou deixar em branco para especificar um período de tempo aberto.', 
 
-	'LAST_ACTIVE_EXPLAIN'		=> 'Escrever uma data no formato <kbd>YYYY-MM-DD</kbd>. Insira <kbd>0000-00-00</kbd> para limpar usuários que nunca tenham logado, critérios de <em>Antes</em> e <em>Depois</em> serão ignorados.', 
+	'LAST_ACTIVE_EXPLAIN'		=> 'Escrever uma data no formato <kbd>AAAA-MM-DD</kbd>. Insira <kbd>0000-00-00</kbd> para limpar usuários que nunca tenham logado, critérios de <em>Antes</em> e <em>Depois</em> serão ignorados.', 
 
 	'POSTS_ON_QUEUE'				=> 'Mensagens aguardardando aprovação',
 	'PRUNE_USERS_GROUP_EXPLAIN'		=> 'Limite de usuários no grupo selecionado.',
@@ -65,7 +65,7 @@ $lang = array_merge($lang, array(
 	'USER_DELETE_SUCCESS'		=> 'Os usuários selecionados foram excluídos com sucesso.',
 	'USER_PRUNE_FAILURE'		=> 'Nenhum usuário foi ajustado para estes critérios.',
 
-	'WRONG_ACTIVE_JOINED_DATE'	=> 'A data informada está incorreta, o formato solicitado é <kbd>YYYY-MM-DD</kbd>.',	
+	'WRONG_ACTIVE_JOINED_DATE'	=> 'A data informada está incorreta, o formato solicitado é <kbd>AAAA-MM-DD</kbd>.',	
 )); 
 
 // Forum Pruning 

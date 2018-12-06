@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 	'30_MINS'		=> '30 minutos', 
 	'6_HOURS'		=> '6 horas', 
 
-	'ACP_BAN_EXPLAIN'	=> 'Aqui você pode controlar os banimentos de usuários por nome, endereço de IP, ou endereço de e-mail. Estes métodos proíbem o usuário de acessar a qualquer parte do fórum. Você pode especificar uma pequena razão para o banimento (máximo de 3000 caracteres) se assim desejar. Esta razão será exibida no log do administrador. A duração do banimento também pode ser selecionada. Se você quiser que o banimento termine em uma data específica depois de outro período de tempo configurado, selecione <span style="text-decoration: underline;">Até -&gt;</span> para a longevidade do mesmo e escreva a data no formato <kbd>YYYY-MM-DD</kbd>, ou seja, em ano-mês-dia.',
+	'ACP_BAN_EXPLAIN'	=> 'Aqui você pode controlar os banimentos de usuários por nome, endereço de IP, ou endereço de e-mail. Estes métodos proíbem o usuário de acessar a qualquer parte do fórum. Você pode especificar uma pequena razão para o banimento (máximo de 3000 caracteres) se assim desejar. Esta razão será exibida no log do administrador. A duração do banimento também pode ser selecionada. Se você quiser que o banimento termine em uma data específica depois de outro período de tempo configurado, selecione <span style="text-decoration: underline;">Até -&gt;</span> para a longevidade do mesmo e escreva a data no formato <kbd>AAAA-MM-DD</kbd>, ou seja, em ano-mês-dia.',
 
 	'BAN_EXCLUDE'			=> 'Excluir banimento',
 	'BAN_LENGTH'			=> 'Duração do banimento',
@@ -67,7 +67,7 @@ $lang = array_merge($lang, array(
 	'IP_UNBAN'					=> 'Desbanir um ou mais endereços de IP', 
 	'IP_UNBAN_EXPLAIN'			=> 'Você pode desbanir diversos endereços de IP de uma só vez, utilizando as combinações apropriadas de mouse em seu computador e navegador. Endereços de IP banidos possuem uma seleção ao fundo.', 
 
-	'LENGTH_BAN_INVALID'		=> 'O formato da data deve ser <kbd>DD-MM-YYYY</kbd>.',
+	'LENGTH_BAN_INVALID'		=> 'O formato da data deve ser <kbd>AAAA-MM-DD</kbd>.',
 	'OPTIONS_BANNED'			=> 'Banido',
 	'OPTIONS_EXCLUDED'			=> 'Excluído',
 
