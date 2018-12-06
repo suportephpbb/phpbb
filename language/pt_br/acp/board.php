@@ -373,7 +373,7 @@ $lang = array_merge($lang, array(
 	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Aqui você pode ativar e desativar a página de contato e adicionar o texto que será exibido.',
 
 	'CONTACT_US_ENABLE'				=> 'Ativar página de contato',
-	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Esta página permite aos usuários enviar emails para os administradores do fórum. Observe que a configuração de envio de e-mail no fórum deve estar habilitada. Você encontrará esta configuração em Geral > Comunicação do Cliente > Configurações de e-mail.',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Esta página permite aos usuários enviar emails para os administradores do fórum. Observe que a configuração de envio de e-mail no fórum deve estar habilitada. Você encontrará esta configuração em Geral &gt; Comunicação do Cliente &gt; Configurações de e-mail.',
 
 	'CONTACT_US_INFO'				=> 'Informações da página de contato',
 	'CONTACT_US_INFO_EXPLAIN'		=> 'A mensagem é exibida na página de contato',

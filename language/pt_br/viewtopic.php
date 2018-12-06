@@ -88,6 +88,7 @@ $lang = array_merge($lang, array(
 	'NO_UNREAD_POSTS'		=> 'Não há mensagens novas não lidas neste tópico.',
 	'NO_VOTE_OPTION'		=> 'Você deve selecionar uma opção de voto.',
 	'NO_VOTES'				=> 'Não há votos registrados',
+	'NO_AUTH_PRINT_TOPIC'	=> 'Você não está autorizado a imprimir tópicos.',
 
 	'POLL_ENDED_AT'			=> 'Esta enquete foi concluída em %s',
 	'POLL_RUN_TILL'			=> 'Esta enquete será concluída em %s',

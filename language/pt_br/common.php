@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> 'Traduzido por: <a href="http://www.suportephpbb.com.br">Suporte phpBB</a>',
+	'TRANSLATION_INFO'	=> 'Traduzido por: <a href="https://www.suportephpbb.com.br">Suporte phpBB</a>',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled) 
 	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
@@ -62,7 +62,6 @@ $lang = array_merge($lang, array(
 
 	'ACCOUNT_ALREADY_ACTIVATED'		=> 'O seu registro já foi ativado.',
 	'ACCOUNT_DEACTIVATED'			=> 'O seu registro foi desativado manualmente e somente pode ser reativado por um administrador.',
-	'ACCOUNT_NOT_ACTIVATED'			=> 'O seu registro ainda não foi ativado.',
 	'ACP'							=> 'Painel de Controle da Administração', 
 	'ACP_SHORT'						=> 'ACP',
 	'ACTIVE'						=> 'Ativo', 
