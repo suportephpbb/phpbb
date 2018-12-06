@@ -1,5 +1,5 @@
 Subject: Notificação de novo tópico - "{FORUM_NAME}"
-Cancelar inscrição: <{U_STOP_WATCHING_FORUM}>
+List-Unsubscribe: <{U_STOP_WATCHING_FORUM}>
 
 Olá {USERNAME},
 

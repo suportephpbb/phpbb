@@ -1,5 +1,5 @@
 Subject: Notificação de resposta ao tópico - "{TOPIC_TITLE}"
-Cancelar inscrição: <{U_STOP_WATCHING_TOPIC}>
+List-Unsubscribe: <{U_STOP_WATCHING_TOPIC}>
 
 Olá {USERNAME},
 
