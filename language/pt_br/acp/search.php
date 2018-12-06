@@ -116,7 +116,10 @@ $lang = array_merge($lang, array(
 		2	=> 'A taxa atual de indexação é de aproximadamente %1$.1f mensagens por segundo.<br />Indexação em progresso…',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
-		2	=> 'Todas as mensagens com id superior a %1$d serão excluídas do sistema de pesquisas.<br />Exclusão em progresso…',
+		2	=> 'Todas as mensagens com id superior a %1$d serão excluídas do sistema de pesquisas, das quais %1$d mensagens foram excluídas nesta etapa.',
+	),
+		'SEARCH_INDEX_DELETE_REDIRECT_RATE'		=> array(
+		2	=> 'A taxa atual de exclusão é de aproximadamente %1$.1f mensagens por segundo.<br />Exclusão em progresso…',
 	),
 	'SEARCH_INDEX_CREATED'					=> 'Todas as mensagens foram indexadas no banco de dados com sucesso.', 
 	'SEARCH_INDEX_REMOVED'					=> 'O índice de pesquisa para este módulo foi excluído com sucesso.', 

@@ -350,7 +350,7 @@ $lang = array_merge($lang, array(
 
 // Cookie Settings 
 $lang = array_merge($lang, array( 
-	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Esses detalhes definem como os cookies serão enviados para os navegadores de seus usuários. Na maioria das vezes, os valores padrão para a configuração dos cookies deverão ser suficientes, mas caso necessite alterá-los, faça-o com cuidado, pois uma configuração incorreta poderá impedir o acesso dos usuários ao fórum. Se você tiver problemas que os usuários permaneçam conectados ao seu fórum, leia o artigo <b><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Knowledge Base - Fixing incorrect cookie settings</a></b>.',
+	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Esses detalhes definem como os cookies serão enviados para os navegadores de seus usuários. Na maioria das vezes, os valores padrão para a configuração dos cookies deverão ser suficientes, mas caso necessite alterá-los, faça-o com cuidado, pois uma configuração incorreta poderá impedir o acesso dos usuários ao fórum. Se você tiver problemas que os usuários permaneçam conectados ao seu fórum, leia o artigo <strong><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Knowledge Base - Fixing incorrect cookie settings</a></strong>.',
 
 	'COOKIE_DOMAIN'			=> 'Domínio do cookie',
 	'COOKIE_DOMAIN_EXPLAIN'	=> 'Na maioria dos casos, o domínio do cookie é opcional. Deixe em branco se você tiver quaisquer dúvidas.<br><br>No entanto, se seu fórum é integrado com outro software ou está hospedado em vários domínios, você vai precisar determinar o domínio do cookie. Se você tiver algo como <i>exemple.com</i> e <i>forums.exemple.com</i> ou <i>forums.exemple.com</i> e <i>blog.exemple.com</i>. Exclua os subdomínios para manter apenas o domínio comum, <i>exemple.com</i>. Em seguida, basta adicionar um ponto antes do domínio comum e o cookie será semelhante com .example.com (repare no ponto no início).',
@@ -406,10 +406,10 @@ $lang = array_merge($lang, array(
 	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => 'Número de dias que irá decorrer antes que as notificações lidas sejam automaticamente excluídas. Defina o valor 0 para tornar notificações permanentes.',
 	'RECOMPILE_STYLES'				=> 'Redefinir componentes do estilo',	
 	'RECOMPILE_STYLES_EXPLAIN'		=> 'Verifica as atualizações nos arquivos do estilo do sistema de arquivos e os redefine.',
+	'YES_ACCURATE_PM_BUTTON'			=> 'Ativar permissão específica do botão de MP na visualização de tópicos',
+	'YES_ACCURATE_PM_BUTTON_EXPLAIN'	=> 'Se ativada, somente usuários com permissão para ler mensagens privadas terão um botão de mensagem privada.',
 	'YES_ANON_READ_MARKING'			=> 'Permitir subscrição de tópicos por usuários anônimos', 
 	'YES_ANON_READ_MARKING_EXPLAIN'	=> 'Permite a seleção de lido/não-lido aos usuários anônimos. Se desativado, as mensagens aparecerão sempre como lidas para os anônimos.',
-	'YES_ACCURATE_PM_BUTTON'			=> 'Ativar botão de MP na visualização de tópicos',
-	'YES_ACCURATE_PM_BUTTON_EXPLAIN'	=> 'Se ativada, somente usuários com permissão para ler mensagens privadas terão um botão de mensagem privada.',
 	'YES_BIRTHDAYS'					=> 'Exibir lista de aniversários',
 	'YES_BIRTHDAYS_EXPLAIN'			=> 'Se desativado, a lista de aniversários não será mais exibida. Para que esta configuração tenha efeito, o recurso de aniversários também deve ser ativo no painel.',
 	'YES_JUMPBOX'					=> 'Ativar exibição da jumpbox',
