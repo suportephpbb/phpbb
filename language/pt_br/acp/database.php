@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 // Database Backup/Restore 
 $lang = array_merge($lang, array( 
-	'ACP_BACKUP_EXPLAIN'	=> 'Aqui você pode realizar backup de todos os dados relacionados ao seu phpBB. Você pode salvar as informações em um arquivo na sua pasta <samp>/store</samp> ou baixá-lo diretamente. Dependendo das configurações de seu servidor, você poderá compactar o arquivo em diversos formatos.',
+	'ACP_BACKUP_EXPLAIN'	=> 'Aqui você pode realizar backup de todos os dados relacionados ao seu phpBB. Você pode salvar as informações em um arquivo na sua pasta <samp>/store</samp>. Dependendo das configurações de seu servidor, você poderá compactar o arquivo em diversos formatos.',
 	'ACP_RESTORE_EXPLAIN'	=> 'Aqui você pode executar uma restauração total de todas as tabelas do seu phpBB a partir de um arquivo salvo. Se o seu servidor suportar a compressão de arquivos de texto gzip ou bzip2, ela será automaticamente descompactada. <strong>ATENÇÃO:</strong> Esta execução irá substituir qualquer informação existente. Dependendo do tamanho de seu banco de dados este processo poderá levar algum tempo. Não saia desta página para outra até que o processo seja finalizado. Os backups são armazenados na pasta <samp>store/</samp> e são assumidos a serem gerados pela funcionalidade de backups do phpBB. Restaurações de backups que não foram geradas pelo sistema podem ou não funcionar.', 
 
 	'BACKUP_DELETE'		=> 'O backup foi excluído com sucesso.', 
