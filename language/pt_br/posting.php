@@ -145,6 +145,7 @@ $lang = array_merge($lang, array(
 	'LOAD_DRAFT_EXPLAIN'		=> 'Aqui você pode selecionar o rascunho que deseja carregar. Sua mensagem atual será cancelada, e todo o conteúdo atual será perdido. Você pode visualizar, editar e excluir rascunhos no painel de controle do usuário.',
 	'LOGIN_EXPLAIN_BUMP'		=> 'Você precisa se autenticar para ressuscitar mensagens neste fórum.',
 	'LOGIN_EXPLAIN_DELETE'		=> 'Você precisa se autenticar para excluir mensagens neste fórum.',
+	'LOGIN_EXPLAIN_SOFT_DELETE'	=> 'Você precisa se autenticar para excluir permanentemente mensagens neste fórum.',
 	'LOGIN_EXPLAIN_POST'		=> 'Você precisa se autenticar para enviar mensagens neste fórum.',
 	'LOGIN_EXPLAIN_QUOTE'		=> 'Você precisa se autenticar para citar mensagens neste fórum.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'Você precisa se autenticar para responder mensagens neste fórum.',

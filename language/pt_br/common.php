@@ -779,7 +779,11 @@ $lang = array_merge($lang, array(
 	'TOPIC_MOVED'			=> 'Tópico movido', 
 	'TOPIC_REVIEW'			=> 'Revisão do tópico', 
 	'TOPIC_TITLE'			=> 'Título do tópico', 
-	'TOPIC_UNAPPROVED'		=> 'Este tópico não foi aprovado.', 
+	'TOPIC_UNAPPROVED'		=> 'Este tópico não foi aprovado.',
+	'TOPIC_UNAPPROVED_FORUM'	=> array(
+		1	=> 'Tópico aguardando aprovação',
+		2	=> 'Tópicos aguardando aprovação',
+	),
 	'TOPIC_DELETED'			=> 'Este tópico foi excluído.',
 	'TOTAL_ATTACHMENTS'		=> 'Anexo(s)', 
 	'TOTAL_LOGS'			=> array(

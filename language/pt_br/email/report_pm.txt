@@ -1,4 +1,4 @@
-Subject: Mensagem privada denunciada - "{TOPIC_TITLE}"
+Subject: Mensagem privada denunciada - "{SUBJECT}"
 
 Olá {USERNAME},
 
