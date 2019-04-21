@@ -1,5 +1,12 @@
 {
+    "repositories": [	
+        {	
+            "type": "vcs",	
+            "url": "https://github.com/battye/phpbb-translation-validator.git"	
+        }	
+    ],
+
     "require-dev": {
-        "phpbb/translation-validator": "1.5.*"
+        "phpbb/translation-validator": "dev-forks@dev"
     }
 }
