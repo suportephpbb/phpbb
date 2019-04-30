@@ -325,6 +325,7 @@ $lang = array_merge($lang, array(
 	'TOTAL_SIZE'			=> 'Tamanho total',
 
 	'UCP'					=> 'Painel de Controle do Usuário',
+	'URL_INVALID'			=> 'A URL selecionada para a configuração “%1$s” é inválida.',
 	'USERNAMES_EXPLAIN'		=> 'Insira cada usuário em uma linha separada.', 
 	'USER_CONTROL_PANEL'	=> 'Painel de Controle do Usuário',
 
