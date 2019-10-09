@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang)) 
 { 
-	$lang = array(); 
+	$lang = []; 
 } 
 
 // DEVELOPERS PLEASE NOTE 
@@ -36,8 +36,8 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text 
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine 
 
-$lang = array_merge($lang, array( 
-	'ACP_STYLES_EXPLAIN'	=> 'Aqui você pode gerenciar os estilos disponíveis aos usuários do fórum. Você pode alterar estilos existentes, excluir, desativar, reativar ou instalar novos. E ainda poderá visualizar como ficará um estilo, utilizando a função prever. Aqui também será listado o total de usuários utilizando cada estilo, note que a substituição de estilo dos usuários não é refletida aqui.', 
+$lang = array_merge($lang, [
+	'ACP_STYLES_EXPLAIN'	=> 'Aqui você pode gerenciar os estilos disponíveis no seu fórum. Note que você não pode desinstalar o estilo “<strong>prosilver</strong>”, que é o estilo primário e padrão do phpBB.',
 
 	'CANNOT_BE_INSTALLED'			=> 'Não pode ser instalado',
 	'CONFIRM_UNINSTALL_STYLES'		=> 'Você deseja realmente desinstalar os estilos selecionados?',
@@ -84,7 +84,8 @@ $lang = array_merge($lang, array(
 	'STYLE_USED_BY'					=> 'Usado por (incluindo bots)',
 	'STYLE_VERSION'					=> 'Versão do estilo',
 
-	'UNINSTALL_DEFAULT'				=> 'Você não pode desinstalar o estilo padrão.',
+	'UNINSTALL_PROSILVER'						=> 'Você não pode desinstalar o estilo “prosilver”.',
+	'UNINSTALL_DEFAULT'							=> 'Você não pode desinstalar o estilo padrão.',
 
 	'BROWSE_STYLES_DATABASE'	=> 'Navegue no banco de dados de estilos',
-));
+]);

@@ -7,7 +7,7 @@ O registro do usuário "{USERNAME}" foi desativado ou recém-criado. Você dever
 Use este endereço para visualizar o perfil do usuário:
 {U_USER_DETAILS}
 
-Use este endereço para ativar o registro:
+Você pode ativar a conta imediatamente clicando neste link:
 {U_ACTIVATE}
 
 {EMAIL_SIG}

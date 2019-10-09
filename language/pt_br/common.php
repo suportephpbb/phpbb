@@ -91,6 +91,7 @@ $lang = array_merge($lang, array(
 	'ATTACHED_IMAGE_NOT_IMAGE'		=> 'O arquivo de imagem que você tentou anexar é inválido.',
 	'AUTHOR'						=> 'Autor', 
 	'AUTH_NO_PROFILE_CREATED'		=> 'Não foi possível criar o perfil do usuário.',
+	'AUTH_PROVIDER_OAUTH_ERROR_ALREADY_LINKED'				=> 'Este serviço externo já está associado a outra conta do fórum.',
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_ENTRY'				=> 'A entrada do banco de dados está incorreta.',
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_SERVICE_TYPE'		=> 'O tipo de serviço definido no gerenciador de serviços OAuth está incorreto.',
 	'AUTH_PROVIDER_OAUTH_ERROR_SERVICE_NOT_CREATED'			=> 'O serviço OAuth não foi criado',

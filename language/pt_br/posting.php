@@ -43,6 +43,7 @@ $lang = array_merge($lang, array(
 	'ADD_POLL'					=> 'Adicionar uma enquete',
 	'ADD_POLL_EXPLAIN'			=> 'Se você não pretende adicionar uma enquete ao seu tópico, deixe os espaços abaixo em branco.',
 	'ALREADY_DELETED'			=> 'Desculpe, mas a mensagem selecionada já foi excluída.',
+	'ATTACH_COMMENT_NO_EMOJIS'	=> 'O comentário do anexo contém caracteres proibidos (Emoji).',
 	'ATTACH_DISK_FULL'			=> 'Não há espaço livre suficiente no disco para postar este anexo.',
 	'ATTACH_QUOTA_REACHED'		=> 'Desculpe, o limite de quota de anexos foi alcançado.',
 	'ATTACH_SIG'				=> 'Anexar assinatura (assinaturas podem ser alteradas em UCP)',
