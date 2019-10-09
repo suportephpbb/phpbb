@@ -520,6 +520,7 @@ $lang = array_merge($lang, array(
 	'NO_FEED_ENABLED'				=> 'Os feeds não estão disponíveis neste painel.',
 	'NO_FEED'						=> 'O feed solicitado não está disponível.',
 	'NO_STYLE_DATA'					=> 'Não foi possível obter os dados de estilo',
+	'NO_STYLE_CFG'					=> 'Não foi possível obter o arquivo de configuração de estilo de: %s',
 	'NO_SUBJECT'					=> 'Nenhum título foi especificado.',
 	'NO_SUCH_SEARCH_MODULE'			=> 'O modo de pesquisa especificado não existe.',
 	'NO_SUPPORTED_AUTH_METHODS'		=> 'Nenhum método de autenticação suportado.',
