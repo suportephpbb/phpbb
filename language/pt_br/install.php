@@ -71,7 +71,7 @@ $lang = array_merge($lang, array(
 
 	<p>O phpBB3 suporta os seguintes bancos de dados:</p>
 	<ul>
-		<li>MySQL 3.23 ou superior (suporte a MySQLi)</li>
+		<li>MySQL 4.1.3  ou superior (suporte a MySQLi)</li>
 		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 3.6.15+</li>
 		<li>MS SQL Server 2000 ou superior (direto ou via ODBC)</li>
@@ -106,7 +106,7 @@ $lang = array_merge($lang, array(
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'Versão do PHP',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'O phpBB requer a versão 5.4.0 ou superior do PHP.',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'O phpBB requer a versão 7.1.3 ou superior do PHP.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'A função getimagesize() do PHP é exigida',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> 'Para o funcionamento correto do phpBB, é necessário que a função getimagesize esteja disponível.',
 	'PCRE_UTF_SUPPORT'					=> 'Suporte ao PCRE UTF-8',
@@ -188,7 +188,6 @@ $lang = array_merge($lang, array(
 	// Database options
 	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ via ODBC',
 	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Nativo ]',
-	'DB_OPTION_MYSQL'		=> 'MySQL',
 	'DB_OPTION_MYSQLI'		=> 'MySQL com extensão MySQLi',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
@@ -373,7 +372,7 @@ $lang = array_merge($lang, array(
 			<li>Siga as etapas para atualizar o banco de dados e deixe que seja executado até a conclusão.</li>
 			<li>Usando FTP ou SSH exclua a pasta <code class="inline">/install</code> da pasta raiz da instalação do fórum no servidor.<br><br></li>
 		</ol>
-		
+
 		<p>Agora você tem um novo fórum atualizado que contém todos os seus usuários e mensagens. Tarefas complementares:</p>
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>Atualize seu pacote de idioma</li>
@@ -567,7 +566,7 @@ $lang = array_merge($lang, array(
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'Conversão concluída',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'Você converteu o seu fórum para o phpBB 3.2 com sucesso. Você pode já pode efetuar o login e <a href="../">acessar o seu painel</a>. Por favor, certifique-se de que as suas configurações foram transferidas corretamente antes de ativar o seu fórum excluindo o diretório de instalação do sistema. E ainda, lembre-se de que você pode solicitar ajuda online através da <a href="https://www.phpbb.com/support/docs/en/3.2/ug/">Documentação do phpBB3</a> e no <a href="https://www.phpbb.com/community/viewforum.php?f=466">fórum de suporte phpBB.com</a>.',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Você converteu o seu fórum para o phpBB 3.3 com sucesso. Você pode já pode efetuar o login e <a href="../">acessar o seu painel</a>. Por favor, certifique-se de que as suas configurações foram transferidas corretamente antes de ativar o seu fórum excluindo o diretório de instalação do sistema. E ainda, lembre-se de que você pode solicitar ajuda online através da <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">Documentação do phpBB3</a> e no <a href="https://www.phpbb.com/community/viewforum.php?f=661">fórum de suporte phpBB.com</a>.',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'O envio de anexos por FTP está ativo no seu painel antigo. Desative a opção de envio por FTP, crie um diretório válido e envie todos os arquivos de anexos para este novo diretório acessível. Após concluir esta operação, reinicie o seu conversor.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Não foram encontradas informações de configuração válidas para a conversão.',

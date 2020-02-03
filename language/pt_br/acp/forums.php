@@ -128,7 +128,9 @@ $lang = array_merge($lang, array(
 
 	'GENERAL_FORUM_SETTINGS'	=> 'Configuração geral dos fóruns', 
 
-	'LINK'					=> 'Link', 
+	'LINK'					=> 'Link',
+	'LIMIT_SUBFORUMS'			=> 'Limitar legenda para direcionar subforums filhos',
+	'LIMIT_SUBFORUMS_EXPLAIN'	=> 'Limita os subfóruns a serem exibidos aos subfóruns que são descendentes diretos (filhos) do fórum atual. Desativar isso exibirá todos os subfóruns com a opção "Listar sub fóruns na legenda" ativada, independentemente da profundidade.',
 	'LIST_INDEX'			=> 'Listar sub fórum na legenda do fórum pai', 
 	'LIST_INDEX_EXPLAIN'	=> 'Exibe este fórum no índice e qualquer lugar do painel como um link na legenda de seu fórum pai se a opção "Listar sub fóruns na legenda" estiver ativada.', 
 	'LIST_SUBFORUMS'            => 'Listar sub fóruns na legenda',

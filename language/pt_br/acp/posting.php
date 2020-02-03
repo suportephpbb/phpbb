@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array( 
 	'ACP_BBCODES_EXPLAIN'		=> 'O BBCode é uma implementação especial do HTML oferecendo um maior controle sobre o quê e como será exibido. Aqui você pode adicionar, editar e excluir os BBCodes existentes.', 
 	'ADD_BBCODE'				=> 'Adicionar um novo BBCode', 
-	'BBCODE_DANGER'				=> 'O BBCode que você está tentando adicionar parece usar o símbolo {TEXT} dentro de um atributo HTML. Isso é uma possível questão de segurança XSS. Tente usar, de preferência, tipos alternativos como {SIMPLETEXT} ou {INTTEXT}. Prossiga somente se você entende os riscos envolvidos e você considera o uso do {TEXT} absolutamente indispensável.',
+	'BBCODE_DANGER'				=> 'O BBCode que você está tentando adicionar parece inseguro. Se o BBCode usar um token {TEXT} em um contexto sensível, tente usar um tipo mais restritivo. Prossiga somente se você entende os riscos envolvidos.',
 	'BBCODE_DANGER_PROCEED'		=> 'Proceder', //'I understand the risk',
 	
 	'BBCODE_ADDED'				=> 'O BBCode foi adicionado com sucesso.', 
@@ -55,6 +55,7 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_INVALID_TAG_NAME'	=> 'O nome da tag de BBCode selecionado já existe.',
 	'BBCODE_INVALID'            => 'O seu BBCode está construído em uma forma inválida.',
+	'BBCODE_INVALID_TEMPLATE'	=> 'A template do seu BBCode não é válida.',
 	'BBCODE_TAG'				=> 'Tag', 
 	'BBCODE_TAG_TOO_LONG'		=> 'O nome da tag selecionado é muito grande.', 
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'A definição da tag escrita é muito grande. Por favor, reescreva de forma mais curta.', 

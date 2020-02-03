@@ -266,7 +266,6 @@ $lang = array_merge($lang, array(
 	'TOPIC_BUMPED'				=> 'O tópico foi ressuscitado com sucesso.',
 
 	'UNAUTHORISED_BBCODE'		=> 'Você não pode utilizar determinados BBCodes: %s',
-	'UNGLOBALISE_EXPLAIN'		=> 'Para exibir um anúncio como um tópico normal, você precisa informar o fórum aonde ele será exibido.',
 	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Sua mensagem contém os seguintes caracteres não suportados:<br />%s',
 	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Seu tópico contém os seguintes caracteres não suportados:<br />%s',
 	'UPDATE_COMMENT'			=> 'Atualizar descrição',

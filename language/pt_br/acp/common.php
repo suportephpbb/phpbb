@@ -226,16 +226,6 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Voltar',
 
-	'CANNOT_CHANGE_FILE_GROUP'	=> 'Não foi possível alterar o grupo do arquivo',
-	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Não foi possível alterar as permissões de arquivo',
-	'CANNOT_COPY_FILES'		=> 'Não foi possível copiar arquivos',
-	'CANNOT_CREATE_SYMLINK'	=> 'Não foi possível criar um link simbólico(symlink)',
-	'CANNOT_DELETE_FILES'	=> 'Não foi possível excluir os arquivos de sistema',
-	'CANNOT_DUMP_FILE'		=> 'Não foi possível despejar o arquivo',
-	'CANNOT_MIRROR_DIRECTORY'	=> 'Não foi possível replicar o diretório',
-	'CANNOT_RENAME_FILE'	=> 'Não foi possível renomear um arquivo de sistema',
-	'CANNOT_TOUCH_FILES'	=> 'Não foi possível determinar se o arquivo existe',
-
 	'CONTAINER_EXCEPTION' => 'O phpBB encontrou um erro devido a uma extensão instalada. Por este motivo, todas as extensões foram desativadas temporariamente. Por favor, tente limpar o cache do seu fórum. Todas as extensões serão reativadas automaticamente quando o erro for corrigido. Se o erro persistir, visite <a href="https://www.phpbb.com/support">phpBB.com</a> para suporte.',
 	'EXCEPTION' => 'Exception',
 
@@ -373,7 +363,7 @@ $lang = array_merge($lang, array(
 	'DATABASE_SERVER_INFO'	=> 'Servidor do banco de dados', 
 	'DATABASE_SIZE'			=> 'Tamanho do banco de dados', 
 
-	// Enviroment configuration checks, mbstring related
+	// Environment configuration checks, mbstring related
 	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'A função sobrecarga está configurada incorretamente',
 	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> deve ser ajustado para 0 ou 4. Você pode verificar o valor atual na página <samp>Informação PHP</samp>.',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'A codificação transparente de caractere está configurada incorretamente',
