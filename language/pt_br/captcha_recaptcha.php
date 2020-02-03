@@ -48,5 +48,5 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE'				=> 'Chave secreta',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'A sua chave secreta do reCAPTCHA. Chaves podem ser obtidas em <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'Este CAPTCHA é invisível. Para verificar se funciona, um pequeno ícone deve aparecer no canto inferior direito desta página.',
+	'RECAPTCHA_INVISIBLE'				=> 'Este CAPTCHA é invisível. Para verificar se funciona, um pequeno ícone deve aparecer no canto inferior direito desta página.',
 ));
