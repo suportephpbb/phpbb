@@ -71,7 +71,7 @@ $lang = array_merge($lang, array(
 
 	<p>O phpBB3 suporta os seguintes bancos de dados:</p>
 	<ul>
-		<li>MySQL 4.1.3  ou superior (suporte a MySQLi)</li>
+		<li>MySQL 4.1.3  ou superior (MySQLi necessário)</li>
 		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 3.6.15+</li>
 		<li>MS SQL Server 2000 ou superior (direto ou via ODBC)</li>
