@@ -277,7 +277,7 @@ $lang = array_merge($lang, array(
 	'FILESYSTEM_CANNOT_DUMP_FILE'				=> 'Não foi possível descarregar o arquivo',
 	'FILESYSTEM_CANNOT_MIRROR_DIRECTORY'		=> 'Não foi possível espelhar o diretório',
 	'FILESYSTEM_CANNOT_RENAME_FILE'				=> 'Não foi possível renomear um arquivo do sistema',
-	'FILESYSTEM_CANNOT_TOUCH_FILES'				=> ''Não foi possível criar ou alterar o registro de data e hora do arquivo',
+	'FILESYSTEM_CANNOT_TOUCH_FILES'				=> 'Não foi possível criar ou alterar o registro de data e hora do arquivo',
 
 	'FTP_FSOCK_HOST'					=> 'Servidor do FTP', 
 	'FTP_FSOCK_HOST_EXPLAIN'			=> 'Servidor FTP utilizado para se conectar ao seu site.',
