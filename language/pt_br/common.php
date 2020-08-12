@@ -166,7 +166,8 @@ $lang = array_merge($lang, array(
 		2	=> '%d caracteres',
 	),
 	'COLLAPSE_VIEW'					=> 'Visão contraída',
-	'CLOSE_WINDOW'					=> 'Fechar janela', 
+	'CLOSE_WINDOW'					=> 'Fechar janela',
+	'CODE'							=> 'Código',
 	'COLOUR_SWATCH'					=> 'Paleta de cores', 
 	'COLON'							=> ':',
 	'COMMA_SEPARATOR'				=> ', ',	// Used in pagination and secret yet-to-be-release style, use localised comma if appropiate, eg: Ideographic or Arabic		 
@@ -203,9 +204,10 @@ $lang = array_merge($lang, array(
 	'DISPLAY_GUESTS'				=> 'Exibir visitantes', 
 	'DISPLAY_MESSAGES'				=> 'Exibir mensagens anteriores', 
 	'DISPLAY_POSTS'					=> 'Exibir mensagens anteriores', 
-	'DISPLAY_TOPICS'				=> 'Mostrar tópicos anteriores', 
-	'DOWNLOADED'					=> 'Baixado', 
-	'DOWNLOADING_FILE'				=> 'Baixando arquivo', 
+	'DISPLAY_TOPICS'				=> 'Mostrar tópicos anteriores',
+	'DOMAIN_NO_MX_RECORD_EMAIL'		=> 'O domínio do endereço de e-mail escrito não é um registro MX válido.',
+	'DOWNLOADED'					=> 'Baixado',
+	'DOWNLOADING_FILE'				=> 'Baixando arquivo',
 	'DOWNLOAD_COUNTS'				=> array(
 		0	=> 'Não foi baixado ainda',
 		1	=> 'Baixado %d vez',
@@ -605,6 +607,9 @@ $lang = array_merge($lang, array(
 	'POST_UNAPPROVED_ACTION'		=> 'Mensagem aguardando aprovação:',
 	'POST_UNAPPROVED'				=> 'Clique aqui para aprovar a mensagem', 
 	'POWERED_BY'					=> 'Powered by %s',
+
+	'QUOTE'							=> 'Citar',
+
 	'PREVIEW'						=> 'Prever', 
 	'PREVIOUS'						=> 'Anterior',      // Used in pagination
 	'PREVIOUS_STEP'         		=> 'Anterior',

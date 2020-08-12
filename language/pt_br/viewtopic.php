@@ -49,7 +49,6 @@ $lang = array_merge($lang, array(
 	'BUMPED_BY'				=> 'Ressuscitado pela última vez por %1$s em %2$s.',
 	'BUMP_TOPIC'			=> 'Ressuscitar',
 
-	'CODE'					=> 'Código',
 
 	'DELETE_TOPIC'			=> 'Excluir',
 	'DELETED_INFORMATION'				=> 'Excluído por %1$s em %2$s',
@@ -98,7 +97,6 @@ $lang = array_merge($lang, array(
 
 	'QUICK_MOD'				=> 'Ferramentas rápidas',
 	'QUICKREPLY'			=> 'Resposta Rápida',
-	'QUOTE'					=> 'Citação',
 
 	'REPLY_TO_TOPIC'		=> 'Responder',
 	'RESTORE'				=> 'Restaurar',

@@ -110,7 +110,11 @@ $lang = array_merge($lang, array(
 	'GROUP_NAME'			=> 'Nome do grupo', 
 
 	'IMAGE_LINK_SIZE'			=> 'Dimensões do link da imagem', 
-	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Exibe o anexo de uma imagem como link, caso a imagem seja maior que o informado. Escreva 0px por 0px para desativar este recurso.', 
+	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Exibe o anexo de uma imagem como link, caso a imagem seja maior que o informado. Escreva 0px por 0px para desativar este recurso.',
+	'IMAGE_QUALITY'				=> 'Qualidade dos anexos de imagem enviados (somente JPEG)',
+	'IMAGE_QUALITY_EXPLAIN'		=> 'Especifique um valor entre 50% (menor tamanho do arquivo) e 90% (maior qualidade). Qualidade maior que 90% aumenta o tamanho do arquivo e é desativada. A configuração só se aplica se as dimensões máximas da imagem forem definidas como um valor diferente de 0px por 0px.',
+	'IMAGE_STRIP_METADATA'		=> 'Remover metadados de imagens (somente JPEG)',
+	'IMAGE_STRIP_METADATA_EXPLAIN'	=> 'Remove metadados EXIF, como nome do autor, coordenadas GPS e informações da câmera. A configuração só se aplica se as dimensões máximas da imagem forem definidas como um valor diferente de 0px por 0px.',
 
 	'MAX_ATTACHMENTS'				=> 'Número máximo de anexos por mensagem', 
 	'MAX_ATTACHMENTS_PM'			=> 'Número máximo de anexos por mensagem privada', 
@@ -128,7 +132,9 @@ $lang = array_merge($lang, array(
 	'NOT_ALLOWED_IN_PM_POST'	=> 'Proibido',
 	'NOT_ASSIGNED'				=> 'Não autorizado', 
 	'NO_ATTACHMENTS'			=> 'Nenhum anexo encontrado para este período.',
-	'NO_EXT_GROUP'				=> 'Nenhum', 
+	'NO_EXT_GROUP'				=> 'Nenhum',
+	'NO_EXT_GROUP_ALLOWED_PM'	=> 'Não há <a href="%s">grupos de extensões permitidas</a> para mensagens privadas.',
+	'NO_EXT_GROUP_ALLOWED_POST'	=> 'Não há <a href="%s">grupos de extensões permitidas</a> para mensagens.',
 	'NO_EXT_GROUP_NAME'			=> 'O nome do grupo não foi especificado.', 
 	'NO_EXT_GROUP_SPECIFIED'	=> 'O grupo de extensões não foi especificado.', 
 	'NO_FILE_CAT'				=> 'Nenhum', 
