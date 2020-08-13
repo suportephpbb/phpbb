@@ -4,6 +4,11 @@ Olá {USERNAME},
 
 Parabéns. Se você recebeu este email, o phpBB está configurado corretamente para enviar emails.
 
+<!-- IF MESSAGE -->
+{MESSAGE}
+
+<!-- ENDIF -->
+
 Se você precisar de ajuda, visite os fóruns de suporte do phpBB - https://www.phpbb.com/community/
 
 {EMAIL_SIG}

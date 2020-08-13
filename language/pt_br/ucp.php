@@ -179,7 +179,6 @@ $lang = array_merge($lang, array(
 	'DEMOTE_SELECTED'			=> 'Demissão selecionada', 
 	'DISABLE_CENSORS'			=> 'Ativar palavras censuradas', 
 	'DISPLAY_GALLERY'			=> 'Exibir a galeria', 
-	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'O domínio do endereço de e-mail escrito não é um registro MX válido.', 
 	'DOWNLOADS'					=> 'Downloads', 
 	'DRAFTS_DELETED'			=> 'Todos os rascunhos selecionados foram excluídos com sucesso.', 
 	'DRAFTS_EXPLAIN'			=> 'Aqui você pode ver, editar e excluir os seus rascunhos salvos.', 
