@@ -113,6 +113,8 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'O phpBB não irá funcionar se a sua instalação PHP não for compilada com suporte a UTF-8 na extensão PCRE.',
 	'PHP_JSON_SUPPORT'					=> 'Suporte PHP JSON',
 	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'Para o funcionamento correto do phpBB, é necessário que a extensão PHP JSON esteja disponível.',
+	'PHP_MBSTRING_SUPPORT'				=> 'Suporte PHP mbstring',
+	'PHP_MBSTRING_SUPPORT_EXPLAIN'		=> 'Para o funcionamento correto do phpBB, é necessário que a extensão PHP mbstring esteja disponível.',
 	'PHP_XML_SUPPORT'					=> 'Suporte PHP XML/DOM',
 	'PHP_XML_SUPPORT_EXPLAIN'			=> 'Para o funcionamento correto do phpBB, é necessário que a extensão PHP XML/DOM esteja disponível.',
 	'PHP_SUPPORTED_DB'					=> 'Bancos de dados suportados',
@@ -238,7 +240,7 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITE_DESC'				=> 'Um pequeno texto para descrever o seu painel',
 	'CONFIG_SITENAME'				=> 'seudominio.com',
 
-	'DEFAULT_INSTALL_POST'			=> 'Esta é apenas uma mensagem de exemplo em sua instalação do phpBB3. Tudo parece estar funcionando normalmente. Você pode excluir esta mensagem se desejar e continuar a configurar o seu painel. Durante o processo de instalação, a sua primeira categoria e o seu primeiro fórum foram assinalados em um set de permissões apropriado aos grupos de usuários pré-definidos, como administradores, bots, moderadores globais, visitantes, usuários registrados e usuários registrados da COPPA. Se você optar por excluir sua primeira categoria e o seu primeiro fórum, não se esqueça de atribuir as permissões para todos estes grupos em relação a todas as novas categorias e fóruns que criar. É recomendável que você renomeie a sua primeira categoria e o seu primeiro fórum e apenas copie as permissões destes enquanto criar suas novas categorias e fóruns. Divirta-se!',
+	'DEFAULT_INSTALL_POST'			=> '<t>Esta é apenas uma mensagem de exemplo em sua instalação do phpBB3. Tudo parece estar funcionando normalmente. Você pode excluir esta mensagem se desejar e continuar a configurar o seu painel. Durante o processo de instalação, a sua primeira categoria e o seu primeiro fórum foram assinalados em um set de permissões apropriado aos grupos de usuários pré-definidos, como administradores, bots, moderadores globais, visitantes, usuários registrados e usuários registrados da COPPA. Se você optar por excluir sua primeira categoria e o seu primeiro fórum, não se esqueça de atribuir as permissões para todos estes grupos em relação a todas as novas categorias e fóruns que criar. É recomendável que você renomeie a sua primeira categoria e o seu primeiro fórum e apenas copie as permissões destes enquanto criar suas novas categorias e fóruns. Divirta-se!</t>',
 
 	'FORUMS_FIRST_CATEGORY'			=> 'Sua primeira categoria',
 	'FORUMS_TEST_FORUM_DESC'		=> 'Descrição de seu primeiro fórum.',
