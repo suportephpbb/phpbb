@@ -375,7 +375,7 @@ $lang = array_merge($lang, array(
 	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'A saída HTTP de conversão de caractere está configurada incorretamente',
 	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> deve ser deixada vazia. Você pode verificar o valor atual na página <samp>Informação PHP</samp>.',
 	'ERROR_DEFAULT_CHARSET'							=> 'O conjunto de caracteres padrão está configurado incorretamente',
-	'ERROR_DEFAULT_CHARSET_EXPLAIN'					=> '<var>default_charset</var> deve ser ajustado para <samp>UTF-8</samp>. Você pode verificar o valor atual na página <samp>PHP information</samp>.',
+	'ERROR_DEFAULT_CHARSET_EXPLAIN'					=> '<var>default_charset</var> deve ser ajustado para <samp>UTF-8</samp>. Você pode verificar o valor atual na página <samp>Informação PHP</samp>.',
 
 	'FILES_PER_DAY'		=> 'Anexos por dia', 
 	'FORUM_STATS'		=> 'Estatísticas do painel', 
