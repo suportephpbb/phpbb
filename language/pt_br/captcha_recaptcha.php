@@ -48,6 +48,7 @@ $lang = array_merge($lang, [
 	'RECAPTCHA_NOSCRIPT'			=> 'Por favor, ative o JavaScript no seu navegador para carregar o desafio.',
 	'RECAPTCHA_NOT_AVAILABLE'		=> 'Para usar o reCaptcha, você deve criar um registro em <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'RECAPTCHA_INVISIBLE'			=> 'Este CAPTCHA é invisível. Para verificar se funciona, um pequeno ícone deve aparecer no canto inferior direito desta página.',
+	'RECAPTCHA_V3_LOGIN_ERROR_ATTEMPTS'	=> 'Você ultrapassou o número máximo de tentativas de login permitidas.<br>Além de seu nome de usuário e senha, o reCAPTCHA v3 invisível será usado para autenticar sua sessão.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Chave de site',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'A sua chave de site do reCAPTCHA. Chaves podem ser obtidas em <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Por favor, use o tipo reCAPTCHA v2 &gt; Invisible reCAPTCHA.',

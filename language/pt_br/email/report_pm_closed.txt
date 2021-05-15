@@ -2,7 +2,7 @@ Subject: Denúncia de mensagem privada trancada - "{SUBJECT}"
 
 Olá {USERNAME},
 
-Você recebeu esta notificação porque a sua denúncia feita acerca da mensagem privada "{SUBJECT}" por "{AUTHOR_NAME}" em "{SITENAME}" foi manuseada por um moderador ou administrador e trancada em seguida. Se você tem mais perguntas a respeito, contate o usuário {CLOSER_NAME} com uma mensagem privada.
+A sua denúncia feita acerca da mensagem privada "{SUBJECT}" por "{AUTHOR_NAME}" em "{SITENAME}" foi manuseada por um moderador ou administrador e trancada em seguida. Se você tem mais perguntas a respeito, contate o usuário {CLOSER_NAME} com uma mensagem privada.
 
 Se você deseja visualizar a mensagem privada denunciada, clique no seguinte link:
 
