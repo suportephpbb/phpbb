@@ -169,5 +169,6 @@ $lang = array_merge($lang, array(
 	'UPLOAD_DIR'					=> 'Pasta dos anexos', 
 	'UPLOAD_DIR_EXPLAIN'			=> 'Aqui você pode inserir a pasta que armazenará os anexos enviados através do painel. Por favor, note que se você alterar o diretório enquanto envia um arquivo, você terá de copiar manualmente o mesmo para o novo local.',
 	'UPLOAD_ICON'					=> 'Ícone de envio', 
-	'UPLOAD_NOT_DIR'				=> 'A pasta de envio que você especificou parece não ser um diretório válido.', 
+	'UPLOAD_NOT_DIR'				=> 'A pasta de envio que você especificou parece não ser um diretório válido.',
+	'UPLOAD_POST_NOT_EXIST'			=> 'O arquivo “%1$s” não pôde ser enviado para a mensagem de número %2$d pois a mensagem não existe.',
 ));

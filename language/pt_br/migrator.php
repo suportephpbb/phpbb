@@ -77,5 +77,6 @@ $lang = array_merge($lang, array(
 	'PARENT_MODULE_FIND_ERROR'			=> 'Não é possível determinar a identificação do módulo pai: %s',
 	'PERMISSION_NOT_EXIST'				=> 'Inesperadamente a configuração de permissão "%s" não existe.',
 
+	'ROLE_ASSIGNED_NOT_EXIST'			=> 'A tarefa para permissão atribuída ao grupo "%1$s" não existe. Código da permissão: "%2$s"',
 	'ROLE_NOT_EXIST'					=> 'Inesperadamente a permissão "%s" não existe.',
 ));
