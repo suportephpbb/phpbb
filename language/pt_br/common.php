@@ -169,6 +169,11 @@ $lang = array_merge($lang, array(
 		1	=> '%d caractere',
 		2	=> '%d caracteres',
 	),
+	// Special version to be used when describing ranges e.g. "min x characters and max y characters"
+	'CHARACTERS_XY'			=> array(
+		1	=> '%d caractere',
+		2	=> '%d caracteres',
+	),
 	'COLLAPSE_VIEW'					=> 'Visão contraída',
 	'CLOSE_WINDOW'					=> 'Fechar janela',
 	'CODE'							=> 'Código',
@@ -678,6 +683,10 @@ $lang = array_merge($lang, array(
 	'RETURN_TOPIC'					=> '%sClique aqui para voltar ao tópico%s', 
 	'RETURN_TO'						=> 'Voltar para “%s”',
 	'RETURN_TO_INDEX'				=> 'Voltar ao Índice do Fórum',
+
+	'ROUTE_NOT_FOUND'				=> 'A rota solicitada “%s” não foi encontrada.',
+	'ROUTE_INVALID_MISSING_PARAMS'	=> 'Parâmetros inválidos ou ausentes foram passados ​​para a rota “%s”.',
+
 	'FEED'							=> 'Feed',
 	'FEED_NEWS'						=> 'Notícias',
 	'FEED_TOPICS_ACTIVE'			=> 'Tópicos ativos',

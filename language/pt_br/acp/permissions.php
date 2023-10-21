@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 
 	'ACL_NEVER'				=> 'Nunca', 
 	'ACL_SET'				=> 'Permissões configuradas', 
-	'ACL_SET_EXPLAIN'		=> 'Permissões são baseadas em um simples sistema de <strong>SIM</strong>/<strong>NÃO</strong>. Configurando qualquer opção em <strong>Nunca</strong> para um usuário ou grupo irá substituir qualquer valor atribuído aos mesmos. Se você não deseja atribuir um valor de qualquer opção para este usuário ou grupo, selecione <strong>NÃO</strong>. Se valores são atribuídos para esta opção ou em outra qualquer, eles serão preferencialmente utilizados, senão o <strong>NUNCA</strong> assumirá este valor. Todos os objetos selecionados (com a checkbox em frente a eles) irão copiar as permissões que você definiu.', 
+	'ACL_SET_EXPLAIN'		=> 'Permissões são baseadas em um simples sistema de <strong>SIM</strong>/<strong>NÃO</strong>. Configurando qualquer opção em <strong>Nunca</strong> para um usuário ou grupo irá substituir qualquer valor atribuído aos mesmos. Se você não deseja atribuir um valor de qualquer opção para este usuário ou grupo, selecione <strong>NÃO</strong>. Se valores são atribuídos para esta opção ou em outra qualquer, eles serão preferencialmente utilizados, senão o <strong>NUNCA</strong> assumirá este valor. Todos os objetos selecionados (com a checkbox em frente a eles) irão copiar as permissões que você definiu. Observe que a configuração de permissões administrativas para contas de fundador não tem nenhum efeito, pois as permissões de administrador são sempre definidas como <strong>SIM</strong> para fundadores.', 
 	'ACL_SETTING'			=> 'Configuração', 
 
 	'ACL_TYPE_A_'			=> 'Permissões de administrador', 

@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	'DEFAULT_SEARCH_RETURN_CHARS'			=> 'Número de caracteres retornados por padrão',
 	'DEFAULT_SEARCH_RETURN_CHARS_EXPLAIN'	=> 'O número padrão de caracteres que serão retornados durante a pesquisa. Um valor definido como 0 retornará a mensagem inteira.',
 	'DELETE_INDEX'							=> 'Excluir índice', 
-	'DELETING_INDEX_IN_PROGRESS'			=> 'Excluindo o índice em progresso', 
+	'DELETING_INDEX_IN_PROGRESS'			=> 'Excluindo o índice em progresso…',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'O modo de pesquisa está atualmente limpando os seus índices. Isto pode levar alguns minutos.', 
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'O modo de pesquisa de textos completos do MySQL somente pode ser usado com MySQL4 e superior.', 
@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 	'GO_TO_SEARCH_INDEX'					=> 'Ir à página inicial da pesquisa', 
 
 	'INDEX_STATS'							=> 'Índice de estatísticas', 
-	'INDEXING_IN_PROGRESS'					=> 'Indexação em progresso', 
+	'INDEXING_IN_PROGRESS'					=> 'Indexação em progresso…',
 	'INDEXING_IN_PROGRESS_EXPLAIN'			=> 'O modo de pesquisa está atualmente indexando todas as mensagens do fórum. Isto pode levar de alguns minutos a algumas horas, dependendo do tamanho de seu painel.', 
 
 	'LIMIT_SEARCH_LOAD'						=> 'Limite de tempo para carregar as pesquisas', 
@@ -112,18 +112,19 @@ $lang = array_merge($lang, array(
 	'SEARCH_GUEST_INTERVAL'					=> 'Intervalo de pesquisas para visitantes', 
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Número em segundos que um visitante deverá aguardar entre uma pesquisa e outra. Se um visitante realizar uma pesquisa, todos os outros devem aguardar até que este intervalo seja concluído.', 
 	'SEARCH_INDEX_CREATE_REDIRECT'			=> array(
-		2	=> 'Todas as mensagens com id superior a %1$d serão indexadas agora, das quais %2$d mensagens foram geradas nesta etapa.<br />',
+		2	=> 'Todas as mensagens com id superior a %1$d serão indexadas agora, das quais %2$d mensagens foram geradas nesta etapa.',
 	),
 	'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
-		2	=> 'A taxa atual de indexação é de aproximadamente %1$.1f mensagens por segundo.<br />Indexação em progresso…',
+		2	=> 'A taxa atual de indexação é de aproximadamente %1$.1f mensagens por segundo.',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
 		2	=> 'Todas as mensagens com id superior a %1$d serão excluídas do sistema de pesquisas, das quais %1$d mensagens foram excluídas nesta etapa.',
 	),
 		'SEARCH_INDEX_DELETE_REDIRECT_RATE'		=> array(
-		2	=> 'A taxa atual de exclusão é de aproximadamente %1$.1f mensagens por segundo.<br />Exclusão em progresso…',
+		2	=> 'A taxa atual de exclusão é de aproximadamente %1$.1f mensagens por segundo.',
 	),
-	'SEARCH_INDEX_CREATED'					=> 'Todas as mensagens foram indexadas no banco de dados com sucesso.', 
+	'SEARCH_INDEX_CREATED'					=> 'Todas as mensagens foram indexadas no banco de dados com sucesso.',
+	'SEARCH_INDEX_PROGRESS'					=> 'Concluído: %1$d | Pendente: %2$d | Total: %3$d',
 	'SEARCH_INDEX_REMOVED'					=> 'O índice de pesquisa para este módulo foi excluído com sucesso.', 
 	'SEARCH_INTERVAL'						=> 'Intervalo de pesquisas para usuários', 
 	'SEARCH_INTERVAL_EXPLAIN'				=> 'Número em segundos que os usuários devem aguardar entre uma pesquisa e outra. Este intervalo é realizado independentemente para cada usuário.', 
