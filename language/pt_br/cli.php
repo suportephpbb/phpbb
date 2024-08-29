@@ -109,6 +109,8 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Enviar o e-mail de ativação de conta para o novo usuário (não enviado por padrão)',
 	'CLI_DESCRIPTION_USER_DELETE'				=> 'Excluir conta de usuário.',
 	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Nome de usuário do usuário para excluir',
+	'CLI_DESCRIPTION_USER_DELETE_ID'			=> 'Excluir conta de usuário pelo ID.',
+	'CLI_DESCRIPTION_USER_DELETE_ID_OPTION_ID'	=> 'ID de usuário dos usuários a serem excluídos',
 	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Excluir todas as mensagens do usuário. Sem esta opção, as mensagens do usuário serão mantidas.',
 	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Re-limpar nome de usuários.',
 
@@ -158,6 +160,10 @@ $lang = array_merge($lang, array(
 
 	'CLI_USER_ADD_SUCCESS'		=> 'O usuário %s foi adicionado com sucesso.',
 	'CLI_USER_DELETE_CONFIRM'	=> 'Você deseja realmente excluir ‘%s’? [y/N]',
+	'CLI_USER_DELETE_ID_CONFIRM'	=> 'Tem certeza de que deseja excluir os IDs de usuários ‘%s’? [y/N]',
+	'CLI_USER_DELETE_ID_SUCCESS'	=> 'IDs de usuários excluídos com sucesso..',
+	'CLI_USER_DELETE_ID_START'		=> 'Excluindo usuários por ID',
+	'CLI_USER_DELETE_NONE'			=> 'Nenhum usuário foi excluído por ID de usuário.',
 	'CLI_USER_RECLEAN_START'	=> 'Re-limpando nome de usuários',
 	'CLI_USER_RECLEAN_DONE'		=> [
 		0	=> 'Re-limpeza completa. Não há nome de usuários para limpar.',
