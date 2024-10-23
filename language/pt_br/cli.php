@@ -75,6 +75,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Textos reanalisados armazenado com serviços text_formatter atuais.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'O tipo de texto para reanalisar. Deixe em branco para reanalisar tudo.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Não salve as alterações; apenas imprima o que ocorreu',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_FORCE_BBCODE'	=> 'Reanalisa todos os BBCodes sem exceção. Note que os BBCodes desativados anteriormente serão reprocessados, ativados e totalmente renderizados.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'ID de registro mais baixo para processar',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'ID de registro mais alto para processar',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Número aproximado de registros para processar de cada vez',

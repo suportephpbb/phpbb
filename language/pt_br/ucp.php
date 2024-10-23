@@ -551,7 +551,7 @@ $lang = array_merge($lang, array(
 	'UCP_PM'					=> 'Mensagens privadas', 
 	'UCP_PM_COMPOSE'			=> 'Enviar nova mensagem privada', 
 	'UCP_PM_DRAFTS'				=> 'Rascunhos de MPs', 
-	'UCP_PM_OPTIONS'			=> 'Opções', 
+	'UCP_PM_OPTIONS'			=> 'Regras, pastas e configurações',
 	'UCP_PM_UNREAD'				=> 'Mensagens não lidas', 
 	'UCP_PM_VIEW'				=> 'Ver mensagens', 
 
