@@ -6,6 +6,8 @@ Versão da Tradução: 1.4.16
 
 Versão do phpBB: 3.3.16
 
+[![Build Status](https://github.com/suportephpbb/phpbb/actions/workflows/translation-validator.yml/badge.svg?branch=3.3.x)](https://github.com/suportephpbb/phpbb/actions/workflows/translation-validator.yml?query=branch%3A3.3.x)
+
 ---
 
 ## Objetivos
