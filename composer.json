@@ -1,5 +1,13 @@
-	{
-		"require-dev": {
-			"phpbb/translation-validator": "1.5.*"
+{
+	"require-dev": {
+		"phpbb/translation-validator": "1.6.*"
+	},
+	"config": {
+		"platform": {
+			"php": "8.1"
 		}
+	},
+	"scripts": {
+		"check": "php vendor/bin/translation.php validate pt_br --phpbb-version=3.3 --language-dir=packages --display-notices"
 	}
+}

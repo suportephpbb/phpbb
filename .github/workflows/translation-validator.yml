@@ -1,0 +1,48 @@
+name: Validate Translation
+
+on:
+  push:
+    branches: ['*']
+  pull_request:
+    branches: ['*']
+
+env:
+  PHPBB_VERSION: "3.3"
+  PHPBB_TAG: "prep-release-3.3.16"
+  PHPBB_LANGUAGE: "pt_br"
+
+jobs:
+  validate:
+    name: Validate pt_br (PHP ${{ matrix.php }})
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php: ['8.1', '8.2', '8.3']
+
+    steps:
+      - name: Checkout translation repository
+        uses: actions/checkout@v4
+
+      - name: Setup PHP ${{ matrix.php }}
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          coverage: none
+
+      - name: Install Composer dependencies
+        run: composer install --dev --no-interaction --prefer-dist
+
+      - name: Build packages directory
+        run: |
+          # pt_br: copy from repo into packages/pt_br/
+          mkdir -p packages/pt_br
+          cp -r language/pt_br/* packages/pt_br/
+
+          # en: download reference from phpBB
+          git clone --depth 1 --branch $PHPBB_TAG https://github.com/phpbb/phpbb.git phpbb-src
+          mkdir -p packages/en
+          cp -r phpbb-src/phpBB/language/en/* packages/en/
+          rm -rf phpbb-src
+
+      - name: Run translation validator
+        run: php vendor/bin/translation.php validate $PHPBB_LANGUAGE --phpbb-version=$PHPBB_VERSION --language-dir=packages --display-notices
