@@ -366,8 +366,14 @@ $lang = array_merge($lang, array(
 	'COOKIE_SECURE_EXPLAIN'	=> 'Se o seu servidor estiver executando através de SSL, ative esta opção, caso contrário, deixe desativada. Se ativar isto sem que funcione via SSL, poderá resultar em erros no servidor durante os redirecionamentos.', 
 	'ONLINE_LENGTH'				=> 'Tempo online do usuário', 
 	'ONLINE_LENGTH_EXPLAIN'		=> 'Tempo em minutos após o qual os usuários inativos serão retirados da lista de usuários online. Quanto maior este valor, maior serão os recursos necessários para manter esta lista.', 
-	'SESSION_LENGTH'			=> 'Tempo da sessão [ segundos ]', 
-	'SESSION_LENGTH_EXPLAIN'	=> 'A sessão deverá encerrar após este tempo, em segundos.', 
+	'SESSION_LENGTH'				=> 'Tempo da sessão [ segundos ]', 
+	'SESSION_LENGTH_EXPLAIN'		=> 'A sessão deverá encerrar após este tempo, em segundos.', 
+	'SESSION_GC'					=> 'Intervalo de limpeza de sessões',
+	'SESSION_GC_EXPLAIN'			=> 'As sessões serão limpas após este tempo, em segundos.',
+	'SESSION_GUEST_LENGTH'			=> 'Tempo da sessão de visitante [ segundos ]',
+	'SESSION_GUEST_LENGTH_EXPLAIN'	=> 'As sessões de visitantes serão encerradas após este tempo, em segundos.',
+	'SESSION_GUEST_GC'				=> 'Intervalo de limpeza de sessões de visitantes',
+	'SESSION_GUEST_GC_EXPLAIN'		=> 'As sessões de visitantes serão limpas após este tempo, em segundos.',
 )); 
 
 // Contact Settings 

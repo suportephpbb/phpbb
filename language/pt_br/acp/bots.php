@@ -50,6 +50,8 @@ $lang = array_merge($lang, array(
 	'BOT_DELETED'		=> 'O bot foi excluído com sucesso.',
 	'BOT_EDIT'			=> 'Editar bots',
 	'BOT_EDIT_EXPLAIN'	=> 'Aqui você pode editar qualquer entrada de bots existente. Você pode definir qualquer sequência de agentes e/ou um ou mais endereços de IP (ou grupo de endereços) para coincidir. Cuidado ao definir os parâmetros dos agentes ou endereços. Você pode especificar um estilo ou língua com os quais o bot visualizará o seu fórum. Isto pode reduzir o tráfego de seu site especificando um estilo simples para bots. Lembre-se de especificar permissões para o grupo especial de bots.', 
+	'BOT_GROUP'			=> 'Grupo do bot',
+	'BOT_GROUP_EXPLAIN'	=> 'Selecione o grupo ao qual este bot pertence.',
 	'BOT_LANG'			=> 'Língua do bot', 
 	'BOT_LANG_EXPLAIN'	=> 'O idioma aplicado ao bot enquanto ele navegar no fórum.', 
 	'BOT_LAST_VISIT'	=> 'Última visita', 
@@ -66,6 +68,7 @@ $lang = array_merge($lang, array(
 	'ERR_BOT_AGENT_MATCHES_UA'	=> 'O agente do bot que você escolheu é semelhante ao que você está utilizando atualmente. Por favor, ajuste novamente o agente para esse bot.',
 	'ERR_BOT_NO_IP'			    => 'O endereço de IP que você forneceu era inválido ou o hostname não pôde ser solucionado.', 
 	'ERR_BOT_NO_MATCHES'	    => 'Você deve indicar pelo menos um agente ou endereço de IP para o parâmetro deste bot.', 
+	'ERR_BOT_NO_NAME'			=> 'Você deve fornecer um nome para o bot.',
 
 	'NO_BOT'	=> 'O bot selecionado não existe.', 
 	'NO_BOT_GROUP'	=> 'Não foi possível encontrar o grupo de bots especial.',

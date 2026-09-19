@@ -609,6 +609,7 @@ $lang = array_merge($lang, array(
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Tipo de tópico alterado</strong><br />» %s', 
 	'LOG_UNLOCK'				=> '<strong>Tópico destrancado</strong><br />» %s', 
 	'LOG_UNLOCK_POST'			=> '<strong>Mensagem destrancada</strong><br />» %s', 
+	'LOG_VERSION_CHECK_FAIL'	=> '<strong>Falha na verificação de versão</strong>', 
 
 	'LOG_DISALLOW_ADD'		=> '<strong>Nome proibido adicionado</strong><br />» %s', 
 	'LOG_DISALLOW_DELETE'	=> '<strong>Nome proibido excluído</strong>', 

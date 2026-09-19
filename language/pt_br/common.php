@@ -101,7 +101,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',
 	'AUTH_PROVIDER_OAUTH_SERVICE_GOOGLE'					=> 'Google',
-	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'Twitter',
+	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'X',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_NOT_STORED'			=> 'Chave token do OAuth não foi aquivada.',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_INCORRECTLY_STORED'	=> 'Chave token do OAuth foi arquivada incorretamente.',
 	'AVATAR_DISALLOWED_CONTENT'		=> 'O envio foi rejeitado porque o anexo foi identificado como um possível vetor de ataque.',
@@ -338,6 +338,7 @@ $lang = array_merge($lang, array(
 		2	=> '%d visitantes',
 	),
 	'G_ADMINISTRATORS'					=> 'Administradores', 
+	'G_AI_CRAWLERS'						=> 'Rastreadores de IA',
 	'G_BOTS'							=> 'BOTs', 
 	'G_GUESTS'							=> 'Visitantes', 
 	'G_REGISTERED'						=> 'Usuários registrados', 
@@ -509,6 +510,9 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Aprovação do tópico</strong> pedida por %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'A notificação do tipo "%s" está ausente no sistema de arquivos.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Aprovação necessária</strong> de um usuário desativado ou registrado recentemente: “%1$s”',
+	'NOTIFICATION_UPDATE_CRITICAL'		=> '<strong>Atualização do phpBB %2$s disponível - Atualização crítica necessária</strong>: Seu fórum está executando a versão %1$s e uma nova versão contendo correções críticas de segurança deve ser instalada imediatamente.',
+	'NOTIFICATION_UPDATE_MAINTENANCE'	=> '<strong>Atualização do phpBB %2$s disponível</strong>: Seu fórum está executando a versão %1$s e uma nova versão está disponível.',
+	'NOTIFICATION_UPDATE_SECURITY'		=> '<strong>Atualização do phpBB %2$s disponível - Atualização de segurança</strong>: Seu fórum está executando a versão %1$s e uma nova versão contendo correções de segurança está disponível. Recomendamos atualizar seu fórum para mantê-lo seguro e protegido.',
 	// Used in conjunction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'outros',
 	'NOTIFICATION_X_OTHERS'				=> array(
@@ -842,7 +846,7 @@ $lang = array_merge($lang, array(
 		2	=> 'Total de membros <strong>%d</strong>',
 	),
 	'TRACKED_PHP_ERROR'		=> 'Erros PHP encontrados: %s',	 
-	'TWITTER'				=> 'Twitter',
+	'TWITTER'				=> 'X',
 
 	'UNABLE_GET_IMAGE_SIZE'	=> 'Não foi possível determinar as dimensões da imagem.', 
 	'UNABLE_TO_DELIVER_FILE'=> 'Incapaz de encaminhar arquivo.', 

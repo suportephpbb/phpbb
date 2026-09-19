@@ -352,6 +352,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_REPORT_PM_CLOSED'				=> 'A sua mensagem privada denunciada foi fechada por um moderador',
 	'NOTIFICATION_TYPE_TOPIC'							=> 'Alguém criou um novo tópico em um fórum em que você está visualizando',
 	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Usuário aguarda ativação',
+	'NOTIFICATION_TYPE_UPDATE_MAINTENANCE'				=> 'Notificações de atualização do phpBB',
 
 	'NOTIFY_METHOD'					=> 'Método de notificação', 
 	'NOTIFY_METHOD_BOTH'			=> 'Ambos', 

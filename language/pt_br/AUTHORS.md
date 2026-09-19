@@ -1,9 +1,9 @@
 [Português Brasileiro](https://www.phpbb.com/customise/db/translation/brazilian_portuguese/)
 =============
 
-Versão da Tradução: 1.4.16
+Versão da Tradução: 1.4.17
 
-Versão do phpBB: 3.3.16
+Versão do phpBB: 3.3.18
 
 
 Lista de Tradutores, Colaboradores e Ex-Colaboradores da tradução
