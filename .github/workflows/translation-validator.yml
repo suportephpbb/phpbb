@@ -8,7 +8,7 @@ on:
 
 env:
   PHPBB_VERSION: "3.3"
-  PHPBB_TAG: "3.3.x"
+  PHPBB_TAG: "prep-release-3.3.18"
   PHPBB_LANGUAGE: "pt_br"
 
 jobs:
