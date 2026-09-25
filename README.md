@@ -4,8 +4,8 @@
 
 Tradução oficial do phpBB para Português Brasileiro (pt_br), mantida pela comunidade [Suporte phpBB](https://www.suportephpbb.com.br/).
 
-- **Versão da tradução:** 1.4.17
-- **Compatibilidade:** phpBB 3.3.18 (branch 3.3.x)
+- **Versão da tradução:** 1.4.19
+- **Compatibilidade:** phpBB 3.3.19 (branch 3.3.x)
 
 ## O que está incluído
 
